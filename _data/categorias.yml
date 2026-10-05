@@ -1,3 +1,20 @@
+- slug: artistas
+  icono: "🎧"
+  nombre: Artistas
+  desc: Registrar y cobrar tu música, contratos y giras.
+  temas:
+    - { titulo: Cómo registrar tus obras, url: artistas/registro-de-obras.html, estado: borrador }
+    - { titulo: Cómo cobrar por tus obras (regalías), url: artistas/cobro-de-regalias.html, estado: borrador }
+    - { titulo: Cómo salir del país a tocar, url: artistas/tocar-en-otro-pais.html, estado: borrador }
+    - { titulo: Registro de marca para tu proyecto, url: propiedad-intelectual/registro-de-marca.html, estado: borrador }
+    - { titulo: Contrato de presentación, url: contratos/como-hacer-un-contrato.html, estado: borrador }
+- slug: contratos-y-abogados
+  icono: "📝"
+  nombre: Contratos y abogados
+  desc: Cómo hacer un contrato y cómo elegir abogado.
+  temas:
+    - { titulo: Cómo hacer un contrato, url: contratos/como-hacer-un-contrato.html, estado: borrador }
+    - { titulo: Cómo contratar a un abogado o notario, url: general/como-contratar-un-abogado.html, estado: borrador }
 - slug: emprendimiento
   icono: "💼"
   nombre: Emprendimiento y propiedad intelectual
@@ -6,15 +23,16 @@
     - { titulo: Registro de marca, url: propiedad-intelectual/registro-de-marca.html, estado: borrador }
     - { titulo: Inscripción en Hacienda como contribuyente, url: emprendimiento/inscripcion-en-hacienda.html, estado: borrador }
     - { titulo: Registro de nombre comercial }
-    - { titulo: Registro de derechos de autor (obras musicales) }
+    - { titulo: Registro de obras, url: artistas/registro-de-obras.html, estado: borrador }
     - { titulo: Facturación electrónica }
     - { titulo: Patente municipal }
 - slug: trabajo
   icono: "🛠️"
   nombre: Trabajo
-  desc: Despidos, renuncias y lo que te deben pagar.
+  desc: Despidos, salario e impuestos.
   temas:
     - { titulo: Liquidación y derechos al terminar un trabajo, url: trabajo/liquidacion-laboral.html, estado: borrador }
+    - { titulo: Cómo se reporta el salario a Hacienda, url: trabajo/salario-y-hacienda.html, estado: borrador }
 - slug: vivienda-y-consumo
   icono: "🏠"
   nombre: Vivienda y consumo
