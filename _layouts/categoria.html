@@ -9,7 +9,7 @@ layout: default
 {% for t in c.temas %}
   {% if t.url %}
   <li><a href="{{ '/tramites/costa-rica/' | append: t.url | relative_url }}">{{ t.titulo }}</a>
-    <span class="nota">⚠️ Borrador: algunos datos están por verificar.</span></li>
+    <span class="nota">{% if t.estado == "verificado" %}✅ Verificado con fuentes oficiales{% else %}⚠️ Borrador: algunos datos están por verificar{% endif %}</span></li>
   {% else %}
   <li><a href="https://github.com/axelfj/ventanilla-abierta/issues/new?template=nuevo-tramite.md">📝 {{ t.titulo }}</a>
     <span class="nota">Planeado. ¿Querés ayudar a escribirlo?</span></li>

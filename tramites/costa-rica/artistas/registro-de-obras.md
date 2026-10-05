@@ -3,60 +3,76 @@ title: "Cómo registrar tus obras como artista"
 pais: Costa Rica
 categoria: artistas
 ultima_verificacion: 2026-10-05
-estado: borrador
+estado: verificado
 ---
 
 # Cómo registrar tus obras como artista
 
-> ⚠️ Esta guía es información general, no asesoría legal. Verificá siempre con la institución oficial.
-> **Estado:** borrador. Los datos marcados con ⚠️ están pendientes de confirmar en la fuente oficial vigente. No incluimos montos que no hayamos podido verificar.
+> Esta guía es información general, no asesoría legal.
+> **Última verificación:** 2026-10-05, con el material de capacitación 2024 del Registro Nacional. Los montos pueden haber cambiado: confirmalos antes de pagar.
 
 ## Qué es
-Tus canciones, letras, beats, grabaciones y demás obras están protegidas por **derecho de autor** desde que las creás, sin necesidad de registrarlas. Así lo dice la **Ley sobre Derechos de Autor y Derechos Conexos, N.º 6683**. ⚠️
+Tus canciones, letras, beats y grabaciones están protegidas por derecho de autor **desde que las creás**. La **Ley sobre Derechos de Autor y Derechos Conexos, N.º 6683**, le da al autor el derecho exclusivo de usar su obra (art. 17) sin exigir un registro.
 
-Registrarlas **no es obligatorio**, pero sirve como **prueba** de que sos el autor y de la fecha, por si alguien copia tu obra.
-
-El registro se hace en el **Registro de Derechos de Autor y Derechos Conexos**, del Registro Nacional. ⚠️
+Registrar la obra en el **Registro de Derechos de Autor y Derechos Conexos** (Registro Nacional) es opcional, pero te da una **prueba oficial** de autoría y fecha, muy útil si alguien copia tu música.
 
 ## ¿Lo podés hacer solo?
-- **Sí.** No necesitás abogado. ⚠️
+- **Casi.** Vos llenás y presentás todo, pero la **firma de la solicitud tiene que estar autenticada por un abogado**. Es un paso corto; no hace falta que el abogado lleve el trámite.
 
 ## Qué se puede registrar
-- Obra musical (melodía) con o sin letra.
-- Letra de canción.
-- Fonograma (la grabación).
-- Videoclips y obras audiovisuales.
-- Contratos sobre tus derechos (cesiones, licencias). ⚠️
+| Lo que tenés | Cómo se registra | Quién es el titular |
+|---|---|---|
+| Solo la letra | Obra literaria | Autor de la letra |
+| Música con o sin letra | Obra musical | Compositor(es) y autor(es) |
+| La grabación (el máster) | Fonograma | El **productor** de la grabación |
 
 ## Requisitos
-- Formulario de solicitud del Registro. ⚠️
-- Copia de la obra (partitura, letra, archivo de audio, según lo que pida el Registro). ⚠️
-- Tu cédula.
-- Si hay coautores, los datos de todos y su porcentaje.
-- Pago de la tasa. ⚠️
+**Para una obra musical o letra:**
+- Formulario de solicitud firmado por el autor o su representante.
+- Firma **autenticada por abogado**, con timbre del Colegio de Abogados de **₡275**.
+- Un ejemplar de la obra (físico o digital), sin tachones ni marcas.
+
+**Para un fonograma, además:**
+- La lista de obras grabadas con los datos de autores e intérpretes.
+- Los contratos de producción con el productor.
+- El ejemplar en soporte digital.
+
+Formularios: [guía de servicios y formularios del Registro Nacional](https://www.rnpdigital.com/propiedad_industrial/propiedad_industrial_guia_servicios_formularios.htm).
 
 ## Costos oficiales
-⚠️ Por verificar en la tabla de tarifas del Registro Nacional.
+| Concepto | Monto | Verificado |
+|---|---|---|
+| Arancel de inscripción (por transferencia) | ₡2 295 | 2026-10-05, material 2024 |
+| Certificado digital: timbre fiscal | ₡125 | 2026-10-05, material 2024 |
+| Certificado digital: timbre del Archivo Nacional | ₡5 | 2026-10-05, material 2024 |
+| Timbre del Colegio de Abogados (autenticación) | ₡275 | 2026-10-05, material 2024 |
+
+A eso se suma lo que cobre el abogado por autenticar la firma.
 
 ## Pasos
-1. Prepará la obra en el formato que pide el Registro.
-2. Llená el formulario con los datos de la obra y los autores.
-3. Pagá la tasa.
-4. Presentá la solicitud. ⚠️
-5. Guardá el certificado de inscripción.
+1. Prepará el ejemplar de la obra.
+2. Descargá y llená el formulario.
+3. Firmalo y hacé autenticar tu firma con un abogado.
+4. Pagá el arancel y los timbres.
+5. **Presentá la solicitud en persona** en el Registro Nacional.
+6. Si la obra **no se ha publicado**, la inscripción es inmediata. Si **ya se publicó**, sale un aviso en La Gaceta y hay **30 días hábiles** de oposición antes de inscribirla.
+7. Guardá el certificado.
 
 ## Buenas prácticas aunque no registrés
-- Guardá versiones con fecha (proyectos de tu DAW, correos a vos mismo, nube).
+- Guardá versiones con fecha: proyectos de tu DAW, correos, nube.
 - Firmá un **split sheet** con tus colaboradores: quién hizo qué y qué porcentaje le toca a cada quien.
 
 ## Errores comunes
 - No dejar por escrito los porcentajes con coautores.
-- Confundir registro de obra con registro de marca: el nombre del proyecto se protege como [marca](../propiedad-intelectual/registro-de-marca.md).
-- Ceder todos tus derechos en un contrato sin entender qué estás firmando.
+- Confundir obra con marca: el nombre de tu proyecto se protege con un [registro de marca](../propiedad-intelectual/registro-de-marca.md).
+- Registrar la grabación a tu nombre cuando el productor es otra persona o un sello.
+
+## Contacto oficial
+Registro de Derechos de Autor: tel. 2202-0623 / 2202-0665, caticr@rnp.go.cr.
 
 ## Fuentes
-- Ley N.º 6683, en el SCIJ: <http://www.pgrweb.go.cr/scij/> ⚠️ falta enlace directo.
-- Registro Nacional: <https://www.registronacional.go.cr> ⚠️ falta enlazar el trámite y la tasa.
+- [Registro Nacional, "Procedimiento de inscripción de obras" (capacitación 2024)](https://rnpdigital.com/centroinforegistral/capacitaciones/capacitaciones%202024%20docs/Procedimiento%20de%20Inscripcion%20de%20obras.pdf), consultado 2026-10-05.
+- Ley N.º 6683, art. 17, citado en [resolución judicial en WIPO Lex](https://www.wipo.int/wipolex/es/text/887), consultada 2026-10-05.
 
 ---
 ¿Encontraste un error? [Reportalo aquí](https://github.com/axelfj/ventanilla-abierta/issues/new?template=correccion.md).
