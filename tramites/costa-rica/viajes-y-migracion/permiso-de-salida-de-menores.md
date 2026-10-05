@@ -16,12 +16,12 @@ Las personas menores de edad costarricenses (o con residencia) necesitan un **pe
 
 ## ¿Lo podés hacer solo?
 - **Sí**, si ambos padres están de acuerdo. Se tramita en la DGME. ⚠️
-- Si uno de los padres no autoriza o no se le puede localizar, el permiso se pide al **PANI** o a un juzgado. ⚠️
+- Si uno de los padres no autoriza o no se le puede localizar, solo un **juzgado de familia** puede dar el permiso. Ese permiso judicial vale por un único viaje y por un máximo de 30 días naturales desde la autorización de Migración. El PANI interviene solo en casos urgentes o muy calificados y sin oposición ([PANI, preguntas frecuentes](https://www.pani.go.cr/tramites-y-servicios/preguntas-frecuentes/), verificado 2026-10-05).
 
 ## Requisitos
 - Pasaporte vigente del menor.
 - Cédulas de ambos padres.
-- Presencia de ambos padres, o autorización autenticada por un notario del padre o madre que no puede ir. ⚠️
+- Presencia de ambos padres, o un representante con **poder especial o generalísimo** del padre o madre que no puede ir ([PANI](https://www.pani.go.cr/tramites-y-servicios/preguntas-frecuentes/)). ⚠️ Falta confirmar los requisitos exactos con Migración.
 - Comprobante de pago, si aplica. ⚠️
 
 ## Tipos de permiso
@@ -34,7 +34,7 @@ Las personas menores de edad costarricenses (o con residencia) necesitan un **pe
 ## Pasos
 1. Revisá que el pasaporte del menor esté vigente.
 2. Decidan si quieren permiso para un viaje o múltiple.
-3. Vayan juntos a la DGME o lleven la autorización autenticada. ⚠️
+3. Vayan juntos a la DGME o mande uno de ustedes un representante con poder especial. ⚠️
 4. El permiso queda inscrito en el sistema de Migración. ⚠️
 
 ## Errores comunes

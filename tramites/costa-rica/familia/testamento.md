@@ -27,7 +27,7 @@ Un testamento es el documento donde decidís quién recibe tus bienes cuando fal
 - Testigos, si el notario los requiere para ese tipo de testamento. ⚠️
 
 ## Costos oficiales
-Los honorarios del notario tienen un arancel fijado por el **Colegio de Abogados y Abogadas de Costa Rica**; preguntá el monto antes. ⚠️ Puede haber timbres y derechos de inscripción. ⚠️
+Los honorarios del notario tienen un mínimo fijado por **decreto ejecutivo** (el arancel de honorarios de abogados y notarios); preguntá el monto antes. ⚠️ Puede haber timbres y derechos de inscripción. ⚠️
 
 ## Pasos
 1. Hacé tu lista de bienes y herederos.

@@ -20,7 +20,7 @@ La pensión alimentaria es el dinero que una persona está obligada a dar para c
 
 ## Requisitos
 - Tu cédula.
-- No hace falta llevar certificaciones de nacimiento o matrimonio: el juzgado las consulta en las bases de datos del Estado.
+- Llevá certificaciones de nacimiento o matrimonio si las tenés; la guía de CONAMAJ las menciona como prueba. ⚠️ Falta confirmar si el juzgado las consulta por su cuenta.
 - Nombre completo de la persona obligada y una dirección o lugar de trabajo donde se le pueda notificar.
 - Una lista de los gastos mensuales de los hijos, con comprobantes si los tenés (recibos, facturas, matrícula).
 - Si sabés dónde trabaja o cuánto gana la otra persona, anotalo: el juzgado toma en cuenta su capacidad económica.

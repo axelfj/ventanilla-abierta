@@ -43,14 +43,16 @@ Para **fiestas cívicas, ferias y espectáculos públicos** la municipalidad pue
 
 ## Distancias mínimas (art. 9)
 - Clases **A y B**: al menos **400 metros** de centros educativos, templos y centros de salud.
-- Clase **C**: al menos **100 metros** (con excepciones en centros comerciales).
+- Clase **C**: al menos **100 metros**.
+- Las clases **A, B y C** no tienen límite de distancia si el local está en un centro comercial (art. 9 c).
 
 ## Cuánto cuesta (art. 10)
 Se paga **cada trimestre**. El monto va de **1/8 a 2½ salarios base**, según la clase de licencia y el tamaño del negocio (empleados, ventas y activos). Cada municipalidad calcula el monto exacto: pedilo por escrito.
 
 ## Prohibiciones importantes
 - **No se puede vender** a personas menores de edad, a personas con discapacidad cognitiva ni a personas en estado de ebriedad.
-- En negocios **clase B** (bares, discotecas) y **E4**, las personas menores de edad **no pueden trabajar ni entrar**.
+- En **ningún** local que venda alcohol pueden trabajar personas menores de edad (art. 9 d).
+- En negocios **clase B** (bares, discotecas) y **E4**, además, no pueden entrar (art. 9 e).
 - Vender alcohol a menores tiene multas de **1 a 15 salarios base** (art. 16) y, en casos graves, **de seis meses a tres años de prisión** y cierre del local (art. 22).
 
 ## Si sos DJ o músico
