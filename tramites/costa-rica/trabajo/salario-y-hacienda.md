@@ -27,7 +27,7 @@ Depende de cómo recibís tu dinero:
 
 ## Si sos asalariado
 1. Revisá en tu colilla que aparezca la rebaja de impuesto (si aplica) y la de CCSS.
-2. Si tu salario está debajo del monto exento, no deberían rebajarte impuesto. Hacienda actualiza los tramos cada año por comunicado de prensa; por ejemplo, para 2023 el monto exento era ₡941 000 mensuales ([Hacienda, CP 150](https://www.hacienda.go.cr/docs/CP150HACI.pdf)). ⚠️ Falta enlazar los tramos de 2026.
+2. Si tu salario está debajo del monto exento, no deberían rebajarte impuesto. Los tramos se fijan cada año por decreto y Hacienda los publica. Para **2026**, los salarios de hasta **₡918 000** mensuales no pagan impuesto; luego se paga 10 % sobre lo que pasa de ₡918 000 hasta ₡1 347 000, 15 % hasta ₡2 364 000, 20 % hasta ₡4 727 000 y 25 % sobre el exceso. Los créditos familiares son ₡1 710 por hijo y ₡2 590 por cónyuge al mes ([Hacienda, tramos de renta 2026](https://www.hacienda.go.cr/docs/TramosRenta2026.pdf), verificado 2026-10-05).
 3. Si tenés hijos o cónyuge, podés tener **créditos familiares** que bajan el impuesto. Avisale a tu patrono. ⚠️
 
 ## Si sos independiente
@@ -47,7 +47,7 @@ Depende de cómo recibís tu dinero:
 - No avisar al patrono de los créditos familiares.
 
 ## Fuentes
-- Ministerio de Hacienda: <https://www.hacienda.go.cr> ⚠️ falta enlace a los tramos vigentes del impuesto al salario.
+- Ministerio de Hacienda, [tramos del impuesto sobre la renta 2026](https://www.hacienda.go.cr/docs/TramosRenta2026.pdf), consultado 2026-10-05.
 - Caja Costarricense de Seguro Social: <https://www.ccss.sa.cr> ⚠️ por verificar.
 
 ---

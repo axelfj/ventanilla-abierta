@@ -16,7 +16,7 @@ estado: verificado
 - Tu contrato o una convención colectiva te pueden dar más, nunca menos.
 
 ## ¿Y si llevo menos de 50 semanas?
-- Mientras seguís trabajando, la ley no obliga a darte vacaciones proporcionales.
+- Mientras seguís trabajando, no se permite disfrutar vacaciones proporcionales antes de cumplir las 50 semanas.
 - Si el contrato **termina antes de las 50 semanas**, te tienen que pagar **un día de vacaciones por cada mes trabajado** en la liquidación.
 
 ## Quién decide cuándo
@@ -39,7 +39,7 @@ Ejemplos de cálculo que da el Poder Judicial:
 Solo en estos casos:
 - Cuando **termina** la relación laboral (se pagan las vacaciones pendientes).
 - En trabajos ocasionales o por obra.
-- Cuando circunstancias justificadas impiden disfrutarlas, con un máximo de tres períodos acumulados y si no se recibió este beneficio en los dos años anteriores.
+- Solo los días que pasan de las dos semanas, cuando circunstancias justificadas impiden disfrutarlas, con un máximo de tres períodos acumulados y si no se recibió este beneficio en los dos años anteriores.
 
 Fuera de eso, el patrono no puede obligarte a "venderlas".
 

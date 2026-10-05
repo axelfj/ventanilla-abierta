@@ -33,10 +33,11 @@ Llamar "servicio" a lo que en realidad es empleo no te libra de las obligaciones
 - **Salario**, forma y fecha de pago.
 - Fecha de inicio y si es por tiempo indefinido, plazo fijo u obra determinada.
 - **Período de prueba**, si se pacta (hasta tres meses). ⚠️
-- Firmas, y una copia para cada parte.
+- Firmas. El art. 23 del Código de Trabajo pide tres ejemplares: uno para cada parte y otro para el MTSS dentro de los 15 días. ⚠️ Falta confirmar cómo lo aplica hoy el MTSS.
 
 ## Errores comunes
-- No inscribir a la persona en la CCSS: si tiene un accidente, el patrono responde.
+- No inscribir a la persona en la CCSS. ⚠️ Las consecuencias exactas están por confirmar con la CCSS.
+- No tener la póliza de Riesgos del Trabajo del INS: si hay un accidente laboral sin póliza, el patrono responde.
 - Pagar debajo del mínimo "porque está aprendiendo".
 - Despedir sin pagar la liquidación. Ver [liquidación laboral](liquidacion-laboral.md).
 
