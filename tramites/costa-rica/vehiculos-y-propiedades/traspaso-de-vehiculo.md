@@ -31,7 +31,7 @@ Cuando comprás o vendés un carro o moto usado, el cambio de dueño tiene que q
 - Datos del precio de venta.
 
 ## Costos oficiales
-Según la tabla oficial del Registro Nacional (consultada 2026-10-05), sobre la **base imponible** (valor fiscal) del vehículo:
+Según la tabla oficial del Registro Nacional (consultada 2026-10-05), sobre la **base imponible**, que es el mayor entre el valor que declaran las partes y el que consta en el Registro Único de Valores:
 
 | Concepto | Monto |
 |---|---|

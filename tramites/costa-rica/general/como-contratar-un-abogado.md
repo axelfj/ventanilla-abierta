@@ -29,7 +29,7 @@ Esta guía no recomienda a nadie en particular. Te ayuda a elegir bien, saber cu
 - Los notarios deben estar habilitados ante la **Dirección Nacional de Notariado**, que también tiene consulta pública. ⚠️
 
 ## Cuánto cobran
-- Existe un **arancel de honorarios** oficial, el [Arancel de honorarios, Decreto Ejecutivo 41457-JP](https://www.abogados.or.cr/normativaCAB/arancel2019.pdf). El Colegio no fija precios caso por caso: solo regula según ese arancel publicado en La Gaceta.
+- Existe un **arancel de honorarios** oficial, el [Arancel de honorarios, Decreto Ejecutivo 41930-JP, según la copia que publica el Colegio](https://www.abogados.or.cr/uploads/CMS/Articulo/9.7arancel2019.pdf). El Colegio no fija precios caso por caso: solo regula según ese arancel publicado en La Gaceta. ⚠️ Falta confirmar en el SCIJ que sea la versión vigente.
 - Pedí siempre un **presupuesto por escrito** antes de empezar.
 - Preguntá si el precio incluye timbres, impuestos y gastos de registro.
 
@@ -49,11 +49,11 @@ Debe decir qué va a hacer, cuánto cobra, cómo se paga y qué pasa si querés 
 - Entregar documentos originales sin quedarte con copia.
 
 ## Si tenés una queja
-Podés denunciar ante la **Fiscalía del Colegio de Abogados**: tel. 2202-3659 o 2202-3689, fiscalia.denuncias@abogados.cr. Si es notario, también ante la Dirección Nacional de Notariado. ⚠️
+Podés denunciar ante la **Fiscalía del Colegio de Abogados**: tel. 2202-3659 o 2202-3689 (verificado 2026-10-05 en las [preguntas frecuentes del Colegio](https://www.abogados.or.cr/preguntas-frecuentes/)). Si es notario, también ante la Dirección Nacional de Notariado. ⚠️
 
 ## Fuentes
 - [Colegio de Abogados, preguntas frecuentes](https://www.abogados.or.cr/preguntas-frecuentes/), consultado 2026-10-05.
-- [Arancel de honorarios, Decreto Ejecutivo 41457-JP](https://www.abogados.or.cr/normativaCAB/arancel2019.pdf).
+- [Arancel de honorarios, Decreto Ejecutivo 41930-JP, según la copia que publica el Colegio](https://www.abogados.or.cr/uploads/CMS/Articulo/9.7arancel2019.pdf).
 - Dirección Nacional de Notariado: <https://www.dnn.go.cr> ⚠️ por verificar.
 
 ---
