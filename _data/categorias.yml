@@ -8,6 +8,7 @@
     - { titulo: Cómo salir del país a tocar, url: artistas/tocar-en-otro-pais.html, estado: verificado }
     - { titulo: Registro de marca para tu proyecto, url: propiedad-intelectual/registro-de-marca.html, estado: borrador }
     - { titulo: Contrato de presentación, url: contratos/como-hacer-un-contrato.html, estado: borrador }
+    - { titulo: Permisos para hacer un evento, url: eventos/permisos-para-eventos.html, estado: verificado }
 - slug: contratos-y-abogados
   icono: "📝"
   nombre: Contratos y abogados
@@ -74,10 +75,10 @@
   nombre: Eventos y vida nocturna
   desc: Permisos para fiestas, licores y música.
   temas:
-    - { titulo: Permisos para fiestas y eventos }
-    - { titulo: Permiso sanitario de funcionamiento }
-    - { titulo: Patente de licores }
-    - { titulo: Pagos por uso público de música }
+    - { titulo: Permisos para hacer una fiesta o evento, url: eventos/permisos-para-eventos.html, estado: verificado }
+    - { titulo: Patente o licencia de licores, url: eventos/licencia-de-licores.html, estado: verificado }
+    - { titulo: "Música en eventos y locales: licencia de ACAM", url: eventos/musica-en-eventos-y-locales.html, estado: verificado }
+    - { titulo: Venta de entradas para eventos }
 - slug: cobros-y-ventas
   icono: "🧾"
   nombre: Cobros y ventas
