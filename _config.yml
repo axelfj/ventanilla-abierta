@@ -1,0 +1,8 @@
+title: Ventanilla Abierta
+description: Guías claras y gratuitas para hacer trámites en Costa Rica. Sin fila.
+theme: jekyll-theme-minimal
+lang: es
+markdown: kramdown
+exclude:
+  - plantillas/
+  - .github/
