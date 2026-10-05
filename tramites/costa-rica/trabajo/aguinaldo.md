@@ -3,41 +3,42 @@ title: "Aguinaldo"
 pais: Costa Rica
 categoria: trabajo
 ultima_verificacion: 2026-10-05
-estado: borrador
+estado: verificado
 ---
 
 # Aguinaldo
 
 > Esta guía es información general, no asesoría legal.
-> **Estado:** borrador. Los datos vienen de prensa que cita al MTSS; falta enlazar la ley y la página oficial del MTSS. ⚠️
+> **Última verificación:** 2026-10-05, con las preguntas frecuentes del Ministerio de Trabajo (MTSS).
 
 ## Qué es
-Es un pago extra que todo patrono privado debe dar a sus trabajadores una vez al año. Lo regula la **Ley de Aguinaldo para la Empresa Privada** (no está en el Código de Trabajo).
+Es un salario adicional que todo patrono debe pagar cada año. Lo regulan la **Ley 2412** y sus reformas, y el **Decreto Ejecutivo 20236-TSS**.
+
+## Quién tiene derecho
+Toda persona trabajadora con **al menos un mes de trabajo continuo**, incluidas las que tienen contrato a plazo fijo, temporal o por horas.
 
 ## Cuánto es
-Es la **suma de todos los salarios ordinarios y extraordinarios** (horas extra, comisiones, bonificaciones) que recibiste **del 1 de diciembre del año anterior al 30 de noviembre**, **dividida entre 12**.
-
-Si trabajaste menos tiempo, te toca la parte proporcional.
+Sumá todo lo que ganaste **del 1 de diciembre del año anterior al 30 de noviembre** y dividilo entre **12**. Cuenta:
+- Salario ordinario y horas extra.
+- Cualquier otro pago salarial del período (comisiones, bonificaciones).
+- El salario en especie, que si no se pactó otra cosa se valora hasta en un 50 % del salario en dinero.
 
 ## Cuándo se paga
-A más tardar el **20 de diciembre**.
+Dentro de los **primeros 20 días de diciembre**.
 
 ## Rebajas
-El aguinaldo **no paga cargas de la CCSS ni impuesto sobre la renta**. Solo se le puede rebajar una **pensión alimentaria**.
+Solo se puede rebajar la **pensión alimentaria**. No paga cargas sociales ni otras deducciones.
 
-## Detalles que confunden
-- Los períodos de **incapacidad** no cuentan como salario, porque lo que recibís es un subsidio de la CCSS o el INS. Por eso bajan el aguinaldo.
-- Si renunciás o te despiden, el aguinaldo proporcional se paga en la liquidación.
+## Casos especiales
+- **Si renunciás o te despiden antes de diciembre:** te toca una doceava parte de lo que ganaste en los meses trabajados.
+- **Incapacidades:** los subsidios por enfermedad o riesgo de trabajo **no cuentan**.
+- **Licencia de maternidad:** **sí cuenta** como salario para el aguinaldo.
 
 ## Si sos patrono
-Calculalo con todos los pagos salariales del período, no solo el salario base. No pagarlo a tiempo tiene multas. ⚠️
+No pagarlo es una retención indebida del salario y una falta grave al contrato, con sanciones legales.
 
 ## Si no te lo pagan
-Podés denunciar ante la Inspección del **Ministerio de Trabajo (MTSS)**.
+Después del 20 de diciembre, denunciá en la oficina de **Inspección de Trabajo** más cercana o llamá al **800 TRABAJO (800 8722-256)**. Tenés **un año** desde que termina la relación laboral para reclamarlo.
 
 ## Fuentes
-- [Bloomberg Línea, "Cómo calcularlo y cuándo pagarán el aguinaldo 2024 en Costa Rica"](https://www.bloomberglinea.com/latinoamerica/costa-rica/como-calcularlo-y-cuando-pagaran-el-aguinaldo-2024-en-costa-rica/), consultado 2026-10-05 (fuente secundaria).
-- Ministerio de Trabajo y Seguridad Social: <https://www.mtss.go.cr> ⚠️ falta enlace directo.
-
----
-¿Encontraste un error? [Reportalo aquí](https://github.com/axelfj/ventanilla-abierta/issues/new?template=correccion.md).
+- [MTSS, preguntas frecuentes sobre aguinaldo](https://www.mtss.go.cr/temas-laborales/aguinaldo/preguntas_frecuentes.pdf), consultado 2026-10-05.

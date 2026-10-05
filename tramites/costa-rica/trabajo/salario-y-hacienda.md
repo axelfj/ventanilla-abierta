@@ -27,7 +27,7 @@ Depende de cómo recibís tu dinero:
 
 ## Si sos asalariado
 1. Revisá en tu colilla que aparezca la rebaja de impuesto (si aplica) y la de CCSS.
-2. Si tu salario está debajo del monto exento, no deberían rebajarte impuesto. Hacienda publica los tramos cada año. ⚠️
+2. Si tu salario está debajo del monto exento, no deberían rebajarte impuesto. Hacienda actualiza los tramos cada año por comunicado de prensa; por ejemplo, para 2023 el monto exento era ₡941 000 mensuales ([Hacienda, CP 150](https://www.hacienda.go.cr/docs/CP150HACI.pdf)). ⚠️ Falta enlazar los tramos de 2026.
 3. Si tenés hijos o cónyuge, podés tener **créditos familiares** que bajan el impuesto. Avisale a tu patrono. ⚠️
 
 ## Si sos independiente

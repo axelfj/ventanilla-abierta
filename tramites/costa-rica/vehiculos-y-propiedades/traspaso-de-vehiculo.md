@@ -31,7 +31,20 @@ Cuando comprás o vendés un carro o moto usado, el cambio de dueño tiene que q
 - Datos del precio de venta.
 
 ## Costos oficiales
-Se pagan impuestos de traspaso y timbres que dependen del valor fiscal del vehículo, más los honorarios del notario según arancel. ⚠️ Pedí el desglose antes de firmar.
+Según la tabla oficial del Registro Nacional (consultada 2026-10-05), sobre la **base imponible** (valor fiscal) del vehículo:
+
+| Concepto | Monto |
+|---|---|
+| Impuesto de transferencia | 2,5 % de la base imponible |
+| Derechos de registro | ₡5 por cada ₡1 000 (mínimo ₡2 000) |
+| Timbre agrario | ₡3 por cada ₡1 000 |
+| Timbre de Parques Nacionales | ₡500 |
+| Timbre de la Cruz Roja | ₡500 |
+| Timbre del Archivo Nacional | ₡10 (menos de ₡100 000) o ₡20 |
+| Timbre fiscal | Según el Código Fiscal |
+| Timbre del Colegio de Abogados | Según tabla, por la base imponible |
+
+A eso se suman los honorarios del notario. Pedí el desglose antes de firmar.
 
 ## Pasos
 1. Revisá el estudio registral.
@@ -50,7 +63,8 @@ Se pagan impuestos de traspaso y timbres que dependen del valor fiscal del vehí
 - ¿Cuándo presenta el documento al Registro?
 
 ## Fuentes
-- Registro Nacional: <https://www.registronacional.go.cr> ⚠️ por verificar requisitos y costos.
+- [Registro Nacional, aranceles de Bienes Muebles](https://www.rnpdigital.com/tramites_servicios/tramitesregistros/bienes%20muebles/bienes_muebles_aranceles.htm), consultado 2026-10-05.
+- Registro Nacional: <https://www.rnpdigital.com> ⚠️ falta enlazar los requisitos del trámite.
 
 ---
 ¿Encontraste un error? [Reportalo aquí](https://github.com/axelfj/ventanilla-abierta/issues/new?template=correccion.md).

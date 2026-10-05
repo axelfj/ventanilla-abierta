@@ -32,10 +32,10 @@
   nombre: Trabajo
   desc: Vacaciones, aguinaldo, contratar y despidos.
   temas:
-    - { titulo: Liquidación y derechos al terminar un trabajo, url: trabajo/liquidacion-laboral.html, estado: borrador }
+    - { titulo: Liquidación y derechos al terminar un trabajo, url: trabajo/liquidacion-laboral.html, estado: verificado }
     - { titulo: Cómo se reporta el salario a Hacienda, url: trabajo/salario-y-hacienda.html, estado: borrador }
     - { titulo: Vacaciones y pago de vacaciones, url: trabajo/vacaciones.html, estado: verificado }
-    - { titulo: Aguinaldo, url: trabajo/aguinaldo.html, estado: borrador }
+    - { titulo: Aguinaldo, url: trabajo/aguinaldo.html, estado: verificado }
     - { titulo: Cómo contratar a una persona trabajadora, url: trabajo/contratar-empleados.html, estado: borrador }
 - slug: vivienda-y-consumo
   icono: "🏠"

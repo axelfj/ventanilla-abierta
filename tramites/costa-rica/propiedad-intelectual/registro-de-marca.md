@@ -9,7 +9,7 @@ estado: borrador
 # Registro de marca en Costa Rica
 
 > ⚠️ Esta guía es información general, no asesoría legal. Verificá siempre con el Registro Nacional.
-> **Estado:** borrador. Los datos marcados con ⚠️ salieron de una investigación inicial (octubre 2026) con fuentes de 1 a 5 años de antigüedad y todavía no se confirmaron en la fuente oficial vigente.
+> **Estado:** borrador. Los costos ya están confirmados en la tabla oficial; los datos marcados con ⚠️ (plazos y pasos) todavía no.
 
 ## Qué es
 Registrar una marca te da el derecho exclusivo de usar un nombre, logo o signo para identificar tus productos o servicios en Costa Rica. Sirve, por ejemplo, para proteger el nombre de tu proyecto musical, tu emprendimiento o tu evento, y evitar que otra persona lo registre primero.
@@ -37,8 +37,8 @@ Cada clase se paga por aparte.
 ## Costos oficiales
 | Concepto | Monto | Fuente | Verificado |
 |---|---|---|---|
-| Tasa de solicitud, por cada clase | USD 50 ⚠️ | Ley 7978, art. 94 (reformado por la Ley 8020); falta confirmar en la tabla de tarifas vigente del Registro Nacional | ⚠️ Por verificar |
-| Timbre del Archivo Nacional | ₡20 ⚠️ | Falta enlazar la fuente oficial | ⚠️ Por verificar |
+| Inscripción, por cada clase | USD 50, pagados en timbres del Registro Nacional | [Registro Nacional, aranceles de Propiedad Intelectual](https://www.rnpdigital.com/tramites_servicios/tramitesregistros/propiedad%20intelectual/propiedad_industrial_aranceles.htm) | 2026-10-05 |
+| Renovación, por cada clase | USD 50, en timbres del Registro Nacional | [Registro Nacional, aranceles de Propiedad Intelectual](https://www.rnpdigital.com/tramites_servicios/tramitesregistros/propiedad%20intelectual/propiedad_industrial_aranceles.htm) | 2026-10-05 |
 | Publicación del edicto en La Gaceta | Variable según el largo del texto ⚠️ | Imprenta Nacional | ⚠️ Por verificar |
 
 El pago se puede hacer en el **BCR** o en línea. ⚠️
@@ -84,13 +84,14 @@ No. El registro es territorial: protege solo en Costa Rica.
 ## Fuentes
 - Ley de Marcas y Otros Signos Distintivos, N.º 7978. Texto en el Sistema Costarricense de Información Jurídica (SCIJ): <http://www.pgrweb.go.cr/scij/> ⚠️ falta enlace directo.
 - Ley N.º 8020, que reforma los artículos 94 y 95 de la Ley 7978 (tasas): [WIPO Lex](https://www.wipo.int/wipolex/es/legislation/details/883), consultada 2026-10-05.
-- Registro Nacional de Costa Rica: <https://www.registronacional.go.cr> ⚠️ falta enlazar el formulario oficial y la tabla de tarifas.
+- [Registro Nacional, aranceles de Propiedad Intelectual](https://www.rnpdigital.com/tramites_servicios/tramitesregistros/propiedad%20intelectual/propiedad_industrial_aranceles.htm), consultado 2026-10-05.
+- [Reglamento de la Ley de Marcas, Decreto 30233-J](https://www.rnpdigital.com/centroinforegistral/registros/propiedad%20intelectual/pi_normativa/decretos/Reglamento%20a%20la%20Ley%20de%20marcas%20y%20otros%20signos%20distintivos%201.pdf).
 - Clasificación de Niza (OMPI): <https://www.wipo.int/classifications/nice/es/> ⚠️ falta confirmar clases.
 
 ## Pendientes de verificación
-- [ ] Confirmar en la tabla oficial vigente del Registro Nacional que la tasa sigue siendo USD 50 por clase.
+- [x] Tasa de USD 50 por clase confirmada en la tabla de aranceles del Registro Nacional (2026-10-05).
 - [ ] Enlazar el formulario oficial de solicitud y la tabla de tarifas.
-- [ ] Confirmar el timbre de ₡20 del Archivo Nacional y la forma de pago.
+- [ ] Confirmar la forma de pago. (El timbre de ₡20 del Archivo Nacional que aparece en la tabla oficial es para patentes, modelos de utilidad y diseños, no para marcas.)
 - [ ] Confirmar plazos (oposición, certificado, vigencia, cancelación por no uso) con los artículos exactos de la Ley 7978.
 - [ ] Confirmar las clases 41 y 9 para proyectos musicales con la lista oficial de Niza.
 

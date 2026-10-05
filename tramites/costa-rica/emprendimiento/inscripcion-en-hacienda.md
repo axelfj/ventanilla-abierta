@@ -15,11 +15,12 @@ estado: borrador
 Si vendés productos o servicios por tu cuenta (incluidas presentaciones como DJ, músico o freelancer), en general tenés que inscribirte ante el **Ministerio de Hacienda** para declarar y pagar impuestos y emitir facturas electrónicas.
 
 ## ¿Lo podés hacer solo?
-- **Sí.** La inscripción se hace en línea en la plataforma de Hacienda. ⚠️
+- **Sí.** La inscripción se hace en línea, en la Oficina Virtual (OVi) de **TRIBU-CR**.
 - Un contador puede ayudarte con las declaraciones, pero no es obligatorio para inscribirte.
 
 ## Requisitos
-- Cédula (o DIMEX).
+- Ser mayor de 18 años.
+- Cédula de identidad, DIMEX o NITE.
 - Correo electrónico.
 - Tu actividad económica (Hacienda tiene una lista de códigos). ⚠️
 - Dirección donde ejercés la actividad.
@@ -29,10 +30,10 @@ Si vendés productos o servicios por tu cuenta (incluidas presentaciones como DJ
 La inscripción **no tiene costo**. ⚠️
 
 ## Pasos
-1. Entrá a la plataforma tributaria de Hacienda (actualmente **Hacienda Digital / TRIBU-CR**). ⚠️
-2. Registrate con tu cédula.
-3. Elegí tu actividad económica y el régimen (tradicional o simplificado). ⚠️
-4. Confirmá tus datos y guardá el comprobante.
+1. Entrá a la [Oficina Virtual de TRIBU-CR](https://www.hacienda.go.cr/TRIBU-CR.html) con tu usuario.
+2. Andá a **Mis datos** y tocá **Realizar declaración de inscripción**.
+3. Llená tus datos personales, de contacto, domicilio y actividad económica. Elegí el régimen (tradicional o simplificado). ⚠️
+4. Enviá la declaración y guardá el comprobante.
 5. Activá la **factura electrónica** (Hacienda ofrece un sistema gratuito). ⚠️
 
 ## Errores comunes
@@ -41,7 +42,8 @@ La inscripción **no tiene costo**. ⚠️
 - No cobrar ni facturar el IVA cuando corresponde.
 
 ## Fuentes
-- Ministerio de Hacienda: <https://www.hacienda.go.cr> ⚠️ falta enlace a la guía de inscripción vigente.
+- [Hacienda, preguntas y respuestas de TRIBU-CR](https://www.hacienda.go.cr/docs/dPreguntasYRespuestasDeTRIBU-CR.pdf), consultado 2026-10-05.
+- [Hacienda, régimen de tributación simplificada](https://www.hacienda.go.cr/docs/IngresoRegimendeTributacionSimplificada.pdf) ⚠️ actualizado a junio 2024.
 
 ---
 ¿Encontraste un error? [Reportalo aquí](https://github.com/axelfj/ventanilla-abierta/issues/new?template=correccion.md).
