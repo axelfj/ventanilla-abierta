@@ -29,7 +29,7 @@ Abrí un issue con la plantilla **Nuevo trámite**.
 ## Nombres de archivos
 
 - Minúsculas, sin tildes, con guiones: `registro-de-marca.md`, `traspaso-de-vehiculo.md`.
-- Categorías: `propiedad-intelectual`, `emprendimiento`, `eventos`, `familia`, `vehiculos-y-propiedades`, `viajes-y-migracion`, `cobros-y-ventas`.
+- Categorías: `propiedad-intelectual`, `emprendimiento`, `trabajo`, `vivienda`, `consumidor`, `eventos`, `familia`, `vehiculos-y-propiedades`, `viajes-y-migracion`, `cobros-y-ventas`.
 
 ## Licencia de tus aportes
 
