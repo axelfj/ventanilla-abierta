@@ -25,7 +25,7 @@ El trámite se hace ante el **Registro de la Propiedad Industrial**, que es part
 - La lista de productos o servicios que va a identificar, agrupados por **clase de la Clasificación de Niza**.
 - Tus datos de identificación (cédula o documento de identidad).
 - El comprobante de pago de las tasas y timbres.
-- Para presentar en línea: **firma digital** costarricense. ⚠️
+- Para presentar en línea: **firma digital** costarricense.
 
 ### ¿Qué clase uso si soy artista o tengo un proyecto musical?
 Suelen aplicar estas dos clases, pero confirmalo con la lista oficial de Niza: ⚠️
@@ -39,7 +39,7 @@ Cada clase se paga por aparte.
 |---|---|---|---|
 | Inscripción, por cada clase | USD 50, pagados en timbres del Registro Nacional | [Registro Nacional, aranceles de Propiedad Intelectual](https://www.rnpdigital.com/tramites_servicios/tramitesregistros/propiedad%20intelectual/propiedad_industrial_aranceles.htm) | 2026-10-05 |
 | Renovación, por cada clase | USD 50, en timbres del Registro Nacional | [Registro Nacional, aranceles de Propiedad Intelectual](https://www.rnpdigital.com/tramites_servicios/tramitesregistros/propiedad%20intelectual/propiedad_industrial_aranceles.htm) | 2026-10-05 |
-| Publicación del edicto en La Gaceta | Variable según el largo del texto ⚠️ | Imprenta Nacional | ⚠️ Por verificar |
+| Publicación del edicto en La Gaceta | Lo cotiza la Imprenta Nacional ⚠️ monto variable | Imprenta Nacional | ⚠️ Por verificar |
 
 El pago se puede hacer en el **BCR** o en línea. ⚠️
 
@@ -49,25 +49,25 @@ El pago se puede hacer en el **BCR** o en línea. ⚠️
 1. **Buscá si la marca está libre.** El Registro Nacional ofrece una búsqueda gratuita de marcas en su plataforma en línea. Buscá nombres iguales y parecidos en las clases que te interesan. ⚠️
 2. **Definí las clases** de Niza que necesitás.
 3. **Pagá las tasas y timbres** por cada clase.
-4. **Presentá la solicitud**, en línea por **WIPO File** con firma digital, o en persona en el Registro Nacional. ⚠️
+4. **Presentá la solicitud**, en línea por **WIPO File** con firma digital ([Directriz DRPI-001-2020](https://rnpdigital.com/DIRECTRIZ%20DRPI-001-2020%20SISTEMA%20DE%20RECEPCION%20EN%20LINEA%20DE%20SIGNOS%20DISTINTIVOS,%20WIPO%20FILE.pdf)), o en persona en el Registro Nacional.
 5. **Revisión del Registro.** Si hay algún problema de forma o de fondo, te notifican para que lo corrijás.
-6. **Publicá el edicto en La Gaceta** cuando el Registro te lo indique y pagá la publicación.
-7. **Período de oposición:** después de la publicación hay **dos meses** para que terceros se opongan. ⚠️
+6. **Pagá la publicación del edicto.** Desde el 2 de febrero de 2026 el Registro envía el edicto a la Imprenta Nacional de forma electrónica. Vos no lo llevás: el Registro te notifica para que cotices y pagues la publicación en La Gaceta ([Directriz DPI-001-2026](https://www.rnpdigital.com/centroinforegistral/registros/propiedad%20intelectual/pi_normativa/directrices/Directriz%20DPI-001-2026.pdf), verificado 2026-10-05).
+7. **Período de oposición:** hay **dos meses** desde la primera publicación para que terceros se opongan (art. 16 de la Ley 7978, verificado 2026-10-05).
 8. **Inscripción y certificado.** Si nadie se opone (o se resuelve a tu favor), la marca se inscribe y el certificado sale en unos **15 días hábiles**. ⚠️
 
 ## Tiempos
-- Oposición: dos meses desde la publicación del edicto. ⚠️
+- Oposición: dos meses desde la primera publicación del edicto.
 - Certificado: unos 15 días hábiles después de la inscripción. ⚠️
 - El tiempo total depende de la carga del Registro y de si hay objeciones.
 
 ## Después del registro
 - La marca dura **10 años** y se puede renovar. ⚠️
-- **Usala.** Si no la usás durante **cinco años seguidos**, cualquier persona puede pedir que se cancele. ⚠️
+- **Usala.** Si no la usás durante **cinco años** desde el registro, cualquier persona puede pedir que se cancele (art. 39 de la Ley 7978, verificado 2026-10-05).
 
 ## Errores comunes
 - No hacer la búsqueda previa y descubrir después que ya existe una marca parecida.
 - Registrar solo una clase cuando el proyecto necesita varias (por ejemplo, solo la 41 y no la 9).
-- Olvidar publicar el edicto o pagar la publicación a tiempo.
+- No estar pendiente de la notificación del Registro y no pagar la publicación del edicto a tiempo.
 - Registrar la marca a nombre de una persona cuando debería estar a nombre de la banda, la empresa o todos los integrantes. Ponerse de acuerdo antes.
 - No usar la marca y perderla por falta de uso.
 

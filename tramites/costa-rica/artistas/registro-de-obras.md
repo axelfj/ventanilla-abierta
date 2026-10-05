@@ -30,19 +30,20 @@ Registrar la obra en el **Registro de Derechos de Autor y Derechos Conexos** (Re
 **Para una obra musical o letra:**
 - Formulario de solicitud firmado por el autor o su representante.
 - Firma **autenticada por abogado**, con timbre del Colegio de Abogados de **₡275**.
+- Si la obra ya se publicó como libro, el ejemplar debe llevar **ISBN**.
 - Un ejemplar de la obra (físico o digital), sin tachones ni marcas.
 
 **Para un fonograma, además:**
 - La lista de obras grabadas con los datos de autores e intérpretes.
 - Los contratos de producción con el productor.
-- El ejemplar en soporte digital.
+- El ejemplar del fonograma en medio magnético (así lo dice el material del Registro).
 
 Formularios: [guía de servicios y formularios del Registro Nacional](https://www.rnpdigital.com/propiedad_industrial/propiedad_industrial_guia_servicios_formularios.htm).
 
 ## Costos oficiales
 | Concepto | Monto | Verificado |
 |---|---|---|
-| Arancel de inscripción (por transferencia) | ₡2 295 | 2026-10-05, material 2024 |
+| Arancel de inscripción (entero bancario) | ₡2 295 según el material 2024; la tabla de aranceles vigente dice ₡2 000 mínimo por inscripción ⚠️ confirmá el monto antes de pagar | 2026-10-05 |
 | Certificado digital: timbre fiscal | ₡125 | 2026-10-05, material 2024 |
 | Certificado digital: timbre del Archivo Nacional | ₡5 | 2026-10-05, material 2024 |
 | Timbre del Colegio de Abogados (autenticación) | ₡275 | 2026-10-05, material 2024 |
@@ -55,7 +56,7 @@ A eso se suma lo que cobre el abogado por autenticar la firma.
 3. Firmalo y hacé autenticar tu firma con un abogado.
 4. Pagá el arancel y los timbres.
 5. **Presentá la solicitud en persona** en el Registro Nacional.
-6. Si la obra **no se ha publicado**, la inscripción es inmediata. Si **ya se publicó**, sale un aviso en La Gaceta y hay **30 días hábiles** de oposición antes de inscribirla.
+6. Si la obra **no se ha publicado**, se inscribe una vez corregidos los defectos que el Registro señale. Si **ya se publicó**, sale un aviso en La Gaceta y hay **30 días hábiles** de oposición antes de inscribirla.
 7. Guardá el certificado.
 
 ## Buenas prácticas aunque no registrés
