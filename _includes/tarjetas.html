@@ -1,0 +1,11 @@
+<div class="tarjetas">
+{% for c in site.data.categorias %}
+  {% assign listos = c.temas | where_exp: "t", "t.url" %}
+  <a class="tarjeta" href="{{ '/tramites/costa-rica/categorias/' | append: c.slug | append: '.html' | relative_url }}">
+    <span class="icono" aria-hidden="true">{{ c.icono }}</span>
+    <strong>{{ c.nombre }}</strong>
+    <span class="desc">{{ c.desc }}</span>
+    <span class="desc"><br>{{ listos.size }} de {{ c.temas.size }} guías</span>
+  </a>
+{% endfor %}
+</div>

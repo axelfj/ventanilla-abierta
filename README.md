@@ -4,7 +4,9 @@
 
 Ventanilla Abierta es un proyecto de código abierto que explica, en español claro, cómo hacer trámites legales y administrativos en Costa Rica. Es gratis, sin anuncios y hecho por la comunidad.
 
-👉 **[Ver las guías de Costa Rica](tramites/costa-rica/)**
+## Elegí un tema
+
+{% include tarjetas.html %}
 
 ## Para qué sirve
 

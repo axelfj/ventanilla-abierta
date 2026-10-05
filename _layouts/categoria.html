@@ -1,0 +1,18 @@
+---
+layout: default
+---
+{% assign c = site.data.categorias | where: "slug", page.categoria | first %}
+<p class="migas"><a href="{{ '/tramites/costa-rica/' | relative_url }}">← Todas las categorías</a></p>
+<h1>{{ c.icono }} {{ c.nombre }}</h1>
+<p>{{ c.desc }}</p>
+<ul class="temas">
+{% for t in c.temas %}
+  {% if t.url %}
+  <li><a href="{{ '/tramites/costa-rica/' | append: t.url | relative_url }}">{{ t.titulo }}</a>
+    <span class="nota">⚠️ Borrador: algunos datos están por verificar.</span></li>
+  {% else %}
+  <li><a href="https://github.com/axelfj/ventanilla-abierta/issues/new?template=nuevo-tramite.md">📝 {{ t.titulo }}</a>
+    <span class="nota">Planeado. ¿Querés ayudar a escribirlo?</span></li>
+  {% endif %}
+{% endfor %}
+</ul>

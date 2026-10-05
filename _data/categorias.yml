@@ -1,0 +1,65 @@
+- slug: emprendimiento
+  icono: "💼"
+  nombre: Emprendimiento y propiedad intelectual
+  desc: Marcas, Hacienda, facturación y patentes.
+  temas:
+    - { titulo: Registro de marca, url: propiedad-intelectual/registro-de-marca.html, estado: borrador }
+    - { titulo: Inscripción en Hacienda como contribuyente, url: emprendimiento/inscripcion-en-hacienda.html, estado: borrador }
+    - { titulo: Registro de nombre comercial }
+    - { titulo: Registro de derechos de autor (obras musicales) }
+    - { titulo: Facturación electrónica }
+    - { titulo: Patente municipal }
+- slug: trabajo
+  icono: "🛠️"
+  nombre: Trabajo
+  desc: Despidos, renuncias y lo que te deben pagar.
+  temas:
+    - { titulo: Liquidación y derechos al terminar un trabajo, url: trabajo/liquidacion-laboral.html, estado: borrador }
+- slug: vivienda-y-consumo
+  icono: "🏠"
+  nombre: Vivienda y consumo
+  desc: Alquileres y reclamos cuando te venden mal.
+  temas:
+    - { titulo: Contrato de alquiler de vivienda, url: vivienda/contrato-de-alquiler.html, estado: borrador }
+    - { titulo: Reclamo como consumidor, url: consumidor/reclamo-al-consumidor.html, estado: borrador }
+- slug: familia
+  icono: "👨‍👩‍👧"
+  nombre: Familia
+  desc: Pensiones, testamento, matrimonio y divorcio.
+  temas:
+    - { titulo: Pensión alimentaria, url: familia/pension-alimentaria.html, estado: borrador }
+    - { titulo: Testamento, url: familia/testamento.html, estado: borrador }
+    - { titulo: Matrimonio }
+    - { titulo: Divorcio }
+- slug: vehiculos-y-propiedades
+  icono: "🚗"
+  nombre: Vehículos y propiedades
+  desc: Traspasos, compraventa e hipotecas.
+  temas:
+    - { titulo: Traspaso de vehículo, url: vehiculos-y-propiedades/traspaso-de-vehiculo.html, estado: borrador }
+    - { titulo: Compraventa de casa o lote, url: vehiculos-y-propiedades/compraventa-de-propiedad.html, estado: borrador }
+    - { titulo: Hipoteca }
+- slug: viajes-y-migracion
+  icono: "✈️"
+  nombre: Viajes y migración
+  desc: Pasaporte, visas y salida de menores.
+  temas:
+    - { titulo: Pasaporte costarricense, url: viajes-y-migracion/pasaporte.html, estado: borrador }
+    - { titulo: Permiso de salida de menores, url: viajes-y-migracion/permiso-de-salida-de-menores.html, estado: borrador }
+    - { titulo: Visas }
+- slug: eventos
+  icono: "🎶"
+  nombre: Eventos y vida nocturna
+  desc: Permisos para fiestas, licores y música.
+  temas:
+    - { titulo: Permisos para fiestas y eventos }
+    - { titulo: Permiso sanitario de funcionamiento }
+    - { titulo: Patente de licores }
+    - { titulo: Pagos por uso público de música }
+- slug: cobros-y-ventas
+  icono: "🧾"
+  nombre: Cobros y ventas
+  desc: Cobrar deudas y vender entradas.
+  temas:
+    - { titulo: Cobro de deudas }
+    - { titulo: Venta de entradas para eventos }

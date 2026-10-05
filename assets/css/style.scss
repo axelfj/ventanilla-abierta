@@ -1,56 +1,52 @@
 ---
 ---
-
-@import "{{ site.theme }}";
-
-/* Ventanilla Abierta: ajustes para celular y tablet */
-
+:root { --texto:#1f2328; --suave:#59636e; --borde:#d8dee4; --fondo:#fff; --tarjeta:#f6f8fa; --acento:#0b6e4f; }
+@media (prefers-color-scheme: dark) {
+  :root { --texto:#e6edf3; --suave:#9198a1; --borde:#30363d; --fondo:#0d1117; --tarjeta:#161b22; --acento:#3fb68b; }
+}
 *, *::before, *::after { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body { margin:0; background:var(--fondo); color:var(--texto);
+  font: 17px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+.contenedor { max-width: 920px; margin: 0 auto; padding: 0 20px; }
+a { color: var(--acento); overflow-wrap: anywhere; }
+img { max-width:100%; height:auto; }
+.topbar { border-bottom:1px solid var(--borde); position:sticky; top:0; background:var(--fondo); z-index:10; }
+.topbar .contenedor { display:flex; align-items:center; justify-content:space-between; gap:12px; padding-top:12px; padding-bottom:12px; }
+.marca { font-weight:700; font-size:1.1em; color:var(--texto); text-decoration:none; }
+.topbar nav a { margin-left:16px; text-decoration:none; font-weight:500; }
+main { padding-top:24px; padding-bottom:32px; }
+h1 { font-size:2em; line-height:1.2; margin:.4em 0 .5em; }
+h2 { font-size:1.4em; margin-top:1.6em; border-bottom:1px solid var(--borde); padding-bottom:.2em; }
+blockquote { margin:0 0 20px; padding:10px 16px; border-left:4px solid var(--acento); background:var(--tarjeta); border-radius:4px; }
+blockquote p { margin:.3em 0; }
+table { display:block; width:100%; overflow-x:auto; border-collapse:collapse; margin:16px 0; }
+th, td { border:1px solid var(--borde); padding:8px 10px; text-align:left; vertical-align:top; }
+th { background:var(--tarjeta); }
+pre, code { white-space:pre-wrap; word-break:break-word; background:var(--tarjeta); border-radius:4px; }
+code { padding:2px 4px; font-size:.9em; }
+pre { padding:12px; }
+.pie { border-top:1px solid var(--borde); color:var(--suave); font-size:.9em; padding-top:12px; padding-bottom:32px; }
 
-body {
-  font-size: 16px;
-  line-height: 1.6;
-  color: #333;
-  -webkit-text-size-adjust: 100%;
-}
+/* Tarjetas de categorías */
+.tarjetas { display:grid; grid-template-columns:repeat(auto-fill, minmax(240px, 1fr)); gap:14px; margin:20px 0 28px; }
+.tarjeta { display:block; padding:18px; border:1px solid var(--borde); border-radius:12px; background:var(--tarjeta);
+  color:var(--texto); text-decoration:none; transition:transform .1s, border-color .1s; }
+.tarjeta:hover, .tarjeta:focus { border-color:var(--acento); transform:translateY(-2px); }
+.tarjeta .icono { font-size:1.8em; display:block; }
+.tarjeta strong { display:block; font-size:1.1em; margin:6px 0 4px; }
+.tarjeta span.desc { color:var(--suave); font-size:.92em; }
+.migas { font-size:.92em; color:var(--suave); }
+.temas { list-style:none; padding:0; }
+.temas li { border:1px solid var(--borde); border-radius:10px; margin-bottom:10px; }
+.temas li a { display:block; padding:14px 16px; text-decoration:none; font-weight:600; }
+.temas li .nota { display:block; padding:0 16px 12px; color:var(--suave); font-weight:400; font-size:.92em; margin-top:-8px; }
 
-.wrapper { max-width: 960px; width: 100%; }
-
-img { max-width: 100%; height: auto; }
-
-a { word-wrap: break-word; overflow-wrap: anywhere; }
-
-/* Tablas con scroll horizontal en vez de romper la página */
-table {
-  display: block;
-  width: 100%;
-  overflow-x: auto;
-  -webkit-overflow-scrolling: touch;
-}
-
-pre, code { white-space: pre-wrap; word-break: break-word; }
-
-blockquote { margin: 0 0 20px; }
-
-@media print, screen and (max-width: 960px) {
-  .wrapper { width: auto; margin: 0; padding: 0 16px; }
-  header, section, footer { float: none; position: static; width: auto; }
-  header { padding-right: 0; padding-top: 16px; }
-  section { border: 1px solid #e5e5e5; border-width: 1px 0; padding: 20px 0; margin: 0 0 20px; }
-}
-
-@media print, screen and (max-width: 720px) {
-  body { font-size: 16px; }
-  header h1 { font-size: 1.6em; }
-  header ul { display: none; }
-  section h1 { font-size: 1.6em; }
-  section h2 { font-size: 1.3em; }
-  th, td { padding: 6px 8px; }
-  ul, ol { padding-left: 1.2em; }
-}
-
-@media print, screen and (max-width: 480px) {
-  .wrapper { padding: 0 12px; }
-  header p.view { display: none; }
-  li { margin-bottom: 4px; }
+@media (max-width: 600px) {
+  body { font-size:16px; }
+  .contenedor { padding:0 14px; }
+  h1 { font-size:1.6em; }
+  .tarjetas { grid-template-columns:1fr 1fr; gap:10px; }
+  .tarjeta { padding:14px; }
+  .tarjeta span.desc { display:none; }
 }
