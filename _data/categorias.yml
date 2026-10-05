@@ -19,11 +19,13 @@
     - { titulo: Contrato con las personas que contratás, url: trabajo/contratar-empleados.html, estado: borrador }
 - slug: emprendimiento
   icono: "💼"
-  nombre: Emprendimiento y propiedad intelectual
-  desc: Marcas, Hacienda, facturación y patentes.
+  nombre: Emprendimiento y negocios
+  desc: Montar tu negocio, Hacienda, reportes y marcas.
   temas:
     - { titulo: Registro de marca, url: propiedad-intelectual/registro-de-marca.html, estado: borrador }
+    - { titulo: "Cómo montar un negocio, paso a paso", url: emprendimiento/como-montar-un-negocio.html, estado: borrador }
     - { titulo: Inscripción en Hacienda como contribuyente, url: emprendimiento/inscripcion-en-hacienda.html, estado: borrador }
+    - { titulo: "Reportes mensuales, trimestrales y anuales", url: emprendimiento/reportes-de-un-negocio.html, estado: borrador }
     - { titulo: Registro de nombre comercial }
     - { titulo: Registro de obras, url: artistas/registro-de-obras.html, estado: verificado }
     - { titulo: Facturación electrónica }
