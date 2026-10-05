@@ -3,38 +3,38 @@ title: "Pensión alimentaria"
 pais: Costa Rica
 categoria: familia
 ultima_verificacion: 2026-10-05
-estado: borrador
+estado: verificado
 ---
 
 # Pensión alimentaria
 
 > ⚠️ Esta guía es información general, no asesoría legal. Verificá siempre con la institución oficial.
-> **Estado:** borrador. Los datos marcados con ⚠️ están pendientes de confirmar en la fuente oficial vigente. No incluimos montos que no hayamos podido verificar.
+> **Última verificación:** 2026-10-05, con los sitios del Poder Judicial y la Defensa Pública.
 
 ## Qué es
 La pensión alimentaria es el dinero que una persona está obligada a dar para cubrir las necesidades básicas de sus hijos (y en algunos casos de otros familiares): comida, vivienda, salud, educación, ropa y recreación. Se regula en la **Ley de Pensiones Alimentarias, N.º 7654**.
 
 ## ¿Lo podés hacer solo?
-- **Sí.** Podés presentar la demanda sin abogado en el Juzgado de Pensiones Alimentarias (o el juzgado que atienda esa materia) de tu zona. ⚠️
-- Si la otra parte tiene abogado o el caso se complica, podés pedir orientación gratuita en consultorios jurídicos de universidades públicas.
+- **Sí.** Te presentás directamente en el **Juzgado Contravencional o de Pensiones Alimentarias** más cercano. No necesitás cita previa.
+- La **Defensa Pública** da asesoría y representación **gratis** a quien pide la pensión y no tiene recursos para pagar abogado (tel. 2211-9800). Si tenés solvencia económica, ese servicio se cobra.
 
 ## Requisitos
 - Tu cédula.
-- Certificación de nacimiento de los hijos (se pide en el Registro Civil del TSE; muchas veces el juzgado la consulta directamente). ⚠️
+- No hace falta llevar certificaciones de nacimiento o matrimonio: el juzgado las consulta en las bases de datos del Estado.
 - Nombre completo de la persona obligada y una dirección o lugar de trabajo donde se le pueda notificar.
 - Una lista de los gastos mensuales de los hijos, con comprobantes si los tenés (recibos, facturas, matrícula).
-- Si sabés dónde trabaja o cuánto gana la otra persona, anotalo: ayuda a fijar el monto.
+- Si sabés dónde trabaja o cuánto gana la otra persona, anotalo: el juzgado toma en cuenta su capacidad económica.
+- El **monto** que necesitás, explicando las necesidades de la persona beneficiaria.
 
 ## Costos oficiales
-El trámite judicial **no tiene costo** de presentación. ⚠️
+Presentar la demanda no tiene costo, y la Defensa Pública es gratuita si no tenés recursos.
 
 ## Pasos
 1. Reuní los documentos y la lista de gastos.
-2. Presentate en el juzgado que corresponde a tu domicilio y pedí poner una demanda de pensión. Te ayudan a llenarla. ⚠️
-3. El juzgado puede fijar una **pensión provisional** mientras se resuelve el caso. ⚠️
-4. Se notifica a la otra parte, que puede responder.
-5. El juzgado dicta sentencia con el monto definitivo.
-6. Si no pagan, podés pedir al juzgado medidas de cobro, incluido el **apremio corporal** (orden de detención por deuda alimentaria). ⚠️
+2. Presentate en el Juzgado Contravencional o de Pensiones Alimentarias más cercano con tus datos y los de la otra persona, las pruebas de gastos y el monto que pedís.
+3. Se notifica a la otra parte, que puede responder.
+4. El juzgado dicta sentencia con el monto definitivo.
+5. Si no pagan, podés pedir al juzgado el cobro, incluido el **apremio corporal** (orden de detención por deuda alimentaria). La Defensa Pública te asesora en ese proceso.
 
 ## Tiempos
 Dependen del juzgado y de qué tan rápido se notifique a la otra parte.
@@ -49,11 +49,12 @@ Dependen del juzgado y de qué tan rápido se notifique a la otra parte.
 Sí. La obligación es con los hijos, no depende del matrimonio.
 
 **¿Puedo pedir que aumente el monto?**
-Sí, se puede pedir un aumento si cambian las necesidades o los ingresos. ⚠️
+Sí. Se puede pedir un aumento si cambian las circunstancias, y además existen aumentos automáticos. La Defensa Pública ayuda a redactar la solicitud.
 
 ## Fuentes
-- Ley de Pensiones Alimentarias, N.º 7654, en el SCIJ: <http://www.pgrweb.go.cr/scij/> ⚠️ falta enlace directo.
-- Poder Judicial de Costa Rica: <https://www.poder-judicial.go.cr> ⚠️ falta enlazar la página del trámite.
+- Ley de Pensiones Alimentarias, N.º 7654, en el SCIJ: <http://www.pgrweb.go.cr/scij/>.
+- [Poder Judicial, ¿Cómo solicitar una pensión alimentaria?](https://servicios.poder-judicial.go.cr/index.php/servicio?service=24), consultado 2026-10-05.
+- [Defensa Pública, Pensiones alimentarias](https://defensapublica.poder-judicial.go.cr/index.php/asesoria-legal/pensiones-alimentarias), consultado 2026-10-05.
 
 ---
 ¿Encontraste un error? [Reportalo aquí](https://github.com/axelfj/ventanilla-abierta/issues/new?template=correccion.md).

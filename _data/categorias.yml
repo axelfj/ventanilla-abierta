@@ -49,7 +49,7 @@
   nombre: Familia
   desc: Pensiones, testamento, matrimonio y divorcio.
   temas:
-    - { titulo: Pensión alimentaria, url: familia/pension-alimentaria.html, estado: borrador }
+    - { titulo: Pensión alimentaria, url: familia/pension-alimentaria.html, estado: verificado }
     - { titulo: Testamento, url: familia/testamento.html, estado: borrador }
     - { titulo: Matrimonio }
     - { titulo: Divorcio }
