@@ -21,7 +21,7 @@ Esta es la ruta completa, en orden. Cada paso enlaza a su guía cuando ya existe
 - Revisá que el nombre esté libre y, si querés exclusividad, [registrá la marca](../propiedad-intelectual/registro-de-marca.md) (USD 50 por clase, verificado).
 
 ## 3. Inscribite en Hacienda
-- En la Oficina Virtual de **TRIBU-CR** (gratis). Elegí tu actividad económica y tu régimen: **tradicional** o **simplificado**.
+- En la Oficina Virtual de **TRIBU-CR** (gratis). Elegí tu actividad económica y tu régimen: **general** o **simplificado**.
 - Ver [Inscripción en Hacienda](inscripcion-en-hacienda.md).
 
 ## 4. Permiso Sanitario de Funcionamiento (Ministerio de Salud)
@@ -41,7 +41,7 @@ Esta es la ruta completa, en orden. Cada paso enlaza a su guía cuando ya existe
 - Necesitás licencia de ACAM. Ver [Música en eventos y locales](../eventos/musica-en-eventos-y-locales.md).
 
 ## 8. Facturá y cumplí tus reportes
-- Emití factura electrónica (si estás en régimen tradicional) y presentá tus declaraciones a tiempo.
+- Emití factura electrónica (si estás en régimen general) y presentá tus declaraciones a tiempo.
 - Ver [Reportes mensuales, trimestrales y anuales de un negocio](reportes-de-un-negocio.md).
 
 ## Errores comunes

@@ -13,7 +13,7 @@ estado: borrador
 
 **Regla de oro:** si estás inscrito, **declarás aunque no hayas vendido nada** (en cero). Si no, te pueden cobrar multas.
 
-## Si estás en el régimen tradicional
+## Si estás en el régimen general
 | Qué | Cada cuánto | Plazo |
 |---|---|---|
 | **IVA** | Mensual | Los primeros **15 días naturales** del mes siguiente |

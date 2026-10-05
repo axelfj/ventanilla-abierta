@@ -32,7 +32,7 @@ La inscripción **no tiene costo**. ⚠️
 ## Pasos
 1. Entrá a la [Oficina Virtual de TRIBU-CR](https://www.hacienda.go.cr/TRIBU-CR.html) con tu usuario.
 2. Andá a **Mis datos** y tocá **Realizar declaración de inscripción**.
-3. Llená tus datos personales, de contacto, domicilio y actividad económica. Elegí el régimen (tradicional o simplificado). ⚠️
+3. Llená tus datos personales, de contacto, domicilio y actividad económica. Elegí el régimen (general o simplificado).
 4. Enviá la declaración y guardá el comprobante.
 5. Activá la **factura electrónica** (Hacienda ofrece un sistema gratuito). ⚠️
 
