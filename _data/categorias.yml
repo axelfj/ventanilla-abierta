@@ -1,3 +1,6 @@
+# Índice del sitio. Cada tema con `url` tiene guía; los temas sin `url` están planeados
+# y se muestran como "Planeado" con un enlace para ayudar a escribirlos.
+# Un mismo tema puede aparecer en varias categorías.
 - slug: artistas
   icono: "🎧"
   nombre: Artistas
@@ -9,105 +12,229 @@
     - { titulo: Registro de marca para tu proyecto, url: propiedad-intelectual/registro-de-marca.html }
     - { titulo: Contrato de presentación, url: contratos/como-hacer-un-contrato.html }
     - { titulo: Permisos para hacer un evento, url: eventos/permisos-para-eventos.html }
+    - { titulo: Asegurarse como trabajador independiente o voluntario }
+    - { titulo: Facturación electrónica }
+    - { titulo: "Contratos con disqueras, editoras y distribuidoras" }
+    - { titulo: "Usar música de otras personas: covers, samples y licencias" }
+    - { titulo: Traer artistas extranjeros a tocar a Costa Rica }
+    - { titulo: Fondos y becas del Ministerio de Cultura }
 - slug: documentos
   icono: "🪪"
   nombre: Documentos personales
-  desc: Cédula, licencia de conducir y pasaporte.
+  desc: Cédula, pasaporte, certificaciones y firma digital.
   temas:
     - { titulo: "Cédula de identidad: sacarla, renovarla o reponerla", url: documentos/cedula-de-identidad.html }
     - { titulo: Licencia de conducir, url: documentos/licencia-de-conducir.html }
     - { titulo: Pasaporte costarricense, url: viajes-y-migracion/pasaporte.html }
+    - { titulo: Certificado de antecedentes penales (hoja de delincuencia) }
+    - { titulo: "Certificaciones de nacimiento, matrimonio y defunción" }
+    - { titulo: Firma digital }
+    - { titulo: Tarjeta de identidad de menores (TIM) }
+    - { titulo: Apostillar un documento para usarlo en otro país }
+    - { titulo: Cambiarte el nombre }
 - slug: salud
   icono: "🩺"
-  nombre: Salud y CCSS
-  desc: Citas en el EBAIS y trámites con la Caja.
+  nombre: Salud, CCSS y pensiones
+  desc: Citas, seguro, incapacidades y pensiones.
   temas:
     - { titulo: Cómo pedir una cita en la CCSS (EBAIS), url: salud/cita-en-la-ccss.html }
     - { titulo: Asegurarse como trabajador independiente o voluntario }
+    - { titulo: Asegurar a tu familia como beneficiaria }
+    - { titulo: Incapacidades por enfermedad }
+    - { titulo: Licencia por maternidad y paternidad }
+    - { titulo: "Pensión por vejez, invalidez y muerte (IVM)" }
+    - { titulo: Pensión del Régimen No Contributivo }
+    - { titulo: Arreglo de pago de deudas con la CCSS }
+    - { titulo: Accidentes de trabajo y seguro de riesgos del trabajo }
+    - { titulo: Quejarte por mala atención en un servicio de salud }
 - slug: derechos
   icono: "⚖️"
   nombre: Tus derechos
-  desc: Recursos ante la Sala IV cuando te violan un derecho.
+  desc: Sala IV, Defensoría, información pública y tus datos.
   temas:
+    - { titulo: Recurso ante la Sala Constitucional (Sala IV), url: derechos/recurso-ante-la-sala-constitucional.html }
+    - { titulo: Queja ante la Defensoría de los Habitantes }
+    - { titulo: Pedir información o hacer una petición a una institución pública }
+    - { titulo: Proteger tus datos personales }
+    - { titulo: Certificación de discapacidad }
+    - { titulo: Asesoría legal gratuita }
+- slug: justicia
+  icono: "🏛️"
+  nombre: Denuncias y juicios
+  desc: Denunciar, protegerte y moverte en los tribunales.
+  temas:
+    - { titulo: Poner una denuncia (OIJ o Fiscalía) }
+    - { titulo: Medidas de protección por violencia doméstica }
+    - { titulo: Asesoría legal gratuita }
+    - { titulo: Conciliación y mediación gratuita }
+    - { titulo: Qué hacer si te notifican una demanda o te citan a un juzgado }
+    - { titulo: Consultar tu expediente judicial en línea }
     - { titulo: Recurso ante la Sala Constitucional (Sala IV), url: derechos/recurso-ante-la-sala-constitucional.html }
 - slug: contratos-y-abogados
   icono: "📝"
   nombre: Contratos y abogados
-  desc: Cómo hacer un contrato y cómo elegir abogado.
+  desc: Contratos, poderes y cómo elegir abogado.
   temas:
     - { titulo: Cómo hacer un contrato, url: contratos/como-hacer-un-contrato.html }
     - { titulo: Cómo contratar a un abogado o notario, url: general/como-contratar-un-abogado.html }
     - { titulo: Contrato con las personas que contratás, url: trabajo/contratar-empleados.html }
+    - { titulo: Asesoría legal gratuita }
+    - { titulo: Dar o revocar un poder }
+    - { titulo: "Pagarés y letras de cambio" }
 - slug: emprendimiento
   icono: "💼"
   nombre: Emprendimiento y negocios
-  desc: Montar tu negocio, Hacienda, reportes y marcas.
+  desc: Montar tu negocio, permisos, Hacienda y marcas.
   temas:
-    - { titulo: Registro de marca, url: propiedad-intelectual/registro-de-marca.html }
     - { titulo: "Cómo montar un negocio, paso a paso", url: emprendimiento/como-montar-un-negocio.html }
     - { titulo: Inscripción en Hacienda como contribuyente, url: emprendimiento/inscripcion-en-hacienda.html }
     - { titulo: "Reportes mensuales, trimestrales y anuales", url: emprendimiento/reportes-de-un-negocio.html }
     - { titulo: Inscribir una empresa (sociedad), url: emprendimiento/inscribir-una-empresa.html }
-    - { titulo: Registro de nombre comercial }
+    - { titulo: Registro de marca, url: propiedad-intelectual/registro-de-marca.html }
     - { titulo: Registro de obras, url: artistas/registro-de-obras.html }
-    - { titulo: Facturación electrónica }
     - { titulo: Patente municipal }
+    - { titulo: Facturación electrónica }
+    - { titulo: Permiso sanitario de funcionamiento }
+    - { titulo: Registro de nombre comercial }
+    - { titulo: Régimen simplificado de tributación }
+    - { titulo: Inscribirte como PYME ante el MEIC }
+    - { titulo: Registro de beneficiarios finales de una sociedad }
+    - { titulo: Cerrar un negocio o disolver una sociedad }
+- slug: impuestos
+  icono: "🧮"
+  nombre: Impuestos
+  desc: Renta, IVA, bienes inmuebles y deudas con Hacienda.
+  temas:
+    - { titulo: Cómo se reporta el salario a Hacienda, url: trabajo/salario-y-hacienda.html }
+    - { titulo: Inscripción en Hacienda como contribuyente, url: emprendimiento/inscripcion-en-hacienda.html }
+    - { titulo: "Reportes mensuales, trimestrales y anuales", url: emprendimiento/reportes-de-un-negocio.html }
+    - { titulo: Facturación electrónica }
+    - { titulo: Régimen simplificado de tributación }
+    - { titulo: Impuesto de bienes inmuebles }
+    - { titulo: Compras por internet y aduana }
+    - { titulo: Arreglo de pago con Hacienda }
 - slug: trabajo
   icono: "🛠️"
   nombre: Trabajo
-  desc: Vacaciones, aguinaldo, contratar y despidos.
+  desc: Salario, vacaciones, despidos y denuncias.
   temas:
     - { titulo: Liquidación y derechos al terminar un trabajo, url: trabajo/liquidacion-laboral.html }
     - { titulo: Cómo se reporta el salario a Hacienda, url: trabajo/salario-y-hacienda.html }
     - { titulo: Vacaciones y pago de vacaciones, url: trabajo/vacaciones.html }
     - { titulo: Aguinaldo, url: trabajo/aguinaldo.html }
     - { titulo: Cómo contratar a una persona trabajadora, url: trabajo/contratar-empleados.html }
+    - { titulo: Denuncia ante la Inspección de Trabajo }
+    - { titulo: Salarios mínimos }
+    - { titulo: Jornada laboral y horas extra }
+    - { titulo: Acoso laboral y hostigamiento sexual }
+    - { titulo: Incapacidades por enfermedad }
+    - { titulo: Licencia por maternidad y paternidad }
+    - { titulo: Póliza de riesgos del trabajo para patronos }
+    - { titulo: Contratar a una persona trabajadora doméstica }
 - slug: vivienda-y-consumo
   icono: "🏠"
   nombre: Vivienda y consumo
-  desc: Alquileres y reclamos cuando te venden mal.
+  desc: Alquileres, bono de vivienda y reclamos.
   temas:
     - { titulo: Contrato de alquiler de vivienda, url: vivienda/contrato-de-alquiler.html }
     - { titulo: Reclamo como consumidor, url: consumidor/reclamo-al-consumidor.html }
+    - { titulo: "Desalojo: derechos de inquilinos y propietarios" }
+    - { titulo: Bono de vivienda }
+    - { titulo: "Reclamar por servicios públicos: luz, agua y teléfono" }
+    - { titulo: Reclamar a un banco o emisor de tarjeta }
 - slug: familia
   icono: "👨‍👩‍👧"
   nombre: Familia
-  desc: Pensiones, testamento, matrimonio y divorcio.
+  desc: Pensiones, matrimonio, divorcio, hijos y herencias.
   temas:
     - { titulo: Pensión alimentaria, url: familia/pension-alimentaria.html }
     - { titulo: Testamento, url: familia/testamento.html }
+    - { titulo: Permiso de salida de menores, url: viajes-y-migracion/permiso-de-salida-de-menores.html }
     - { titulo: Matrimonio }
     - { titulo: Divorcio }
+    - { titulo: Unión de hecho }
+    - { titulo: Inscribir un nacimiento y reconocer a un hijo }
+    - { titulo: Guarda, crianza y régimen de visitas }
+    - { titulo: Adopción }
+    - { titulo: Sucesión (herencia sin testamento) }
+    - { titulo: Inscribir una defunción }
+    - { titulo: Salvaguardia para personas con discapacidad }
+    - { titulo: Medidas de protección por violencia doméstica }
 - slug: vehiculos-y-propiedades
   icono: "🚗"
   nombre: Vehículos y propiedades
-  desc: Traspasos, compraventa e hipotecas.
+  desc: Marchamo, traspasos, multas, lotes y construcción.
   temas:
     - { titulo: Licencia de conducir, url: documentos/licencia-de-conducir.html }
     - { titulo: Traspaso de vehículo, url: vehiculos-y-propiedades/traspaso-de-vehiculo.html }
     - { titulo: Compraventa de casa o lote, url: vehiculos-y-propiedades/compraventa-de-propiedad.html }
+    - { titulo: Marchamo }
+    - { titulo: Revisión técnica vehicular (RTV) }
+    - { titulo: "Multas de tránsito: pagarlas o apelarlas" }
+    - { titulo: Qué hacer después de un accidente de tránsito }
+    - { titulo: Inscribir un vehículo importado }
+    - { titulo: Reponer placas o documentos del vehículo }
     - { titulo: Hipoteca }
+    - { titulo: Consultar una propiedad en el Registro Nacional }
+    - { titulo: Planos catastrados y segregación de lotes }
+    - { titulo: Certificado de uso de suelo }
+    - { titulo: Permiso de construcción }
+    - { titulo: Impuesto de bienes inmuebles }
 - slug: viajes-y-migracion
   icono: "✈️"
   nombre: Viajes y migración
-  desc: Pasaporte, visas y salida de menores.
+  desc: Pasaporte, visas, residencia y nacionalidad.
   temas:
     - { titulo: Pasaporte costarricense, url: viajes-y-migracion/pasaporte.html }
     - { titulo: Permiso de salida de menores, url: viajes-y-migracion/permiso-de-salida-de-menores.html }
-    - { titulo: Visas }
+    - { titulo: Cómo salir del país a tocar, url: artistas/tocar-en-otro-pais.html }
+    - { titulo: Visas para viajar desde Costa Rica }
+    - { titulo: Apostillar un documento para usarlo en otro país }
+    - { titulo: Residencia para personas extranjeras }
+    - { titulo: Permiso de trabajo para personas extranjeras }
+    - { titulo: Solicitar refugio }
+    - { titulo: Naturalización (obtener la nacionalidad costarricense) }
+    - { titulo: Viajar con tu mascota }
 - slug: eventos
   icono: "🎶"
   nombre: Eventos y vida nocturna
-  desc: Permisos para fiestas, licores y música.
+  desc: Permisos para fiestas, licores, música y entradas.
   temas:
     - { titulo: Permisos para hacer una fiesta o evento, url: eventos/permisos-para-eventos.html }
     - { titulo: Patente o licencia de licores, url: eventos/licencia-de-licores.html }
     - { titulo: "Música en eventos y locales: licencia de ACAM", url: eventos/musica-en-eventos-y-locales.html }
     - { titulo: Venta de entradas para eventos }
+    - { titulo: Traer artistas extranjeros a tocar a Costa Rica }
 - slug: cobros-y-ventas
-  icono: "🧾"
-  nombre: Cobros y ventas
-  desc: Cobrar deudas y vender entradas.
+  icono: "💰"
+  nombre: Dinero y deudas
+  desc: Cobrar lo que te deben y manejar tus deudas.
   temas:
     - { titulo: Cobro de deudas }
-    - { titulo: Venta de entradas para eventos }
+    - { titulo: Revisar tu historial crediticio }
+    - { titulo: Embargo de salario }
+    - { titulo: "Pagarés y letras de cambio" }
+    - { titulo: Reclamar a un banco o emisor de tarjeta }
+    - { titulo: Arreglo de pago con Hacienda }
+    - { titulo: Arreglo de pago de deudas con la CCSS }
+- slug: estudios
+  icono: "🎓"
+  nombre: Estudios
+  desc: Títulos, certificaciones y becas.
+  temas:
+    - { titulo: Certificaciones de títulos y notas del MEP }
+    - { titulo: Bachillerato por madurez }
+    - { titulo: Reconocer un título obtenido en el extranjero }
+    - { titulo: Becas estudiantiles }
+- slug: comunidad
+  icono: "🌳"
+  nombre: Comunidad y ayudas sociales
+  desc: Ayudas del Estado, vecinos y ambiente.
+  temas:
+    - { titulo: Ayudas sociales del IMAS }
+    - { titulo: Pensión del Régimen No Contributivo }
+    - { titulo: Bono de vivienda }
+    - { titulo: "Problemas con vecinos: ruido, linderos y mediación" }
+    - { titulo: Conciliación y mediación gratuita }
+    - { titulo: Denunciar un daño ambiental }
+    - { titulo: Cuidado de animales y denuncias por maltrato }

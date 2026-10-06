@@ -1,5 +1,5 @@
 ---
 layout: categoria
 categoria: cobros-y-ventas
-title: "Cobros y ventas"
+title: "Dinero y deudas"
 ---
