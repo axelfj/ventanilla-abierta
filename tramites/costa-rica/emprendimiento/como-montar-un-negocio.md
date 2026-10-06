@@ -15,7 +15,7 @@ Esta es la ruta completa, en orden. Cada paso enlaza a su guía cuando ya existe
 
 ## 1. Decidí cómo vas a operar
 - **Como persona física:** a tu nombre, con tu cédula. Es lo más simple para empezar. Las deudas del negocio son tuyas.
-- **Como sociedad** (por ejemplo S.R.L. o S.A.): una persona jurídica separada de vos. Se constituye ante notario y se inscribe en el Registro Nacional. Tiene costos de constitución y obligaciones extra. ⚠️ (Guía en preparación.)
+- **Como sociedad** (por ejemplo S.R.L. o S.A.): una persona jurídica separada de vos. Se constituye ante notario y se inscribe en el Registro Nacional. Tiene costos de constitución y obligaciones extra. Ver [Inscribir una empresa (sociedad)](inscribir-una-empresa.md).
 
 ## 2. Protegé el nombre
 - Revisá que el nombre esté libre y, si querés exclusividad, [registrá la marca](../propiedad-intelectual/registro-de-marca.md) (USD 50 por clase, verificado).
