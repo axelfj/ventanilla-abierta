@@ -12,8 +12,8 @@
     - { titulo: Registro de marca para tu proyecto, url: propiedad-intelectual/registro-de-marca.html }
     - { titulo: Contrato de presentación, url: contratos/como-hacer-un-contrato.html }
     - { titulo: Permisos para hacer un evento, url: eventos/permisos-para-eventos.html }
-    - { titulo: Asegurarse como trabajador independiente o voluntario }
-    - { titulo: Facturación electrónica }
+    - { titulo: Asegurarse como trabajador independiente o voluntario, url: salud/seguro-independiente-o-voluntario.html }
+    - { titulo: Facturación electrónica, url: emprendimiento/facturacion-electronica.html }
     - { titulo: "Contratos con disqueras, editoras y distribuidoras" }
     - { titulo: "Usar música de otras personas: covers, samples y licencias" }
     - { titulo: Traer artistas extranjeros a tocar a Costa Rica }
@@ -26,9 +26,9 @@
     - { titulo: "Cédula de identidad: sacarla, renovarla o reponerla", url: documentos/cedula-de-identidad.html }
     - { titulo: Licencia de conducir, url: documentos/licencia-de-conducir.html }
     - { titulo: Pasaporte costarricense, url: viajes-y-migracion/pasaporte.html }
-    - { titulo: Certificado de antecedentes penales (hoja de delincuencia) }
+    - { titulo: Certificado de antecedentes penales (hoja de delincuencia), url: documentos/antecedentes-penales.html }
     - { titulo: "Certificaciones de nacimiento, matrimonio y defunción" }
-    - { titulo: Firma digital }
+    - { titulo: Firma digital, url: documentos/firma-digital.html }
     - { titulo: Tarjeta de identidad de menores (TIM) }
     - { titulo: Apostillar un documento para usarlo en otro país }
     - { titulo: Cambiarte el nombre }
@@ -38,7 +38,7 @@
   desc: Citas, seguro, incapacidades y pensiones.
   temas:
     - { titulo: Cómo pedir una cita en la CCSS (EBAIS), url: salud/cita-en-la-ccss.html }
-    - { titulo: Asegurarse como trabajador independiente o voluntario }
+    - { titulo: Asegurarse como trabajador independiente o voluntario, url: salud/seguro-independiente-o-voluntario.html }
     - { titulo: Asegurar a tu familia como beneficiaria }
     - { titulo: Incapacidades por enfermedad }
     - { titulo: Licencia por maternidad y paternidad }
@@ -92,8 +92,8 @@
     - { titulo: Inscribir una empresa (sociedad), url: emprendimiento/inscribir-una-empresa.html }
     - { titulo: Registro de marca, url: propiedad-intelectual/registro-de-marca.html }
     - { titulo: Registro de obras, url: artistas/registro-de-obras.html }
-    - { titulo: Patente municipal }
-    - { titulo: Facturación electrónica }
+    - { titulo: Patente municipal, url: emprendimiento/patente-municipal.html }
+    - { titulo: Facturación electrónica, url: emprendimiento/facturacion-electronica.html }
     - { titulo: Permiso sanitario de funcionamiento }
     - { titulo: Registro de nombre comercial }
     - { titulo: Régimen simplificado de tributación }
@@ -108,7 +108,7 @@
     - { titulo: Cómo se reporta el salario a Hacienda, url: trabajo/salario-y-hacienda.html }
     - { titulo: Inscripción en Hacienda como contribuyente, url: emprendimiento/inscripcion-en-hacienda.html }
     - { titulo: "Reportes mensuales, trimestrales y anuales", url: emprendimiento/reportes-de-un-negocio.html }
-    - { titulo: Facturación electrónica }
+    - { titulo: Facturación electrónica, url: emprendimiento/facturacion-electronica.html }
     - { titulo: Régimen simplificado de tributación }
     - { titulo: Impuesto de bienes inmuebles }
     - { titulo: Compras por internet y aduana }
