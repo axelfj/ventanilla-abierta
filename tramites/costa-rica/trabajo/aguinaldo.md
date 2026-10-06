@@ -1,7 +1,6 @@
 ---
 title: "Aguinaldo"
 pais: Costa Rica
-categoria: trabajo
 ultima_verificacion: 2026-10-05
 estado: verificado
 ---

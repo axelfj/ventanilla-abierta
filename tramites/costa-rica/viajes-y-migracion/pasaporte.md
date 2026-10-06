@@ -1,7 +1,6 @@
 ---
 title: "Pasaporte costarricense"
 pais: Costa Rica
-categoria: viajes-y-migracion
 ultima_verificacion: 2026-10-05
 estado: borrador
 ---

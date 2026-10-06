@@ -1,7 +1,6 @@
 ---
 title: "Testamento"
 pais: Costa Rica
-categoria: familia
 ultima_verificacion: 2026-10-05
 estado: borrador
 ---

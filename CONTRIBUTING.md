@@ -23,13 +23,16 @@ Abrí un issue con la plantilla **Nuevo trámite**.
 1. Hacé un fork del repositorio.
 2. Copiá `plantillas/ficha-tramite.md` a la carpeta de la categoría correspondiente en `tramites/costa-rica/`.
 3. Llená todas las secciones. Las que no sepás, marcalas `⚠️ Por verificar`.
-4. Agregá la guía al índice en `tramites/costa-rica/README.md`.
-5. Abrí un pull request explicando qué fuentes consultaste.
+4. Agregá la guía a una o más categorías en `_data/categorias.yml`, con su `titulo` y su `url` (la ruta de la guía desde `tramites/costa-rica/`, terminada en `.html`). Por ejemplo:
+   `- { titulo: Registro de marca, url: propiedad-intelectual/registro-de-marca.html }`
+   El estado ✅/⚠️ no se escribe ahí: el sitio lo toma del campo `estado` de la guía.
+5. Revisá tu guía con `python3 scripts/validar.py` (necesita `pip install pyyaml`). El mismo chequeo corre automáticamente en cada pull request.
+6. Abrí un pull request explicando qué fuentes consultaste.
 
 ## Nombres de archivos
 
 - Minúsculas, sin tildes, con guiones: `registro-de-marca.md`, `traspaso-de-vehiculo.md`.
-- Categorías: `propiedad-intelectual`, `emprendimiento`, `trabajo`, `vivienda`, `consumidor`, `eventos`, `familia`, `vehiculos-y-propiedades`, `viajes-y-migracion`, `cobros-y-ventas`.
+- Carpetas: usá la carpeta existente que mejor calce (`trabajo`, `emprendimiento`, `artistas`, `eventos`, etc.). La carpeta define la dirección de la guía; las categorías de la portada salen de `_data/categorias.yml`, y una guía puede estar en varias.
 
 ## Licencia de tus aportes
 

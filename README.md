@@ -6,6 +6,8 @@ Ventanilla Abierta es un proyecto de código abierto que explica, en español cl
 
 ## Elegí un tema
 
+{% include buscador.html %}
+
 {% include tarjetas.html %}
 
 ## Para qué sirve

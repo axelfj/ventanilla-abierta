@@ -1,7 +1,6 @@
 ---
 title: "Registro de marca"
 pais: Costa Rica
-categoria: propiedad-intelectual
 ultima_verificacion: 2026-10-05
 estado: borrador
 ---

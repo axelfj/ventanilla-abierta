@@ -25,15 +25,15 @@ title: Arquitectura técnica
 
 Esto ya cumple los principios. La recomendación es **no cambiar de stack**, sino agregar estructura y validación alrededor.
 
-### Problemas que vale la pena resolver pronto
+### Problemas que se resolvieron en este PR
 
-| Problema | Por qué importa | Propuesta |
-|---|---|---|
-| El estado (✅/⚠) de cada ficha está escrito dos veces: en su front matter y en `_data/categorias.yml`. | Se pueden desincronizar y el sitio mostraría ✅ en una guía que es borrador. | Que la página de categoría lea el estado desde la ficha (sección 4.2). |
-| El campo `categoria` de las fichas mezcla nombres de carpeta (`contratos`, `general`, `vivienda`) con slugs de categoría (`contratos-y-abogados`). | No sirve para filtrar ni validar. | Separar `carpeta` (implícita en la ruta) de `categorias` (lista de slugs válidos). |
-| `CONTRIBUTING.md` dice que se agregue la guía a `tramites/costa-rica/README.md`, pero el índice real es `_data/categorias.yml`. | Confunde a quien llega a ayudar. | Corregir el paso en `CONTRIBUTING.md`. |
-| No hay validación automática. | Un PR puede llegar sin fuentes o sin fecha y nadie lo nota. | GitHub Actions con validador de esquema y enlaces (sección 5.3). |
-| No hay buscador. | Con 25 guías se navega; con 100 no. | Índice de búsqueda estático (sección 3). |
+| Problema | Cómo se resolvió |
+|---|---|
+| El estado (✅/⚠) de cada ficha estaba escrito dos veces: en su front matter y en `_data/categorias.yml`. | La página de categoría lee el estado del front matter de la ficha. `_data/categorias.yml` ya no lleva `estado`. |
+| El campo `categoria` de las fichas mezclaba nombres de carpeta con slugs de categoría y no se usaba en ningún lado. | Se quitó. Las categorías de una guía salen solo de `_data/categorias.yml`, donde una guía puede estar en varias. |
+| `CONTRIBUTING.md` mandaba a editar `tramites/costa-rica/README.md`, que no existe. | Ahora explica cómo agregar la guía a `_data/categorias.yml`. |
+| No había validación automática. | `scripts/validar.py` y el workflow `.github/workflows/validar.yml` (sección 7.3). |
+| No había buscador. | Página `/buscar.html` con índice `/buscar.json` generado por Jekyll (sección 3). |
 
 ## 3. Stack recomendado
 
@@ -44,9 +44,9 @@ Esto ya cumple los principios. La recomendación es **no cambiar de stack**, sin
 | Compilación | Hoy: la compilación automática de Pages. Cuando haga falta: **GitHub Actions** (ver sección 7). | Actions es gratis en repos públicos y permite validar, generar índices y traer datos. | — |
 | Estilos | CSS propio con variables y modo oscuro (ya existe). | Cero dependencias, liviano. | — |
 | JavaScript | **Solo mejora progresiva**, sin framework. | El sitio se lee sin JS; el JS agrega búsqueda, alertas y asistente. | Preact o Alpine si una pantalla lo necesita de verdad. |
-| Búsqueda | **Índice JSON generado por Liquid** (`/buscar.json`) + búsqueda en el navegador con un script pequeño (por ejemplo MiniSearch o Lunr). | No necesita servidor ni compilación extra; funciona en Pages tal cual. | Pagefind, cuando se pase a compilar con Actions (indexa el HTML final y es muy liviano). |
+| Búsqueda | **Índice JSON generado por Liquid** (`/buscar.json`) + búsqueda en el navegador con un script propio de menos de 100 líneas (`assets/js/buscar.js`), que ignora tildes y mayúsculas. | No necesita servidor ni compilación extra; funciona en Pages tal cual. | Pagefind, cuando se pase a compilar con Actions (indexa el HTML final y es muy liviano). |
 | Lectura sin conexión | **Service worker** que guarda las fichas visitadas (PWA). | Útil en zonas con mala señal. | — |
-| Validación | **Python** en Actions: `pyyaml` + `jsonschema` para el front matter, `lychee` para enlaces rotos. | Fácil de leer y de mantener por voluntarios. | — |
+| Validación | **Python** en Actions (`scripts/validar.py`, solo necesita `pyyaml`) + la acción oficial que compila el sitio igual que Pages. | Fácil de leer y de mantener por voluntarios. | — |
 | Analítica | **Ninguna** por ahora. | Principio 5. Si un día se necesita, una opción sin cookies y autoalojable. | — |
 | Asistente IA (futuro) | **WebLLM** en el navegador, o **API key propia** de quien lo usa, guardada solo en su navegador. | El proyecto no paga tokens ni guarda conversaciones. | — |
 
@@ -72,12 +72,8 @@ ventanilla-abierta/
 ├── datos/                        # fase 2: datos abiertos versionados
 │   ├── alertas/                  # JSON generado (ver sección 6)
 │   └── buses/gtfs/<operador>/    # horarios en formato GTFS
-├── esquemas/
-│   ├── ficha.schema.json         # reglas del front matter de una ficha
-│   ├── alerta.schema.json
-│   └── institucion.schema.json
 ├── scripts/
-│   ├── validar_fichas.py
+│   ├── validar.py                # ya existe: revisa fichas y categorías
 │   ├── revisar_vencidas.py
 │   └── recolectores/             # fase 2: un script por fuente oficial
 ├── plantillas/ficha-tramite.md
@@ -95,7 +91,7 @@ ventanilla-abierta/
 ├── CONTRIBUTING.md  README.md  LICENSE  LICENSE-CONTENIDO.md
 ```
 
-Para que Jekyll no publique lo que no es página, `_config.yml` debe excluir `esquemas/`, `scripts/` y `docs/decisiones/` (y `datos/` solo si se sirve por otro camino).
+Para que Jekyll no publique lo que no es página, `_config.yml` excluye `scripts/` (ya está) y debe excluir `docs/decisiones/` (y `datos/` solo si se sirve por otro camino).
 
 ### 4.1 Varios países
 
@@ -112,7 +108,6 @@ Una ficha es un archivo Markdown. El **front matter** lleva lo que una máquina 
 title: "Registro de marca"
 resumen: "Cómo proteger el nombre de tu negocio o proyecto ante el Registro Nacional."
 pais: CR
-categorias: [emprendimiento, artistas]   # slugs de _data/categorias.yml
 estado: verificado                       # borrador | verificado
 ultima_verificacion: 2026-10-05
 revisar_cada_dias: 180                   # opcional; por defecto 180
@@ -133,12 +128,12 @@ palabras_clave: [marca, logo, nombre comercial]
 ---
 ```
 
-Reglas que valida el esquema (`esquemas/ficha.schema.json`):
+Reglas que revisa `scripts/validar.py`. Las marcadas con (hoy) ya se revisan; las demás se agregan cuando las fichas tengan los campos nuevos:
 
-- `title`, `pais`, `categorias`, `estado`, `ultima_verificacion` y al menos una `fuentes` son obligatorios.
+- (hoy) `title`, `pais`, `estado` y `ultima_verificacion` son obligatorios, y la sección `## Fuentes` tiene al menos un enlace.
+- (hoy) La ficha no lleva `categoria`: sus categorías salen de `_data/categorias.yml`, y tiene que estar en al menos una.
 - Si `estado: verificado`, **cada costo** tiene `fuente` y `verificado`, y ninguna fuente es de un despacho o empresa privada (lista de dominios permitidos en `_data/instituciones.yml`).
-- Las fechas tienen formato `AAAA-MM-DD` y no están en el futuro.
-- Cada slug de `categorias` existe en `_data/categorias.yml`.
+- (hoy) Las fechas tienen formato `AAAA-MM-DD` y no están en el futuro.
 
 Los costos y fuentes también se siguen mostrando en el cuerpo (tabla y lista), como hoy. Tenerlos en el front matter permite, además, que el asistente IA y el buscador los citen con su fuente, y que un script avise cuando una tarifa lleva mucho sin revisarse. La migración puede ser gradual: el validador solo exige los campos nuevos a las fichas que se marquen `verificado` después de cierta fecha.
 
@@ -152,12 +147,12 @@ Los costos y fuentes también se siguen mostrando en el cuerpo (tabla y lista), 
   nombre: Emprendimiento y negocios
   desc: Montar tu negocio, Hacienda, reportes y marcas.
   temas:
-    - ficha: emprendimiento/como-montar-un-negocio   # ruta sin .md
-    - ficha: propiedad-intelectual/registro-de-marca
-    - planeado: Facturación electrónica               # aún no existe
+    - { titulo: "Cómo montar un negocio, paso a paso", url: emprendimiento/como-montar-un-negocio.html }
+    - { titulo: Registro de marca, url: propiedad-intelectual/registro-de-marca.html }
+    - { titulo: Facturación electrónica }   # sin url: planeado, aún no existe
 ```
 
-El layout busca cada `ficha` en `site.pages` y toma de ahí el título y el estado. Así ✅/⚠ viene siempre de la ficha.
+El layout `categoria` busca la ficha de cada `url` en `site.pages` y toma de ahí el estado. Así ✅/⚠ viene siempre de la ficha (ya implementado).
 
 ### 5.3 Institución
 
@@ -252,9 +247,9 @@ Usar el estándar **GTFS** (General Transit Feed Specification): archivos CSV (`
 
 | Workflow | Cuándo corre | Qué hace |
 |---|---|---|
-| `validar.yml` | En cada PR | Valida el front matter contra `esquemas/ficha.schema.json`, revisa que las categorías existan, compila el sitio con Jekyll y busca enlaces rotos con lychee. Comenta en el PR qué falta. |
+| `validar.yml` (ya existe) | En cada PR y en cada push a `main` | Corre `scripts/validar.py` (los errores salen como anotaciones en el PR) y compila el sitio con la misma acción que usa Pages. No revisa enlaces externos, porque varios sitios del gobierno bloquean visitas automáticas y darían falsos errores. |
 | `revisar-vencidas.yml` | Una vez al mes | Busca fichas con `ultima_verificacion` más vieja que `revisar_cada_dias` y abre un issue `vencida` por cada una (sin duplicar). |
-| `recolectar-alertas.yml` | Fase 2, cada 30 a 60 min | Corre los recolectores, valida contra `alerta.schema.json` y publica los JSON. |
+| `recolectar-alertas.yml` | Fase 2, cada 30 a 60 min | Corre los recolectores, valida el formato y publica los JSON. |
 
 Nota: GitHub desactiva los workflows programados de repos públicos que pasan 60 días sin actividad. El workflow mensual de fichas vencidas mantiene el repo activo, pero conviene saberlo.
 
@@ -319,11 +314,11 @@ Si GitHub Pages dejara de servir, el mismo repo se conecta a Cloudflare Pages o 
 
 | Paso | Qué | Necesita a Axel en Settings |
 |---|---|---|
-| 1 | Corregir `CONTRIBUTING.md` (índice real) y excluir carpetas nuevas en `_config.yml`. | No |
-| 2 | Esquema de ficha + `validar.yml` en modo aviso (comenta, no bloquea). | No |
-| 3 | Estado leído desde la ficha en la página de categoría. | No |
+| 1 | ✓ Corregir `CONTRIBUTING.md` (índice real) y excluir `scripts/` en `_config.yml`. | No |
+| 2 | ✓ `scripts/validar.py` + `validar.yml`. | No |
+| 3 | ✓ Estado leído desde la ficha en la página de categoría. | No |
 | 4 | Formularios de issue en YAML, plantilla de PR, botón "Editar esta página". | No |
-| 5 | Buscador con índice JSON. | No |
+| 5 | ✓ Buscador con índice JSON. | No |
 | 6 | `revisar-vencidas.yml` mensual. | No |
 | 7 | Protección de `main`, Discussions. | Sí |
 | 8 | Pasar Pages a GitHub Actions (etapa B). | Sí |

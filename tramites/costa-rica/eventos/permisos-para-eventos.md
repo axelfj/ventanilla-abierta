@@ -1,7 +1,6 @@
 ---
 title: "Permisos para hacer una fiesta o evento"
 pais: Costa Rica
-categoria: eventos
 ultima_verificacion: 2026-10-05
 estado: verificado
 ---

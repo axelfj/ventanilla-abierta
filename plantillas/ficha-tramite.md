@@ -1,7 +1,6 @@
 ---
 title: "Nombre del trámite"
 pais: Costa Rica
-categoria: categoria-del-tramite
 ultima_verificacion: AAAA-MM-DD
 estado: borrador   # borrador | verificado
 ---

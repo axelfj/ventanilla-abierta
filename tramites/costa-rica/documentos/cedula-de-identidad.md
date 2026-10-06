@@ -1,7 +1,6 @@
 ---
 title: "Cédula de identidad: sacarla, renovarla o reponerla"
 pais: Costa Rica
-categoria: documentos
 ultima_verificacion: 2026-10-06
 estado: verificado
 ---

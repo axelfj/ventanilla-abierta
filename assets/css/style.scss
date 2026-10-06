@@ -45,8 +45,19 @@ pre { padding:12px; }
 @media (max-width: 600px) {
   body { font-size:16px; }
   .contenedor { padding:0 14px; }
+  .marca { font-size:1em; }
+  .topbar nav a { margin-left:10px; }
   h1 { font-size:1.6em; }
   .tarjetas { grid-template-columns:1fr 1fr; gap:10px; }
   .tarjeta { padding:14px; }
   .tarjeta span.desc { display:none; }
 }
+
+/* Buscador */
+.buscador { display:flex; gap:8px; margin:16px 0 20px; }
+.buscador input { flex:1; min-width:0; font:inherit; padding:10px 12px; border:1px solid var(--borde); border-radius:8px;
+  background:var(--fondo); color:var(--texto); }
+.buscador input:focus { outline:2px solid var(--acento); outline-offset:1px; }
+.buscador button { font:inherit; font-weight:600; padding:10px 16px; border:0; border-radius:8px; background:var(--acento);
+  color:#fff; cursor:pointer; }
+.oculto { position:absolute; width:1px; height:1px; overflow:hidden; clip:rect(0 0 0 0); white-space:nowrap; }

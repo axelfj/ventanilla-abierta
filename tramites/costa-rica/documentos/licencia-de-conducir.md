@@ -1,7 +1,6 @@
 ---
 title: "Licencia de conducir: sacarla por primera vez o renovarla"
 pais: Costa Rica
-categoria: documentos
 ultima_verificacion: 2026-10-06
 estado: borrador
 ---

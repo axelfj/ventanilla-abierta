@@ -1,0 +1,15 @@
+---
+layout: null
+sitemap: false
+---
+{%- assign fichas = site.pages | where_exp: "p", "p.pais" | sort: "title" -%}
+[
+{%- for p in fichas %}
+  {
+    "titulo": {{ p.title | jsonify }},
+    "url": {{ p.url | relative_url | jsonify }},
+    "estado": {{ p.estado | jsonify }},
+    "texto": {{ p.content | markdownify | strip_html | normalize_whitespace | truncatewords: 400, "" | jsonify }}
+  }{% unless forloop.last %},{% endunless %}
+{%- endfor %}
+]

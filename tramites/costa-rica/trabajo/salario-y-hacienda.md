@@ -1,7 +1,6 @@
 ---
 title: "Cómo se reporta el salario a Hacienda"
 pais: Costa Rica
-categoria: trabajo
 ultima_verificacion: 2026-10-05
 estado: borrador
 ---

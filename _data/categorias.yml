@@ -3,53 +3,53 @@
   nombre: Artistas
   desc: Registrar y cobrar tu música, contratos y giras.
   temas:
-    - { titulo: Cómo registrar tus obras, url: artistas/registro-de-obras.html, estado: verificado }
-    - { titulo: Cómo cobrar por tus obras (regalías), url: artistas/cobro-de-regalias.html, estado: verificado }
-    - { titulo: Cómo salir del país a tocar, url: artistas/tocar-en-otro-pais.html, estado: verificado }
-    - { titulo: Registro de marca para tu proyecto, url: propiedad-intelectual/registro-de-marca.html, estado: borrador }
-    - { titulo: Contrato de presentación, url: contratos/como-hacer-un-contrato.html, estado: borrador }
-    - { titulo: Permisos para hacer un evento, url: eventos/permisos-para-eventos.html, estado: verificado }
+    - { titulo: Cómo registrar tus obras, url: artistas/registro-de-obras.html }
+    - { titulo: Cómo cobrar por tus obras (regalías), url: artistas/cobro-de-regalias.html }
+    - { titulo: Cómo salir del país a tocar, url: artistas/tocar-en-otro-pais.html }
+    - { titulo: Registro de marca para tu proyecto, url: propiedad-intelectual/registro-de-marca.html }
+    - { titulo: Contrato de presentación, url: contratos/como-hacer-un-contrato.html }
+    - { titulo: Permisos para hacer un evento, url: eventos/permisos-para-eventos.html }
 - slug: documentos
   icono: "🪪"
   nombre: Documentos personales
   desc: Cédula, licencia de conducir y pasaporte.
   temas:
-    - { titulo: "Cédula de identidad: sacarla, renovarla o reponerla", url: documentos/cedula-de-identidad.html, estado: verificado }
-    - { titulo: Licencia de conducir, url: documentos/licencia-de-conducir.html, estado: borrador }
-    - { titulo: Pasaporte costarricense, url: viajes-y-migracion/pasaporte.html, estado: borrador }
+    - { titulo: "Cédula de identidad: sacarla, renovarla o reponerla", url: documentos/cedula-de-identidad.html }
+    - { titulo: Licencia de conducir, url: documentos/licencia-de-conducir.html }
+    - { titulo: Pasaporte costarricense, url: viajes-y-migracion/pasaporte.html }
 - slug: salud
   icono: "🩺"
   nombre: Salud y CCSS
   desc: Citas en el EBAIS y trámites con la Caja.
   temas:
-    - { titulo: Cómo pedir una cita en la CCSS (EBAIS), url: salud/cita-en-la-ccss.html, estado: borrador }
+    - { titulo: Cómo pedir una cita en la CCSS (EBAIS), url: salud/cita-en-la-ccss.html }
     - { titulo: Asegurarse como trabajador independiente o voluntario }
 - slug: derechos
   icono: "⚖️"
   nombre: Tus derechos
   desc: Recursos ante la Sala IV cuando te violan un derecho.
   temas:
-    - { titulo: Recurso ante la Sala Constitucional (Sala IV), url: derechos/recurso-ante-la-sala-constitucional.html, estado: verificado }
+    - { titulo: Recurso ante la Sala Constitucional (Sala IV), url: derechos/recurso-ante-la-sala-constitucional.html }
 - slug: contratos-y-abogados
   icono: "📝"
   nombre: Contratos y abogados
   desc: Cómo hacer un contrato y cómo elegir abogado.
   temas:
-    - { titulo: Cómo hacer un contrato, url: contratos/como-hacer-un-contrato.html, estado: borrador }
-    - { titulo: Cómo contratar a un abogado o notario, url: general/como-contratar-un-abogado.html, estado: borrador }
-    - { titulo: Contrato con las personas que contratás, url: trabajo/contratar-empleados.html, estado: borrador }
+    - { titulo: Cómo hacer un contrato, url: contratos/como-hacer-un-contrato.html }
+    - { titulo: Cómo contratar a un abogado o notario, url: general/como-contratar-un-abogado.html }
+    - { titulo: Contrato con las personas que contratás, url: trabajo/contratar-empleados.html }
 - slug: emprendimiento
   icono: "💼"
   nombre: Emprendimiento y negocios
   desc: Montar tu negocio, Hacienda, reportes y marcas.
   temas:
-    - { titulo: Registro de marca, url: propiedad-intelectual/registro-de-marca.html, estado: borrador }
-    - { titulo: "Cómo montar un negocio, paso a paso", url: emprendimiento/como-montar-un-negocio.html, estado: borrador }
-    - { titulo: Inscripción en Hacienda como contribuyente, url: emprendimiento/inscripcion-en-hacienda.html, estado: borrador }
-    - { titulo: "Reportes mensuales, trimestrales y anuales", url: emprendimiento/reportes-de-un-negocio.html, estado: borrador }
-    - { titulo: Inscribir una empresa (sociedad), url: emprendimiento/inscribir-una-empresa.html, estado: borrador }
+    - { titulo: Registro de marca, url: propiedad-intelectual/registro-de-marca.html }
+    - { titulo: "Cómo montar un negocio, paso a paso", url: emprendimiento/como-montar-un-negocio.html }
+    - { titulo: Inscripción en Hacienda como contribuyente, url: emprendimiento/inscripcion-en-hacienda.html }
+    - { titulo: "Reportes mensuales, trimestrales y anuales", url: emprendimiento/reportes-de-un-negocio.html }
+    - { titulo: Inscribir una empresa (sociedad), url: emprendimiento/inscribir-una-empresa.html }
     - { titulo: Registro de nombre comercial }
-    - { titulo: Registro de obras, url: artistas/registro-de-obras.html, estado: verificado }
+    - { titulo: Registro de obras, url: artistas/registro-de-obras.html }
     - { titulo: Facturación electrónica }
     - { titulo: Patente municipal }
 - slug: trabajo
@@ -57,25 +57,25 @@
   nombre: Trabajo
   desc: Vacaciones, aguinaldo, contratar y despidos.
   temas:
-    - { titulo: Liquidación y derechos al terminar un trabajo, url: trabajo/liquidacion-laboral.html, estado: verificado }
-    - { titulo: Cómo se reporta el salario a Hacienda, url: trabajo/salario-y-hacienda.html, estado: borrador }
-    - { titulo: Vacaciones y pago de vacaciones, url: trabajo/vacaciones.html, estado: verificado }
-    - { titulo: Aguinaldo, url: trabajo/aguinaldo.html, estado: verificado }
-    - { titulo: Cómo contratar a una persona trabajadora, url: trabajo/contratar-empleados.html, estado: borrador }
+    - { titulo: Liquidación y derechos al terminar un trabajo, url: trabajo/liquidacion-laboral.html }
+    - { titulo: Cómo se reporta el salario a Hacienda, url: trabajo/salario-y-hacienda.html }
+    - { titulo: Vacaciones y pago de vacaciones, url: trabajo/vacaciones.html }
+    - { titulo: Aguinaldo, url: trabajo/aguinaldo.html }
+    - { titulo: Cómo contratar a una persona trabajadora, url: trabajo/contratar-empleados.html }
 - slug: vivienda-y-consumo
   icono: "🏠"
   nombre: Vivienda y consumo
   desc: Alquileres y reclamos cuando te venden mal.
   temas:
-    - { titulo: Contrato de alquiler de vivienda, url: vivienda/contrato-de-alquiler.html, estado: borrador }
-    - { titulo: Reclamo como consumidor, url: consumidor/reclamo-al-consumidor.html, estado: borrador }
+    - { titulo: Contrato de alquiler de vivienda, url: vivienda/contrato-de-alquiler.html }
+    - { titulo: Reclamo como consumidor, url: consumidor/reclamo-al-consumidor.html }
 - slug: familia
   icono: "👨‍👩‍👧"
   nombre: Familia
   desc: Pensiones, testamento, matrimonio y divorcio.
   temas:
-    - { titulo: Pensión alimentaria, url: familia/pension-alimentaria.html, estado: verificado }
-    - { titulo: Testamento, url: familia/testamento.html, estado: borrador }
+    - { titulo: Pensión alimentaria, url: familia/pension-alimentaria.html }
+    - { titulo: Testamento, url: familia/testamento.html }
     - { titulo: Matrimonio }
     - { titulo: Divorcio }
 - slug: vehiculos-y-propiedades
@@ -83,26 +83,26 @@
   nombre: Vehículos y propiedades
   desc: Traspasos, compraventa e hipotecas.
   temas:
-    - { titulo: Licencia de conducir, url: documentos/licencia-de-conducir.html, estado: borrador }
-    - { titulo: Traspaso de vehículo, url: vehiculos-y-propiedades/traspaso-de-vehiculo.html, estado: borrador }
-    - { titulo: Compraventa de casa o lote, url: vehiculos-y-propiedades/compraventa-de-propiedad.html, estado: borrador }
+    - { titulo: Licencia de conducir, url: documentos/licencia-de-conducir.html }
+    - { titulo: Traspaso de vehículo, url: vehiculos-y-propiedades/traspaso-de-vehiculo.html }
+    - { titulo: Compraventa de casa o lote, url: vehiculos-y-propiedades/compraventa-de-propiedad.html }
     - { titulo: Hipoteca }
 - slug: viajes-y-migracion
   icono: "✈️"
   nombre: Viajes y migración
   desc: Pasaporte, visas y salida de menores.
   temas:
-    - { titulo: Pasaporte costarricense, url: viajes-y-migracion/pasaporte.html, estado: borrador }
-    - { titulo: Permiso de salida de menores, url: viajes-y-migracion/permiso-de-salida-de-menores.html, estado: borrador }
+    - { titulo: Pasaporte costarricense, url: viajes-y-migracion/pasaporte.html }
+    - { titulo: Permiso de salida de menores, url: viajes-y-migracion/permiso-de-salida-de-menores.html }
     - { titulo: Visas }
 - slug: eventos
   icono: "🎶"
   nombre: Eventos y vida nocturna
   desc: Permisos para fiestas, licores y música.
   temas:
-    - { titulo: Permisos para hacer una fiesta o evento, url: eventos/permisos-para-eventos.html, estado: verificado }
-    - { titulo: Patente o licencia de licores, url: eventos/licencia-de-licores.html, estado: verificado }
-    - { titulo: "Música en eventos y locales: licencia de ACAM", url: eventos/musica-en-eventos-y-locales.html, estado: verificado }
+    - { titulo: Permisos para hacer una fiesta o evento, url: eventos/permisos-para-eventos.html }
+    - { titulo: Patente o licencia de licores, url: eventos/licencia-de-licores.html }
+    - { titulo: "Música en eventos y locales: licencia de ACAM", url: eventos/musica-en-eventos-y-locales.html }
     - { titulo: Venta de entradas para eventos }
 - slug: cobros-y-ventas
   icono: "🧾"

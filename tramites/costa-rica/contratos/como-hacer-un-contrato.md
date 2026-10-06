@@ -1,7 +1,6 @@
 ---
 title: "Cómo hacer un contrato"
 pais: Costa Rica
-categoria: contratos
 ultima_verificacion: 2026-10-05
 estado: borrador
 ---

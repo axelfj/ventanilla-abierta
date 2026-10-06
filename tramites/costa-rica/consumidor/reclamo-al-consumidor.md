@@ -1,7 +1,6 @@
 ---
 title: "Reclamo como consumidor"
 pais: Costa Rica
-categoria: consumidor
 ultima_verificacion: 2026-10-05
 estado: borrador
 ---

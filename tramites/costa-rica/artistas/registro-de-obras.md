@@ -1,7 +1,6 @@
 ---
 title: "Cómo registrar tus obras como artista"
 pais: Costa Rica
-categoria: artistas
 ultima_verificacion: 2026-10-05
 estado: verificado
 ---

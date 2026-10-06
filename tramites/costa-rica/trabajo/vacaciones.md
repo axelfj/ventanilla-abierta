@@ -1,7 +1,6 @@
 ---
 title: "Vacaciones y pago de vacaciones"
 pais: Costa Rica
-categoria: trabajo
 ultima_verificacion: 2026-10-05
 estado: verificado
 ---

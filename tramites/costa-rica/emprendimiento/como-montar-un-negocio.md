@@ -1,7 +1,6 @@
 ---
 title: "Cómo montar un negocio, paso a paso"
 pais: Costa Rica
-categoria: emprendimiento
 ultima_verificacion: 2026-10-05
 estado: borrador
 ---

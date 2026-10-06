@@ -1,7 +1,6 @@
 ---
 title: "Cómo contratar a un abogado o notario"
 pais: Costa Rica
-categoria: general
 ultima_verificacion: 2026-10-05
 estado: borrador
 ---

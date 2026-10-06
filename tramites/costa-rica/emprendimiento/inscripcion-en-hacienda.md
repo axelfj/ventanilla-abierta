@@ -1,7 +1,6 @@
 ---
 title: "Inscripción en Hacienda como contribuyente"
 pais: Costa Rica
-categoria: emprendimiento
 ultima_verificacion: 2026-10-05
 estado: borrador
 ---
