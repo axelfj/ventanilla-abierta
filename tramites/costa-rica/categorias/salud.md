@@ -1,5 +1,5 @@
 ---
 layout: categoria
 categoria: salud
-title: "Salud y CCSS"
+title: "Salud, CCSS y pensiones"
 ---

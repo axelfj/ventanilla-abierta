@@ -10,7 +10,7 @@ labels: nuevo-tramite
 **País:** Costa Rica
 
 **Categoría:**
-<!-- Emprendimiento y PI · Eventos y vida nocturna · Familia · Vehículos y propiedades · Viajes y migración · Cobros y ventas · Otra -->
+<!-- Artistas · Documentos personales · Salud, CCSS y pensiones · Tus derechos · Denuncias y juicios · Contratos y abogados · Emprendimiento y negocios · Impuestos · Trabajo · Vivienda y consumo · Familia · Vehículos y propiedades · Viajes y migración · Eventos y vida nocturna · Dinero y deudas · Estudios · Comunidad y ayudas sociales · Otra -->
 
 **¿Por qué es útil?**
 <!-- A quién le sirve y qué es lo más confuso del trámite hoy. -->

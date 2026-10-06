@@ -3,6 +3,7 @@ layout: null
 sitemap: false
 ---
 {%- assign fichas = site.pages | where_exp: "p", "p.pais" | sort: "title" -%}
+{%- assign vistos = "|" -%}
 [
 {%- for p in fichas %}
   {
@@ -10,6 +11,24 @@ sitemap: false
     "url": {{ p.url | relative_url | jsonify }},
     "estado": {{ p.estado | jsonify }},
     "texto": {{ p.content | markdownify | strip_html | normalize_whitespace | truncatewords: 400, "" | jsonify }}
-  }{% unless forloop.last %},{% endunless %}
+  },
 {%- endfor %}
+{%- comment %} Temas planeados (sin guía todavía), una sola vez aunque estén en varias categorías. {% endcomment %}
+{%- for c in site.data.categorias %}
+  {%- for t in c.temas %}
+    {%- unless t.url %}
+      {%- assign marca = "|" | append: t.titulo | append: "|" -%}
+      {%- unless vistos contains marca %}
+        {%- assign vistos = vistos | append: t.titulo | append: "|" %}
+  {
+    "titulo": {{ t.titulo | jsonify }},
+    "url": {{ '/tramites/costa-rica/categorias/' | append: c.slug | append: '.html' | relative_url | jsonify }},
+    "estado": "planeado",
+    "texto": {{ "Guía planeada en la categoría " | append: c.nombre | append: ". Todavía no está escrita; podés ayudar a escribirla." | jsonify }}
+  },
+      {%- endunless %}
+    {%- endunless %}
+  {%- endfor %}
+{%- endfor %}
+  null
 ]

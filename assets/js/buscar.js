@@ -47,7 +47,9 @@
       a.textContent = r.guia.titulo;
       var nota = document.createElement("span");
       nota.className = "nota";
-      nota.textContent = (r.guia.estado === "verificado" ? "✅ " : "⚠️ ") + extracto(r.guia.texto, terminos[0]);
+      nota.textContent = r.guia.estado === "planeado"
+        ? "📝 Planeado: todavía no hay guía. Entrá a la categoría para pedirla o ayudar a escribirla."
+        : (r.guia.estado === "verificado" ? "✅ " : "⚠️ ") + extracto(r.guia.texto, terminos[0]);
       li.appendChild(a);
       li.appendChild(nota);
       lista.appendChild(li);
@@ -61,7 +63,7 @@
   fetch(script.getAttribute("data-indice"))
     .then(function (r) { return r.json(); })
     .then(function (datos) {
-      indice = datos;
+      indice = datos.filter(Boolean); // el índice termina en null para que el JSON sea válido
       resumen.textContent = "";
       buscar(entrada.value);
       var espera;
