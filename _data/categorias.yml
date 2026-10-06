@@ -64,7 +64,7 @@
   desc: Denunciar, protegerte y moverte en los tribunales.
   temas:
     - { titulo: Poner una denuncia (OIJ o Fiscalía) }
-    - { titulo: Medidas de protección por violencia doméstica }
+    - { titulo: Medidas de protección por violencia doméstica, url: familia/medidas-de-proteccion.html }
     - { titulo: Asesoría legal gratuita }
     - { titulo: Conciliación y mediación gratuita }
     - { titulo: Qué hacer si te notifican una demanda o te citan a un juzgado }
@@ -123,7 +123,7 @@
     - { titulo: Vacaciones y pago de vacaciones, url: trabajo/vacaciones.html }
     - { titulo: Aguinaldo, url: trabajo/aguinaldo.html }
     - { titulo: Cómo contratar a una persona trabajadora, url: trabajo/contratar-empleados.html }
-    - { titulo: Denuncia ante la Inspección de Trabajo }
+    - { titulo: Denuncia ante la Inspección de Trabajo, url: trabajo/denuncia-inspeccion-de-trabajo.html }
     - { titulo: Salarios mínimos }
     - { titulo: Jornada laboral y horas extra }
     - { titulo: Acoso laboral y hostigamiento sexual }
@@ -150,8 +150,8 @@
     - { titulo: Pensión alimentaria, url: familia/pension-alimentaria.html }
     - { titulo: Testamento, url: familia/testamento.html }
     - { titulo: Permiso de salida de menores, url: viajes-y-migracion/permiso-de-salida-de-menores.html }
-    - { titulo: Matrimonio }
-    - { titulo: Divorcio }
+    - { titulo: Matrimonio, url: familia/matrimonio.html }
+    - { titulo: Divorcio, url: familia/divorcio.html }
     - { titulo: Unión de hecho }
     - { titulo: Inscribir un nacimiento y reconocer a un hijo }
     - { titulo: Guarda, crianza y régimen de visitas }
@@ -159,7 +159,7 @@
     - { titulo: Sucesión (herencia sin testamento) }
     - { titulo: Inscribir una defunción }
     - { titulo: Salvaguardia para personas con discapacidad }
-    - { titulo: Medidas de protección por violencia doméstica }
+    - { titulo: Medidas de protección por violencia doméstica, url: familia/medidas-de-proteccion.html }
 - slug: vehiculos-y-propiedades
   icono: "🚗"
   nombre: Vehículos y propiedades
@@ -168,7 +168,7 @@
     - { titulo: Licencia de conducir, url: documentos/licencia-de-conducir.html }
     - { titulo: Traspaso de vehículo, url: vehiculos-y-propiedades/traspaso-de-vehiculo.html }
     - { titulo: Compraventa de casa o lote, url: vehiculos-y-propiedades/compraventa-de-propiedad.html }
-    - { titulo: Marchamo }
+    - { titulo: Marchamo, url: vehiculos-y-propiedades/marchamo.html }
     - { titulo: Revisión técnica vehicular (RTV) }
     - { titulo: "Multas de tránsito: pagarlas o apelarlas" }
     - { titulo: Qué hacer después de un accidente de tránsito }
