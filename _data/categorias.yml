@@ -9,6 +9,27 @@
     - { titulo: Registro de marca para tu proyecto, url: propiedad-intelectual/registro-de-marca.html, estado: borrador }
     - { titulo: Contrato de presentación, url: contratos/como-hacer-un-contrato.html, estado: borrador }
     - { titulo: Permisos para hacer un evento, url: eventos/permisos-para-eventos.html, estado: verificado }
+- slug: documentos
+  icono: "🪪"
+  nombre: Documentos personales
+  desc: Cédula, licencia de conducir y pasaporte.
+  temas:
+    - { titulo: "Cédula de identidad: sacarla, renovarla o reponerla", url: documentos/cedula-de-identidad.html, estado: verificado }
+    - { titulo: Licencia de conducir, url: documentos/licencia-de-conducir.html, estado: borrador }
+    - { titulo: Pasaporte costarricense, url: viajes-y-migracion/pasaporte.html, estado: borrador }
+- slug: salud
+  icono: "🩺"
+  nombre: Salud y CCSS
+  desc: Citas en el EBAIS y trámites con la Caja.
+  temas:
+    - { titulo: Cómo pedir una cita en la CCSS (EBAIS), url: salud/cita-en-la-ccss.html, estado: borrador }
+    - { titulo: Asegurarse como trabajador independiente o voluntario }
+- slug: derechos
+  icono: "⚖️"
+  nombre: Tus derechos
+  desc: Recursos ante la Sala IV cuando te violan un derecho.
+  temas:
+    - { titulo: Recurso ante la Sala Constitucional (Sala IV), url: derechos/recurso-ante-la-sala-constitucional.html, estado: verificado }
 - slug: contratos-y-abogados
   icono: "📝"
   nombre: Contratos y abogados
@@ -26,6 +47,7 @@
     - { titulo: "Cómo montar un negocio, paso a paso", url: emprendimiento/como-montar-un-negocio.html, estado: borrador }
     - { titulo: Inscripción en Hacienda como contribuyente, url: emprendimiento/inscripcion-en-hacienda.html, estado: borrador }
     - { titulo: "Reportes mensuales, trimestrales y anuales", url: emprendimiento/reportes-de-un-negocio.html, estado: borrador }
+    - { titulo: Inscribir una empresa (sociedad), url: emprendimiento/inscribir-una-empresa.html, estado: borrador }
     - { titulo: Registro de nombre comercial }
     - { titulo: Registro de obras, url: artistas/registro-de-obras.html, estado: verificado }
     - { titulo: Facturación electrónica }
@@ -61,6 +83,7 @@
   nombre: Vehículos y propiedades
   desc: Traspasos, compraventa e hipotecas.
   temas:
+    - { titulo: Licencia de conducir, url: documentos/licencia-de-conducir.html, estado: borrador }
     - { titulo: Traspaso de vehículo, url: vehiculos-y-propiedades/traspaso-de-vehiculo.html, estado: borrador }
     - { titulo: Compraventa de casa o lote, url: vehiculos-y-propiedades/compraventa-de-propiedad.html, estado: borrador }
     - { titulo: Hipoteca }
