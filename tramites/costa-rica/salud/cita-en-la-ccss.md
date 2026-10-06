@@ -1,7 +1,6 @@
 ---
 title: "Cómo pedir una cita en la CCSS (EBAIS)"
 pais: Costa Rica
-categoria: salud
 ultima_verificacion: 2026-10-06
 estado: borrador
 ---

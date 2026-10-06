@@ -1,0 +1,9 @@
+---
+title: Buscar
+layout: default
+---
+<h1>Buscar un trámite</h1>
+{% include buscador.html %}
+<p id="resumen" class="migas" aria-live="polite"><noscript>El buscador necesita JavaScript. También podés <a href="{{ '/tramites/costa-rica/' | relative_url }}">ver todas las categorías</a>.</noscript></p>
+<ul id="resultados" class="temas"></ul>
+<script src="{{ '/assets/js/buscar.js' | relative_url }}" data-indice="{{ '/buscar.json' | relative_url }}" defer></script>

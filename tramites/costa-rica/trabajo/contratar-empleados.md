@@ -1,7 +1,6 @@
 ---
 title: "Cómo contratar a una persona trabajadora"
 pais: Costa Rica
-categoria: trabajo
 ultima_verificacion: 2026-10-05
 estado: borrador
 ---

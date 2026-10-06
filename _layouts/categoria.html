@@ -8,8 +8,11 @@ layout: default
 <ul class="temas">
 {% for t in c.temas %}
   {% if t.url %}
+  {% comment %} El estado ✅/⚠️ se lee del front matter de la ficha, no de _data/categorias.yml. {% endcomment %}
+  {% assign ruta = 'tramites/costa-rica/' | append: t.url | replace: '.html', '.md' %}
+  {% assign ficha = site.pages | where: "path", ruta | first %}
   <li><a href="{{ '/tramites/costa-rica/' | append: t.url | relative_url }}">{{ t.titulo }}</a>
-    <span class="nota">{% if t.estado == "verificado" %}✅ Verificado con fuentes oficiales{% else %}⚠️ Borrador: algunos datos están por verificar{% endif %}</span></li>
+    <span class="nota">{% if ficha.estado == "verificado" %}✅ Verificado con fuentes oficiales{% else %}⚠️ Borrador: algunos datos están por verificar{% endif %}</span></li>
   {% else %}
   <li><a href="https://github.com/axelfj/ventanilla-abierta/issues/new?template=nuevo-tramite.md">📝 {{ t.titulo }}</a>
     <span class="nota">Planeado. ¿Querés ayudar a escribirlo?</span></li>

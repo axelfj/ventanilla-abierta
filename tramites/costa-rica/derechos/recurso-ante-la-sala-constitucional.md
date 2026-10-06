@@ -1,7 +1,6 @@
 ---
 title: "Cómo presentar un recurso ante la Sala Constitucional (Sala IV)"
 pais: Costa Rica
-categoria: derechos
 ultima_verificacion: 2026-10-06
 estado: verificado
 ---

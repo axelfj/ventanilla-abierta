@@ -1,7 +1,6 @@
 ---
 title: "Música en eventos y locales: licencia de ACAM"
 pais: Costa Rica
-categoria: eventos
 ultima_verificacion: 2026-10-05
 estado: verificado
 ---

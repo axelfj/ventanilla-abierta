@@ -1,7 +1,6 @@
 ---
 title: "Liquidación y derechos al terminar un trabajo"
 pais: Costa Rica
-categoria: trabajo
 ultima_verificacion: 2026-10-05
 estado: verificado
 ---

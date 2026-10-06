@@ -1,7 +1,6 @@
 ---
 title: "Compraventa de casa o lote"
 pais: Costa Rica
-categoria: vehiculos-y-propiedades
 ultima_verificacion: 2026-10-05
 estado: borrador
 ---

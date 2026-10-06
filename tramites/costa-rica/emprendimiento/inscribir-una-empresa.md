@@ -1,7 +1,6 @@
 ---
 title: "Inscribir una empresa (sociedad) en el Registro Nacional"
 pais: Costa Rica
-categoria: emprendimiento
 ultima_verificacion: 2026-10-06
 estado: borrador
 ---

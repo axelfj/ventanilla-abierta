@@ -1,7 +1,6 @@
 ---
 title: "Cómo salir del país a tocar como artista"
 pais: Costa Rica
-categoria: artistas
 ultima_verificacion: 2026-10-05
 estado: verificado
 ---

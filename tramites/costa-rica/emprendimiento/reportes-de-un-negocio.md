@@ -1,7 +1,6 @@
 ---
 title: "Reportes mensuales, trimestrales y anuales de un negocio"
 pais: Costa Rica
-categoria: emprendimiento
 ultima_verificacion: 2026-10-05
 estado: borrador
 ---
