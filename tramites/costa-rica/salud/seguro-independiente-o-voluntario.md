@@ -1,15 +1,15 @@
 ---
 title: "Asegurarse como trabajador independiente o voluntario"
 pais: Costa Rica
-ultima_verificacion: 2026-10-06
+ultima_verificacion: 2026-10-07
 estado: borrador
 ---
 
 # Asegurarse como trabajador independiente o voluntario
 
 > ⚠️ Esta guía es información general, no asesoría legal. Verificá siempre con la Caja Costarricense de Seguro Social (CCSS).
-> **Última verificación:** 2026-10-06.
-> **Estado:** borrador. El sitio de la CCSS (ccss.sa.cr) no se pudo abrir desde nuestra herramienta el 2026-10-06. Lo que está confirmado viene de La Gaceta (Imprenta Nacional). Lo demás viene de prensa o de copias de documentos de la CCSS fuera de su sitio, y está marcado con ⚠️.
+> **Última verificación:** 2026-10-07.
+> **Estado:** borrador. El sitio de la CCSS (ccss.sa.cr) no se pudo abrir desde nuestra herramienta el 2026-10-06 ni el 2026-10-07, y tampoco el texto de los reglamentos en el SCIJ. Lo que está confirmado viene de La Gaceta (Imprenta Nacional). Lo demás viene de prensa o de copias de documentos de la CCSS fuera de su sitio, y está marcado con ⚠️.
 
 ## Qué es
 Si trabajás por tu cuenta (tocás en bares y eventos, sos DJ, das clases, hacés diseño, producción o cualquier trabajo freelance), podés y en muchos casos **tenés que** cotizar a la CCSS. Te cubre en dos seguros:
@@ -24,6 +24,8 @@ Hay dos formas de asegurarte por tu cuenta:
 | ¿Es obligatorio? | **Sí**, si tus ingresos superan el mínimo que fija la CCSS ⚠️ | **No**, es opcional |
 
 **La ley define al trabajador independiente** como "toda persona física que de manera autónoma ejecuta trabajo sin subordinación en el contexto de una actividad económica [...] que le permitan prestar servicios generadores de ingresos de carácter no salarial, asumiendo los riesgos de dicha actividad" ([Ley 10363, Alcance 80 a La Gaceta 79, 8-5-2023](https://www.imprentanacional.go.cr/pub/2023/05/08/ALCA80_08_05_2023.pdf), artículo 1).
+
+Las reglas de inscripción están en el **Reglamento para el Aseguramiento Contributivo de los Trabajadores Independientes** de la CCSS, publicado según la prensa en La Gaceta 94 del 23 de mayo de 2022 ⚠️ (no pudimos abrir el texto oficial; [Punto Jurídico, 25-5-2022](https://puntojuridico.com/ccss-emite-nuevo-reglamento-de-trabajadores-independientes/)).
 
 El **Reglamento del Seguro de Salud** de la CCSS dice que la afiliación es obligatoria para asalariados, trabajadores independientes y pensionados (artículo 7), y que las personas que **no** están obligadas pueden acogerse al seguro voluntario (artículo 9) ⚠️ ([texto publicado en eRegulations Costa Rica](https://costarica.eregulations.org/media/reglamento%20del%20seguro%20de%20salud.pdf), con reformas de 2006; falta confirmar que sea la versión vigente en el sitio de la CCSS).
 
@@ -53,7 +55,7 @@ La cuota es un **porcentaje de tus ingresos** que depende de cuánto ganás. No 
 | Cuota mensual de Salud e IVM | Un porcentaje de tu ingreso, según la escala de la CCSS ⚠️ | Ver abajo | Por confirmar |
 
 **Cómo se calcula (lo que se pudo ver):**
-- **Base mínima contributiva (BMC):** es el ingreso a partir del cual tenés que cotizar. Según El Financiero (13-4-2026), es de **₡324 590 al mes para IVM y ₡346 789 para Salud** ⚠️ ([nota](https://www.elfinancierocr.com/finanzas/base-contributiva-minima-para-trabajadores/ZUEQDXJG6FGQ5KSLCTCPVLNP5M/story/), cita a abogados, no a la CCSS; falta confirmarlo).
+- **Base mínima contributiva (BMC):** es el ingreso a partir del cual tenés que cotizar. Según El Financiero (13-4-2026), es de **₡324 590 al mes para IVM y ₡346 789 para Salud** ⚠️ ([nota](https://www.elfinancierocr.com/finanzas/base-contributiva-minima-para-trabajadores/ZUEQDXJG6FGQ5KSLCTCPVLNP5M/story/)). No es fuente oficial: falta confirmarlo en la CCSS.
 - **Escala por ingresos:** la CCSS divide los ingresos en **cinco categorías**. Mientras más ganás, mayor es el porcentaje que pagás vos y menor el que pone el **Estado** (el Estado completa la diferencia). En la escala de **enero de 2025** de la CCSS (documento E-GF-USIN-030), el afiliado pagaba entre **2,89 % y 10,69 %** para Salud y entre **4 % y 8,26 %** para IVM, según su categoría ⚠️ ([copia del documento de la CCSS](https://d1qqtien6gys07.cloudfront.net/wp-content/uploads/2025/02/Escala-Contributiva-TI-AV-y-Mig-ENERO-2025.pdf), alojada fuera del sitio de la CCSS). **Esa escala ya cambió:** los rangos se actualizan y desde el 1 de enero de 2026 el aporte del afiliado al IVM subió 0,16 puntos, también para independientes y voluntarios, según la CCSS citada por [Teletica (19-12-2025)](https://www.teletica.com/nacional/aporte-al-regimen-del-ivm-aumentara-en-2026_399212) ⚠️. Pedí la escala vigente en la CCSS.
 - Quién te asigna la categoría: según El Financiero, un **inspector** de la CCSS revisa tus documentos y fija tu ingreso de referencia ⚠️.
 
@@ -104,9 +106,10 @@ Si podés abrir [ccss.sa.cr](https://www.ccss.sa.cr/), [mandanos la corrección]
 - [Ley 10363, Ley del Trabajador Independiente, Alcance 80 a La Gaceta 79](https://www.imprentanacional.go.cr/pub/2023/05/08/ALCA80_08_05_2023.pdf) (8-5-2023, Imprenta Nacional), consultada 2026-10-06.
 - [Reglamento del Seguro de Salud de la CCSS, texto en eRegulations Costa Rica](https://costarica.eregulations.org/media/reglamento%20del%20seguro%20de%20salud.pdf) (con reformas de 2006) ⚠️ versión sin confirmar, consultado 2026-10-06.
 - [CCSS, Especificación de escala contributiva para TI y AV, enero de 2025 (E-GF-USIN-030)](https://d1qqtien6gys07.cloudfront.net/wp-content/uploads/2025/02/Escala-Contributiva-TI-AV-y-Mig-ENERO-2025.pdf) ⚠️ copia fuera del sitio de la CCSS, consultada 2026-10-06.
-- CCSS: <https://www.ccss.sa.cr/trabajadores-independientes> y <https://www.ccss.sa.cr/asegurados-voluntarios> ⚠️ no se pudieron abrir el 2026-10-06.
+- CCSS: <https://www.ccss.sa.cr/trabajadores-independientes> y <https://www.ccss.sa.cr/asegurados-voluntarios> ⚠️ no se pudieron abrir el 2026-10-06 ni el 2026-10-07. El texto del reglamento en el SCIJ (pgrweb.go.cr) tampoco abrió el 2026-10-07.
 - [La Nación, "¿Cómo se asegura un trabajador independiente ante la CCSS?"](https://www.nacion.com/el-pais/como-se-asegura-un-trabajador-independiente-ante/I5JD7TAIZNA6BAHDL6X2NUSJLQ/story/) (9-7-2026), consultada 2026-10-06.
 - [El Financiero, "Base Contributiva Mínima para trabajadores independientes"](https://www.elfinancierocr.com/finanzas/base-contributiva-minima-para-trabajadores/ZUEQDXJG6FGQ5KSLCTCPVLNP5M/story/) (13-4-2026), consultada 2026-10-06.
+- [Punto Jurídico, "CCSS emite nuevo Reglamento de Trabajadores Independientes"](https://puntojuridico.com/ccss-emite-nuevo-reglamento-de-trabajadores-independientes/) (25-5-2022), consultada 2026-10-07 (no es fuente oficial).
 - [Teletica, "Aporte al régimen del IVM aumentará en 2026"](https://www.teletica.com/nacional/aporte-al-regimen-del-ivm-aumentara-en-2026_399212) (19-12-2025), consultada 2026-10-06.
 - [La Nación, "Nuevas reglas de CCSS para asegurar trabajadores independientes entran en vigor"](https://www.nacion.com/el-pais/salud/ccss-publica-nuevo-reglamento-para-trabajadores/MT673KLGOVBG3ND5REWTB7G2LU/story/) (mayo de 2022), consultada 2026-10-06.
 - [TEC, aseguramiento voluntario](https://www.tec.ac.cr/sites/default/files/media/doc/aseguramiento_voluntario_0.pdf) (sin fecha), consultado 2026-10-06.

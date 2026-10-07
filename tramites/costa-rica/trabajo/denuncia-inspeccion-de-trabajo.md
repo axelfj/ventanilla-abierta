@@ -1,14 +1,14 @@
 ---
 title: "Denuncia ante la Inspección de Trabajo"
 pais: Costa Rica
-ultima_verificacion: 2026-10-06
+ultima_verificacion: 2026-10-07
 estado: borrador
 ---
 
 # Denuncia ante la Inspección de Trabajo
 
 > ⚠️ Esta guía es información general, no asesoría legal. Verificá siempre con el Ministerio de Trabajo y Seguridad Social (MTSS) o con el Poder Judicial.
-> **Última verificación:** 2026-10-06. Los datos vienen de páginas y documentos del MTSS, del Poder Judicial y del texto del Código de Trabajo en el SCIJ.
+> **Última verificación:** 2026-10-07. **Estado:** borrador. Los datos vienen de páginas y documentos del MTSS, del Poder Judicial y del texto del Código de Trabajo en el SCIJ.
 
 ## Qué es
 Si tu patrono no te paga el salario, el [aguinaldo](aguinaldo.html), las [vacaciones](vacaciones.html) o la [liquidación](liquidacion-laboral.html), o si viola otros derechos laborales (jornada, salud ocupacional, discriminación, acoso, despido de una trabajadora embarazada, entre otros), el MTSS tiene dos servicios gratuitos que te pueden ayudar:
@@ -47,7 +47,7 @@ Para casos especiales (salud ocupacional, discriminación por género, despido d
 | Asesoría, cálculo de prestaciones y conciliación en el MTSS | Gratis | [MTSS, catálogo de trámites](https://www.mtss.go.cr/tramites-servicios/catalogo-tramites/conciliacion-prestaciones-laborlaes.html) | 2026-10-06 |
 | Asistencia legal en el juzgado de trabajo para personas de bajos ingresos | Gratis (si cumplís los requisitos) | [Código de Trabajo, art. 454, Ley 9343](https://www.mtss.go.cr/elministerio/despacho/rpl/Ley%209343%20Reforma%20Procesal%20Laboral.pdf) | 2026-10-06 |
 
-⚠️ Las páginas del MTSS sobre la denuncia ante la Inspección no indican ningún cobro, pero tampoco dicen expresamente que sea gratis: falta confirmarlo.
+⚠️ Las páginas del MTSS sobre la denuncia ante la Inspección (incluido su catálogo de trámites y el manual de procedimientos) no indican ningún cobro, pero tampoco dicen expresamente que sea gratis: falta confirmarlo (revisado de nuevo el 2026-10-07).
 
 ## Pasos
 
@@ -84,7 +84,7 @@ La conciliación en el MTSS es **voluntaria**: no tenés que pasar por ella ante
 Si el patrono no paga ni llega a un acuerdo, podés presentar una demanda en un juzgado de trabajo.
 
 **Asistencia legal gratuita del Poder Judicial:** el art. 454 del Código de Trabajo da asistencia legal gratuita a las personas trabajadoras cuyo ingreso mensual último o actual **no supere dos salarios base del cargo de auxiliar administrativo**; la presta una sección especializada de la Defensa Pública ([Ley 9343](https://www.mtss.go.cr/elministerio/despacho/rpl/Ley%209343%20Reforma%20Procesal%20Laboral.pdf)). La [Unidad Laboral de la Defensa Pública](https://defensapublica.poder-judicial.go.cr/index.php/asesoria-legal/laboral) atiende, entre otros, salarios mínimos sin pagar, horas extra, aguinaldo, vacaciones, despidos injustificados, hostigamiento y discriminación. Hay casos en los que el límite de ingresos no se aplica (por ejemplo, algunos de maternidad, de personas menores de edad y de discriminación); consultalo con la Defensa Pública.
-- ⚠️ La página de la Defensa Pública dice que el límite es **₡806 800**, pero no indica de qué año es esa cifra: falta confirmarlo, porque el salario base se actualiza cada año.
+- El salario base que fija el Poder Judicial para 2026 es **₡462 200** ([Poder Judicial](https://pj.poder-judicial.go.cr/index.php/component/content/article/2333-poder-judicial-fija-en-462-200-00-el-salario-base-para-multas-y-penas-por-la-comision-de-figuras-delictivas-en-el-2026?catid=8&Itemid=409)), así que dos salarios base serían **₡924 400** al mes. ⚠️ La página de la Defensa Pública todavía dice **₡806 800**, una cifra de otro año: confirmá con la Defensa Pública cuál límite aplica hoy.
 
 Para pedir esa asistencia, la Defensa Pública sugiere llevar el contrato de trabajo, comprobantes de pago, los datos del patrono y nombre completo, cédula, teléfono, correo y dirección de dos o tres personas que puedan servir como testigos ([Defensa Pública, laboral](https://defensapublica.poder-judicial.go.cr/index.php/asesoria-legal/laboral)).
 
@@ -116,7 +116,7 @@ Sí. La denuncia es por infracciones a la ley laboral y no exige que la relació
 En el sector público, la denuncia por hostigamiento sexual se presenta en la propia institución o ante la Defensoría de los Habitantes, no ante la Inspección ([MTSS, temas laborales](https://www.mtss.go.cr/temas-laborales/)).
 
 ## Fuentes
-- [MTSS, requisitos para trámites en la Inspección de Trabajo](https://www.mtss.go.cr/tramites-servicios/inspeccion_trabajo.html), consultada 2026-10-06.
+- [MTSS, requisitos para trámites en la Inspección de Trabajo](https://www.mtss.go.cr/tramites-servicios/inspeccion_trabajo.html), consultada 2026-10-07.
 - [MTSS, requisitos mínimos de denuncia general](https://www.mtss.go.cr/tramites-servicios/inspeccion/requisito_1.pdf), consultado 2026-10-06.
 - [MTSS, Manual de Procedimientos Legales de la Inspección de Trabajo](https://www.mtss.go.cr/elministerio/estructura/direccion-nacional-inspeccion/manual_procedimientos_inspeccion.pdf) (DMT-017-2013 y DMT-014-2014), consultado 2026-10-06.
 - [MTSS, mapa de oficinas](https://www.mtss.go.cr/contactenos/mapa-oficinas.html), consultado 2026-10-06.
@@ -129,6 +129,8 @@ En el sector público, la denuncia por hostigamiento sexual se presenta en la pr
 - [Ley 9343, Reforma Procesal Laboral](https://www.mtss.go.cr/elministerio/despacho/rpl/Ley%209343%20Reforma%20Procesal%20Laboral.pdf) (arts. 454 y 459 del Código de Trabajo), consultada 2026-10-06.
 - [Código de Trabajo, art. 413, en el SCIJ](http://www.pgrweb.go.cr/DOCS/NORMAS/1/VIGENTE/L/1940-1949/1940-1944/1943/1F6D/118E3C.HTML), consultado 2026-10-06.
 - [Defensa Pública del Poder Judicial, asesoría legal laboral](https://defensapublica.poder-judicial.go.cr/index.php/asesoria-legal/laboral), consultada 2026-10-06.
+- [Poder Judicial, salario base 2026](https://pj.poder-judicial.go.cr/index.php/component/content/article/2333-poder-judicial-fija-en-462-200-00-el-salario-base-para-multas-y-penas-por-la-comision-de-figuras-delictivas-en-el-2026?catid=8&Itemid=409), consultado 2026-10-07.
+- [MTSS, catálogo de trámites, denuncias](https://www.mtss.go.cr/tramites-servicios/catalogo-tramites/denuncias.html), consultado 2026-10-07.
 
 ---
 ¿Encontraste un error? [Reportalo aquí](https://github.com/axelfj/ventanilla-abierta/issues/new?template=correccion.md).

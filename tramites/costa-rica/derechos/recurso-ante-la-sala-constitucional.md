@@ -1,14 +1,14 @@
 ---
 title: "Cómo presentar un recurso ante la Sala Constitucional (Sala IV)"
 pais: Costa Rica
-ultima_verificacion: 2026-10-06
+ultima_verificacion: 2026-10-07
 estado: verificado
 ---
 
 # Cómo presentar un recurso ante la Sala Constitucional (Sala IV)
 
 > ⚠️ Esta guía es información general, no asesoría legal. Verificá siempre con la Sala Constitucional.
-> **Última verificación:** 2026-10-06. Los datos vienen del Poder Judicial; el plazo marcado con ⚠️ falta confirmarlo en la ley.
+> **Última verificación:** 2026-10-07. Los datos vienen del Poder Judicial.
 
 ## Qué es
 Lo que mucha gente llama "poner una denuncia en la Sala IV" es, en realidad, presentar un **recurso**. La **Sala Constitucional** protege tus derechos fundamentales. Para una persona común hay dos recursos ([Poder Judicial](https://servicios.poder-judicial.go.cr/index.php/servicio?service=49)):
@@ -56,7 +56,7 @@ No tenés que adjuntar todas las pruebas al principio, pero si tenés documentos
 5. Elegí **I Circuito Judicial de San José** y **Sala Constitucional**, y enviá.
 
 ## Tiempos
-- ⚠️ **Plazo para presentarlo:** el amparo se puede presentar mientras la violación siga ocurriendo y hasta dos meses después de que cesen sus efectos directos (artículo 35 de la Ley de la Jurisdicción Constitucional, Ley 7135). Falta confirmarlo en el SCIJ. Si tenés dudas, presentalo cuanto antes.
+- **Plazo para presentarlo:** el amparo se puede presentar en cualquier momento mientras la violación o la amenaza siga ocurriendo, y hasta **dos meses** después de que cesen del todo sus efectos directos. Si el derecho es puramente patrimonial (de plata o bienes) u otro que se puede consentir, el plazo es de **dos meses** desde que te enteraste de forma cierta de la violación y podías presentar el recurso (artículo 35 de la Ley de la Jurisdicción Constitucional, Ley 7135, citado en la [Revista de la Sala Constitucional](https://revistasalacons.poder-judicial.go.cr/images/2021/Articulo/PDF/Problematica_presentada_entre_los_articulos_30_35_y_36_de_la_Ley_de_la_Jurisdiccion_Constitucional_prescripcion_caducidad_y_actos_consentidos.pdf)). Si tenés dudas, presentalo cuanto antes.
 - La Sala no publica un plazo fijo para resolver.
 
 ## Errores comunes
@@ -82,7 +82,7 @@ Línea gratuita 800-7252482; central 2549-1500 o 2549-1600 ([Sala Constitucional
 - [Sala Constitucional, presentar recurso vía internet](https://salaconstitucional.poder-judicial.go.cr/index.php/informacion-complementaria/presentar-recurso-via-web), consultado 2026-10-06.
 - [Sala Constitucional, nuevos números de fax](https://salaconstitucional.poder-judicial.go.cr/index.php/sala-de-prensa/comunicados/la-sala-constitucional-actualiza-sus-numeros-de-fax) (4-3-2025), consultado 2026-10-06.
 - [Escuela Judicial, folleto sobre el recurso de amparo](https://escuelajudicialpj.poder-judicial.go.cr/images/bibliotecavirtual/20_OtrasPublicaciones/2_recurso_amparo.pdf), consultado 2026-10-06.
-- Ley de la Jurisdicción Constitucional, Ley 7135, en el SCIJ (pgrweb.go.cr) ⚠️ no se pudo abrir el 2026-10-06.
+- [Revista de la Sala Constitucional, artículo sobre los artículos 30, 35 y 36 de la Ley de la Jurisdicción Constitucional](https://revistasalacons.poder-judicial.go.cr/images/2021/Articulo/PDF/Problematica_presentada_entre_los_articulos_30_35_y_36_de_la_Ley_de_la_Jurisdiccion_Constitucional_prescripcion_caducidad_y_actos_consentidos.pdf) (2021, transcribe el artículo 35 de la Ley 7135), consultada 2026-10-07. El texto de la ley en el SCIJ (pgrweb.go.cr) no se pudo abrir.
 
 ---
 ¿Encontraste un error? [Reportalo aquí](https://github.com/axelfj/ventanilla-abierta/issues/new?template=correccion.md).

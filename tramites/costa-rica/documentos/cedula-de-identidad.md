@@ -1,14 +1,14 @@
 ---
 title: "Cédula de identidad: sacarla, renovarla o reponerla"
 pais: Costa Rica
-ultima_verificacion: 2026-10-06
+ultima_verificacion: 2026-10-07
 estado: verificado
 ---
 
 # Cédula de identidad: sacarla, renovarla o reponerla
 
 > ⚠️ Esta guía es información general, no asesoría legal. Verificá siempre con el Tribunal Supremo de Elecciones (TSE).
-> **Última verificación:** 2026-10-06. Todos los datos vienen de documentos del TSE.
+> **Última verificación:** 2026-10-07. Todos los datos vienen de documentos del TSE.
 
 ## Qué es
 La cédula de identidad es el documento que te identifica como persona costarricense mayor de edad. La emite el **Registro Civil**, que es parte del **Tribunal Supremo de Elecciones (TSE)**. Vale **10 años** ([TSE, renovación](https://www.tse.go.cr/pdf/requisitosytramites/Solicitud-de-renovacion-de-cedula-de-identidad.pdf), según el artículo 94 de la Ley Orgánica del TSE).
@@ -43,8 +43,8 @@ Hay tres trámites:
 | Cédula por primera vez | Gratis | [TSE](https://www.tse.go.cr/pdf/varios/cc_cedula_identidad.pdf) | 2026-10-06 |
 | Renovación por vencimiento | Gratis | [TSE](https://www.tse.go.cr/pdf/requisitosytramites/Solicitud-de-renovacion-de-cedula-de-identidad.pdf) | 2026-10-06 |
 | Primera reposición del año calendario | Gratis | [TSE, lineamientos de pago](https://www.tse.go.cr/pdf/requisitosytramites/Lineamientos_Gestion_de_pago_por_reposicion_de_cedulas.pdf) | 2026-10-06 |
-| Segunda reposición o más en el mismo año | USD 11,92, cobrados en colones al tipo de cambio del día (unos ₡5 900 en febrero de 2026) | [TSE, comunicado de febrero de 2026](https://www.tse.go.cr/comunicado1162.html) | 2026-10-06 |
-| Reimpresión en línea con entrega por Correos | ₡5 890 | [TSE, comunicado de diciembre de 2025](https://www.tse.go.cr/comunicado1115.html) | 2026-10-06 |
+| Segunda reposición o más en el mismo año | USD 11,92, cobrados en colones al tipo de cambio del día (unos ₡5 900 en febrero de 2026) | [TSE, comunicado de febrero de 2026](https://www.tse.go.cr/comunicado1162.html) | 2026-10-07 |
+| Reimpresión en línea con entrega por Correos | ₡5 890 | [TSE, comunicado de diciembre de 2025](https://www.tse.go.cr/comunicado1115.html) | 2026-10-07 |
 
 **No pagan la reposición** las personas con discapacidad, las personas adultas mayores, las personas indígenas, las personas privadas de libertad, y nadie en los dos meses antes de una elección nacional o municipal ni el día de la elección ([TSE, lineamientos de pago](https://www.tse.go.cr/pdf/requisitosytramites/Lineamientos_Gestion_de_pago_por_reposicion_de_cedulas.pdf)).
 
@@ -74,7 +74,7 @@ Cómo pagar la reposición: en el sitio del TSE con tarjeta Visa o Mastercard, e
 Los documentos del TSE no piden cita para la solicitud en oficina.
 
 **¿Existe una cédula digital?**
-Sí, la **Identidad Digital Costarricense (IDC)**, una versión en el celular de tu cédula física ([TSE](https://www.tse.go.cr/cedula.html)). Es opcional y tiene costo ⚠️ (₡2 600 y 4 años de vigencia según prensa de agosto de 2025, falta confirmarlo en el TSE).
+Sí, la **Identidad Digital Costarricense (IDC)**, una versión en el celular de tu cédula física ([TSE](https://www.tse.go.cr/cedula.html)). Es opcional, cuesta **₡2 600** y dura **4 años**. Se paga solo en línea, en el sitio del TSE, con tarjeta Visa o Mastercard ([TSE, preguntas frecuentes de la IDC](https://www.tse.go.cr/pdf/IDC/preguntasfrecuentes.pdf); [TSE, comunicado del 9-9-2025](https://www.tse.go.cr/comunicado1066.html), verificado 2026-10-07).
 
 **¿Puedo hacerlo si vivo fuera del país?**
 Sí, en el consulado de Costa Rica ([TSE](https://www.tse.go.cr/cedula.html)).
@@ -84,8 +84,10 @@ Sí, en el consulado de Costa Rica ([TSE](https://www.tse.go.cr/cedula.html)).
 - [TSE, requisitos de cédula de identidad](https://www.tse.go.cr/pdf/varios/cc_cedula_identidad.pdf) (documento de 2012), consultado 2026-10-06.
 - [TSE, solicitud de renovación de cédula](https://www.tse.go.cr/pdf/requisitosytramites/Solicitud-de-renovacion-de-cedula-de-identidad.pdf), consultado 2026-10-06.
 - [TSE, lineamientos de pago por reposición](https://www.tse.go.cr/pdf/requisitosytramites/Lineamientos_Gestion_de_pago_por_reposicion_de_cedulas.pdf) (Ley 10.243), consultado 2026-10-06.
-- [TSE, comunicado sobre el cobro por reposición](https://www.tse.go.cr/comunicado1162.html) (12-2-2026), consultado 2026-10-06.
-- [TSE, comunicado sobre la reimpresión (RDI)](https://www.tse.go.cr/comunicado1115.html) (2-12-2025), consultado 2026-10-06.
+- [TSE, comunicado sobre el cobro por reposición](https://www.tse.go.cr/comunicado1162.html) (12-2-2026), consultado 2026-10-07.
+- [TSE, comunicado sobre la reimpresión (RDI)](https://www.tse.go.cr/comunicado1115.html) (2-12-2025), consultado 2026-10-07.
+- [TSE, preguntas frecuentes de la Identidad Digital Costarricense](https://www.tse.go.cr/pdf/IDC/preguntasfrecuentes.pdf), consultado 2026-10-07.
+- [TSE, comunicado sobre la IDC](https://www.tse.go.cr/comunicado1066.html) (9-9-2025), consultado 2026-10-07.
 - [TSE, entrega de cédulas](https://tse.go.cr/pdf/requisitosytramites/Entrega-de-cedulas.pdf), consultado 2026-10-06.
 
 ---
