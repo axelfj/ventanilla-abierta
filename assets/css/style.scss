@@ -71,3 +71,12 @@ pre { padding:12px; }
 .alerta-alta, .alerta-extrema { border-left-color:#d1242f !important; }
 .alerta-moderada { border-left-color:#d4a72c !important; }
 .temas li .sin-enlace { display:block; padding:14px 16px; font-weight:600; }
+.temas li.ruta { padding:14px 16px; }
+.temas li.ruta strong { display:block; margin-bottom:4px; }
+.temas li.ruta .nota { padding:0; margin:0; }
+.temas li.ruta table { margin:10px 0; font-size:.92em; }
+@media (max-width: 600px) {
+  .topbar .contenedor { flex-wrap:wrap; row-gap:6px; }
+  .topbar nav { display:flex; flex-wrap:wrap; gap:4px 14px; }
+  .topbar nav a { margin-left:0; }
+}

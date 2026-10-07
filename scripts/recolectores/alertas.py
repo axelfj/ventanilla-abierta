@@ -136,10 +136,15 @@ def leer_rsn(datos, ahora, dias=7):
         if publicado and publicado < ahora - dt.timedelta(days=dias):
             continue
         url = (i.findtext("link") or "").strip()
+        titulo = (i.findtext("title") or "Sismo sentido").strip()
+        # "SISMO, 06 de octubre del 2026, 4:12 pm., Mag: 3,1 Mw, SENTIDO" -> "Sismo sentido de magnitud 3,1 Mw, 06 de octubre del 2026, 4:12 pm"
+        m = re.match(r"SISMO,\s*(?P<cuando>.+?)\.?,\s*Mag:\s*(?P<mag>[\d,.]+\s*\w*)", titulo, re.I)
+        if m:
+            sentido = "sentido " if "SENTIDO" in titulo.upper() else ""
+            titulo = f"Sismo {sentido}de magnitud {m['mag']}, {m['cuando']}"
         salida.append(alerta(
             "rsn", re.sub(r"\W+", "-", (i.findtext("guid") or url).rsplit("/", 1)[-1])[:80], "sismo",
-            (i.findtext("title") or "Sismo sentido").strip(), url, ahora,
-            descripcion=limpiar(i.findtext("description")), inicio=publicado,
+            titulo, url, ahora, descripcion=limpiar(i.findtext("description")), inicio=publicado,
         ))
     return salida
 
@@ -196,7 +201,10 @@ def recolectar_imn(ahora):
 RSS_GDACS = "https://www.gdacs.org/xml/rss.xml"
 GDACS = "{http://www.gdacs.org}"
 TIPO_GDACS = {"EQ": "sismo", "TC": "clima", "FL": "clima", "DR": "clima", "VO": "volcan", "WF": "otro"}
+EVENTO_GDACS = {"EQ": "Sismo", "TC": "Ciclón tropical", "FL": "Inundación", "DR": "Sequía", "VO": "Erupción volcánica",
+                "WF": "Incendio forestal"}
 NIVEL_GDACS = {"Red": "alta", "Orange": "moderada", "Green": "baja"}
+COLOR_GDACS = {"Red": "roja", "Orange": "naranja", "Green": "verde"}
 
 
 def leer_gdacs(datos, ahora):
@@ -208,11 +216,15 @@ def leer_gdacs(datos, ahora):
         hasta = fecha_rss(i.findtext(f"{GDACS}todate") or "")
         if hasta and hasta < ahora - dt.timedelta(days=3):
             continue
+        tipo, nivel = i.findtext(f"{GDACS}eventtype"), i.findtext(f"{GDACS}alertlevel")
+        # GDACS publica en inglés; el título se arma en español y el detalle queda en su sitio.
+        titulo = f"{EVENTO_GDACS.get(tipo, 'Desastre')} que incluye a Costa Rica"
+        if nivel in COLOR_GDACS:
+            titulo += f" (alerta {COLOR_GDACS[nivel]} de GDACS)"
         salida.append(alerta(
-            "gdacs", (i.findtext(f"{GDACS}eventtype") or "") + (i.findtext(f"{GDACS}eventid") or i.findtext("guid") or ""),
-            TIPO_GDACS.get(i.findtext(f"{GDACS}eventtype"), "otro"),
-            (i.findtext("title") or "").strip(), (i.findtext("link") or "").strip(), ahora,
-            descripcion=limpiar(i.findtext("description")),
+            "gdacs", (tipo or "") + (i.findtext(f"{GDACS}eventid") or i.findtext("guid") or ""),
+            TIPO_GDACS.get(tipo, "otro"), titulo, (i.findtext("link") or "").strip(), ahora,
+            descripcion="Resumen internacional de la ONU y la Unión Europea, en inglés: " + limpiar(i.findtext("title"), 200),
             inicio=fecha_rss(i.findtext(f"{GDACS}fromdate") or ""), fin=hasta,
             severidad=NIVEL_GDACS.get(i.findtext(f"{GDACS}alertlevel")),
         ))
@@ -274,7 +286,7 @@ def leer_cnfl(datos, ahora):
         fin = hora_cnfl(m["dia"], m["mes"], m["anio"], m["hasta"])
         if fin < ahora:
             continue
-        partes = [nombre_propio(p.strip()) for p in m["lugar"].split(",")]
+        partes = [nombre_propio(re.sub(r"\s*\(", " (", p).strip()) for p in m["lugar"].split(",")]
         detalle = fila[1] if len(fila) > 1 else ""
         numero = re.search(r"N[úu]mero de Suspensi[óo]n:\s*([\w-]+)", detalle)
         trabajo = detalle.replace(m["lugar"], "").split("Número de")[0].strip(" .")
@@ -324,7 +336,8 @@ FUENTES = {
     "usgs": lambda ahora: leer_usgs(bajar(url_usgs(ahora)), ahora),
     "gdacs": lambda ahora: leer_gdacs(bajar(RSS_GDACS), ahora),
     "cnfl": lambda ahora: leer_cnfl(bajar(URL_CNFL), ahora),
-    "jasec": lambda ahora: leer_jasec(bajar(RSS_JASEC), ahora),
+    # Desde los servidores de GitHub no siempre responde; se intenta igual, sin esperar mucho.
+    "jasec": lambda ahora: leer_jasec(bajar(RSS_JASEC, tiempo=15), ahora),
 }
 
 

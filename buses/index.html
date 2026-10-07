@@ -1,0 +1,34 @@
+---
+title: Buses
+layout: default
+description: Tarifas oficiales de bus en Costa Rica y dónde ver los horarios.
+---
+<h1>Buses en Costa Rica</h1>
+
+<h2>¿Cuánto cuesta el bus?</h2>
+<p>Buscá por lugar, número de ruta o empresa. Son las tarifas que fija la ARESEP; si te cobran más, podés poner una queja ante la ARESEP.</p>
+
+<form class="buscador" role="search" onsubmit="return false">
+  <label for="q-bus" class="oculto">Buscar una ruta</label>
+  <input id="q-bus" type="search" placeholder="Ej.: Desamparados, Heredia, 400" autocomplete="off" disabled>
+</form>
+<p id="bus-resumen" class="migas" aria-live="polite">Cargando tarifas…<noscript>El buscador necesita JavaScript. Podés consultar las tarifas en el sitio de la ARESEP (enlace abajo).</noscript></p>
+<ul id="bus-resultados" class="temas"></ul>
+<p id="bus-fuente" class="migas"></p>
+
+<h2>¿Y los horarios?</h2>
+<p><strong>Todavía no hay horarios de buses de Costa Rica publicados como datos abiertos.</strong> Ni el CTP ni las empresas los publican en un formato que se pueda reutilizar. En agosto de 2026 el CTP <a href="https://delfino.cr/2026/08/ctp-anuncia-creacion-de-sistema-nacional-con-informacion-de-rutas-horarios-y-tarifas-de-transporte-publico" rel="noopener">anunció un sistema nacional</a> con rutas, horarios y tarifas; cuando lo publiquen, lo vamos a mostrar aquí. Mientras tanto, los horarios están en:</p>
+
+{% for grupo in site.data.horarios_oficiales %}
+<h3>{{ grupo.icono }} {{ grupo.tipo }}</h3>
+<ul class="temas">
+  {% for f in grupo.fuentes %}
+  <li><a href="{{ f.url }}" rel="noopener">{{ f.nombre }}</a>
+    <span class="nota">{{ f.zona }}.{% if f.nota %} {{ f.nota }}{% endif %} Enlace revisado el {{ f.revisado | date: "%d/%m/%Y" }}.</span></li>
+  {% endfor %}
+</ul>
+{% endfor %}
+
+<p class="migas">Fuente de las tarifas: <a href="https://aresep.go.cr/datos-abiertos/tarifas-autobus/" rel="noopener">datos abiertos de la ARESEP</a>. Se actualizan una vez al día. Cómo elegimos las fuentes: <a href="{{ '/docs/decisiones/0002-fuentes-de-buses.html' | relative_url }}">decisión 0002</a>. ¿Tu empresa de bus publica sus horarios y no está aquí? <a href="https://github.com/axelfj/ventanilla-abierta/issues/new?template=correccion.md">Avisanos</a>.</p>
+
+<script src="{{ '/assets/js/buses.js' | relative_url }}" data-tarifas="https://raw.githubusercontent.com/axelfj/ventanilla-abierta/datos/buses/tarifas.json" defer></script>

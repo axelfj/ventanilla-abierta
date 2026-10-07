@@ -58,6 +58,7 @@ class Gdacs(unittest.TestCase):
         self.assertEqual(len(r), 1)
         self.assertEqual(r[0]["tipo"], "sismo")
         self.assertEqual(r[0]["severidad"], "baja")
+        self.assertEqual(r[0]["titulo"], "Sismo que incluye a Costa Rica (alerta verde de GDACS)")
 
 
 class Jasec(unittest.TestCase):
@@ -72,7 +73,7 @@ class Rsn(unittest.TestCase):
     def test_sismos_sentidos_recientes(self):
         r = alertas.leer_rsn(muestra("rsn.xml"), AHORA)
         self.assertEqual(len(r), 1)
-        self.assertEqual(r[0]["titulo"], "Sismo sentido en Coronado")
+        self.assertEqual(r[0]["titulo"], "Sismo sentido de magnitud 3,1 Mw, 06 de octubre del 2026, 4:12 pm")
         self.assertIn("Ubicación: 7 km al noreste de Cascajal de Coronado", r[0]["descripcion"])
         self.assertEqual(r[0]["inicio"], "2026-10-06T22:38:00Z")
 

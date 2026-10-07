@@ -1,0 +1,15 @@
+# Dónde publica sus horarios cada operador. Solo enlaces del propio operador o de la institución.
+# `revisado`: fecha en que se abrió el enlace y tenía horarios.
+- tipo: Tren
+  icono: "🚆"
+  fuentes:
+    - { nombre: INCOFER, zona: "Tren urbano en San José, Heredia, Alajuela y Cartago", url: "https://www.incofer.go.cr/transporte-de-personas/", revisado: 2026-10-07 }
+- tipo: Interurbanos
+  icono: "🚌"
+  fuentes:
+    - { nombre: Tracopa, zona: Zona Sur y Pacífico Central, url: "https://www.tracopacr.com/Rutas_Horarios", revisado: 2026-10-07 }
+- tipo: Internacionales (Centroamérica)
+  icono: "🌎"
+  fuentes:
+    - { nombre: Tica Bus, zona: "De Panamá a México, pasando por Costa Rica", url: "https://ticabus.com/rutas-horarios-y-tarifas", revisado: 2026-10-07 }
+    - { nombre: Transnica, zona: San José y Managua, url: "https://transnica.com/horarios/", revisado: 2026-10-07 }

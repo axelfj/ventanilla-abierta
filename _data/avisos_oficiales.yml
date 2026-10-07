@@ -13,7 +13,7 @@
   fuentes:
     - { nombre: CNFL, zona: Gran Área Metropolitana, url: "https://www.cnfl.go.cr/servicios/autogestion/suspensiones", revisado: 2026-10-07, automatico: true }
     - { nombre: ICE, zona: Resto del país sin distribuidora local, url: "https://www.iceelectricidad.com/wps/portal/electricidad/Hogar/mantenimiento-programado/", revisado: 2026-10-07 }
-    - { nombre: JASEC, zona: Cartago, url: "https://www.jasec.go.cr", automatico: true }
+    - { nombre: JASEC, zona: Cartago, url: "https://www.jasec.go.cr", nota: "Intentamos leer sus avisos cada hora, pero su sitio no siempre responde a visitas automáticas." }
     - { nombre: ESPH, zona: Heredia, url: "https://www.esph-sa.com" }
     - { nombre: Coopeguanacaste, zona: Guanacaste, url: "https://suspensiones.coopeguanacaste.com/", revisado: 2026-10-07 }
     - { nombre: Coopesantos, zona: Zona de Los Santos, url: "https://www.coopesantos.com/servicio-al-asociado/suspensiones-programadas/", revisado: 2026-10-07 }
