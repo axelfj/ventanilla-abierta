@@ -1,0 +1,56 @@
+name: Recolectar alertas
+
+# Cada hora junta las alertas de las fuentes oficiales y las guarda en la rama `datos`,
+# que se reescribe con un solo commit para no acumular historial. La página /alertas/
+# las lee de ahí. GitHub puede atrasar los workflows programados: esto no es un sistema
+# de emergencias.
+on:
+  schedule:
+    - cron: "17 * * * *"
+  workflow_dispatch:
+  pull_request:
+    paths:
+      - "scripts/recolectores/**"
+      - ".github/workflows/recolectar-alertas.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: recolectar-alertas
+  cancel-in-progress: false
+
+jobs:
+  recolectar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Pruebas con muestras guardadas
+        run: python3 -m unittest discover scripts/recolectores/pruebas -v
+
+      # Si una fuente falla, se conservan sus alertas de la corrida anterior.
+      - name: Traer las alertas anteriores
+        run: |
+          if git fetch --depth 1 origin datos 2>/dev/null; then
+            git show origin/datos:alertas/activas.json > anterior.json || true
+          fi
+
+      - name: Recolectar
+        run: python3 scripts/recolectores/alertas.py salida/alertas --anterior anterior.json
+
+      # En los pull requests solo se prueba; publicar es solo desde main.
+      - name: Publicar en la rama datos
+        if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
+        working-directory: salida
+        run: |
+          git init -q -b datos
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add alertas
+          git commit -q -m "Alertas $(date -u +%Y-%m-%dT%H:%MZ)"
+          git push -q --force "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" HEAD:datos

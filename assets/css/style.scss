@@ -61,3 +61,13 @@ pre { padding:12px; }
 .buscador button { font:inherit; font-weight:600; padding:10px 16px; border:0; border-radius:8px; background:var(--acento);
   color:#fff; cursor:pointer; }
 .oculto { position:absolute; width:1px; height:1px; overflow:hidden; clip:rect(0 0 0 0); white-space:nowrap; }
+
+/* Alertas y buses (fase 2) */
+.filtros { display:flex; flex-wrap:wrap; gap:12px; margin:16px 0; }
+.filtros label { display:flex; flex-direction:column; font-size:.92em; color:var(--suave); gap:4px; }
+.filtros select, .filtros input { font:inherit; padding:8px 10px; border:1px solid var(--borde); border-radius:8px;
+  background:var(--fondo); color:var(--texto); min-width:180px; }
+.alerta { border-left-width:5px !important; }
+.alerta-alta, .alerta-extrema { border-left-color:#d1242f !important; }
+.alerta-moderada { border-left-color:#d4a72c !important; }
+.temas li .sin-enlace { display:block; padding:14px 16px; font-weight:600; }
