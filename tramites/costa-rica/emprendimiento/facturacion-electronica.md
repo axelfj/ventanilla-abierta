@@ -1,21 +1,21 @@
 ---
 title: "Facturación electrónica"
 pais: Costa Rica
-ultima_verificacion: 2026-10-06
-estado: borrador
+ultima_verificacion: 2026-10-07
+estado: verificado
 ---
 
 # Facturación electrónica
 
 > ⚠️ Esta guía es información general, no asesoría legal ni contable. Verificá siempre con el Ministerio de Hacienda.
-> **Última verificación:** 2026-10-06. **Estado:** borrador. Lo marcado con ⚠️ falta confirmarlo en una fuente oficial.
+> **Última verificación:** 2026-10-07. **Estado:** verificado con el reglamento, las resoluciones y las guías de Hacienda.
 
 ## Qué es
 Una **factura electrónica** es el comprobante que respalda una venta de bienes o un servicio. Se genera y se envía a Hacienda en formato electrónico **en el mismo momento** de la venta o del servicio ([Reglamento de Comprobantes Electrónicos, Decreto 44739-H, art. 2](https://www.hacienda.go.cr/docs/REGLAMENTO_DE_COMPROBANTES_ELECTRONICOS.pdf)).
 
 Si cobrás por tu trabajo (por ejemplo, una presentación como músico, DJ o artista), cada cobro es una prestación de servicios y, si estás obligado, lo respaldás con un comprobante electrónico.
 
-Desde el cambio a **TRIBU-CR**, el facturador gratuito de Hacienda se llama **Tico Factura** y está disponible desde el 6 de octubre, con el arranque del nuevo sistema ([Hacienda, aviso Tico Factura](https://www.hacienda.go.cr/docs/FacturadorGratuitoTICOFACTURADisponibleAPartirdel06deoctubre.pdf)).
+Desde el cambio a **TRIBU-CR**, el facturador gratuito de Hacienda se llama **Tico Factura** y está disponible desde el 6 de octubre de 2025, con el arranque del nuevo sistema ([Hacienda, aviso Tico Factura](https://www.hacienda.go.cr/docs/FacturadorGratuitoTICOFACTURADisponibleAPartirdel06deoctubre.pdf); [Hacienda, comunicado CP-48-2025](https://www.hacienda.go.cr/docs/CP-48-Cambios-en-programacion-de-TRIBU-CR-julio_2025.pdf)).
 
 ## ¿Quién tiene que facturar electrónicamente?
 - **Están obligados** los contribuyentes del impuesto sobre la renta y del IVA ([Decreto 44739-H, art. 3](https://www.hacienda.go.cr/docs/REGLAMENTO_DE_COMPROBANTES_ELECTRONICOS.pdf)). En la práctica, si estás en el **régimen general**, te toca.
@@ -44,7 +44,7 @@ Solo estos son comprobantes electrónicos autorizados ([Decreto 44739-H, art. 9]
 ## Requisitos
 - Estar inscrito en el RUT de Hacienda con tus actividades económicas ([guía de emisión](https://www.hacienda.go.cr/docs/GuiaEmisiondecomprobanteselectronicos.pdf), verificado 2026-10-06).
 - Tu usuario y contraseña de la Oficina Virtual (OVi) de TRIBU-CR ([aviso de Hacienda](https://www.hacienda.go.cr/docs/FacturadorGratuitoTICOFACTURADisponibleAPartirdel06deoctubre.pdf), verificado 2026-10-06).
-- **Credenciales para la emisión** de comprobantes electrónicos e indicar que sos usuario de Tico Factura ([guía de cajas y consecutivos](https://www.hacienda.go.cr/docs/GuiaMantenimientodeCajasyConsecutivosparaTicoFactura.pdf), verificado 2026-10-06). ⚠️ Cómo se generan esas credenciales está en una guía de Hacienda ("Credenciales en Producción") que no pudimos abrir: falta confirmarlo.
+- **Credenciales para la emisión** de comprobantes electrónicos e indicar que sos usuario de Tico Factura ([guía de cajas y consecutivos](https://www.hacienda.go.cr/docs/GuiaMantenimientodeCajasyConsecutivosparaTicoFactura.pdf), verificado 2026-10-06). Se generan en la OVi, en el bloque **Tico Factura**: primero **Crear usuario** (elegís "Sí, voy a utilizar Tico Factura") y después **Generar llave criptográfica**, con un PIN de 4 dígitos que tenés que recordar. Los datos llegan al correo que tenés registrado y quedan en **Mi perfil** ([Hacienda, guía de credenciales en producción](https://www.hacienda.go.cr/docs/GuiaCredencialesProduccionparaTicoFacturayotrossistemas.pdf), verificado 2026-10-07). Para generarlas tenés que tener al menos una actividad económica lucrativa inscrita.
 - Al menos una **sucursal** y una **caja** configuradas, porque de ahí sale la numeración consecutiva ([guía de emisión](https://www.hacienda.go.cr/docs/GuiaEmisiondecomprobanteselectronicos.pdf)).
 - El **código CAByS** de lo que vendés (va en cada línea de la factura) ([guía de emisión](https://www.hacienda.go.cr/docs/GuiaEmisiondecomprobanteselectronicos.pdf)).
 
@@ -68,7 +68,7 @@ Facturar no tiene una tasa propia. Lo que sí pagás son los impuestos que corre
 - **Cuándo emitir:** en el mismo acto de la venta o del servicio. Tenés que entregarle al cliente el comprobante y su versión en PDF aunque Hacienda todavía no haya respondido ([Decreto 44739-H, art. 18](https://www.hacienda.go.cr/docs/REGLAMENTO_DE_COMPROBANTES_ELECTRONICOS.pdf)).
 - **Si el sistema falla (contingencia):** por fuerza mayor podés dar un comprobante preimpreso con la leyenda "comprobante provisional", que no tiene validez tributaria, y emitir el electrónico **a más tardar dentro de 2 días hábiles** ([art. 23](https://www.hacienda.go.cr/docs/REGLAMENTO_DE_COMPROBANTES_ELECTRONICOS.pdf)).
 - **Cuánto guardar:** todos los comprobantes emitidos y recibidos, **5 años** ([art. 22](https://www.hacienda.go.cr/docs/REGLAMENTO_DE_COMPROBANTES_ELECTRONICOS.pdf)).
-- **Aceptar o rechazar facturas que te mandan:** si no las confirmás en el plazo que fija Hacienda por resolución, se presume que las aceptaste ([art. 20](https://www.hacienda.go.cr/docs/REGLAMENTO_DE_COMPROBANTES_ELECTRONICOS.pdf)). ⚠️ El plazo exacto está en una resolución que no pudimos abrir en el sitio de Hacienda: falta confirmarlo.
+- **Aceptar o rechazar facturas que te mandan:** si no las confirmás a tiempo, se presume que las aceptaste ([art. 20](https://www.hacienda.go.cr/docs/REGLAMENTO_DE_COMPROBANTES_ELECTRONICOS.pdf)). El plazo es de **8 días hábiles contados desde el primer día del mes siguiente** ([Resolución MH-DGT-RES-0027-2024, art. 10](https://www.hacienda.go.cr/docs/Resolucion_General_sobre_disposiciones_tecnicas_comprobantes_electronicos_para.pdf)).
 
 ## Errores comunes
 - **Confiar en que el facturador gratuito te guarda todo.** El reglamento dice que el sistema gratuito de Hacienda almacena comprobantes **solo por dos meses** ([art. 22](https://www.hacienda.go.cr/docs/REGLAMENTO_DE_COMPROBANTES_ELECTRONICOS.pdf)), y vos tenés que conservarlos 5 años. Descargá y guardá los XML y PDF de cada mes.
@@ -92,14 +92,17 @@ Hacienda atiende consultas de TRIBU-CR al (+506) 2539-4777, de lunes a viernes d
 
 ## Fuentes
 - [Reglamento de Comprobantes Electrónicos para efectos tributarios, Decreto Ejecutivo 44739-H](https://www.hacienda.go.cr/docs/REGLAMENTO_DE_COMPROBANTES_ELECTRONICOS.pdf) (2 de octubre de 2024), consultado 2026-10-06.
-- [Hacienda, aviso: Facturador gratuito Tico Factura disponible a partir del 6 de octubre](https://www.hacienda.go.cr/docs/FacturadorGratuitoTICOFACTURADisponibleAPartirdel06deoctubre.pdf), consultado 2026-10-06.
+- [Hacienda, aviso: Facturador gratuito Tico Factura disponible a partir del 6 de octubre](https://www.hacienda.go.cr/docs/FacturadorGratuitoTICOFACTURADisponibleAPartirdel06deoctubre.pdf), consultado 2026-10-07.
 - [Hacienda, guía funcional de emisión de comprobantes electrónicos en Tico Factura](https://www.hacienda.go.cr/docs/GuiaEmisiondecomprobanteselectronicos.pdf) (1-8-2025), consultada 2026-10-06.
 - [Hacienda, guía de mantenimiento de cajas y consecutivos para Tico Factura](https://www.hacienda.go.cr/docs/GuiaMantenimientodeCajasyConsecutivosparaTicoFactura.pdf) (2-5-2025), consultada 2026-10-06.
 - [Hacienda, guía de mantenimiento de clientes para Tico Factura](https://www.hacienda.go.cr/docs/GuiaparaMantenimientodeClientesparaTicoFactura.pdf) (30-7-2025), consultada 2026-10-06.
 - [Hacienda, guía de consultas de comprobantes emitidos](https://www.hacienda.go.cr/docs/GuiaparaConsultasdecomprobantesemitidos-v01.pdf) (29-8-2025), consultada 2026-10-06.
 - [Hacienda, guías para el uso de Tico Factura](https://www.hacienda.go.cr/docs/SegundonivelguiasTicoFactura.pdf), consultado 2026-10-06.
 - [Hacienda, preguntas y respuestas de TRIBU-CR](https://www.hacienda.go.cr/docs/dPreguntasYRespuestasDeTRIBU-CR.pdf), consultado 2026-10-06.
-- [Hacienda, página de TRIBU-CR](https://www.hacienda.go.cr/TRIBU-CR.html), consultada 2026-10-06.
+- [Hacienda, página de TRIBU-CR](https://www.hacienda.go.cr/TRIBU-CR.html), consultada 2026-10-07.
+- [Hacienda, guía de credenciales en producción para Tico Factura y otros sistemas](https://www.hacienda.go.cr/docs/GuiaCredencialesProduccionparaTicoFacturayotrossistemas.pdf) (2-5-2025), consultada 2026-10-07.
+- [Hacienda, Resolución MH-DGT-RES-0027-2024 sobre disposiciones técnicas de los comprobantes electrónicos](https://www.hacienda.go.cr/docs/Resolucion_General_sobre_disposiciones_tecnicas_comprobantes_electronicos_para.pdf) (13 de noviembre de 2024), consultada 2026-10-07.
+- [Hacienda, comunicado CP-48-2025 sobre el inicio de TRIBU-CR](https://www.hacienda.go.cr/docs/CP-48-Cambios-en-programacion-de-TRIBU-CR-julio_2025.pdf), consultado 2026-10-07.
 
 ---
 ¿Encontraste un error? [Reportalo aquí](https://github.com/axelfj/ventanilla-abierta/issues/new?template=correccion.md).

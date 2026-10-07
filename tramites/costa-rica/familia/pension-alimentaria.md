@@ -1,14 +1,14 @@
 ---
 title: "Pensión alimentaria"
 pais: Costa Rica
-ultima_verificacion: 2026-10-05
+ultima_verificacion: 2026-10-07
 estado: verificado
 ---
 
 # Pensión alimentaria
 
 > ⚠️ Esta guía es información general, no asesoría legal. Verificá siempre con la institución oficial.
-> **Última verificación:** 2026-10-05, con los sitios del Poder Judicial y la Defensa Pública.
+> **Última verificación:** 2026-10-07, con los sitios del Poder Judicial y la Defensa Pública.
 
 ## Qué es
 La pensión alimentaria es el dinero que una persona está obligada a dar para cubrir las necesidades básicas de sus hijos (y en algunos casos de otros familiares): comida, vivienda, salud, educación, ropa y recreación. Se regula en la **Ley de Pensiones Alimentarias, N.º 7654**.
@@ -19,7 +19,7 @@ La pensión alimentaria es el dinero que una persona está obligada a dar para c
 
 ## Requisitos
 - Tu cédula.
-- Llevá certificaciones de nacimiento o matrimonio si las tenés; la guía de CONAMAJ las menciona como prueba. ⚠️ Falta confirmar si el juzgado las consulta por su cuenta.
+- No tenés que llevar certificaciones de nacimiento ni de matrimonio: los juzgados tienen acceso electrónico a las oficinas del Estado para sacar esa información ([Poder Judicial](https://servicios.poder-judicial.go.cr/index.php/servicio?service=24), verificado 2026-10-07). Si ya las tenés, podés llevarlas.
 - Nombre completo de la persona obligada y una dirección o lugar de trabajo donde se le pueda notificar.
 - Una lista de los gastos mensuales de los hijos, con comprobantes si los tenés (recibos, facturas, matrícula).
 - Si sabés dónde trabaja o cuánto gana la otra persona, anotalo: el juzgado toma en cuenta su capacidad económica.
@@ -52,8 +52,8 @@ Sí. Se puede pedir un aumento si cambian las circunstancias, y además existen 
 
 ## Fuentes
 - Ley de Pensiones Alimentarias, N.º 7654, en el SCIJ: <http://www.pgrweb.go.cr/scij/>.
-- [Poder Judicial, ¿Cómo solicitar una pensión alimentaria?](https://servicios.poder-judicial.go.cr/index.php/servicio?service=24), consultado 2026-10-05.
-- [Defensa Pública, Pensiones alimentarias](https://defensapublica.poder-judicial.go.cr/index.php/asesoria-legal/pensiones-alimentarias), consultado 2026-10-05.
+- [Poder Judicial, ¿Cómo solicitar una pensión alimentaria?](https://servicios.poder-judicial.go.cr/index.php/servicio?service=24), consultado 2026-10-07.
+- [Defensa Pública, Pensiones alimentarias](https://defensapublica.poder-judicial.go.cr/index.php/asesoria-legal/pensiones-alimentarias), consultado 2026-10-07.
 
 ---
 ¿Encontraste un error? [Reportalo aquí](https://github.com/axelfj/ventanilla-abierta/issues/new?template=correccion.md).

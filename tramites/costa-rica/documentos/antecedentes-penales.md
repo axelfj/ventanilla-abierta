@@ -1,14 +1,14 @@
 ---
 title: "Certificado de antecedentes penales (hoja de delincuencia)"
 pais: Costa Rica
-ultima_verificacion: 2026-10-06
+ultima_verificacion: 2026-10-07
 estado: verificado
 ---
 
 # Certificado de antecedentes penales (hoja de delincuencia)
 
 > ⚠️ Esta guía es información general, no asesoría legal. Verificá siempre con el Poder Judicial.
-> **Última verificación:** 2026-10-06. Todos los datos vienen de sitios del Poder Judicial y del Ministerio de Relaciones Exteriores y Culto.
+> **Última verificación:** 2026-10-07. Todos los datos vienen de sitios del Poder Judicial y del Ministerio de Relaciones Exteriores y Culto.
 
 ## Qué es
 La **hoja de delincuencia** es la certificación de antecedentes penales que emite el **Registro Judicial** del Poder Judicial ([Poder Judicial, hoja de delincuencia física](https://servicios.poder-judicial.go.cr/index.php/servicio?service=29)). Dice si tenés condenas penales registradas.
@@ -41,7 +41,7 @@ Si la vas a usar en otro país, la tenés que pedir con la indicación **"PARA U
 | Concepto | Monto | Fuente | Verificado |
 |---|---|---|---|
 | Hoja de delincuencia | Gratis ("No tiene costo alguno") | [Poder Judicial](https://actualidadjudicial.poder-judicial.go.cr/vol284/prensa/pr11-284.html) | 2026-10-06 |
-| Apostilla o legalización (si la vas a usar fuera del país) | Timbre de Parques Nacionales de ₡500 por documento | [Relaciones Exteriores, guía MREC-SC-GI-01](https://www.rree.go.cr/files/includes/files.php?id=559&tipo=contenido) | 2026-10-06 |
+| Apostilla o legalización (si la vas a usar fuera del país) | Timbre de Parques Nacionales de ₡500 por documento | [Relaciones Exteriores, guía MREC-SC-GI-01](https://www.rree.go.cr/files/includes/files.php?id=559&tipo=contenido) | 2026-10-07 |
 
 El timbre se compra en la oficina de Correos de Costa Rica dentro del Ministerio (solo efectivo) o en sucursales del Banco de Costa Rica ([Relaciones Exteriores, guía](https://www.rree.go.cr/files/includes/files.php?id=559&tipo=contenido)).
 
@@ -89,7 +89,7 @@ Sí. El Poder Judicial dice que la versión digital "tiene el mismo valor" que l
 Puede verificarla en la página del Poder Judicial con tu número de identificación y el código que viene al final de la hoja ([verificar autenticidad](https://pjenlineacr.poder-judicial.go.cr/sacejenlinea/SolicitudesPersonales/VerificarCertificacion.aspx)).
 
 **¿Puedo apostillar la hoja electrónica?**
-⚠️ Falta confirmarlo. La guía de Relaciones Exteriores habla de la hoja con firma manual de la Secretaría General de la Corte, no de la versión digital. Consultá antes en el Ministerio.
+⚠️ Falta confirmarlo. La página de Relaciones Exteriores para documentos del Registro Judicial sigue pidiendo la hoja con **firma manual** de la Secretaría General de la Corte (revisada 2026-10-07), y no menciona la versión digital ([Relaciones Exteriores](https://www.rree.go.cr/?sec=servicios&cat=autenticaciones&cont=1353)). Desde el 14 de setiembre de 2026 existe la **apostilla electrónica** en [e-apostilla.rree.go.cr](https://e-apostilla.rree.go.cr/aposprod/f?p=101) para 91 documentos de 18 instituciones, pero el comunicado no dice si la hoja de delincuencia está incluida ([Relaciones Exteriores, 14-9-2026](https://www.rree.go.cr/?sec=servicios&cat=prensa&cont=593&id=8775)). Consultá antes en Cancillería: 2539-5383 o 2539-5391.
 
 **¿Una condena vieja sale para siempre?**
 No necesariamente. Desde 2024 la condena se cancela del registro **cinco años** después de cumplida, si la pena fue de cinco a diez años, y **diez años** después, si la pena fue de diez años o más o por delitos como crimen organizado, terrorismo, delitos sexuales contra menores, homicidio calificado, feminicidio o delitos contra la función pública (Ley N.° 10.435, [Poder Judicial, 8-3-2024](https://pj.poder-judicial.go.cr/index.php/component/content/article/1171-hoja-de-delincuencia-aplicara-nuevos-parametros-de-cancelacion-de-juzgamientos?catid=8&Itemid=409)). Si tenés dudas sobre tu caso, consultá en el Registro Judicial.
@@ -98,7 +98,7 @@ No necesariamente. Desde 2024 la condena se cancela del registro **cinco años**
 A la línea gratuita del Poder Judicial: **800-800-3000** ([Poder Judicial, afiche](https://servicios.poder-judicial.go.cr/media/com_k2_j5/upload/afiche_hojadel_2024_10_25_16_48_03.pdf)).
 
 ## Fuentes
-- [Poder Judicial, hoja de delincuencia física](https://servicios.poder-judicial.go.cr/index.php/servicio?service=29), consultada 2026-10-06.
+- [Poder Judicial, hoja de delincuencia física](https://servicios.poder-judicial.go.cr/index.php/servicio?service=29), consultada 2026-10-07.
 - [Poder Judicial, trámites en línea](https://pj.poder-judicial.go.cr/index.php/tramites-en-linea), consultada 2026-10-06.
 - [Poder Judicial, volante de hoja de delincuencia con firma digital](https://servicios.poder-judicial.go.cr/media/com_k2_j5/upload/hoja_delincuencia_2026_07_08_21_51_12.pdf), consultado 2026-10-06.
 - [Poder Judicial, tutorial para solicitar la hoja electrónica](https://servicios.poder-judicial.go.cr/media/com_k2_j5/upload/Tutorial_hoja_delincuencia_2025_10_30_22_16_04.pdf), consultado 2026-10-06.
@@ -107,8 +107,9 @@ A la línea gratuita del Poder Judicial: **800-800-3000** ([Poder Judicial, afic
 - [Poder Judicial, "¿Qué es la hoja de delincuencia y cómo obtenerla?"](https://actualidadjudicial.poder-judicial.go.cr/vol284/prensa/pr11-284.html) (9-3-2023), consultada 2026-10-06.
 - [Poder Judicial, hoja de delincuencia en formato digital](https://pj.poder-judicial.go.cr/index.php/component/content/article/347-obtenga-su-hoja-de-delincuencia-en-formato-digital?catid=8&Itemid=409), consultada 2026-10-06.
 - [Poder Judicial, nuevos parámetros de cancelación de juzgamientos](https://pj.poder-judicial.go.cr/index.php/component/content/article/1171-hoja-de-delincuencia-aplicara-nuevos-parametros-de-cancelacion-de-juzgamientos?catid=8&Itemid=409) (8-3-2024), consultada 2026-10-06.
-- [Ministerio de Relaciones Exteriores y Culto, autenticaciones de documentos judiciales](https://www.rree.go.cr/?sec=servicios&cat=autenticaciones&cont=1353), consultada 2026-10-06.
-- [Ministerio de Relaciones Exteriores y Culto, guía MREC-SC-GI-01](https://www.rree.go.cr/files/includes/files.php?id=559&tipo=contenido) (versión 02, vigente desde 27-7-2026), consultada 2026-10-06.
+- [Ministerio de Relaciones Exteriores y Culto, autenticaciones de documentos judiciales](https://www.rree.go.cr/?sec=servicios&cat=autenticaciones&cont=1353), consultada 2026-10-07.
+- [Ministerio de Relaciones Exteriores y Culto, "Costa Rica lanza la Apostilla Electrónica"](https://www.rree.go.cr/?sec=servicios&cat=prensa&cont=593&id=8775) (14-9-2026), consultado 2026-10-07.
+- [Ministerio de Relaciones Exteriores y Culto, guía MREC-SC-GI-01](https://www.rree.go.cr/files/includes/files.php?id=559&tipo=contenido) (versión 02, vigente desde 27-7-2026), consultada 2026-10-07.
 
 ---
 ¿Encontraste un error? [Reportalo aquí](https://github.com/axelfj/ventanilla-abierta/issues/new?template=correccion.md).
