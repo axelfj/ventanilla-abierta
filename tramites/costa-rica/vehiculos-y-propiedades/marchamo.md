@@ -1,14 +1,14 @@
 ---
 title: "Marchamo"
 pais: Costa Rica
-ultima_verificacion: 2026-10-06
-estado: borrador
+ultima_verificacion: 2026-10-07
+estado: verificado
 ---
 
 # Marchamo
 
 > ⚠️ Esta guía es información general, no asesoría legal. Verificá siempre con el Instituto Nacional de Seguros (INS) y el Ministerio de Hacienda.
-> **Última verificación:** 2026-10-06. **Estado:** borrador. Los datos marcados con ⚠️ están pendientes de confirmar en la fuente oficial. No incluimos montos de marchamo porque cambian según cada vehículo.
+> **Última verificación:** 2026-10-07. **Estado:** verificado. Requisitos, pasos y fechas confirmados con el INS y Hacienda. Lo marcado con ⚠️ son detalles secundarios pendientes de confirmar. No incluimos montos de marchamo porque cambian según cada vehículo.
 
 ## Qué es
 El marchamo (o **derecho de circulación**) es el pago anual que necesitás para que tu vehículo pueda circular. El INS lo describe como "un requisito establecido en la Ley de Tránsito para poder circular en las carreteras costarricenses, el cual se cancela una vez al año" ([INS, Seguro Obligatorio Automotor](https://www.grupoins.com/seguros-personas/marchamo/seguro-obligatorio-automotor-marchamo/)).
@@ -36,7 +36,7 @@ Según el INS, el marchamo junta estos rubros ([INS, preguntas frecuentes](https
 - Las tarifas son **progresivas por tramos de valor**, y el Poder Ejecutivo actualiza los tramos cada año ([Hacienda, presentación de la Ley 10390](https://www.hacienda.go.cr/docs/PresentacImpuestoPropVehAutomEmbarcyAeronaves.pdf)).
 - Los vehículos de **más de 15 años** usan como base mínima el valor del año 15. Las motos de más de 10 años, el valor del año 10 ([Hacienda, Ley 10390](https://www.hacienda.go.cr/docs/PresentacImpuestoPropVehAutomEmbarcyAeronaves.pdf)).
 - **Taxis, autobuses y carga pesada** pagan el 2 % de un salario base ([Hacienda, Ley 10390](https://www.hacienda.go.cr/docs/PresentacImpuestoPropVehAutomEmbarcyAeronaves.pdf)).
-- ⚠️ Los tramos y porcentajes para el **marchamo 2027** no los encontramos publicados en el sitio de Hacienda al 2026-10-06, así que no los incluimos. Falta confirmarlo.
+- ⚠️ Los tramos y porcentajes para el **marchamo 2027** no los encontramos publicados en el sitio de Hacienda al 2026-10-07, así que no los incluimos. Falta confirmarlo.
 
 ## ¿Lo podés hacer solo?
 - **Sí.** Lo pagás vos directamente, en línea o en persona. No necesitás abogado, notario ni gestor.
@@ -50,9 +50,9 @@ Según el INS, el marchamo junta estos rubros ([INS, preguntas frecuentes](https
 ## Costos oficiales
 | Concepto | Monto | Fuente | Verificado |
 |---|---|---|---|
-| Marchamo completo | Varía según el vehículo. Consultalo con tu placa | [INS](https://www.grupoins.com/seguros-personas/marchamo/seguro-obligatorio-automotor-marchamo/) | 2026-10-06 |
-| Impuesto a la propiedad (taxis, autobuses y carga pesada) | 2 % de un salario base | [Hacienda, Ley 10390](https://www.hacienda.go.cr/docs/PresentacImpuestoPropVehAutomEmbarcyAeronaves.pdf) | 2026-10-06 |
-| Impuesto a la propiedad (demás vehículos) | Tarifa progresiva por tramos, actualizada cada año. ⚠️ Tramos 2027 sin confirmar | [Hacienda, Ley 10390](https://www.hacienda.go.cr/docs/PresentacImpuestoPropVehAutomEmbarcyAeronaves.pdf) | 2026-10-06 |
+| Marchamo completo | Varía según el vehículo. Consultalo con tu placa | [INS](https://www.grupoins.com/seguros-personas/marchamo/seguro-obligatorio-automotor-marchamo/) | 2026-10-07 |
+| Impuesto a la propiedad (taxis, autobuses y carga pesada) | 2 % de un salario base | [Hacienda, Ley 10390](https://www.hacienda.go.cr/docs/PresentacImpuestoPropVehAutomEmbarcyAeronaves.pdf) | 2026-10-07 |
+| Impuesto a la propiedad (demás vehículos) | Tarifa progresiva por tramos, actualizada cada año. ⚠️ Tramos 2027 sin confirmar | [Hacienda, Ley 10390](https://www.hacienda.go.cr/docs/PresentacImpuestoPropVehAutomEmbarcyAeronaves.pdf) | 2026-10-07 |
 
 El INS ofrece seguros adicionales voluntarios al pagar el marchamo (responsabilidad civil, asistencia en carretera y otros). **No son obligatorios**: el único seguro que va incluido por ley es el SOA ([INS](https://www.grupoins.com/seguros-personas/marchamo/seguro-obligatorio-automotor-marchamo/)).
 
@@ -60,7 +60,7 @@ El INS ofrece seguros adicionales voluntarios al pagar el marchamo (responsabili
 - **Inicio del cobro:** el primer día hábil de noviembre. Para el **marchamo 2027**, el cobro empieza el **2 de noviembre de 2026** ([INS, 1-7-2026](https://www.grupoins.com/ins-noticias/noticias/asi-se-vera-el-nuevo-marchamo-digital/)).
 - **Fecha límite sin recargos:** el **31 de diciembre** del año anterior al periodo. La ley dice que el impuesto "será exigible en el periodo del 1 de noviembre al 31 de diciembre del año calendario previo al periodo fiscal" ([Hacienda, Ley 10390](https://www.hacienda.go.cr/docs/PresentacImpuestoPropVehAutomEmbarcyAeronaves.pdf)). Para el marchamo 2027, eso es el 31 de diciembre de 2026.
 - **No hay calendario por terminación de placa:** todos los vehículos pagan en el mismo periodo. (El calendario por número de placa es de la RTV, no del marchamo.)
-- **Pagos parciales del impuesto a la propiedad:** la ley permite pagar ese impuesto por adelantado en **tres pagos**: en marzo, en junio y en setiembre, del primer al último día hábil de cada mes ([Hacienda, Ley 10390](https://www.hacienda.go.cr/docs/PresentacImpuestoPropVehAutomEmbarcyAeronaves.pdf)). ⚠️ Falta confirmar en qué canales se hacen esos pagos y si cubren otros rubros del marchamo.
+- **Pagos parciales del impuesto a la propiedad:** la ley permite pagar ese impuesto por adelantado en **tres pagos**: en marzo, en junio y en setiembre, del primer al último día hábil de cada mes ([Hacienda, Ley 10390](https://www.hacienda.go.cr/docs/PresentacImpuestoPropVehAutomEmbarcyAeronaves.pdf)). Un transitorio de la ley dice que estos pagos se habilitan a partir del año siguiente a su publicación. ⚠️ Falta confirmar en qué canales se hacen esos pagos y si cubren otros rubros del marchamo.
 
 ## Pasos
 1. **Revisá que tu RTV esté vigente y favorable.** Es requisito para pagar ([INS](https://www.grupoins.com/seguros-personas/marchamo/seguro-obligatorio-automotor-marchamo/)).
@@ -70,13 +70,13 @@ El INS ofrece seguros adicionales voluntarios al pagar el marchamo (responsabili
    - Mensaje de texto al 1467 con la palabra "marchamo" y el número de placa.
 3. **Revisá el desglose.** Si algún rubro no te cuadra, mirá la sección "Si el monto está mal".
 4. **Pagá** en el sitio del INS, en sus sucursales, en agencias o recaudadores autorizados, o por teléfono al 800-TELEINS (800-8353467) ([INS](https://www.grupoins.com/seguros-personas/marchamo/seguro-obligatorio-automotor-marchamo/)).
-5. **Guardá el comprobante.** Desde el 2 de noviembre de 2026, el derecho de circulación es **digital** y llega al correo electrónico que des al pagar. Tenés que poder mostrarlo cuando la autoridad lo pida ([INS, 1-7-2026](https://www.grupoins.com/ins-noticias/noticias/asi-se-vera-el-nuevo-marchamo-digital/); [INS, 22-9-2026](https://www.grupoins.com/ins-noticias/noticias/124000-conductores-aun-deben-el-marchamo-2026/)).
+5. **Guardá el comprobante.** Desde el 2 de noviembre de 2026, el derecho de circulación es **digital** y llega al correo electrónico que des al pagar. Si no te llega, lo podés descargar del sitio del INS o de la app INS Móvil. Tenés que poder mostrarlo cuando la autoridad lo pida ([INS, 1-7-2026](https://www.grupoins.com/ins-noticias/noticias/asi-se-vera-el-nuevo-marchamo-digital/); [INS, 22-9-2026](https://www.grupoins.com/ins-noticias/noticias/124000-conductores-aun-deben-el-marchamo-2026/)).
 
 ### El nuevo marchamo digital (desde el marchamo 2027)
-- La calcomanía de papel se cambia por una **etiqueta electrónica** que se pega en el parabrisas y dura **hasta 10 años**. Se entrega el primer año; los años siguientes solo pagás, en línea o por los canales de siempre ([INS, 1-7-2026](https://www.grupoins.com/ins-noticias/noticias/asi-se-vera-el-nuevo-marchamo-digital/)).
+- La calcomanía de papel se cambia por una **etiqueta electrónica** que se pega por dentro del parabrisas y dura **hasta 10 años**. El primer año la etiqueta **se entrega en el INS**; los años siguientes solo pagás, en línea o por los canales de siempre. Si se pega mal, se cambia en una oficina del INS. Si la despegás, se destruye ([INS, 1-7-2026](https://www.grupoins.com/ins-noticias/noticias/asi-se-vera-el-nuevo-marchamo-digital/)).
 - Al principio aplica a **vehículos con parabrisas** (carros, buses, camiones). Las **motos** van en un plan piloto ([INS, 1-7-2026](https://www.grupoins.com/ins-noticias/noticias/asi-se-vera-el-nuevo-marchamo-digital/)).
 - Según el INS, la etiqueta **no tiene GPS** ni rastrea la ubicación del vehículo ([INS, 1-7-2026](https://www.grupoins.com/ins-noticias/noticias/asi-se-vera-el-nuevo-marchamo-digital/)).
-- ⚠️ Falta confirmar **dónde y cómo** se retira o se coloca la etiqueta el primer año. El INS anunció una campaña informativa, pero no encontramos el procedimiento publicado.
+- ⚠️ El INS no detalla en qué oficinas exactas se retira la etiqueta el primer año.
 
 ## Tiempos
 - Un **duplicado** del marchamo no se genera el mismo día del pago ([INS, preguntas frecuentes](https://www.grupoins.com/preguntas-frecuentes/preguntas-sobre-seguros/)).
@@ -89,12 +89,12 @@ Después del 31 de diciembre podés pagar, pero con recargos. El INS detalla est
 | Seguro Obligatorio Automotor | Tasa básica pasiva anual más cinco puntos porcentuales (la calcula el BCCR), según los días de atraso |
 | Multas de tránsito | 36 % anual |
 | Impuesto a la propiedad: multa | 10 % por mes, con tope del 100 % |
-| Impuesto a la propiedad: intereses | ⚠️ Tasa anual que cambia: el INS publica 12,37 % sin indicar de qué periodo. Falta confirmarla para 2027 |
+| Impuesto a la propiedad: intereses | 12,37 % anual según el INS, que advierte que puede variar durante el año. ⚠️ Falta confirmar la tasa vigente en 2027 |
 | Estacionómetros | 2 % por mes, hasta 24 % |
 
 La multa del 10 % mensual del impuesto a la propiedad también la confirma Hacienda ([Hacienda, CP-83-2024](https://www.hacienda.go.cr/docs/CP-832024.pdf)).
 
-Además, si circulás sin el marchamo al día te exponés a multas y a que te retiren el vehículo de circulación, según los artículos 146 y 151 de la Ley de Tránsito ([INS, preguntas frecuentes](https://www.grupoins.com/preguntas-frecuentes/preguntas-sobre-seguros/)). ⚠️ No incluimos el monto de esa multa porque no pudimos abrir el texto de la ley en el SCIJ.
+Además, si circulás sin el marchamo al día te exponés a multas y a que te retiren el vehículo de circulación, según los artículos 146 (inciso x) y 151 (inciso a) de la Ley de Tránsito ([INS, preguntas frecuentes](https://www.grupoins.com/preguntas-frecuentes/preguntas-sobre-seguros/)). ⚠️ No incluimos el monto de esa multa porque no pudimos abrir el texto de la ley en el SCIJ.
 
 ## Si el monto está mal
 Cada rubro se reclama ante la institución que lo cobra, no ante el INS ([INS, preguntas frecuentes](https://www.grupoins.com/preguntas-frecuentes/preguntas-sobre-seguros/)):
@@ -124,7 +124,7 @@ Cada rubro se reclama ante la institución que lo cobra, no ante el INS ([INS, p
 Tiene que ir el dueño registral a una sucursal del INS con su identificación y llenar un formulario. Si va otra persona, necesita una autorización autenticada por notario. Las empresas van con su personería jurídica ([INS, preguntas frecuentes](https://www.grupoins.com/preguntas-frecuentes/preguntas-sobre-seguros/)).
 
 **¿Qué cubre el SOA?**
-Las lesiones y la muerte de personas en accidentes de tránsito, haya o no culpa del conductor (artículo 64 de la Ley de Tránsito). Tenés 10 días hábiles después del accidente para avisarle al INS ([INS, preguntas frecuentes](https://www.grupoins.com/preguntas-frecuentes/preguntas-sobre-seguros/)).
+Las lesiones y la muerte de personas en accidentes de tránsito, haya o no culpa del conductor (artículo 64 de la Ley de Tránsito). Tenés 10 días hábiles después del accidente para avisarle al INS (artículo 68) ([INS, preguntas frecuentes](https://www.grupoins.com/preguntas-frecuentes/preguntas-sobre-seguros/)).
 
 **¿Por qué dos carros iguales pagan distinto?**
 Porque, desde la Ley 10390, el impuesto a la propiedad toma en cuenta el precio registrado en la compraventa de cada vehículo ([Hacienda, CP-95-2024](https://www.hacienda.go.cr/docs/CP952024.pdf)).
@@ -133,12 +133,12 @@ Porque, desde la Ley 10390, el impuesto a la propiedad toma en cuenta el precio 
 Según el INS, no: la etiqueta no tiene GPS ni monitorea la ubicación ([INS, 1-7-2026](https://www.grupoins.com/ins-noticias/noticias/asi-se-vera-el-nuevo-marchamo-digital/)).
 
 ## Fuentes
-- [INS, Seguro Obligatorio Automotor (Marchamo)](https://www.grupoins.com/seguros-personas/marchamo/seguro-obligatorio-automotor-marchamo/), consultada 2026-10-06.
-- [INS, preguntas frecuentes sobre seguros](https://www.grupoins.com/preguntas-frecuentes/preguntas-sobre-seguros/), consultada 2026-10-06.
-- [INS, "Así se verá el nuevo Marchamo Digital"](https://www.grupoins.com/ins-noticias/noticias/asi-se-vera-el-nuevo-marchamo-digital/) (1-7-2026), consultada 2026-10-06.
-- [INS, "124.000 conductores aún deben el Marchamo 2026"](https://www.grupoins.com/ins-noticias/noticias/124000-conductores-aun-deben-el-marchamo-2026/) (22-9-2026), consultada 2026-10-06.
+- [INS, Seguro Obligatorio Automotor (Marchamo)](https://www.grupoins.com/seguros-personas/marchamo/seguro-obligatorio-automotor-marchamo/), consultada 2026-10-07.
+- [INS, preguntas frecuentes sobre seguros](https://www.grupoins.com/preguntas-frecuentes/preguntas-sobre-seguros/), consultada 2026-10-07.
+- [INS, "Así se verá el nuevo Marchamo Digital"](https://www.grupoins.com/ins-noticias/noticias/asi-se-vera-el-nuevo-marchamo-digital/) (1-7-2026), consultada 2026-10-07.
+- [INS, "124.000 conductores aún deben el Marchamo 2026"](https://www.grupoins.com/ins-noticias/noticias/124000-conductores-aun-deben-el-marchamo-2026/) (22-9-2026), consultada 2026-10-07.
 - [INS, plataforma de consulta y pago del marchamo](https://marchamo.grupoins.com/), consultada 2026-10-06.
-- [Hacienda, presentación de la Ley 10390 sobre el impuesto a la propiedad de vehículos](https://www.hacienda.go.cr/docs/PresentacImpuestoPropVehAutomEmbarcyAeronaves.pdf) (29-11-2024), consultada 2026-10-06.
+- [Hacienda, presentación de la Ley 10390 sobre el impuesto a la propiedad de vehículos](https://www.hacienda.go.cr/docs/PresentacImpuestoPropVehAutomEmbarcyAeronaves.pdf) (29-11-2024), consultada 2026-10-07.
 - [Hacienda, comunicado CP-83-2024](https://www.hacienda.go.cr/docs/CP-832024.pdf) (2-10-2024), consultado 2026-10-06.
 - [Hacienda, comunicado CP-95-2024](https://www.hacienda.go.cr/docs/CP952024.pdf) (6-11-2024), consultado 2026-10-06.
 - [Hacienda, comunicado sobre exoneraciones del impuesto a la propiedad, periodo 2026](https://www.hacienda.go.cr/docs/COMUNICADO_Impuesto_a_la_Propiedad_2026.pdf), consultado 2026-10-06.

@@ -1,0 +1,51 @@
+name: Recolectar alertas
+
+# Cada hora junta las alertas de las fuentes oficiales y las guarda en la rama `datos`
+# (ver scripts/recolectores/publicar-datos.sh). La página /alertas/ las lee de ahí. GitHub puede atrasar los workflows programados: esto no es un sistema
+# de emergencias.
+on:
+  schedule:
+    - cron: "17 * * * *"
+  workflow_dispatch:
+  pull_request:
+    paths:
+      - "scripts/recolectores/**"
+      - ".github/workflows/recolectar-alertas.yml"
+
+permissions:
+  contents: write
+
+# Mismo grupo que "Recolectar tarifas de bus", porque las dos escriben en la rama datos.
+concurrency:
+  group: rama-datos
+  cancel-in-progress: false
+
+jobs:
+  recolectar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Pruebas con muestras guardadas
+        run: python3 -m unittest discover scripts/recolectores/pruebas -v
+
+      # Si una fuente falla, se conservan sus alertas de la corrida anterior.
+      - name: Traer las alertas anteriores
+        run: |
+          if git fetch --depth 1 origin datos 2>/dev/null; then
+            git show origin/datos:alertas/activas.json > anterior.json || true
+          fi
+
+      - name: Recolectar
+        run: python3 scripts/recolectores/alertas.py salida/alertas --anterior anterior.json
+
+      # En los pull requests solo se prueba; publicar es solo desde main.
+      - name: Publicar en la rama datos
+        if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: scripts/recolectores/publicar-datos.sh salida/alertas alertas

@@ -1,14 +1,14 @@
 ---
 title: "Cómo registrar tus obras como artista"
 pais: Costa Rica
-ultima_verificacion: 2026-10-05
+ultima_verificacion: 2026-10-07
 estado: verificado
 ---
 
 # Cómo registrar tus obras como artista
 
 > Esta guía es información general, no asesoría legal.
-> **Última verificación:** 2026-10-05, con el material de capacitación 2024 del Registro Nacional. Los montos pueden haber cambiado: confirmalos antes de pagar.
+> **Última verificación:** 2026-10-07, con la tabla de aranceles, la hoja de requisitos y el material de capacitación 2024 del Registro Nacional. Los montos pueden cambiar: confirmalos antes de pagar.
 
 ## Qué es
 Tus canciones, letras, beats y grabaciones están protegidas por derecho de autor **desde que las creás**. La **Ley sobre Derechos de Autor y Derechos Conexos, N.º 6683**, le da al autor el derecho exclusivo de usar su obra (art. 17) sin exigir un registro.
@@ -37,15 +37,19 @@ Registrar la obra en el **Registro de Derechos de Autor y Derechos Conexos** (Re
 - Los contratos de producción con el productor.
 - El ejemplar del fonograma en medio magnético (así lo dice el material del Registro).
 
-Formularios: [guía de servicios y formularios del Registro Nacional](https://www.rnpdigital.com/propiedad_industrial/propiedad_industrial_guia_servicios_formularios.htm).
+Formularios: [guía de servicios y formularios del Registro Nacional](https://www.rnpdigital.com/registro_propiedad_intelectual/derechos_autor_guia_servicios_formularios.htm).
 
 ## Costos oficiales
 | Concepto | Monto | Verificado |
 |---|---|---|
-| Arancel de inscripción (entero bancario) | ₡2 295 según el material 2024; la tabla de aranceles vigente dice ₡2 000 mínimo por inscripción ⚠️ confirmá el monto antes de pagar | 2026-10-05 |
-| Certificado digital: timbre fiscal | ₡125 | 2026-10-05, material 2024 |
-| Certificado digital: timbre del Archivo Nacional | ₡5 | 2026-10-05, material 2024 |
-| Timbre del Colegio de Abogados (autenticación) | ₡275 | 2026-10-05, material 2024 |
+| Arancel de Registro por inscripción | ₡2 000 mínimo por cada inscripción (Ley de Aranceles) ([tabla de aranceles](https://www.rnpdigital.com/tramites_servicios/tramitesregistros/propiedad%20intelectual/propiedad_industrial_aranceles.htm); [hoja de requisitos](https://www.rnpdigital.com/registro_propiedad_intelectual/derechos_autor/documentos/guia%20y%20formularios/DPI-DAC-HOJA_REQUISITOS.pdf)) | 2026-10-07 |
+| Timbre del Archivo Nacional (solicitud) | ₡20 ([hoja de requisitos](https://www.rnpdigital.com/registro_propiedad_intelectual/derechos_autor/documentos/guia%20y%20formularios/DPI-DAC-HOJA_REQUISITOS.pdf)) | 2026-10-07 |
+| Timbre del Colegio de Abogados (autenticación) | ₡275 ([hoja de requisitos](https://www.rnpdigital.com/registro_propiedad_intelectual/derechos_autor/documentos/guia%20y%20formularios/DPI-DAC-HOJA_REQUISITOS.pdf); material 2024) | 2026-10-07 |
+| Total del entero bancario según el material 2024 | ₡2 295 (coincide con la suma ₡2 000 + ₡20 + ₡275) | 2026-10-07 |
+| Certificado digital: timbre fiscal | ₡125 (material 2024) | 2026-10-07 |
+| Certificado digital: timbre del Archivo Nacional | ₡5 (material 2024) | 2026-10-07 |
+
+El pago se hace en el **Banco de Costa Rica** ([hoja de requisitos](https://www.rnpdigital.com/registro_propiedad_intelectual/derechos_autor/documentos/guia%20y%20formularios/DPI-DAC-HOJA_REQUISITOS.pdf)). El material 2024 pide un **entero bancario de ₡2 295**; la hoja de requisitos desglosa ₡2 000 de arancel, ₡20 de Archivo Nacional y ₡275 del Colegio de Abogados, que suman lo mismo. Si tenés dudas de si los timbres van dentro del entero o aparte, preguntá en el Registro antes de pagar.
 
 A eso se suma lo que cobre el abogado por autenticar la firma.
 
@@ -71,7 +75,9 @@ A eso se suma lo que cobre el abogado por autenticar la firma.
 Registro de Derechos de Autor: tel. 2202-0623 / 2202-0665, caticr@rnp.go.cr.
 
 ## Fuentes
-- [Registro Nacional, "Procedimiento de inscripción de obras" (capacitación 2024)](https://rnpdigital.com/centroinforegistral/capacitaciones/capacitaciones%202024%20docs/Procedimiento%20de%20Inscripcion%20de%20obras.pdf), consultado 2026-10-05.
+- [Registro Nacional, "Procedimiento de inscripción de obras" (capacitación 2024)](https://rnpdigital.com/centroinforegistral/capacitaciones/capacitaciones%202024%20docs/Procedimiento%20de%20Inscripcion%20de%20obras.pdf), consultado 2026-10-07.
+- [Registro Nacional, tabla de aranceles del Registro de Propiedad Intelectual](https://www.rnpdigital.com/tramites_servicios/tramitesregistros/propiedad%20intelectual/propiedad_industrial_aranceles.htm), consultada 2026-10-07.
+- [Registro Nacional, hoja de requisitos de Derecho de Autor y Derechos Conexos](https://www.rnpdigital.com/registro_propiedad_intelectual/derechos_autor/documentos/guia%20y%20formularios/DPI-DAC-HOJA_REQUISITOS.pdf), consultada 2026-10-07.
 - Ley N.º 6683, art. 17, citado en [resolución judicial en WIPO Lex](https://www.wipo.int/wipolex/es/text/887), consultada 2026-10-05.
 
 ---

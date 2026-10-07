@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:gdacs="http://www.gdacs.org"><channel>
+<item><title>Green earthquake alert (Magnitude 5.2M) in Costa Rica</title><link>https://www.gdacs.org/report.aspx?eventid=1&amp;eventtype=EQ</link>
+<description>On 10/6/2026 an earthquake occurred.</description>
+<gdacs:eventtype>EQ</gdacs:eventtype><gdacs:eventid>1</gdacs:eventid><gdacs:alertlevel>Green</gdacs:alertlevel>
+<gdacs:iso3>CRI</gdacs:iso3><gdacs:country>Costa Rica</gdacs:country>
+<gdacs:fromdate>Tue, 06 Oct 2026 08:00:00 GMT</gdacs:fromdate><gdacs:todate>Tue, 06 Oct 2026 08:00:00 GMT</gdacs:todate></item>
+<item><title>Orange tropical cyclone alert in Japan</title><link>https://www.gdacs.org/x</link>
+<gdacs:eventtype>TC</gdacs:eventtype><gdacs:eventid>2</gdacs:eventid><gdacs:iso3>JPN</gdacs:iso3><gdacs:country>Japan</gdacs:country>
+<gdacs:todate>Tue, 06 Oct 2026 08:00:00 GMT</gdacs:todate></item>
+</channel></rss>

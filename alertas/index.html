@@ -1,0 +1,51 @@
+---
+title: Alertas
+layout: default
+description: Cortes de luz, avisos del clima y sismos en Costa Rica, con enlace al aviso oficial.
+---
+<h1>Alertas en Costa Rica</h1>
+
+<blockquote>
+  <p><strong>Para emergencias, llamá al 911.</strong> Esta página no es un sistema de emergencias: junta avisos oficiales cada hora, y a veces con atraso. El aviso que vale es siempre el de la institución; cada alerta enlaza a él.</p>
+</blockquote>
+
+<div class="filtros">
+  <label>Tipo
+    <select id="filtro-tipo">
+      <option value="">Todas</option>
+      <option value="luz">💡 Cortes de luz</option>
+      <option value="clima">🌧️ Clima</option>
+      <option value="sismo">🌎 Sismos</option>
+      <option value="volcan">🌋 Volcanes</option>
+    </select>
+  </label>
+  <label>Provincia
+    <select id="filtro-provincia">
+      <option value="">Todas</option>
+      {% assign provincias = "San José,Alajuela,Cartago,Heredia,Guanacaste,Puntarenas,Limón" | split: "," %}
+      {% for p in provincias %}<option>{{ p }}</option>{% endfor %}
+    </select>
+  </label>
+</div>
+
+<p id="alertas-resumen" class="migas" aria-live="polite">Cargando alertas…<noscript>Las alertas necesitan JavaScript. Abajo están los sitios oficiales donde se publican.</noscript></p>
+<ul id="alertas" class="temas"></ul>
+
+<h2>Qué revisamos</h2>
+<p>Por ahora leemos solo las fuentes que publican en un formato que una computadora puede leer sola. <strong>Los cortes de agua y los cierres de carretera todavía no están</strong>: AyA, ESPH, MOPT y CONAVI publican sus avisos en páginas o redes sociales que no se pueden leer automáticamente. Mientras tanto, abajo están sus enlaces.</p>
+<ul id="alertas-fuentes" class="migas"></ul>
+
+<h2>Dónde ver los avisos oficiales</h2>
+{% for grupo in site.data.avisos_oficiales %}
+<h3>{{ grupo.icono }} {{ grupo.tipo }}</h3>
+<ul class="temas">
+  {% for f in grupo.fuentes %}
+  <li>{% if f.url %}<a href="{{ f.url }}" rel="noopener">{{ f.nombre }}</a>{% else %}<span class="sin-enlace">{{ f.nombre }}</span>{% endif %}
+    <span class="nota">{{ f.zona }}.{% if f.nota %} {{ f.nota }}{% endif %}{% if f.automatico %} Ya aparece arriba.{% endif %}{% if f.revisado %} Enlace revisado el {{ f.revisado | date: "%d/%m/%Y" }}.{% endif %}</span></li>
+  {% endfor %}
+</ul>
+{% endfor %}
+
+<p class="migas">¿Tu proveedor de agua o luz no está o el enlace dejó de servir? <a href="https://github.com/axelfj/ventanilla-abierta/issues/new?template=correccion.md">Avisanos</a>. Cómo elegimos las fuentes: <a href="{{ '/docs/decisiones/0001-fuentes-de-alertas.html' | relative_url }}">decisión 0001</a>.</p>
+
+<script src="{{ '/assets/js/alertas.js' | relative_url }}" data-base="https://raw.githubusercontent.com/axelfj/ventanilla-abierta/datos/alertas/" defer></script>

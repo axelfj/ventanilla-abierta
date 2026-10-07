@@ -10,6 +10,11 @@ Ventanilla Abierta es un proyecto de código abierto que explica, en español cl
 
 {% include tarjetas.html %}
 
+## También
+
+- **[Alertas](alertas/)**: cortes de luz programados, avisos del clima y sismos, con enlace al aviso oficial.
+- **[Buses](buses/)**: cuánto cuesta cada ruta según la ARESEP, y dónde ver los horarios.
+
 ## Para qué sirve
 
 - **Trámites que podés hacer solo:** la guía te lleva de principio a fin.

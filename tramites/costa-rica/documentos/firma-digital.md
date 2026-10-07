@@ -1,14 +1,14 @@
 ---
 title: "Firma digital"
 pais: Costa Rica
-ultima_verificacion: 2026-10-06
+ultima_verificacion: 2026-10-07
 estado: verificado
 ---
 
 # Firma digital
 
 > ⚠️ Esta guía es información general, no asesoría legal. Verificá siempre con el Banco Central de Costa Rica (BCCR).
-> **Última verificación:** 2026-10-06. Los datos vienen del BCCR y de su sitio de soporte de firma digital.
+> **Última verificación:** 2026-10-07. Los datos vienen del BCCR y de su sitio de soporte de firma digital.
 
 ## Qué es
 La firma digital es una herramienta que permite identificar de forma clara al autor de un documento electrónico y verificar que el documento no se alteró ([BCCR, firma digital](https://www.bccr.fi.cr/cr/es/firma-digital.html)). La **Ley 8454** (Ley de Certificados, Firmas Digitales y Documentos Electrónicos) le da a la firma digital y a los documentos electrónicos la misma validez jurídica y la misma fuerza probatoria que la firma a mano y los documentos en papel ([BCCR](https://www.bccr.fi.cr/cr/es/firma-digital.html)).
@@ -65,7 +65,7 @@ Los costos y contactos de cada oficina de registro están en la [lista oficial d
 
 ## Tiempos
 - **Vigencia:** cada certificado de firma digital de persona física dura **cuatro años (1460 días)** ([BCCR, acuerdo de suscriptor](https://www.bccr.fi.cr/content/dam/bccr/firma-digital/documentos/acuerdo-suscriptor-persona-fisica.pdf), cláusula vigésima).
-- Cuánto tarda la emisión el día de la cita: ⚠️ falta confirmarlo, las fuentes oficiales no lo indican.
+- Cuánto tarda la emisión el día de la cita: ⚠️ falta confirmarlo, las páginas del BCCR no lo indican (revisadas 2026-10-07). Llegá a la hora exacta de tu cita.
 
 ## Errores comunes
 - Llegar a la cita con la cédula vencida, dañada o que no es la última emitida.
@@ -91,16 +91,16 @@ Sí, con tu DIMEX vigente ([BCCR, tarjeta](https://www.bccr.fi.cr/cr/es/firma-di
 En el [verificador de firma digital](https://www.firmadigital.go.cr/verificacion/Verificacion.aspx) ([soporte de firma digital](https://www.soportefirmadigital.com)).
 
 **¿A quién le pregunto?**
-Al BCCR: +506 2243-3333, de lunes a viernes ([BCCR, tarjeta](https://www.bccr.fi.cr/cr/es/firma-digital/certificados-de-personas-fisicas/certificados-emitidos-en-tarjetas-fisicas.html)).
+Al BCCR: +506 2243-3333, de lunes a viernes de 9 a. m. a 5 p. m. ([BCCR, pasos en tarjeta](https://www.bccr.fi.cr/cr/es/firma-digital/certificados-de-personas-fisicas/pasos-para-solicitar-la-firma-digital-en-tarjeta.html); [BCCR, tarjeta](https://www.bccr.fi.cr/cr/es/firma-digital/certificados-de-personas-fisicas/certificados-emitidos-en-tarjetas-fisicas.html)).
 
 ## Fuentes
 - [BCCR, firma digital](https://www.bccr.fi.cr/cr/es/firma-digital.html), consultada 2026-10-06.
 - [BCCR, información general](https://www.bccr.fi.cr/cr/es/firma-digital/informacion-general.html), consultada 2026-10-06.
 - [BCCR, certificados emitidos en tarjetas físicas](https://www.bccr.fi.cr/cr/es/firma-digital/certificados-de-personas-fisicas/certificados-emitidos-en-tarjetas-fisicas.html), consultada 2026-10-06.
 - [BCCR, certificados emitidos en dispositivos móviles](https://www.bccr.fi.cr/cr/es/firma-digital/certificados-de-personas-fisicas/certificados-emitidos-en-dispositivos-moviles.html), consultada 2026-10-06.
-- [BCCR, pasos para solicitar la firma digital en tarjeta](https://www.bccr.fi.cr/cr/es/firma-digital/certificados-de-personas-fisicas/pasos-para-solicitar-la-firma-digital-en-tarjeta.html), consultada 2026-10-06.
+- [BCCR, pasos para solicitar la firma digital en tarjeta](https://www.bccr.fi.cr/cr/es/firma-digital/certificados-de-personas-fisicas/pasos-para-solicitar-la-firma-digital-en-tarjeta.html), consultada 2026-10-07.
 - [BCCR, pasos para solicitar la firma digital en móvil](https://www.bccr.fi.cr/cr/es/firma-digital/certificados-de-personas-fisicas/pasos-para-solicitar-la-firma-digital-en-movil.html), consultada 2026-10-06.
-- [BCCR, emisores y costos (oficinas de registro)](https://www.bccr.fi.cr/cr/es/firma-digital/certificados-de-personas-fisicas/emisores-y-costos.html), consultada 2026-10-06.
+- [BCCR, emisores y costos (oficinas de registro)](https://www.bccr.fi.cr/cr/es/firma-digital/certificados-de-personas-fisicas/emisores-y-costos.html), consultada 2026-10-07.
 - [BCCR, lectores de tarjetas recomendados](https://www.bccr.fi.cr/cr/es/firma-digital/certificados-de-personas-fisicas/lectores-de-tarjetas-recomendados.html), consultada 2026-10-06.
 - [BCCR, revocación de certificados](https://www.bccr.fi.cr/cr/es/firma-digital/certificados-de-personas-fisicas/revocacion-de-certificados.html), consultada 2026-10-06.
 - [BCCR, acuerdo de suscriptor de persona física](https://www.bccr.fi.cr/content/dam/bccr/firma-digital/documentos/acuerdo-suscriptor-persona-fisica.pdf), consultado 2026-10-06.

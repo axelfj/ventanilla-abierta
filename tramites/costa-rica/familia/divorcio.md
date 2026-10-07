@@ -1,14 +1,14 @@
 ---
 title: "Divorcio"
 pais: Costa Rica
-ultima_verificacion: 2026-10-06
+ultima_verificacion: 2026-10-07
 estado: borrador
 ---
 
 # Divorcio
 
 > ⚠️ Esta guía es información general, no asesoría legal. No reemplaza a un abogado o notario. Verificá siempre con el Poder Judicial y el Tribunal Supremo de Elecciones (TSE).
-> **Última verificación:** 2026-10-06. **Estado:** borrador. Los datos marcados con ⚠️ faltan confirmarlos en el texto vigente de la ley.
+> **Última verificación:** 2026-10-07. **Estado:** borrador. Los datos marcados con ⚠️ faltan confirmarlos en el texto vigente de la ley (el SCIJ y el sitio de la Asamblea Legislativa no abrieron).
 
 ## Qué es
 El divorcio termina el matrimonio. En Costa Rica hay dos caminos:
@@ -21,7 +21,7 @@ Desde el **1 de octubre de 2024** rige el **Código Procesal de Familia (Ley 974
 ## ¿Lo podés hacer solo?
 - **No.** Siempre necesitás un **notario** o un **abogado**.
 - Lo que sí podés hacer vos: ordenar documentos, decidir qué querés acordar y llegar con preguntas claras. Esta guía es para eso.
-- Si no tenés recursos económicos, podés pedir asistencia legal **gratuita** a la **Defensa Pública** en procesos de familia ([Poder Judicial](https://servicios.poder-judicial.go.cr/index.php/servicio?service=60)). Teléfono gratuito del Poder Judicial: 800-800-3000.
+- La **Defensa Pública** da asesoría gratuita en **pensiones alimentarias** a quien no puede pagar un abogado, y atiende otros asuntos de familia en programas para víctimas ([Defensa Pública](https://defensapublica.poder-judicial.go.cr/index.php/asesoria-legal/pensiones-alimentarias)). ⚠️ No encontramos una fuente oficial que diga que lleva divorcios en general. Consultá al 2211-9800 o a defensapublica_web@poder-judicial.go.cr. Teléfono gratuito del Poder Judicial: 800-800-3000.
 - Para elegir abogado o notario, mirá [Cómo contratar a un abogado o notario](../general/como-contratar-un-abogado.html).
 
 ## Los tres caminos
@@ -37,7 +37,7 @@ Desde el **1 de octubre de 2024** rige el **Código Procesal de Familia (Ley 974
 
 **3. Sin acuerdo (contencioso): juzgado de familia**
 - Una persona demanda a la otra. Tiene que probar una **causal** de las que fija el artículo 48 del Código de Familia.
-- ⚠️ La lista de causales cambió varias veces en los últimos años (Ley 9747 y otras reformas). No la ponemos aquí porque no pudimos confirmar el texto vigente. Preguntale al profesional cuál aplica a tu caso.
+- ⚠️ La lista de causales cambió varias veces en los últimos años. El Código Procesal de Familia (Ley 9747) reformó el artículo 48. Según el registro del trámite legislativo, en febrero de 2025 se aprobó la **Ley 10650**, que volvió a incluir la **incompatibilidad de caracteres** como causal. No pudimos confirmar el texto vigente en La Gaceta ni en el SCIJ, así que no ponemos la lista aquí. Preguntale al profesional cuál aplica a tu caso.
 - El proceso tiene tres fases ([Poder Judicial](https://servicios.poder-judicial.go.cr/index.php/servicio?service=60)):
   1. Presentación de la demanda.
   2. Audiencia inicial, con intento de **conciliación**. Si no hay acuerdo, la otra parte responde y ofrece pruebas.
@@ -49,7 +49,7 @@ Desde el **1 de octubre de 2024** rige el **Código Procesal de Familia (Ley 974
 - **Bienes gananciales:** son, en general, los bienes que se adquirieron durante el matrimonio. ⚠️ Cuáles cuentan y cómo se reparten lo define el Código de Familia; falta confirmar el texto vigente. Si hay bienes que repartir, el divorcio no se hace solo ante notario.
 
 ## Requisitos
-Lo que el TSE pide para homologar un divorcio ante notario (lo presenta el notario) ([TSE](https://www.tse.go.cr/pdf/requisitosytramites/Homologacion-de-acuerdos-de-divorcio-y-separacion.pdf), verificado 2026-10-06):
+Lo que el TSE pide para homologar un divorcio ante notario (lo presenta el notario) ([TSE](https://www.tse.go.cr/pdf/requisitosytramites/Homologacion-de-acuerdos-de-divorcio-y-separacion.pdf), verificado 2026-10-07):
 - Cédula vigente del notario.
 - Un correo electrónico para notificaciones.
 - La solicitud con el **testimonio de la escritura pública**, que diga que no hay hijos menores de edad ni bienes gananciales.
@@ -75,16 +75,16 @@ Para el juzgado, los documentos exactos dependen del caso. Llevá al profesional
 ## Costos oficiales
 | Concepto | Monto | Fuente | Verificado |
 |---|---|---|---|
-| Homologación del acuerdo en el TSE | Gratis | [TSE](https://www.tse.go.cr/pdf/requisitosytramites/Homologacion-de-acuerdos-de-divorcio-y-separacion.pdf) | 2026-10-06 |
-| Inscripción de la sentencia de divorcio en el Registro Civil | Gratis | [TSE](https://www.tse.go.cr/pdf/requisitosytramites/Atencion-de-sentencias-judiciales.pdf) | 2026-10-06 |
-| Defensa Pública en procesos de familia | Gratis si no tenés recursos | [Poder Judicial](https://servicios.poder-judicial.go.cr/index.php/servicio?service=60) | 2026-10-06 |
+| Homologación del acuerdo en el TSE | Gratis | [TSE](https://www.tse.go.cr/pdf/requisitosytramites/Homologacion-de-acuerdos-de-divorcio-y-separacion.pdf) | 2026-10-07 |
+| Inscripción de la sentencia de divorcio en el Registro Civil | Gratis | [TSE](https://www.tse.go.cr/pdf/requisitosytramites/Atencion-de-sentencias-judiciales.pdf) | 2026-10-07 |
+| Defensa Pública | Gratis en pensiones alimentarias si no tenés recursos. ⚠️ Para el divorcio en sí, no está confirmado | [Defensa Pública](https://defensapublica.poder-judicial.go.cr/index.php/asesoria-legal/pensiones-alimentarias) | 2026-10-07 |
 
 Los honorarios del notario o abogado son aparte. Existe un arancel oficial; mirá [Cómo contratar a un abogado o notario](../general/como-contratar-un-abogado.html). Pedí presupuesto por escrito.
 
 ## Pasos
 1. Definí si hay acuerdo, si hay hijos menores y si hay bienes. Eso decide el camino.
 2. Reuní los documentos de la lista.
-3. Buscá notario o abogado (o la Defensa Pública si no tenés recursos).
+3. Buscá notario o abogado. Si no tenés recursos, consultá a la Defensa Pública si te puede atender.
 4. **Ante notario:** firman la escritura y el notario pide la homologación al TSE.
 5. **En juzgado:** se presenta el convenio o la demanda y se siguen las audiencias.
 6. **Inscripción:** desde mayo de 2020, los juzgados de familia mandan la sentencia de divorcio directo al Registro Civil, que la inscribe de oficio. En general no tenés que presentar nada vos ([TSE, atención de sentencias judiciales](https://www.tse.go.cr/pdf/requisitosytramites/Atencion-de-sentencias-judiciales.pdf)).
@@ -109,7 +109,7 @@ En general no. Desde mayo de 2020 el juzgado la manda al Registro Civil. Si quer
 Para que el Registro Civil la inscriba, la sentencia extranjera tiene que pasar antes por el trámite de **exequátur** ([TSE](https://www.tse.go.cr/pdf/requisitosytramites/Atencion-de-sentencias-judiciales.pdf)). Eso requiere abogado.
 
 **¿Hay que esperar un tiempo de casados para divorciarse?**
-⚠️ No lo pudimos confirmar en el texto vigente del Código de Familia. Preguntalo al profesional.
+Para el mutuo consentimiento, la Sala Constitucional anuló en 2008 el plazo que exigía el artículo 48 (voto 2008-016099, según la [Sala Segunda](https://salasegunda.poder-judicial.go.cr/revista/Revista_N17/contenido/PDFs/005-art2.pdf)). ⚠️ Hubo reformas después y hay un proyecto de ley en trámite sobre plazos (expediente 23.982). No pudimos confirmar el texto vigente. Preguntalo al profesional.
 
 ## Si vas donde un profesional, preguntá esto
 - Con mi caso, ¿qué camino aplica: notario, juzgado por mutuo acuerdo o contencioso?
@@ -122,13 +122,15 @@ Para que el Registro Civil la inscriba, la sentencia extranjera tiene que pasar 
 - ¿Quién confirma que el divorcio quedó inscrito en el Registro Civil?
 
 ## Fuentes
-- [Poder Judicial, Reforma Procesal de Familia](https://servicios.poder-judicial.go.cr/index.php/servicio?service=60), consultada 2026-10-06.
-- [Poder Judicial, Código Procesal de Familia contempla novedades](https://pj.poder-judicial.go.cr/index.php/component/content/article/1336-codigo-procesal-de-familia-contempla-novedades-en-la-resolucion-de-los-procesos-judiciales?catid=8&Itemid=409), consultada 2026-10-06.
-- [Poder Judicial, Cápsulas de la Reforma Procesal de Familia](https://servicios.poder-judicial.go.cr/media/com_k2_j5/upload/reforma-familia_2025_02_20_10_42_56.pdf), consultado 2026-10-06.
-- [TSE, Homologación de acuerdos de divorcio y separación](https://www.tse.go.cr/pdf/requisitosytramites/Homologacion-de-acuerdos-de-divorcio-y-separacion.pdf), consultado 2026-10-06.
-- [TSE, Atención de sentencias judiciales](https://www.tse.go.cr/pdf/requisitosytramites/Atencion-de-sentencias-judiciales.pdf), consultado 2026-10-06.
-- [Sala Segunda, Revista N.º 12, artículo sobre divorcio](https://salasegunda.poder-judicial.go.cr/revista/Revista_N12/contenido/PDFs/art-04.pdf) (cita una versión anterior del Código de Familia), consultado 2026-10-06.
-- Código de Familia, Ley 5476, en el SCIJ: <http://www.pgrweb.go.cr/scij/> (no abrió el 2026-10-06; por eso hay datos ⚠️).
+- [Poder Judicial, Reforma Procesal de Familia](https://servicios.poder-judicial.go.cr/index.php/servicio?service=60), consultada 2026-10-07.
+- [Poder Judicial, Código Procesal de Familia contempla novedades](https://pj.poder-judicial.go.cr/index.php/component/content/article/1336-codigo-procesal-de-familia-contempla-novedades-en-la-resolucion-de-los-procesos-judiciales?catid=8&Itemid=409), consultada 2026-10-07.
+- [Poder Judicial, Cápsulas de la Reforma Procesal de Familia](https://servicios.poder-judicial.go.cr/media/com_k2_j5/upload/reforma-familia_2025_02_20_10_42_56.pdf), consultado 2026-10-07.
+- [TSE, Homologación de acuerdos de divorcio y separación](https://www.tse.go.cr/pdf/requisitosytramites/Homologacion-de-acuerdos-de-divorcio-y-separacion.pdf), consultado 2026-10-07.
+- [TSE, Atención de sentencias judiciales](https://www.tse.go.cr/pdf/requisitosytramites/Atencion-de-sentencias-judiciales.pdf), consultado 2026-10-07.
+- [Defensa Pública, pensión alimentaria y familia](https://defensapublica.poder-judicial.go.cr/index.php/asesoria-legal/pensiones-alimentarias), consultada 2026-10-07.
+- [Sala Segunda, Revista N.º 17, "El divorcio incausado"](https://salasegunda.poder-judicial.go.cr/revista/Revista_N17/contenido/PDFs/005-art2.pdf) (cita el voto 2008-016099 de la Sala Constitucional), consultado 2026-10-07.
+- [Sala Segunda, Revista N.º 12, artículo sobre divorcio](https://salasegunda.poder-judicial.go.cr/revista/Revista_N12/contenido/PDFs/art-04.pdf) (cita una versión anterior del Código de Familia), consultado 2026-10-07.
+- Código de Familia, Ley 5476, en el SCIJ: <http://www.pgrweb.go.cr/scij/> y en la [Asamblea Legislativa](https://www.asamblea.go.cr/sd/Documents/BIBLIOTECADIGITAL/DOCUMENTOS/CODIGOS/C%C3%B3digo%20de%20Familia.pdf) (no abrieron el 2026-10-07; por eso hay datos ⚠️).
 
 ---
 ¿Encontraste un error? [Reportalo aquí](https://github.com/axelfj/ventanilla-abierta/issues/new?template=correccion.md).
