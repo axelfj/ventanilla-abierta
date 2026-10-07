@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+ <identifier>IMN-2026-10-07-001</identifier><sender>imn.ac.cr</sender><sent>2026-10-07T10:00:00-06:00</sent>
+ <status>Actual</status><msgType>Alert</msgType><scope>Public</scope>
+ <info><language>es-CR</language><category>Met</category><event>Lluvias intensas</event>
+  <severity>Moderate</severity><urgency>Expected</urgency><certainty>Likely</certainty>
+  <effective>2026-10-07T10:00:00-06:00</effective><onset>2026-10-07T12:00:00-06:00</onset>
+  <expires>2026-10-08T18:00:00-06:00</expires>
+  <headline>Aviso amarillo por lluvias en el Pacífico</headline>
+  <description>Se esperan aguaceros con tormenta.</description><instruction>Evite cruzar ríos crecidos.</instruction>
+  <web>https://www.imn.ac.cr/avisos</web>
+  <area><areaDesc>Pacífico Central</areaDesc></area><area><areaDesc>Pacífico Sur</areaDesc></area>
+ </info></alert>

@@ -1,0 +1,33 @@
+# Dónde publica sus avisos cada institución. Solo enlaces oficiales.
+# `revisado`: fecha en que se abrió el enlace y tenía los avisos. Sin fecha: no se pudo abrir
+# desde la revisión automática (el sitio bloquea visitas automáticas o no respondió); el enlace es su portada.
+# `automatico: true`: el recolector de alertas ya lo lee solo (scripts/recolectores/alertas.py).
+- tipo: Agua
+  icono: "💧"
+  fuentes:
+    - { nombre: AyA (Acueductos y Alcantarillados), zona: La mayor parte del país, url: "https://www.aya.go.cr", nota: "Su sitio carga los avisos con JavaScript; también los publica en sus redes sociales oficiales." }
+    - { nombre: ESPH, zona: Heredia (agua y luz), url: "https://www.esph-sa.com" }
+    - { nombre: ASADA de tu comunidad, zona: Zonas rurales, nota: "Cada ASADA avisa por su cuenta. Preguntá en la tuya cómo avisa los cortes." }
+- tipo: Luz
+  icono: "💡"
+  fuentes:
+    - { nombre: CNFL, zona: Gran Área Metropolitana, url: "https://www.cnfl.go.cr/servicios/autogestion/suspensiones", revisado: 2026-10-07, automatico: true }
+    - { nombre: ICE, zona: Resto del país sin distribuidora local, url: "https://www.iceelectricidad.com/wps/portal/electricidad/Hogar/mantenimiento-programado/", revisado: 2026-10-07 }
+    - { nombre: JASEC, zona: Cartago, url: "https://www.jasec.go.cr", nota: "Intentamos leer sus avisos cada hora, pero su sitio no siempre responde a visitas automáticas." }
+    - { nombre: ESPH, zona: Heredia, url: "https://www.esph-sa.com" }
+    - { nombre: Coopeguanacaste, zona: Guanacaste, url: "https://suspensiones.coopeguanacaste.com/", revisado: 2026-10-07 }
+    - { nombre: Coopesantos, zona: Zona de Los Santos, url: "https://www.coopesantos.com/servicio-al-asociado/suspensiones-programadas/", revisado: 2026-10-07 }
+    - { nombre: Coopealfaroruiz, zona: Zarcero, url: "https://www.coopealfaroruiz.com/suspensiones-programadas", revisado: 2026-10-07 }
+    - { nombre: Coopelesca, zona: Zona norte, url: "https://oficinavirtual.coopelesca.com/#/mapaaverias", revisado: 2026-10-07, nota: "Mapa de averías; no encontramos una lista de cortes programados." }
+- tipo: Carreteras
+  icono: "🚧"
+  fuentes:
+    - { nombre: MOPT, zona: Todo el país, url: "https://www.mopt.go.cr/noticias", revisado: 2026-10-07, nota: "Los cierres salen entre sus noticias y en sus redes sociales oficiales." }
+    - { nombre: CONAVI, zona: Red vial nacional, url: "https://conavi.go.cr/noticias", revisado: 2026-10-07 }
+- tipo: Emergencias, clima y sismos
+  icono: "🌧️"
+  fuentes:
+    - { nombre: CNE, zona: Todo el país, url: "https://www.cne.go.cr", nota: "Declara las alertas verde, amarilla, naranja y roja por cantón." }
+    - { nombre: IMN, zona: Todo el país, url: "https://www.imn.ac.cr/web/imn/avisos-meteorologicos", revisado: 2026-10-07, automatico: true }
+    - { nombre: Red Sismológica Nacional (UCR), zona: Todo el país, url: "https://rsn.ucr.ac.cr/actividad-sismica/ultimos-sismos", revisado: 2026-10-07, automatico: true }
+    - { nombre: OVSICORI-UNA, zona: Sismos y volcanes, url: "https://www.ovsicori.una.ac.cr/index.php/vulcanologia/nivel-de-actividad-volcanica", revisado: 2026-10-07 }

@@ -1,0 +1,4 @@
+{"metadata":{"success":true,"status":200,"source":"ARESEP"},"value":[
+{"codigoRuta":"I-1","nombreRuta":"DESAMPARADOS-MORAVIA","codigoRamal":"R0002","nombreRamal":"DESAMPARADOS-MORAVIA","codigoFraccionamiento":"T0001","nombreFraccionamiento":"DESAMPARADOS-MORAVIA","indMedicionARESEP":null,"provincia":null,"promedioKmViaje":"13.15","tarifaRegular":"350.00","tarifaAdultoMayor":"0.00","resolucion":"RE-0115-IT-2026","fechaResolucion":"2026-08-28T00:00:00.000","gaceta":"165","alcance":"115","fechaGaceta":"2026-09-02T00:00:00.000","fechaVigencia":"2026-09-04T00:00:00.000","expediente":"RA 02/03/95/98","operadores":"3-101-065720:AUTOTRANSPORTES CESMAG, S.A./3-101-000001:OTRA  EMPRESA S.A.","tipoServicio":null},
+{"codigoRuta":"","nombreRuta":"SIN CODIGO"}
+]}

@@ -1,0 +1,3 @@
+{"type":"FeatureCollection","features":[
+{"type":"Feature","id":"us7000abcd","properties":{"mag":3.5,"place":"2 km S of Pocora, Costa Rica","time":1791100800000,"url":"https://earthquake.usgs.gov/earthquakes/eventpage/us7000abcd"},"geometry":{"type":"Point","coordinates":[-83.6,10.15,35.2]}},
+{"type":"Feature","id":"us7000efgh","properties":{"mag":4.1,"place":"20 km NE of Bocas del Toro, Panama","time":1791100800000,"url":"https://earthquake.usgs.gov/x"},"geometry":{"type":"Point","coordinates":[-82.1,9.4,10]}}]}
