@@ -46,7 +46,7 @@
       return (!tipo || a.tipo === tipo) && (!provincia || !a.zona.provincia || a.zona.provincia === provincia);
     });
     lista.textContent = "";
-    resumen.textContent = visibles.length ? visibles.length + " alertas" : "No hay alertas activas con ese filtro en las fuentes que revisamos.";
+    resumen.textContent = visibles.length ? visibles.length + (visibles.length === 1 ? " alerta" : " alertas") : "No hay alertas activas con ese filtro en las fuentes que revisamos.";
     visibles.forEach(function (a) {
       var li = el("li", "alerta alerta-" + (a.severidad || "na"));
       var enlace = el("a", null, (ICONOS[a.tipo] || "⚠️") + " " + a.titulo);

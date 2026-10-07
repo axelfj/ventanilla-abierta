@@ -23,8 +23,12 @@
     return p[2] + "/" + p[1] + "/" + p[0];
   }
 
+  // "SAN JOSE-HEREDIA POR TIBAS" -> "San Jose-Heredia por Tibas". Los datos de la ARESEP vienen en mayúsculas.
+  var MENORES = ["de", "del", "la", "las", "los", "el", "por", "y", "a", "en"];
   function nombre(texto) {
-    return texto.toLowerCase().replace(/(^|[\s\-(\/])([a-zñáéíóú])/g, function (m, a, b) { return a + b.toUpperCase(); });
+    return texto.toLowerCase().replace(/(^|[\s\-(\/.])([a-zñáéíóú]+)/g, function (m, antes, palabra) {
+      return antes + (antes === " " && MENORES.indexOf(palabra) >= 0 ? palabra : palabra[0].toUpperCase() + palabra.slice(1));
+    });
   }
 
   function el(etiqueta, clase, texto) {
@@ -60,7 +64,7 @@
     });
     // El número de ruta exacto va primero.
     hallados.sort(function (a, b) { return (b.codigo === consulta) - (a.codigo === consulta); });
-    resumen.textContent = hallados.length ? hallados.length + " rutas" + (hallados.length > MAX ? "; se muestran las primeras " + MAX + ". Agregá otra palabra para afinar." : ".") : "No encontramos rutas con esas palabras. Probá con el nombre del cantón o del distrito.";
+    resumen.textContent = hallados.length ? hallados.length + (hallados.length === 1 ? " ruta" : " rutas") + (hallados.length > MAX ? "; se muestran las primeras " + MAX + ". Agregá otra palabra para afinar." : ".") : "No encontramos rutas con esas palabras. Probá con el nombre del cantón o del distrito.";
     hallados.slice(0, MAX).forEach(function (r) {
       var li = el("li", "ruta");
       li.appendChild(el("strong", null, "Ruta " + r.ruta + ": " + nombre(r.nombre)));
