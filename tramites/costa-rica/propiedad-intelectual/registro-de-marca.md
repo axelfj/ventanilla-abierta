@@ -1,7 +1,7 @@
 ---
 title: "Registro de marca"
 pais: Costa Rica
-ultima_verificacion: 2026-10-05
+ultima_verificacion: 2026-10-07
 estado: borrador
 ---
 
@@ -16,8 +16,8 @@ Registrar una marca te da el derecho exclusivo de usar un nombre, logo o signo p
 El trámite se hace ante el **Registro de la Propiedad Industrial**, que es parte del **Registro Nacional**. La ley que lo regula es la **Ley de Marcas y Otros Signos Distintivos, N.º 7978**.
 
 ## ¿Lo podés hacer solo?
-- **Sí**, si tenés domicilio en Costa Rica. No necesitás abogado. ⚠️
-- **Si vivís fuera de Costa Rica**, necesitás un representante con domicilio en el país. ⚠️
+- **Sí**, si tenés domicilio en Costa Rica. El Registro dice que el trámite se puede hacer "a título personal" ([preguntas frecuentes](https://www.rnpdigital.com/tramites_servicios/Preguntas%20Frecuentes.htm), verificado 2026-10-07). No necesitás abogado para autenticar tu firma: en las marcas de productos o servicios "no será necesario la autenticación de firma del representante o solicitante, con excepción a aquellos casos que se renuncie a un registro" ([Registro Nacional, Guía de Calificación](https://www.rnpdigital.com/centroinforegistral/registros/propiedad%20intelectual/GuiasCalificacion/Guia%20de%20Calificacion.pdf), verificado 2026-10-07).
+- **Si vivís fuera de Costa Rica** y no tenés domicilio ni establecimiento en el país, la solicitud tiene que indicar el nombre y la dirección de un **apoderado en Costa Rica** ([Ley 7978, art. 9 inc. d](https://www.wipo.int/wipolex/es/legislation/details/9130); [Guía de Calificación](https://www.rnpdigital.com/centroinforegistral/registros/propiedad%20intelectual/GuiasCalificacion/Guia%20de%20Calificacion.pdf), verificado 2026-10-07).
 
 ## Requisitos
 - La marca que querés registrar (nombre, logo o ambos).
@@ -38,6 +38,7 @@ Cada clase se paga por aparte.
 |---|---|---|---|
 | Inscripción, por cada clase | USD 50, pagados en timbres del Registro Nacional | [Registro Nacional, aranceles de Propiedad Intelectual](https://www.rnpdigital.com/tramites_servicios/tramitesregistros/propiedad%20intelectual/propiedad_industrial_aranceles.htm) | 2026-10-05 |
 | Renovación, por cada clase | USD 50, en timbres del Registro Nacional | [Registro Nacional, aranceles de Propiedad Intelectual](https://www.rnpdigital.com/tramites_servicios/tramitesregistros/propiedad%20intelectual/propiedad_industrial_aranceles.htm) | 2026-10-05 |
+| Timbre del Archivo Nacional, en la inscripción y en la renovación | ₡20 | [Registro Nacional, Guía de Calificación](https://www.rnpdigital.com/centroinforegistral/registros/propiedad%20intelectual/GuiasCalificacion/Guia%20de%20Calificacion.pdf); [preguntas frecuentes](https://www.rnpdigital.com/tramites_servicios/Preguntas%20Frecuentes.htm) | 2026-10-07 |
 | Publicación del edicto en La Gaceta | Lo cotiza la Imprenta Nacional ⚠️ monto variable | Imprenta Nacional | ⚠️ Por verificar |
 
 El pago se puede hacer en el **BCR** o en línea. ⚠️
@@ -60,7 +61,7 @@ El pago se puede hacer en el **BCR** o en línea. ⚠️
 - El tiempo total depende de la carga del Registro y de si hay objeciones.
 
 ## Después del registro
-- La marca dura **10 años** y se puede renovar. ⚠️
+- La marca dura **10 años** desde que se concede y se puede renovar por períodos sucesivos de 10 años ([Ley 7978, art. 20](https://www.wipo.int/wipolex/es/legislation/details/9130), verificado 2026-10-07).
 - **Usala.** Si no la usás durante **cinco años** desde el registro, cualquier persona puede pedir que se cancele (art. 39 de la Ley 7978, verificado 2026-10-05).
 
 ## Errores comunes
@@ -82,16 +83,22 @@ No. El registro es territorial: protege solo en Costa Rica.
 
 ## Fuentes
 - Ley de Marcas y Otros Signos Distintivos, N.º 7978. Texto en el Sistema Costarricense de Información Jurídica (SCIJ): <http://www.pgrweb.go.cr/scij/> ⚠️ falta enlace directo.
+- [Ley 7978 en WIPO Lex](https://www.wipo.int/wipolex/es/legislation/details/9130) (texto consolidado hasta la Ley 8632 de 2008), arts. 9 y 20, consultada 2026-10-07.
 - Ley N.º 8020, que reforma los artículos 94 y 95 de la Ley 7978 (tasas): [WIPO Lex](https://www.wipo.int/wipolex/es/legislation/details/883), consultada 2026-10-05.
 - [Registro Nacional, aranceles de Propiedad Intelectual](https://www.rnpdigital.com/tramites_servicios/tramitesregistros/propiedad%20intelectual/propiedad_industrial_aranceles.htm), consultado 2026-10-05.
 - [Reglamento de la Ley de Marcas, Decreto 30233-J](https://www.rnpdigital.com/centroinforegistral/registros/propiedad%20intelectual/pi_normativa/decretos/Reglamento%20a%20la%20Ley%20de%20marcas%20y%20otros%20signos%20distintivos%201.pdf).
+- [Registro Nacional, Guía de Calificación de Propiedad Intelectual](https://www.rnpdigital.com/centroinforegistral/registros/propiedad%20intelectual/GuiasCalificacion/Guia%20de%20Calificacion.pdf), consultada 2026-10-07.
+- [Registro Nacional, preguntas frecuentes](https://www.rnpdigital.com/tramites_servicios/Preguntas%20Frecuentes.htm), consultadas 2026-10-07.
 - Clasificación de Niza (OMPI): <https://www.wipo.int/classifications/nice/es/> ⚠️ falta confirmar clases.
 
 ## Pendientes de verificación
 - [x] Tasa de USD 50 por clase confirmada en la tabla de aranceles del Registro Nacional (2026-10-05).
 - [ ] Enlazar el formulario oficial de solicitud y la tabla de tarifas.
-- [ ] Confirmar la forma de pago. (El timbre de ₡20 del Archivo Nacional que aparece en la tabla oficial es para patentes, modelos de utilidad y diseños, no para marcas.)
-- [ ] Confirmar plazos (oposición, certificado, vigencia, cancelación por no uso) con los artículos exactos de la Ley 7978.
+- [x] Timbre de ₡20 del Archivo Nacional: también se pide para marcas, según la Guía de Calificación y las preguntas frecuentes del Registro (2026-10-07).
+- [x] Firma: en marcas de productos o servicios no hace falta autenticarla, salvo para renunciar a un registro, según la Guía de Calificación (2026-10-07).
+- [ ] Confirmar la forma de pago.
+- [x] Vigencia de 10 años confirmada en el art. 20 de la Ley 7978 (2026-10-07).
+- [ ] Confirmar el plazo del certificado.
 - [ ] Confirmar las clases 41 y 9 para proyectos musicales con la lista oficial de Niza.
 
 ---

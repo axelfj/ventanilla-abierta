@@ -95,7 +95,7 @@
     - { titulo: Patente municipal, url: emprendimiento/patente-municipal.html }
     - { titulo: Facturación electrónica, url: emprendimiento/facturacion-electronica.html }
     - { titulo: Permiso sanitario de funcionamiento }
-    - { titulo: Registro de nombre comercial }
+    - { titulo: Registro de nombre comercial, url: propiedad-intelectual/nombre-comercial.html }
     - { titulo: Régimen simplificado de tributación }
     - { titulo: Inscribirte como PYME ante el MEIC }
     - { titulo: Registro de beneficiarios finales de una sociedad }
@@ -110,7 +110,7 @@
     - { titulo: "Reportes mensuales, trimestrales y anuales", url: emprendimiento/reportes-de-un-negocio.html }
     - { titulo: Facturación electrónica, url: emprendimiento/facturacion-electronica.html }
     - { titulo: Régimen simplificado de tributación }
-    - { titulo: Impuesto de bienes inmuebles }
+    - { titulo: Impuesto de bienes inmuebles, url: vehiculos-y-propiedades/impuesto-bienes-inmuebles.html }
     - { titulo: Compras por internet y aduana }
     - { titulo: Arreglo de pago con Hacienda }
 - slug: trabajo
@@ -124,7 +124,7 @@
     - { titulo: Aguinaldo, url: trabajo/aguinaldo.html }
     - { titulo: Cómo contratar a una persona trabajadora, url: trabajo/contratar-empleados.html }
     - { titulo: Denuncia ante la Inspección de Trabajo, url: trabajo/denuncia-inspeccion-de-trabajo.html }
-    - { titulo: Salarios mínimos }
+    - { titulo: Salarios mínimos, url: trabajo/salarios-minimos.html }
     - { titulo: Jornada laboral y horas extra }
     - { titulo: Acoso laboral y hostigamiento sexual }
     - { titulo: Incapacidades por enfermedad }
@@ -153,7 +153,7 @@
     - { titulo: Matrimonio, url: familia/matrimonio.html }
     - { titulo: Divorcio, url: familia/divorcio.html }
     - { titulo: Unión de hecho }
-    - { titulo: Inscribir un nacimiento y reconocer a un hijo }
+    - { titulo: Inscribir un nacimiento y reconocer a un hijo, url: familia/inscribir-nacimiento.html }
     - { titulo: Guarda, crianza y régimen de visitas }
     - { titulo: Adopción }
     - { titulo: Sucesión (herencia sin testamento) }
@@ -179,7 +179,7 @@
     - { titulo: Planos catastrados y segregación de lotes }
     - { titulo: Certificado de uso de suelo }
     - { titulo: Permiso de construcción }
-    - { titulo: Impuesto de bienes inmuebles }
+    - { titulo: Impuesto de bienes inmuebles, url: vehiculos-y-propiedades/impuesto-bienes-inmuebles.html }
 - slug: viajes-y-migracion
   icono: "✈️"
   nombre: Viajes y migración
@@ -211,7 +211,7 @@
   desc: Cobrar lo que te deben y manejar tus deudas.
   temas:
     - { titulo: Cobro de deudas, url: contratos/cobro-de-deudas.html }
-    - { titulo: Revisar tu historial crediticio }
+    - { titulo: Revisar tu historial crediticio, url: consumidor/historial-crediticio.html }
     - { titulo: Embargo de salario }
     - { titulo: "Pagarés y letras de cambio" }
     - { titulo: Reclamar a un banco o emisor de tarjeta }
