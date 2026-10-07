@@ -57,15 +57,15 @@
     - { titulo: Pedir información o hacer una petición a una institución pública }
     - { titulo: Proteger tus datos personales }
     - { titulo: Certificación de discapacidad }
-    - { titulo: Asesoría legal gratuita }
+    - { titulo: Asesoría legal gratuita, url: general/asesoria-legal-gratuita.html }
 - slug: justicia
   icono: "🏛️"
   nombre: Denuncias y juicios
   desc: Denunciar, protegerte y moverte en los tribunales.
   temas:
-    - { titulo: Poner una denuncia (OIJ o Fiscalía) }
+    - { titulo: Poner una denuncia (OIJ o Fiscalía), url: derechos/poner-una-denuncia.html }
     - { titulo: Medidas de protección por violencia doméstica, url: familia/medidas-de-proteccion.html }
-    - { titulo: Asesoría legal gratuita }
+    - { titulo: Asesoría legal gratuita, url: general/asesoria-legal-gratuita.html }
     - { titulo: Conciliación y mediación gratuita }
     - { titulo: Qué hacer si te notifican una demanda o te citan a un juzgado }
     - { titulo: Consultar tu expediente judicial en línea }
@@ -78,7 +78,7 @@
     - { titulo: Cómo hacer un contrato, url: contratos/como-hacer-un-contrato.html }
     - { titulo: Cómo contratar a un abogado o notario, url: general/como-contratar-un-abogado.html }
     - { titulo: Contrato con las personas que contratás, url: trabajo/contratar-empleados.html }
-    - { titulo: Asesoría legal gratuita }
+    - { titulo: Asesoría legal gratuita, url: general/asesoria-legal-gratuita.html }
     - { titulo: Dar o revocar un poder }
     - { titulo: "Pagarés y letras de cambio" }
 - slug: emprendimiento
@@ -138,8 +138,8 @@
   temas:
     - { titulo: Contrato de alquiler de vivienda, url: vivienda/contrato-de-alquiler.html }
     - { titulo: Reclamo como consumidor, url: consumidor/reclamo-al-consumidor.html }
-    - { titulo: "Desalojo: derechos de inquilinos y propietarios" }
-    - { titulo: Bono de vivienda }
+    - { titulo: "Desalojo: derechos de inquilinos y propietarios", url: vivienda/desalojo.html }
+    - { titulo: Bono de vivienda, url: vivienda/bono-de-vivienda.html }
     - { titulo: "Reclamar por servicios públicos: luz, agua y teléfono" }
     - { titulo: Reclamar a un banco o emisor de tarjeta }
 - slug: familia
@@ -210,7 +210,7 @@
   nombre: Dinero y deudas
   desc: Cobrar lo que te deben y manejar tus deudas.
   temas:
-    - { titulo: Cobro de deudas }
+    - { titulo: Cobro de deudas, url: contratos/cobro-de-deudas.html }
     - { titulo: Revisar tu historial crediticio }
     - { titulo: Embargo de salario }
     - { titulo: "Pagarés y letras de cambio" }
@@ -233,7 +233,7 @@
   temas:
     - { titulo: Ayudas sociales del IMAS }
     - { titulo: Pensión del Régimen No Contributivo }
-    - { titulo: Bono de vivienda }
+    - { titulo: Bono de vivienda, url: vivienda/bono-de-vivienda.html }
     - { titulo: "Problemas con vecinos: ruido, linderos y mediación" }
     - { titulo: Conciliación y mediación gratuita }
     - { titulo: Denunciar un daño ambiental }
