@@ -107,6 +107,9 @@
     resumen.textContent = "No pudimos cargar las tarifas en este momento. Podés consultarlas directo en el sitio de la ARESEP (enlace abajo).";
   });
 
+  // Enter no recarga la página: la búsqueda ya corre mientras se escribe.
+  entrada.form.addEventListener("submit", function (e) { e.preventDefault(); buscar(); });
+
   var espera;
   entrada.addEventListener("input", function () { clearTimeout(espera); espera = setTimeout(buscar, 150); });
 })();

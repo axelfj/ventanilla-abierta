@@ -35,6 +35,12 @@
     return e;
   }
 
+  // Los datos vienen de sitios externos: solo se enlaza a direcciones web normales,
+  // nunca a "javascript:" ni otros esquemas que podrían ejecutar código.
+  function enlaceSeguro(url) {
+    return typeof url === "string" && /^https?:\/\//i.test(url) ? url : null;
+  }
+
   function guardar(clave, valor) { try { localStorage.setItem(clave, valor); } catch (e) {} }
   function leer(clave) { try { return localStorage.getItem(clave) || ""; } catch (e) { return ""; } }
 
@@ -43,20 +49,23 @@
     guardar("alertas-provincia", provincia);
     var visibles = datos.filter(function (a) {
       // Las alertas sin provincia (sismos, avisos nacionales) se muestran siempre.
-      return (!tipo || a.tipo === tipo) && (!provincia || !a.zona.provincia || a.zona.provincia === provincia);
+      return (!tipo || a.tipo === tipo) && (!provincia || !a.zona || !a.zona.provincia || a.zona.provincia === provincia);
     });
     lista.textContent = "";
     resumen.textContent = visibles.length ? visibles.length + (visibles.length === 1 ? " alerta" : " alertas") : "No hay alertas activas con ese filtro en las fuentes que revisamos.";
     visibles.forEach(function (a) {
       var li = el("li", "alerta alerta-" + (a.severidad || "na"));
-      var enlace = el("a", null, (ICONOS[a.tipo] || "⚠️") + " " + a.titulo);
-      enlace.href = a.fuente.url;
-      enlace.rel = "noopener";
+      var url = enlaceSeguro(a.fuente.url);
+      var enlace = el(url ? "a" : "strong", null, (ICONOS[a.tipo] || "⚠️") + " " + a.titulo);
+      if (url) {
+        enlace.href = url;
+        enlace.rel = "noopener noreferrer";
+      }
       li.appendChild(enlace);
       var cuando = a.inicio ? fecha(a.inicio) + (a.fin ? " a " + fecha(a.fin) : "") : "";
       if (cuando) li.appendChild(el("span", "nota", cuando));
       if (a.descripcion) li.appendChild(el("span", "nota", a.descripcion));
-      li.appendChild(el("span", "nota", "Fuente: " + (NOMBRES[a.fuente.institucion] || a.fuente.institucion) + ". Tocá el título para ver el aviso oficial."));
+      li.appendChild(el("span", "nota", "Fuente: " + (NOMBRES[a.fuente.institucion] || a.fuente.institucion) + (url ? ". Tocá el título para ver el aviso oficial." : ".")));
       lista.appendChild(li);
     });
   }

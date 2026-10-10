@@ -110,6 +110,39 @@ class Corrida(unittest.TestCase):
         self.assertIn("sin respuesta", estado["jasec"]["error"])
         self.assertTrue(estado["usgs"]["ok"])
 
+    def test_fuente_con_demasiadas_alertas_se_recorta(self):
+        muchas = [alertas.alerta("rsn", str(n), "sismo", "Sismo", "https://x", AHORA) for n in range(500)]
+        r, estado = alertas.correr([], AHORA, {"rsn": lambda ahora: muchas})
+        self.assertEqual(len(r), alertas.MAX_POR_FUENTE)
+
+
+class Seguridad(unittest.TestCase):
+    """Lo que viene de afuera se guarda como texto y solo con enlaces web normales."""
+
+    def test_enlace_peligroso_se_cambia_por_la_pagina_de_la_fuente(self):
+        for url in ["javascript:alert(1)", " JavaScript:alert(1)", "data:text/html,hola", "file:///etc/passwd", "", None]:
+            a = alertas.alerta("jasec", "1", "luz", "Corte", url, AHORA)
+            self.assertEqual(a["fuente"]["url"], alertas.PAGINAS["jasec"])
+
+    def test_enlace_web_se_conserva(self):
+        a = alertas.alerta("jasec", "1", "luz", "Corte", " https://www.jasec.go.cr/aviso ", AHORA)
+        self.assertEqual(a["fuente"]["url"], "https://www.jasec.go.cr/aviso")
+
+    def test_titulo_sin_etiquetas_y_con_largo_maximo(self):
+        a = alertas.alerta("rsn", "1", "sismo", "<img src=x onerror=alert(1)>Sismo " + "x" * 500, "https://x", AHORA)
+        self.assertNotIn("<img", a["titulo"])
+        self.assertLessEqual(len(a["titulo"]), 200)
+
+    def test_no_baja_direcciones_que_no_son_web(self):
+        with self.assertRaises(ValueError):
+            alertas.bajar("file:///etc/passwd")
+
+    def test_rss_con_enlaces_raros(self):
+        rss = (b'<rss><channel><item><title>Interrupcion del servicio</title>'
+               b'<link>javascript:alert(1)</link><pubDate>Tue, 06 Oct 2026 10:00:00 GMT</pubDate></item></channel></rss>')
+        r = alertas.leer_jasec(rss, AHORA)
+        self.assertEqual(r[0]["fuente"]["url"], alertas.PAGINAS["jasec"])
+
 
 if __name__ == "__main__":
     unittest.main()
