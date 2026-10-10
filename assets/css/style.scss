@@ -13,7 +13,8 @@ a { color: var(--acento); overflow-wrap: anywhere; }
 img { max-width:100%; height:auto; }
 .topbar { border-bottom:1px solid var(--borde); position:sticky; top:0; background:var(--fondo); z-index:10; }
 .topbar .contenedor { display:flex; align-items:center; justify-content:space-between; gap:12px; padding-top:12px; padding-bottom:12px; }
-.marca { font-weight:700; font-size:1.1em; color:var(--texto); text-decoration:none; }
+.marca { font-weight:700; font-size:1.1em; color:var(--texto); text-decoration:none; display:inline-flex; align-items:center; gap:8px; }
+.marca img { flex:none; border-radius:6px; }
 .topbar nav a { margin-left:16px; text-decoration:none; font-weight:500; }
 main { padding-top:24px; padding-bottom:32px; }
 h1 { font-size:2em; line-height:1.2; margin:.4em 0 .5em; }
