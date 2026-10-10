@@ -111,7 +111,7 @@
     - { titulo: Facturación electrónica, url: emprendimiento/facturacion-electronica.html }
     - { titulo: Régimen simplificado de tributación }
     - { titulo: Impuesto de bienes inmuebles, url: vehiculos-y-propiedades/impuesto-bienes-inmuebles.html }
-    - { titulo: Compras por internet y aduana }
+    - { titulo: Compras por internet y aduana, url: impuestos/compras-por-internet-y-aduana.html }
     - { titulo: Arreglo de pago con Hacienda }
 - slug: trabajo
   icono: "🛠️"
@@ -152,7 +152,7 @@
     - { titulo: Permiso de salida de menores, url: viajes-y-migracion/permiso-de-salida-de-menores.html }
     - { titulo: Matrimonio, url: familia/matrimonio.html }
     - { titulo: Divorcio, url: familia/divorcio.html }
-    - { titulo: Unión de hecho }
+    - { titulo: Unión de hecho, url: familia/union-de-hecho.html }
     - { titulo: Inscribir un nacimiento y reconocer a un hijo, url: familia/inscribir-nacimiento.html }
     - { titulo: Guarda, crianza y régimen de visitas }
     - { titulo: Adopción }
@@ -169,16 +169,16 @@
     - { titulo: Traspaso de vehículo, url: vehiculos-y-propiedades/traspaso-de-vehiculo.html }
     - { titulo: Compraventa de casa o lote, url: vehiculos-y-propiedades/compraventa-de-propiedad.html }
     - { titulo: Marchamo, url: vehiculos-y-propiedades/marchamo.html }
-    - { titulo: Revisión técnica vehicular (RTV) }
+    - { titulo: Revisión técnica vehicular (RTV), url: vehiculos-y-propiedades/revision-tecnica-vehicular.html }
     - { titulo: "Multas de tránsito: pagarlas o apelarlas" }
     - { titulo: Qué hacer después de un accidente de tránsito }
     - { titulo: Inscribir un vehículo importado }
     - { titulo: Reponer placas o documentos del vehículo }
-    - { titulo: Hipoteca }
+    - { titulo: Hipoteca, url: vehiculos-y-propiedades/hipoteca.html }
     - { titulo: Consultar una propiedad en el Registro Nacional }
     - { titulo: Planos catastrados y segregación de lotes }
     - { titulo: Certificado de uso de suelo }
-    - { titulo: Permiso de construcción }
+    - { titulo: Permiso de construcción, url: vehiculos-y-propiedades/permiso-de-construccion.html }
     - { titulo: Impuesto de bienes inmuebles, url: vehiculos-y-propiedades/impuesto-bienes-inmuebles.html }
 - slug: viajes-y-migracion
   icono: "✈️"
@@ -188,7 +188,7 @@
     - { titulo: Pasaporte costarricense, url: viajes-y-migracion/pasaporte.html }
     - { titulo: Permiso de salida de menores, url: viajes-y-migracion/permiso-de-salida-de-menores.html }
     - { titulo: Cómo salir del país a tocar, url: artistas/tocar-en-otro-pais.html }
-    - { titulo: Visas para viajar desde Costa Rica }
+    - { titulo: Visas para viajar desde Costa Rica, url: viajes-y-migracion/visas.html }
     - { titulo: Apostillar un documento para usarlo en otro país }
     - { titulo: Residencia para personas extranjeras }
     - { titulo: Permiso de trabajo para personas extranjeras }
