@@ -14,6 +14,8 @@
     - { titulo: Permisos para hacer un evento, url: eventos/permisos-para-eventos.html }
     - { titulo: Asegurarse como trabajador independiente o voluntario, url: salud/seguro-independiente-o-voluntario.html }
     - { titulo: Facturación electrónica, url: emprendimiento/facturacion-electronica.html }
+    - { titulo: Qué necesitás para ofrecer tus servicios a empresas, url: emprendimiento/vender-servicios-a-empresas.html }
+    - { titulo: "Servicios profesionales, freelance o tiempo completo: qué cambia", url: trabajo/servicios-profesionales-freelance-o-planilla.html }
     - { titulo: "Contratos con disqueras, editoras y distribuidoras" }
     - { titulo: "Usar música de otras personas: covers, samples y licencias" }
     - { titulo: Traer artistas extranjeros a tocar a Costa Rica }
@@ -63,6 +65,7 @@
   nombre: Tus derechos
   desc: Sala IV, Defensoría, información pública y tus datos.
   temas:
+    - { titulo: Tus derechos fundamentales en Costa Rica, url: derechos/tus-derechos-fundamentales.html }
     - { titulo: Recurso ante la Sala Constitucional (Sala IV), url: derechos/recurso-ante-la-sala-constitucional.html }
     - { titulo: Queja ante la Defensoría de los Habitantes }
     - { titulo: Pedir información o hacer una petición a una institución pública }
@@ -99,6 +102,9 @@
   temas:
     - { titulo: "Cómo montar un negocio, paso a paso", url: emprendimiento/como-montar-un-negocio.html }
     - { titulo: Inscripción en Hacienda como contribuyente, url: emprendimiento/inscripcion-en-hacienda.html }
+    - { titulo: "Cómo vender al por mayor (a otros negocios)", url: emprendimiento/vender-al-por-mayor.html }
+    - { titulo: Qué necesitás para ofrecer tus servicios a empresas, url: emprendimiento/vender-servicios-a-empresas.html }
+    - { titulo: "Servicios profesionales, freelance o tiempo completo: qué cambia", url: trabajo/servicios-profesionales-freelance-o-planilla.html }
     - { titulo: "Reportes mensuales, trimestrales y anuales", url: emprendimiento/reportes-de-un-negocio.html }
     - { titulo: Inscribir una empresa (sociedad), url: emprendimiento/inscribir-una-empresa.html }
     - { titulo: Registro de marca, url: propiedad-intelectual/registro-de-marca.html }
@@ -120,6 +126,7 @@
     - { titulo: Inscripción en Hacienda como contribuyente, url: emprendimiento/inscripcion-en-hacienda.html }
     - { titulo: "Reportes mensuales, trimestrales y anuales", url: emprendimiento/reportes-de-un-negocio.html }
     - { titulo: Facturación electrónica, url: emprendimiento/facturacion-electronica.html }
+    - { titulo: "Servicios profesionales, freelance o tiempo completo: qué cambia", url: trabajo/servicios-profesionales-freelance-o-planilla.html }
     - { titulo: Régimen simplificado de tributación }
     - { titulo: Impuesto de bienes inmuebles, url: vehiculos-y-propiedades/impuesto-bienes-inmuebles.html }
     - { titulo: Compras por internet y aduana, url: impuestos/compras-por-internet-y-aduana.html }
@@ -136,6 +143,7 @@
     - { titulo: Cómo contratar a una persona trabajadora, url: trabajo/contratar-empleados.html }
     - { titulo: Denuncia ante la Inspección de Trabajo, url: trabajo/denuncia-inspeccion-de-trabajo.html }
     - { titulo: Salarios mínimos, url: trabajo/salarios-minimos.html }
+    - { titulo: "Servicios profesionales, freelance o tiempo completo: qué cambia", url: trabajo/servicios-profesionales-freelance-o-planilla.html }
     - { titulo: Jornada laboral y horas extra }
     - { titulo: Acoso laboral y hostigamiento sexual }
     - { titulo: Incapacidades por enfermedad }
@@ -151,6 +159,7 @@
     - { titulo: Reclamo como consumidor, url: consumidor/reclamo-al-consumidor.html }
     - { titulo: "Desalojo: derechos de inquilinos y propietarios", url: vivienda/desalojo.html }
     - { titulo: Bono de vivienda, url: vivienda/bono-de-vivienda.html }
+    - { titulo: "¿Qué podés cultivar en tu casa?", url: vivienda/cultivar-en-casa.html }
     - { titulo: "Reclamar por servicios públicos: luz, agua y teléfono" }
     - { titulo: Reclamar a un banco o emisor de tarjeta }
 - slug: familia
@@ -178,7 +187,7 @@
   temas:
     - { titulo: Licencia de conducir, url: documentos/licencia-de-conducir.html }
     - { titulo: Traspaso de vehículo, url: vehiculos-y-propiedades/traspaso-de-vehiculo.html }
-    - { titulo: Compraventa de casa o lote, url: vehiculos-y-propiedades/compraventa-de-propiedad.html }
+    - { titulo: "Comprar una casa o lote: el proceso completo", url: vehiculos-y-propiedades/compraventa-de-propiedad.html }
     - { titulo: Marchamo, url: vehiculos-y-propiedades/marchamo.html }
     - { titulo: Revisión técnica vehicular (RTV), url: vehiculos-y-propiedades/revision-tecnica-vehicular.html }
     - { titulo: "Multas de tránsito: pagarlas o apelarlas" }
@@ -248,4 +257,5 @@
     - { titulo: "Problemas con vecinos: ruido, linderos y mediación" }
     - { titulo: Conciliación y mediación gratuita }
     - { titulo: Denunciar un daño ambiental }
+    - { titulo: "¿Qué podés cultivar en tu casa?", url: vivienda/cultivar-en-casa.html }
     - { titulo: Cuidado de animales y denuncias por maltrato }
