@@ -96,7 +96,7 @@
     - { titulo: Facturación electrónica, url: emprendimiento/facturacion-electronica.html }
     - { titulo: Permiso sanitario de funcionamiento }
     - { titulo: Registro de nombre comercial, url: propiedad-intelectual/nombre-comercial.html }
-    - { titulo: Régimen simplificado de tributación }
+    - { titulo: Régimen simplificado de tributación, url: emprendimiento/regimen-simplificado.html }
     - { titulo: Inscribirte como PYME ante el MEIC }
     - { titulo: Registro de beneficiarios finales de una sociedad }
     - { titulo: Cerrar un negocio o disolver una sociedad }
@@ -109,7 +109,7 @@
     - { titulo: Inscripción en Hacienda como contribuyente, url: emprendimiento/inscripcion-en-hacienda.html }
     - { titulo: "Reportes mensuales, trimestrales y anuales", url: emprendimiento/reportes-de-un-negocio.html }
     - { titulo: Facturación electrónica, url: emprendimiento/facturacion-electronica.html }
-    - { titulo: Régimen simplificado de tributación }
+    - { titulo: Régimen simplificado de tributación, url: emprendimiento/regimen-simplificado.html }
     - { titulo: Impuesto de bienes inmuebles, url: vehiculos-y-propiedades/impuesto-bienes-inmuebles.html }
     - { titulo: Compras por internet y aduana, url: impuestos/compras-por-internet-y-aduana.html }
     - { titulo: Arreglo de pago con Hacienda }
@@ -125,7 +125,7 @@
     - { titulo: Cómo contratar a una persona trabajadora, url: trabajo/contratar-empleados.html }
     - { titulo: Denuncia ante la Inspección de Trabajo, url: trabajo/denuncia-inspeccion-de-trabajo.html }
     - { titulo: Salarios mínimos, url: trabajo/salarios-minimos.html }
-    - { titulo: Jornada laboral y horas extra }
+    - { titulo: Jornada laboral y horas extra, url: trabajo/jornada-y-horas-extra.html }
     - { titulo: Acoso laboral y hostigamiento sexual }
     - { titulo: Incapacidades por enfermedad }
     - { titulo: Licencia por maternidad y paternidad }
@@ -156,7 +156,7 @@
     - { titulo: Inscribir un nacimiento y reconocer a un hijo, url: familia/inscribir-nacimiento.html }
     - { titulo: Guarda, crianza y régimen de visitas }
     - { titulo: Adopción }
-    - { titulo: Sucesión (herencia sin testamento) }
+    - { titulo: Sucesión (herencia sin testamento), url: familia/sucesion.html }
     - { titulo: Inscribir una defunción }
     - { titulo: Salvaguardia para personas con discapacidad }
     - { titulo: Medidas de protección por violencia doméstica, url: familia/medidas-de-proteccion.html }
@@ -175,7 +175,7 @@
     - { titulo: Inscribir un vehículo importado }
     - { titulo: Reponer placas o documentos del vehículo }
     - { titulo: Hipoteca, url: vehiculos-y-propiedades/hipoteca.html }
-    - { titulo: Consultar una propiedad en el Registro Nacional }
+    - { titulo: Consultar una propiedad en el Registro Nacional, url: vehiculos-y-propiedades/consultar-una-propiedad.html }
     - { titulo: Planos catastrados y segregación de lotes }
     - { titulo: Certificado de uso de suelo }
     - { titulo: Permiso de construcción, url: vehiculos-y-propiedades/permiso-de-construccion.html }
@@ -212,7 +212,7 @@
   temas:
     - { titulo: Cobro de deudas, url: contratos/cobro-de-deudas.html }
     - { titulo: Revisar tu historial crediticio, url: consumidor/historial-crediticio.html }
-    - { titulo: Embargo de salario }
+    - { titulo: Embargo de salario, url: contratos/embargo-de-salario.html }
     - { titulo: "Pagarés y letras de cambio" }
     - { titulo: Reclamar a un banco o emisor de tarjeta }
     - { titulo: Arreglo de pago con Hacienda }
