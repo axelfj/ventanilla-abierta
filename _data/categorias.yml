@@ -152,7 +152,7 @@
     - { titulo: Permiso de salida de menores, url: viajes-y-migracion/permiso-de-salida-de-menores.html }
     - { titulo: Matrimonio, url: familia/matrimonio.html }
     - { titulo: Divorcio, url: familia/divorcio.html }
-    - { titulo: Unión de hecho }
+    - { titulo: Unión de hecho, url: familia/union-de-hecho.html }
     - { titulo: Inscribir un nacimiento y reconocer a un hijo, url: familia/inscribir-nacimiento.html }
     - { titulo: Guarda, crianza y régimen de visitas }
     - { titulo: Adopción }
