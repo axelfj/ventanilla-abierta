@@ -10,8 +10,17 @@ nombre="$2"
 raiz="$(cd "$(dirname "$0")/../.." && pwd)"
 tmp="$(mktemp -d)"
 
-if git fetch -q --depth 1 origin datos 2>/dev/null; then
+# Si la rama ya existe, se parte de lo que tiene. Si no se puede leer (por ejemplo, un fallo de red),
+# se aborta en vez de publicar sin las otras carpetas.
+if git ls-remote -q --exit-code --heads origin datos >/dev/null; then
+  git fetch -q --depth 1 origin datos
   git archive origin/datos | tar -x -C "$tmp"
+else
+  codigo=$?
+  if [ "$codigo" -ne 2 ]; then
+    echo "No se pudo leer la rama datos (código $codigo); no se publica." >&2
+    exit 1
+  fi
 fi
 rm -rf "${tmp:?}/$nombre"
 cp -r "$nueva" "$tmp/$nombre"

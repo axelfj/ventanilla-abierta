@@ -16,12 +16,19 @@ import urllib.request
 FUENTE = "https://datos.aresep.go.cr/ws.datosabiertos/Services/IT/PliegoTarifario.svc/ObtenerPliegoTarifarioAutobus/0"
 FICHA = "https://aresep.go.cr/datos-abiertos/tarifas-autobus/"
 AGENTE = "VentanillaAbierta/1.0 (+https://github.com/axelfj/ventanilla-abierta)"
+# El pliego trae unos 4 770 tramos. Si llegan muchos menos, la respuesta vino mal y no se publica:
+# la página sigue mostrando las tarifas del día anterior y el workflow falla para avisar.
+MIN_TRAMOS = 1000
+MAX_BYTES = 50 * 1024 * 1024
 
 
-def bajar(url, tiempo=120):
+def bajar(url, tiempo=120, limite=MAX_BYTES):
     pedido = urllib.request.Request(url, headers={"User-Agent": AGENTE, "Accept": "application/json"})
     with urllib.request.urlopen(pedido, timeout=tiempo) as r:
-        return r.read()
+        datos = r.read(limite + 1)
+    if len(datos) > limite:
+        raise ValueError(f"la respuesta de la ARESEP pasa de {limite // (1024 * 1024)} MB")
+    return datos
 
 
 def texto(valor):
@@ -30,9 +37,10 @@ def texto(valor):
 
 def numero(valor):
     try:
-        return round(float(valor), 2)
+        n = round(float(valor), 2)
     except (TypeError, ValueError):
         return None
+    return n if 0 <= n < 1e7 else None  # descarta negativos, infinitos y NaN
 
 
 def fecha(valor):
@@ -78,6 +86,12 @@ def normalizar(datos):
     return tramos
 
 
+def revisar(tramos, minimo=MIN_TRAMOS):
+    """Frena la publicación si la respuesta parece incompleta."""
+    if len(tramos) < minimo:
+        raise ValueError(f"la ARESEP devolvió solo {len(tramos)} tramos (se esperan al menos {minimo}); no se publica")
+
+
 def main():
     if len(sys.argv) != 2:
         print(__doc__)
@@ -85,6 +99,7 @@ def main():
     salida = sys.argv[1]
     ahora = dt.datetime.now(dt.timezone.utc).replace(microsecond=0)
     tramos = normalizar(bajar(FUENTE))
+    revisar(tramos)
     os.makedirs(salida, exist_ok=True)
     with open(os.path.join(salida, "tarifas.json"), "w", encoding="utf-8") as f:
         json.dump({
