@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <title>Ventanilla Abierta</title>
+  <rect width="64" height="64" rx="14" fill="#0b6e4f"/>
+  <path d="M10 12h44l4 11H6z" fill="#fff"/>
+  <path d="M21 12h7l-1 11h-9zM36 12h7l3 11h-9z" fill="#3fb68b"/>
+  <rect x="11" y="26" width="25" height="21" fill="#fff"/>
+  <rect x="14" y="29" width="19" height="18" fill="#d9f2e6"/>
+  <path d="M36 26l13-3v25l-13-2z" fill="#fff"/>
+  <circle cx="45" cy="36" r="1.6" fill="#0b6e4f"/>
+  <rect x="8" y="46" width="48" height="6" rx="2" fill="#fff"/>
+</svg>

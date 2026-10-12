@@ -1,0 +1,8 @@
+# Dependabot abre un PR cuando sale una versión nueva de las acciones que usan los workflows,
+# porque están fijas a un commit exacto y no se actualizan solas.
+version: 2
+updates:
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: monthly

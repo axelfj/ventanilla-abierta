@@ -31,11 +31,36 @@ CR = dt.timezone(dt.timedelta(hours=-6))  # Costa Rica no usa horario de verano
 # Caja que contiene a Costa Rica (incluye un poco de Nicaragua y Panamá; se filtra por nombre).
 CAJA_CR = {"minlatitude": 8.0, "maxlatitude": 11.3, "minlongitude": -86.0, "maxlongitude": -82.5}
 
+# Límites para que una fuente que devuelve algo raro no llene la página de basura.
+MAX_BYTES = 5 * 1024 * 1024
+MAX_POR_FUENTE = 50
+MAX_AVISOS_CAP = 20
 
-def bajar(url, tiempo=30):
+# Página de cada fuente, para cuando un aviso trae un enlace que no es una dirección web normal.
+PAGINAS = {
+    "imn": "https://www.imn.ac.cr/",
+    "rsn": "https://rsn.ucr.ac.cr/",
+    "usgs": "https://earthquake.usgs.gov/",
+    "gdacs": "https://www.gdacs.org/",
+    "cnfl": "https://www.cnfl.go.cr/servicios/autogestion/suspensiones",
+    "jasec": "https://www.jasec.go.cr/",
+}
+
+
+def bajar(url, tiempo=30, limite=MAX_BYTES):
+    if not es_web(url):
+        raise ValueError(f"dirección no permitida: {url[:80]}")
     pedido = urllib.request.Request(url, headers={"User-Agent": AGENTE})
     with urllib.request.urlopen(pedido, timeout=tiempo) as r:
-        return r.read()
+        datos = r.read(limite + 1)
+    if len(datos) > limite:
+        raise ValueError(f"la respuesta pasa de {limite // (1024 * 1024)} MB")
+    return datos
+
+
+def es_web(url):
+    """Solo direcciones https:// o http://; nunca javascript:, data: ni archivos locales."""
+    return isinstance(url, str) and re.match(r"https?://[^\s/]+", url.strip(), re.I) is not None
 
 
 def iso(fecha):
@@ -65,15 +90,15 @@ def limpiar(texto_html, largo=400):
 def alerta(fuente, ident, tipo, titulo, url, ahora, descripcion="", inicio=None, fin=None,
            zona=None, severidad=None):
     return {
-        "id": f"{fuente}-{ident}",
+        "id": f"{fuente}-{ident}"[:120],
         "tipo": tipo,
-        "titulo": titulo,
-        "descripcion": descripcion,
+        "titulo": limpiar(titulo, 200),
+        "descripcion": limpiar(descripcion, 600),
         "inicio": iso(inicio),
         "fin": iso(fin),
         "severidad": severidad,
         "zona": zona or {"provincia": None, "canton": None, "distritos": [], "codigos": [], "geometria": None},
-        "fuente": {"institucion": fuente, "url": url, "recuperado": iso(ahora)},
+        "fuente": {"institucion": fuente, "url": url.strip() if es_web(url) else PAGINAS[fuente], "recuperado": iso(ahora)},
         "origen": "oficial",
         "actualizado": iso(ahora),
     }
@@ -191,7 +216,7 @@ def leer_cap(datos, url, ahora):
 
 def recolectar_imn(ahora):
     salida = []
-    for url in enlaces_rss(bajar(RSS_IMN)):
+    for url in [u for u in enlaces_rss(bajar(RSS_IMN)) if es_web(u)][:MAX_AVISOS_CAP]:
         salida += leer_cap(bajar(url), url, ahora)
     return salida
 
@@ -346,6 +371,9 @@ def correr(anteriores, ahora, fuentes=FUENTES):
     for nombre, recolectar in fuentes.items():
         try:
             nuevas = recolectar(ahora)
+            if len(nuevas) > MAX_POR_FUENTE:
+                print(f"::warning::{nombre}: {len(nuevas)} alertas; se publican solo {MAX_POR_FUENTE}", file=sys.stderr)
+                nuevas = nuevas[:MAX_POR_FUENTE]
             estado[nombre] = {"ok": True, "alertas": len(nuevas), "revisado": iso(ahora)}
         except Exception as e:  # una fuente caída no tumba a las demás
             nuevas = [a for a in anteriores if a["fuente"]["institucion"] == nombre

@@ -25,6 +25,18 @@ class Tarifas(unittest.TestCase):
         with self.assertRaises(ValueError):
             tarifas_bus.normalizar(b'{"metadata":{"success":true},"value":[]}')
 
+    def test_respuesta_incompleta_no_se_publica(self):
+        with open(os.path.join(AQUI, "muestras", "aresep.json"), "rb") as f:
+            tramos = tarifas_bus.normalizar(f.read())
+        with self.assertRaises(ValueError):
+            tarifas_bus.revisar(tramos)
+        tarifas_bus.revisar(tramos * 2000)
+
+    def test_tarifas_imposibles_quedan_sin_dato(self):
+        for valor in ["-5", "nan", "inf", "1e12", "abc", None]:
+            self.assertIsNone(tarifas_bus.numero(valor))
+        self.assertEqual(tarifas_bus.numero("350"), 350.0)
+
 
 if __name__ == "__main__":
     unittest.main()

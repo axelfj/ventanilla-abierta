@@ -45,8 +45,19 @@
     - { titulo: "Pensión por vejez, invalidez y muerte (IVM)" }
     - { titulo: Pensión del Régimen No Contributivo }
     - { titulo: Arreglo de pago de deudas con la CCSS }
-    - { titulo: Accidentes de trabajo y seguro de riesgos del trabajo }
+    - { titulo: Accidentes de trabajo y seguro de riesgos del trabajo, url: salud/riesgos-del-trabajo.html }
     - { titulo: Quejarte por mala atención en un servicio de salud }
+- slug: seguros
+  icono: "🛡️"
+  nombre: Seguros
+  desc: Seguros obligatorios, voluntarios y cómo reclamar.
+  temas:
+    - { titulo: "Seguro Obligatorio Automotor (SOA): qué cubre y cómo usarlo", url: seguros/seguro-obligatorio-automotor.html }
+    - { titulo: Accidentes de trabajo y seguro de riesgos del trabajo, url: salud/riesgos-del-trabajo.html }
+    - { titulo: Contratar un seguro voluntario, url: seguros/seguros-voluntarios.html }
+    - { titulo: Cómo reclamar a una aseguradora, url: seguros/reclamar-a-una-aseguradora.html }
+    - { titulo: Asegurarse como trabajador independiente o voluntario, url: salud/seguro-independiente-o-voluntario.html }
+    - { titulo: Marchamo, url: vehiculos-y-propiedades/marchamo.html }
 - slug: derechos
   icono: "⚖️"
   nombre: Tus derechos
@@ -129,7 +140,7 @@
     - { titulo: Acoso laboral y hostigamiento sexual }
     - { titulo: Incapacidades por enfermedad }
     - { titulo: Licencia por maternidad y paternidad }
-    - { titulo: Póliza de riesgos del trabajo para patronos }
+    - { titulo: Póliza de riesgos del trabajo para patronos, url: salud/riesgos-del-trabajo.html }
     - { titulo: Contratar a una persona trabajadora doméstica }
 - slug: vivienda-y-consumo
   icono: "🏠"
