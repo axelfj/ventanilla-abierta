@@ -4,7 +4,9 @@ sitemap: false
 ---
 {%- assign fichas = site.pages | where_exp: "p", "p.pais" | sort: "title" -%}
 {%- assign vistos = "|" -%}
-[
+{
+"sinonimos": {{ site.data.sinonimos | jsonify }},
+"guias": [
 {%- for p in fichas %}
   {
     "titulo": {{ p.title | jsonify }},
@@ -32,3 +34,4 @@ sitemap: false
 {%- endfor %}
   null
 ]
+}
