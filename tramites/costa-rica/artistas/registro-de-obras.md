@@ -19,6 +19,7 @@ Registrar la obra en el **Registro de Derechos de Autor y Derechos Conexos** (Re
 - **Casi.** Vos llenás y presentás todo, pero la **firma de la solicitud tiene que estar autenticada por un abogado**. Es un paso corto; no hace falta que el abogado lleve el trámite.
 
 ## Qué se puede registrar
+
 | Lo que tenés | Cómo se registra | Quién es el titular |
 |---|---|---|
 | Solo la letra | Obra literaria | Autor de la letra |
@@ -40,6 +41,7 @@ Registrar la obra en el **Registro de Derechos de Autor y Derechos Conexos** (Re
 Formularios: [guía de servicios y formularios del Registro Nacional](https://www.rnpdigital.com/registro_propiedad_intelectual/derechos_autor_guia_servicios_formularios.htm).
 
 ## Costos oficiales
+
 | Concepto | Monto | Verificado |
 |---|---|---|
 | Arancel de Registro por inscripción | ₡2 000 mínimo por cada inscripción (Ley de Aranceles) ([tabla de aranceles](https://www.rnpdigital.com/tramites_servicios/tramitesregistros/propiedad%20intelectual/propiedad_industrial_aranceles.htm); [hoja de requisitos](https://www.rnpdigital.com/registro_propiedad_intelectual/derechos_autor/documentos/guia%20y%20formularios/DPI-DAC-HOJA_REQUISITOS.pdf)) | 2026-10-07 |

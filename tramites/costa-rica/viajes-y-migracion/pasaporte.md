@@ -48,6 +48,7 @@ Podés renovar antes de que se venza tu pasaporte ([BCR](https://www.bancobcr.co
 Para que una persona menor salga del país también necesita **permiso de salida**. Mirá [Permiso de salida de menores](permiso-de-salida-de-menores.html).
 
 ## Costos oficiales
+
 | Concepto | Monto | Fuente | Verificado |
 |---|---|---|---|
 | Pasaporte (tasa de la DGME) | **USD 75 más ₡250**, en un solo depósito | [RACSA, VES](https://www.racsa.go.cr/racsa1311/ves/) | 2026-10-07 |

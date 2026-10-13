@@ -111,6 +111,7 @@ Si quien te amenaza o difunde es tu pareja, expareja o un familiar, podés pedir
 **Si sos víctima de un delito**, el Ministerio Público también tiene una oficina gratuita de atención a víctimas. Los datos están en [Poner una denuncia](poner-una-denuncia.html#ayuda-gratuita-para-víctimas). Si necesitás orientación legal gratuita sobre otro tema, mirá [Asesoría legal gratuita](../general/asesoria-legal-gratuita.html).
 
 ## Costos oficiales
+
 | Concepto | Monto | Fuente | Verificado |
 |---|---|---|---|
 | Denunciar en el OIJ | Gratis ("No tiene costo. Es gratuito") | [OIJ](https://sitiooij.poder-judicial.go.cr/index.php/menu-ayuda/servicios-policiales/servicios-a-personas/interposicion-de-denuncia) | 2026-10-12 |

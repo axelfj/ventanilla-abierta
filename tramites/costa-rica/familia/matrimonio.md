@@ -47,6 +47,7 @@ Además de lo anterior, la persona extranjera presenta ([TSE](https://www.tse.go
 - **Certificado de estado civil apostillado**, con traducción oficial si hace falta. No puede tener más de **un mes** de emitido, salvo que el documento indique otra vigencia.
 
 ## Costos oficiales
+
 | Concepto | Monto | Fuente | Verificado |
 |---|---|---|---|
 | Celebración en el Registro Civil | Gratis | [TSE](https://www.tse.go.cr/pdf/requisitosytramites/Celebracion-Matrimonio-Civil.pdf) | 2026-10-07 |

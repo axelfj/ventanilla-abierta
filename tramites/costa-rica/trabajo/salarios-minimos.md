@@ -28,6 +28,7 @@ El salario mínimo es lo **menos que te pueden pagar** por tu trabajo en el sect
 En la lista oficial, los montos **con asterisco (\*) son mensuales**. Los que no tienen asterisco son **por jornada ordinaria, es decir, por día** ([MTSS, lista 2026](https://www.mtss.go.cr/temas-laborales/salarios/lista_salarios_minimos_2026.pdf)). Son montos **brutos**: antes de rebajos ([MTSS, salarios mínimos](https://www.mtss.go.cr/temas-laborales/salarios/salario_minimo.html)).
 
 ### Montos mensuales (algunos ejemplos)
+
 | Categoría | Ejemplos de ocupaciones en la lista | Mínimo mensual 2026 | Fuente | Verificado |
 |---|---|---|---|---|
 | Trabajo doméstico | Trabajo doméstico | ₡268 731,31 | [MTSS, lista 2026](https://www.mtss.go.cr/temas-laborales/salarios/lista_salarios_minimos_2026.pdf) | 2026-10-07 |
@@ -41,6 +42,7 @@ En la lista oficial, los montos **con asterisco (\*) son mensuales**. Los que no
 | Licenciado universitario (Lic.) | Secretaria, contador privado | ₡796 921,00 | [MTSS, lista 2026](https://www.mtss.go.cr/temas-laborales/salarios/lista_salarios_minimos_2026.pdf) | 2026-10-07 |
 
 ### Montos por jornada (por día)
+
 | Categoría | Ejemplos de ocupaciones en la lista | Mínimo por jornada 2026 | Fuente | Verificado |
 |---|---|---|---|---|
 | Ocupación no calificada (TONC) | Peón de construcción, peón agrícola (labores manuales), salonero, acomodador de parqueos (no chófer) | ₡12 436,41 | [MTSS, lista 2026](https://www.mtss.go.cr/temas-laborales/salarios/lista_salarios_minimos_2026.pdf) | 2026-10-07 |
@@ -64,6 +66,7 @@ Para saber qué mínimo te toca, tené a mano:
 - **Tus comprobantes de pago** (colillas, depósitos), para comparar lo que recibís con el mínimo.
 
 ## Costos oficiales
+
 | Concepto | Monto | Fuente | Verificado |
 |---|---|---|---|
 | Consultar la lista de salarios mínimos y el tablero del MTSS | Gratis (publicados en línea) | [MTSS, salarios mínimos](https://www.mtss.go.cr/temas-laborales/salarios/salario_minimo.html) | 2026-10-07 |

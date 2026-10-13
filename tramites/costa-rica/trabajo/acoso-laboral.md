@@ -59,6 +59,7 @@ Un conflicto aislado o una orden de trabajo que no te gusta no es, por sí solo,
 **Para la denuncia interna** por hostigamiento sexual, el MTSS recomienda aportar pruebas, testigos y una descripción completa de los hechos; puede ser oral o escrita ([MTSS, temas laborales](https://www.mtss.go.cr/temas-laborales/)). El Observatorio de Género del Poder Judicial menciona: nombre y calidades de la persona denunciada, la relación laboral entre ustedes, qué pasó, las pruebas y un lugar para notificaciones ([Poder Judicial, Observatorio de Género](https://observatoriodegenero.poder-judicial.go.cr/index.php/soy-mujer-y-busco/averiguar-sobre-hostigamiento-sexual)).
 
 ## Costos oficiales
+
 | Concepto | Monto | Fuente | Verificado |
 |---|---|---|---|
 | Línea 1125 del INAMU (orientación en derechos de las mujeres, incluidos los laborales) | Gratuita | [INAMU, Centro de Información y Orientación](https://www.inamu.go.cr/web/inamu/consulta-sobre-derechos-de-las-mujeres-centro-de-informaci%C3%B3n-y-orientaci%C3%B3n-) | 2026-10-12 |

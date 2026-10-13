@@ -99,6 +99,7 @@ El monto depende del **ingreso familiar bruto mensual**. Esta es la tabla que pu
 - ⚠️ **Hay datos viejos en el mismo sitio:** las [preguntas frecuentes del BANHVI](https://www.banhvi.fi.cr/preguntas_frecuentes.aspx) todavía dicen que el monto máximo es ₡9 300 000 y que el ingreso máximo es ₡1 907 496, y un comunicado de agosto de 2026 hablaba de "¢5,8 millones a ¢9,6 millones". Usamos la tabla de montos porque es la que cita el salario de 2026 y la más reciente. Falta confirmarlo con la entidad autorizada.
 
 ## Costos oficiales
+
 | Concepto | Monto | Fuente | Verificado |
 |---|---|---|---|
 | Pedir el bono | Gratis. Nadie está autorizado a cobrarte por el trámite. | [BANHVI](https://www.banhvi.fi.cr/bono/donde_solicitar_bono.aspx) | 2026-10-07 |

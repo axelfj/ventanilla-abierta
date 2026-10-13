@@ -34,6 +34,7 @@ Desde el 2 de diciembre de 2024 **no es obligatorio andar la licencia física**:
 - Cita en el BCR.
 
 ## Costos oficiales
+
 | Concepto | Monto | Fuente | Verificado |
 |---|---|---|---|
 | Prueba teórica | ₡5 000 (el recibo vale 18 meses) | [MOPT](https://www.mopt.go.cr/noticias/2025/educacion-vial-aclara-aprobacion-de-curso-teorico-no-vence) | 2026-10-07 |

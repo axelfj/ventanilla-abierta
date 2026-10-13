@@ -54,6 +54,7 @@ Si lo que necesitás es inscribir el hecho (no certificarlo), mirá [Inscribir u
 - Se pide en ventanilla de las oficinas regionales, de lunes a viernes de 8:00 a. m. a 4:00 p. m.
 
 ## Costos oficiales
+
 | Concepto | Monto | Fuente | Verificado |
 |---|---|---|---|
 | Certificación digital (CDI) de nacimiento, estado civil o defunción | **₡1 562,50** cada una, desde el 26-2-2025. ⚠️ Es el último precio publicado por el TSE; hoy la plataforma no mostró el monto, así que falta confirmar que siga igual en 2026 | [TSE, comunicado del 25-2-2025](https://ride.tse.go.cr/xmlui/bitstream/handle/123456789/17673/25-2-25%20Costo%20de%20las%20certificaciones%20digitales%20disminuir%c3%a1.pdf?sequence=1&isAllowed=y) | 2026-10-12 |
@@ -88,6 +89,7 @@ Algunas certificaciones **no son automáticas**: en vez de pagarlas en el carrit
 - **Consulados:** ⚠️ Falta confirmarlo. Hoy no pudimos abrir el arancel consular de Cancillería para confirmar qué certificaciones expiden los consulados ni cuánto cuestan. La hoja de requisitos del Consulado de Costa Rica en Nicaragua remite a comprar las certificaciones de nacimiento en el sitio del TSE ([Cancillería, Consulado en Nicaragua](https://www.rree.go.cr/files/includes/files.php?id=2782&tipo=documentos)). Preguntá en tu consulado antes de ir.
 
 ## Tiempos
+
 | Certificación | Plazo | Fuente |
 |---|---|---|
 | Nacimiento, matrimonio o defunción, en oficina o CDI | Inmediata. 10 días hábiles si el registro es antiguo y no está en la base de datos | [TSE](https://www.tse.go.cr/pdf/requisitosytramites/Expedicion-de-certificaciones-de-hechos-vitales-y-civiles.pdf) |

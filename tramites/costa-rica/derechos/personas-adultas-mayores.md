@@ -100,6 +100,7 @@ Otro tema relacionado es la **pensión del Régimen No Contributivo**. Todavía 
 El CONAPAM recibe denuncias por "abuso, maltrato, negligencia, abandono, explotación, violencia física, psicológica, patrimonial, sexual" ([CONAPAM](https://conapam.go.cr/servicios/denuncias/maltrato-violencia-y-abandono/)).
 
 ### A dónde ir
+
 | Situación | A dónde | Fuente |
 |---|---|---|
 | Peligro ahora | **911** | [CONAPAM](https://conapam.go.cr/servicios/denuncias/maltrato-violencia-y-abandono/) |

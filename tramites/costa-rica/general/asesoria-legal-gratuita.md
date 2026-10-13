@@ -155,6 +155,7 @@ Cada institución pide cosas distintas. En general, llevá tu **cédula** y **to
 **Defensa Pública contencioso administrativo:** formulario de solicitud de defensa y declaración de pobreza, disponible en su página ([Defensa Pública, contencioso administrativo](https://defensapublica.poder-judicial.go.cr/index.php/asesoria-legal/contencioso-administrativo)).
 
 ## Costos oficiales
+
 | Servicio | Costo | Fuente | Verificado |
 |---|---|---|---|
 | Defensa Pública, penal | Gratis si no tenés medios económicos | [Defensa Pública](https://defensapublica.poder-judicial.go.cr/index.php/asesoria-legal/penal) | 2026-10-07 |

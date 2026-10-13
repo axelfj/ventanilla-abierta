@@ -105,6 +105,7 @@ Ayuda: Dirección de Contratación Pública, (506) 2539-4339, dcop@hacienda.go.c
 **Registro PYME (opcional).** El MEIC lleva un registro de pymes que da beneficios, entre ellos en compras públicas. Para entrar tenés que cumplir al menos dos de tres condiciones: cargas sociales al día en la CCSS, obligaciones tributarias al día y póliza de riesgos del trabajo. Se tramita en <https://www.siec.go.cr> ([Guía básica de Hacienda](https://www.hacienda.go.cr/docs/GuiabasicaparaconvertirseproveedorEstado.pdf), pp. 12 y 13).
 
 ## Costos oficiales
+
 | Concepto | Monto | Fuente | Verificado |
 |---|---|---|---|
 | Tico Factura (facturador de Hacienda) | Gratis | [Hacienda, aviso Tico Factura](https://www.hacienda.go.cr/docs/FacturadorGratuitoTICOFACTURADisponibleAPartirdel06deoctubre.pdf) | 2026-10-07 |

@@ -74,6 +74,7 @@ La Ley 10113, art. 2 ([texto](https://iafa.go.cr/wp-content/uploads/2025/01/Ley-
 - Para autorizaciones del Ministerio de Salud (derivados de cáñamo) piden, entre otros: formulario firmado, documento que acredite el uso del inmueble, declaración jurada de no estar en las prohibiciones del art. 11 de la Ley 10113 y póliza de riesgos del trabajo ([guía del Ministerio de Salud](https://www.ministeriodesalud.go.cr/index.php/biblioteca-de-archivos-left/documentos-ministerio-de-salud/tramites/ley-10113-cannabis/autorizaciones/5983-guia-para-el-usuario-sobre-autorizaciones-canamo/file)).
 
 ## Costos oficiales
+
 | Concepto | Monto | Fuente | Verificado |
 |---|---|---|---|
 | Sembrar plantas comunes para consumo propio | Sin tasa (no encontramos ningún cobro) | No aplica | 2026-10-10 |

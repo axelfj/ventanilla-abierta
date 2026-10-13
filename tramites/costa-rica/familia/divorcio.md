@@ -119,6 +119,7 @@ Para el juzgado, los documentos exactos dependen del caso. Llevá al profesional
 - ¿Alguno de los dos va a necesitar pensión del otro?
 
 ## Costos oficiales
+
 | Concepto | Monto | Fuente | Verificado |
 |---|---|---|---|
 | Homologación del acuerdo de divorcio o separación en el TSE | Gratis | [TSE](https://www.tse.go.cr/pdf/requisitosytramites/Homologacion-de-acuerdos-de-divorcio-y-separacion.pdf) | 2026-10-10 |

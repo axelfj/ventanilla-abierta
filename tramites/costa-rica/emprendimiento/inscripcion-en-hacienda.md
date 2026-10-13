@@ -37,6 +37,7 @@ TRIBU-CR habla de **régimen general**, **régimen simplificado**, rentas de cap
 - **Régimen simplificado:** declarás renta e IVA cada trimestre y no estás obligado a factura electrónica. Solo para ciertas actividades autorizadas, con **un solo local** ([Hacienda, Régimen de Tributación Simplificada](https://www.hacienda.go.cr/docs/IngresoRegimendeTributacionSimplificada.pdf), actualizado a junio de 2024) y **hasta 6 personas** (5 empleados si sos microempresa inscrita en el MEIC) ([Decreto 45209-H, art. 3 b](https://www.imprentanacional.go.cr/pub/2025/10/13/ALCA132_13_10_2025.pdf), 2025). Ver [Régimen simplificado de tributación](regimen-simplificado.html). ⚠️ La lista de actividades y los topes de compras o ingresos están en otros documentos de Hacienda que no revisamos; ese documento es anterior a TRIBU-CR.
 
 ## Costos oficiales
+
 | Concepto | Monto | Fuente | Verificado |
 |---|---|---|---|
 | Declaración de inscripción | ⚠️ Ningún documento de Hacienda que revisamos menciona un cobro, pero tampoco dice expresamente que es gratis | [Hacienda, preguntas y respuestas de TRIBU-CR](https://www.hacienda.go.cr/docs/dPreguntasYRespuestasDeTRIBU-CR.pdf) | 2026-10-07 |

@@ -19,6 +19,7 @@ Cuando termina una relación laboral, el patrono puede deberte dinero: vacacione
 - Si no te pagan, podés pedir una conciliación en el MTSS o demandar en un juzgado de trabajo, donde la [Defensa Pública laboral](https://defensapublica.poder-judicial.go.cr/index.php/asesoria-legal/laboral) te representa gratis si cumplís sus requisitos de ingresos.
 
 ## Qué te toca según cómo terminó
+
 | Situación | Vacaciones | Aguinaldo proporcional | Preaviso | Cesantía |
 |---|---|---|---|---|
 | Despido con responsabilidad patronal | Sí | Sí | Sí | Sí |

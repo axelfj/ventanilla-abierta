@@ -90,6 +90,7 @@ Desde el 1 de octubre de 2024 rige el **Código Procesal de Familia (Ley 9747)**
 - Si van por mutuo acuerdo, además tienen **tres meses** desde la firma ante notario para presentar el convenio al juzgado ([Guía práctica](https://escuelajudicialpj.poder-judicial.go.cr/images/bibliotecavirtual/11_MateriaFamilia/Guia_practica_Codigo_Procesal_Familia.pdf)).
 
 ## Diferencias con el matrimonio
+
 | Tema | Matrimonio | Unión de hecho |
 |---|---|---|
 | Cómo empieza | Con la boda, en el Registro Civil o ante notario ([Matrimonio](matrimonio.html)) | Con la convivencia. No hay ceremonia |
@@ -116,6 +117,7 @@ Además, te sirve llevar:
 - Si hubo violencia, decilo desde el inicio.
 
 ## Costos oficiales
+
 | Concepto | Monto | Fuente | Verificado |
 |---|---|---|---|
 | Presentar el proceso en el juzgado de familia | ⚠️ Falta confirmarlo: no encontramos una tarifa oficial publicada | — | 2026-10-10 |

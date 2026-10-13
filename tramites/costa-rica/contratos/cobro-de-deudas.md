@@ -51,6 +51,7 @@ Al final hay una sección para cuando **vos sos quien debe** y te están cobrand
 - ⚠️ **Cuáles cuentan hoy como título ejecutivo:** la Ley de Cobro Judicial tenía una lista (escrituras públicas, documentos privados reconocidos ante un juez, certificaciones de sentencias firmes, entre otros) ([Ley 8624, La Gaceta, 2007](https://www.imprentanacional.go.cr/pub/2007/11/20/ALCA34_20_11_2007.html), art. 2.2). Falta confirmar la lista vigente en el artículo 111 del Código Procesal Civil.
 
 ## Costos oficiales
+
 | Concepto | Monto | Fuente | Verificado |
 |---|---|---|---|
 | Mediación en una Casa de Justicia | Gratis | [MJP, Casas de Justicia](https://mjp.go.cr/viceministeriopaz/DepenDinarac?nom=casas-justicia) | 2026-10-07 |

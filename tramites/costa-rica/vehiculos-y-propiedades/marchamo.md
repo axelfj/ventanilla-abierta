@@ -48,6 +48,7 @@ Según el INS, el marchamo junta estos rubros ([INS, preguntas frecuentes](https
 - **Si compraste el vehículo hace poco o le cambiaron la placa** y no aparece en el sistema del INS, tenés que ir a una sucursal del INS o a un recaudador autorizado con el título de propiedad, el último derecho de circulación pagado (con la placa provisional) y la RTV aprobada ([INS, preguntas frecuentes](https://www.grupoins.com/preguntas-frecuentes/preguntas-sobre-seguros/)). Mirá también la guía de [traspaso de vehículo](traspaso-de-vehiculo.html).
 
 ## Costos oficiales
+
 | Concepto | Monto | Fuente | Verificado |
 |---|---|---|---|
 | Marchamo completo | Varía según el vehículo. Consultalo con tu placa | [INS](https://www.grupoins.com/seguros-personas/marchamo/seguro-obligatorio-automotor-marchamo/) | 2026-10-07 |

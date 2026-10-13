@@ -53,6 +53,7 @@ Cada aseguradora pide sus propios documentos según el producto. Lo que sí apli
 - **Pagar la prima a tiempo.** Por ley, la prima se paga dentro de los **diez días hábiles** siguientes a la firma, salvo que el contrato te dé algo más favorable. En los seguros autoexpedibles se paga al firmar ([Sugese, preguntas sobre contratos](https://www.sugese.fi.cr/cr/es/preguntas-frecuentes/contratos-de-seguros.html)).
 
 ## Costos oficiales
+
 | Concepto | Monto | Fuente | Verificado |
 |---|---|---|---|
 | Tasas o timbres del Estado para contratar | No hay. Contratar un seguro voluntario no tiene una tasa oficial | No aplica | 2026-10-10 |

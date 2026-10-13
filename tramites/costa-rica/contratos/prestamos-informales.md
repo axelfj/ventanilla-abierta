@@ -120,6 +120,7 @@ Para revisar tu caso o denunciar, juntá lo que tengás:
 - Para denunciar en el OIJ, tu cédula si la tenés, aunque no es requisito indispensable ([OIJ](https://sitiooij.poder-judicial.go.cr/index.php/menu-ayuda/servicios-policiales/servicios-a-personas/interposicion-de-denuncia)).
 
 ## Costos oficiales
+
 | Concepto | Monto | Fuente | Verificado |
 |---|---|---|---|
 | Consultar las tasas máximas del BCCR | Gratis (publicación en línea) | [BCCR](https://www.bccr.fi.cr/cr/es/noticias/listado-de-noticias/2026/nuevas-tasas-de-interes-anuales-maximas-para-creditos-y-microcreditos-3-07-2026.html) | 2026-10-12 |

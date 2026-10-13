@@ -118,6 +118,7 @@ La **Ley 10889**, "Protección a las personas consumidoras en la custodia de su 
 - Leímos la ley en la copia oficial de La Gaceta, no en el SCIJ. Falta confirmar que no tenga reformas posteriores.
 
 ## Costos oficiales
+
 | Concepto | Monto | Fuente | Verificado |
 |---|---|---|---|
 | Poner la denuncia en el OIJ | Gratis | [OIJ](https://sitiooij.poder-judicial.go.cr/index.php/menu-ayuda/servicios-policiales/servicios-a-personas/interposicion-de-denuncia) | 2026-10-12 |

@@ -104,6 +104,7 @@ Depende del país. Algunos ejemplos oficiales:
 Para sacar o renovar el pasaporte, mirá [Pasaporte costarricense](pasaporte.html). Hacelo con tiempo: en el BCR el pasaporte llega en unos 8 a 10 días hábiles.
 
 ## Costos oficiales
+
 | Concepto | Monto | Fuente | Verificado |
 |---|---|---|---|
 | Visa de visitante de EE. UU. (B-1/B-2), tarifa de solicitud | **USD 185**, no reembolsable. ⚠️ La página de tarifas no menciona otros cargos; confirmá el total al pagar | [Departamento de Estado, tarifas](https://travel.state.gov/content/travel/en/us-visas/visa-information-resources/fees/fees-visa-services.html) | 2026-10-10 |

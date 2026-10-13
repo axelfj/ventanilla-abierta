@@ -95,6 +95,7 @@ La autopsia la hace la **Sección de Patología Forense** del Departamento de Me
 - El plazo depende de cada caso.
 
 **Horarios y teléfonos** ([OIJ, Patología Forense](https://sitiooij.poder-judicial.go.cr/index.php/menu-oficinas/medicina-legal/patologia-forense)):
+
 | Qué | Horario |
 |---|---|
 | Consultas sobre ingreso de cuerpos y trámites de retiro | 24 horas, todos los días (2267-1197 y 2267-1183) |
@@ -154,6 +155,7 @@ Cuando la tiene que presentar la familia ([TSE](https://www.tse.go.cr/pdf/requis
 - Correo electrónico y teléfono (o, si no tenés correo, una dirección exacta).
 
 ## Costos oficiales
+
 | Concepto | Monto | Fuente | Verificado |
 |---|---|---|---|
 | Inscribir una defunción ocurrida en el país | Gratis | [TSE](https://www.tse.go.cr/pdf/requisitosytramites/Inscripcion-de-defuncion-ocurrida-en-el-pais.pdf) | 2026-10-12 |

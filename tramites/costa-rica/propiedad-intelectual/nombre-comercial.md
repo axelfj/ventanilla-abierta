@@ -56,6 +56,7 @@ La solicitud lleva ([Reglamento, arts. 3 y 42](https://www.rnpdigital.com/centro
 Podés usar el formulario del Registro o hacer tu propio documento, siempre que tenga toda esa información ([presentación del Registro](https://www.rnpdigital.com/GENERALIDADES%20Y%20PROCESO%20.pdf)).
 
 ## Costos oficiales
+
 | Concepto | Monto | Fuente | Verificado |
 |---|---|---|---|
 | Inscripción del nombre comercial | USD 50 por solicitud, en timbres del Registro Nacional | [Registro Nacional, aranceles](https://www.rnpdigital.com/tramites_servicios/tramitesregistros/propiedad%20intelectual/propiedad_industrial_aranceles.htm); [Ley 8020, art. 94 inc. b](https://www.wipo.int/wipolex/es/legislation/details/883); [Guía de Calificación](https://www.rnpdigital.com/centroinforegistral/registros/propiedad%20intelectual/GuiasCalificacion/Guia%20de%20Calificacion.pdf) | 2026-10-07 |

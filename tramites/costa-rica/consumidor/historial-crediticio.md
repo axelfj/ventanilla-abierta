@@ -37,6 +37,7 @@ Esta guía explica:
 - **Firmar una autorización**, que la entidad emite en ese momento.
 
 ## Costos oficiales
+
 | Concepto | Monto | Fuente | Verificado |
 |---|---|---|---|
 | Consultar tu propio reporte del CIC (en línea o en una entidad) | ⚠️ Falta confirmarlo | — | — |

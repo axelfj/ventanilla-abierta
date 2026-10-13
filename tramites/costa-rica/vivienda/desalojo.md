@@ -98,6 +98,7 @@ Se presentan ante el **Juzgado Civil**. Hay dos vías ([Poder Judicial, Contralo
 - ⚠️ Los requisitos exactos de la demanda y cómo se ejecuta el desalojo (lanzamiento) no los pudimos confirmar. Preguntalos.
 
 ## Costos oficiales
+
 | Concepto | Monto | Fuente | Verificado |
 |---|---|---|---|
 | Consultar el índice de reajuste del alquiler | Gratis, en el sitio del MIVAH | [MIVAH](https://www.mivah.go.cr/Reajuste_Precio_Alquileres_Vivienda.shtml) | 2026-10-07 |

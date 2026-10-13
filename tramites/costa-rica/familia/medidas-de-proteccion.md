@@ -45,6 +45,7 @@ Según la ley ([Ley 7586, art. 7](https://observatoriodegenero.poder-judicial.go
   - Un lugar o medio para recibir notificaciones.
 
 ## Costos oficiales
+
 | Concepto | Monto | Fuente | Verificado |
 |---|---|---|---|
 | Pedir medidas de protección | ⚠️ Falta confirmarlo. La ley no fija ningún cobro, pero tampoco dice de forma expresa que sea gratis | [Ley 7586](https://observatoriodegenero.poder-judicial.go.cr/images/Normativa/Nacional/Expecializada/Ley_7586.pdf) | 2026-10-07 |
@@ -101,6 +102,7 @@ El juzgado puede ordenar cualquiera de estas, en casos de violencia doméstica o
 - **Si la persona agresora no las cumple**, es un delito. El juzgado pasa el caso al Ministerio Público ([art. 3](https://observatoriodegenero.poder-judicial.go.cr/images/Normativa/Nacional/Expecializada/Ley_7586.pdf)). Si pasa, llamá al 911.
 
 ## Líneas de ayuda
+
 | Línea | Para qué | Horario | Fuente |
 |---|---|---|---|
 | **911** | Emergencias y violencia intrafamiliar: atención en crisis, apoyo emocional, asesoría y referencia | 24 horas, todos los días | [INAMU](https://www.inamu.go.cr/web/inamu/l%C3%ADnea-de-emergencia-9-1-1) |

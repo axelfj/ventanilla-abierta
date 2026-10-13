@@ -70,6 +70,7 @@ El INS también menciona la boleta de citación, expedientes judiciales, la hoja
 - El INS puede pedir más documentos ([INS, SOA](https://www.grupoins.com/seguros-personas/marchamo/seguro-obligatorio-automotor-marchamo/)).
 
 ## Costos oficiales
+
 | Concepto | Monto | Fuente | Verificado |
 |---|---|---|---|
 | Prima del SOA | Va incluida en el marchamo. Mirá la guía del [marchamo](../vehiculos-y-propiedades/marchamo.html) | [INS](https://www.grupoins.com/seguros-personas/marchamo/seguro-obligatorio-automotor-marchamo/) | 2026-10-10 |
