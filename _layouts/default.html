@@ -30,12 +30,15 @@
   <link rel="apple-touch-icon" href="{{ '/assets/img/apple-touch-icon.png' | relative_url }}">
   <link rel="manifest" href="{{ '/manifest.webmanifest' | relative_url }}">
   <meta name="theme-color" content="#0b6e4f">
+  {%- comment %} Va antes del CSS y sin defer para aplicar el modo guardado antes de pintar, sin parpadeo. {% endcomment %}
+  <script src="{{ '/assets/js/tema.js' | relative_url }}"></script>
   <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
 </head>
 <body>
   <header class="topbar">
     <div class="contenedor">
       <a class="marca" href="{{ '/' | relative_url }}"><img src="{{ '/assets/img/icono.svg' | relative_url }}" alt="" width="28" height="28">{{ site.title }}</a>
+      <div class="derecha">
       <nav>
         <a href="{{ '/tramites/costa-rica/' | relative_url }}">Trámites</a>
         <a href="{{ '/alertas/' | relative_url }}">Alertas</a>
@@ -43,6 +46,8 @@
         <a href="{{ '/buscar.html' | relative_url }}">Buscar</a>
         <a href="https://github.com/axelfj/ventanilla-abierta/issues/new/choose">Ayudar</a>
       </nav>
+      <button type="button" class="cambiar-tema" id="cambiar-tema" hidden></button>
+      </div>
     </div>
   </header>
   <main class="contenedor">
