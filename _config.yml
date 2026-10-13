@@ -6,3 +6,15 @@ exclude:
   - plantillas/
   - .github/
   - scripts/
+plugins:
+  - jekyll-sitemap
+# Lo que no es para el público queda fuera del sitemap (sigue publicado por si alguien lo enlaza).
+defaults:
+  - scope: { path: README.md }
+    values: { sitemap: false }
+  - scope: { path: CONTRIBUTING.md }
+    values: { sitemap: false }
+  - scope: { path: SECURITY.md }
+    values: { sitemap: false }
+  - scope: { path: docs }
+    values: { sitemap: false }
