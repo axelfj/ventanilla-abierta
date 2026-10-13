@@ -1,0 +1,35 @@
+# Portada del sitio.
+# `situaciones`: lo primero que ve la gente, escrito como lo dice la gente. Cada `url` es una guía
+# desde tramites/costa-rica/ (el validador revisa que exista). Se eligieron por volumen de casos
+# en el país (investigación de octubre de 2026); cambialas cuando haya mejores guías.
+situaciones:
+  - { icono: "💼", texto: Me despidieron o renuncié, url: trabajo/liquidacion-laboral.html }
+  - { icono: "🪪", texto: Perdí la cédula o se me venció, url: documentos/cedula-de-identidad.html }
+  - { icono: "👶", texto: Necesito pensión para mis hijos, url: familia/pension-alimentaria.html }
+  - { icono: "🛑", texto: Me agreden en mi casa, url: familia/medidas-de-proteccion.html }
+  - { icono: "🩺", texto: Quiero sacar cita en el EBAIS, url: salud/cita-en-la-ccss.html }
+  - { icono: "🧾", texto: Quiero asegurarme en la Caja, url: salud/seguro-independiente-o-voluntario.html }
+  - { icono: "🏠", texto: Me quieren sacar de donde alquilo, url: vivienda/desalojo.html }
+  - { icono: "⚖️", texto: Necesito un abogado y no tengo plata, url: general/asesoria-legal-gratuita.html }
+
+# Orden de las categorías en la portada y en /tramites/costa-rica/, de más a menos casos en el país.
+# Una categoría nueva que no esté en esta lista sale al final, así que no hace falta tocar esto para agregarla.
+orden_categorias:
+  - trabajo
+  - documentos
+  - familia
+  - salud
+  - cobros-y-ventas
+  - justicia
+  - vivienda-y-consumo
+  - derechos
+  - impuestos
+  - vehiculos-y-propiedades
+  - viajes-y-migracion
+  - comunidad
+  - emprendimiento
+  - seguros
+  - contratos-y-abogados
+  - estudios
+  - eventos
+  - artistas
