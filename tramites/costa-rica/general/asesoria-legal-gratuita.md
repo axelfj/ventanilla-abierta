@@ -1,7 +1,7 @@
 ---
 title: "Asesoría legal gratuita"
 pais: Costa Rica
-ultima_verificacion: 2026-10-07
+ultima_verificacion: 2026-10-10
 estado: borrador
 ---
 
@@ -10,7 +10,7 @@ estado: borrador
 > 🚨 **Si estás en peligro ahora, llamá al 911.** Funciona todos los días del año, las 24 horas ([INAMU, contacto](https://www.inamu.go.cr/web/inamu/contacto)).
 
 > ⚠️ Esta guía es información general, no asesoría legal. Verificá siempre con la institución oficial.
-> **Última verificación:** 2026-10-07. **Estado:** borrador. Los datos marcados con ⚠️ no los pudimos confirmar en una fuente oficial vigente.
+> **Última verificación:** 2026-10-10. **Estado:** borrador. Los datos marcados con ⚠️ no los pudimos confirmar en una fuente oficial vigente.
 
 ## Qué es
 Si no tenés plata para pagar un abogado, en Costa Rica hay instituciones públicas que te pueden orientar, asesorar o incluso representar gratis. Cada una atiende temas distintos y algunas piden que no tengas recursos económicos. Esta guía te dice **a dónde ir según tu problema**.
@@ -31,7 +31,7 @@ Si podés pagar y querés contratar a alguien, mirá [cómo contratar a un aboga
 | Fuiste víctima o testigo de un delito | **Oficina de Atención y Protección a la Víctima del Delito (OAPVD)**, del Ministerio Público | Asesoría jurídica sobre el proceso penal, tus derechos y el estado de tu caso; atención psicológica y social | Gratis, voluntario y confidencial ([Ministerio Público](https://ministeriopublico.poder-judicial.go.cr/index.php/atencion-y-proteccion-a-la-victima)). La página habla de asesoría, no dice que te represente en el juicio |
 | Necesitás pedir una pensión alimentaria | **Defensa Pública, pensiones alimentarias** | Asesoría y asistencia legal | Gratis para quien figura como beneficiaria. Sin cita previa ([Defensa Pública, pensiones](https://defensapublica.poder-judicial.go.cr/index.php/asesoria-legal/pensiones-alimentarias)). Más en [pensión alimentaria](../familia/pension-alimentaria.html) |
 | Te demandaron por pensión alimentaria | Defensa Pública **solo si sos persona indígena**. Si no, podés consultar en los **Consultorios Jurídicos de la UCR** | — | La Defensa Pública atiende a la parte demandada solo en el caso de personas indígenas ([Defensa Pública, pensiones](https://defensapublica.poder-judicial.go.cr/index.php/asesoria-legal/pensiones-alimentarias)). ⚠️ Falta confirmar si los consultorios de la UCR toman este tipo de caso: preguntá antes |
-| Divorcio, guarda y crianza, visitas u otro asunto de familia | **Defensa Pública** o **Consultorios Jurídicos de la UCR** | Asistencia legal | Defensa Pública: si no tenés recursos económicos ([Poder Judicial, reforma procesal de familia](https://servicios.poder-judicial.go.cr/index.php/servicio?service=60)). UCR: la mayoría de sus casos son de familia ([UCR, 2019](https://www.ucr.ac.cr/noticias/2019/3/04/asistencia-legal-profesional-y-sin-costo-la-ucr-tiene-10-consultorios-juridicos-al-servicio-de-quienes-mas-lo-necesitan.html)) |
+| Divorcio, separación, gananciales, guarda y crianza, visitas, unión de hecho u otro asunto de familia | **Consultorios Jurídicos de la UCR**. Defensa Pública: ⚠️ falta confirmarlo | Asistencia legal | Defensa Pública: su página dice que atiende familia en las PISAV, programas dirigidos principalmente a víctimas, y que a personas indígenas les da asesoría y representación en pensiones alimentarias y familia ([Defensa Pública, pensiones](https://defensapublica.poder-judicial.go.cr/index.php/asesoria-legal/pensiones-alimentarias)). La página del Poder Judicial sobre la reforma procesal de familia menciona la asistencia gratuita de la Defensa Pública solo para pensión alimentaria ([Poder Judicial, reforma procesal de familia](https://servicios.poder-judicial.go.cr/index.php/servicio?service=60)). ⚠️ Falta confirmarlo: si la Defensa Pública lleva hoy divorcios, separaciones, gananciales, guarda o uniones de hecho de otras personas sin recursos. Preguntá al 2211-9800. UCR: la mayoría de sus casos son de familia ([UCR, 2019](https://www.ucr.ac.cr/noticias/2019/3/04/asistencia-legal-profesional-y-sin-costo-la-ucr-tiene-10-consultorios-juridicos-al-servicio-de-quienes-mas-lo-necesitan.html)) |
 | Violencia doméstica o violencia contra las mujeres | **911** si hay peligro. **INAMU**: Delegación de la Mujer y línea 1125 | Atención legal, social y psicológica; orientación en derechos | Ver [medidas de protección](../familia/medidas-de-proteccion.html) |
 | Una niña, niño o adolescente está en riesgo o sufre maltrato | **PANI**: línea 1147, WhatsApp 8989-1147, denuncia en línea, o 911 si es emergencia | Recibe denuncias, atiende consultas y orienta | La denuncia puede ser confidencial ([PANI, preguntas frecuentes](https://www.pani.go.cr/tramites-y-servicios/preguntas-frecuentes/)) |
 | No te pagan salario, aguinaldo, vacaciones o liquidación; te despidieron | **MTSS**: asesoría, cálculo de prestaciones y conciliación | Te explican tus derechos, calculan lo que te deben y te ayudan a negociar con el patrono | Gratis ([MTSS, catálogo de trámites](https://www.mtss.go.cr/tramites-servicios/catalogo-tramites/conciliacion-prestaciones-laborlaes.html)). Más en [denuncia ante la Inspección de Trabajo](../trabajo/denuncia-inspeccion-de-trabajo.html) |
@@ -46,7 +46,9 @@ Si podés pagar y querés contratar a alguien, mirá [cómo contratar a un aboga
 ## Las instituciones, una por una
 
 ### Defensa Pública del Poder Judicial
-Es parte del Poder Judicial. Según su sitio, atiende estas materias: penal, penal juvenil, ejecución de la pena, laboral, indígenas, pensiones alimentarias, contencioso administrativo, agrario, contravenciones y tránsito, entre otras ([Defensa Pública](https://defensapublica.poder-judicial.go.cr/)).
+Es parte del Poder Judicial. Según su sitio, atiende estas materias: penal, penal juvenil, ejecución de la pena, laboral, indígenas, pensiones alimentarias, contencioso administrativo, agrario, contravenciones y tránsito, entre otras ([Defensa Pública](https://defensapublica.poder-judicial.go.cr/)). Su menú no tiene una sección propia de familia: la enlaza con la de pensiones alimentarias ([Defensa Pública, pensiones](https://defensapublica.poder-judicial.go.cr/index.php/asesoria-legal/pensiones-alimentarias)).
+
+**Familia y la reforma de 2024:** la Ley 10558, publicada en La Gaceta n.° 213 del 13 de noviembre de 2024, reformó el Código Procesal de Familia. Menciona a la Defensa Pública una sola vez, en el artículo 46: la parte que litiga "con patrocinio de la Defensa Pública cuando la ley así lo permita" no tiene que depositar los honorarios provisionales de la curaduría procesal. No le asigna divorcios, separaciones, gananciales, guarda ni uniones de hecho ([La Gaceta n.° 213, 13-11-2024](https://www.imprentanacional.go.cr/pub/2024/11/13/COMP_13_11_2024.html)). ⚠️ Falta confirmarlo: si la Defensa Pública lleva esos procesos hoy y para quién. Preguntá al 2211-9800 o a defensapublica_web@poder-judicial.go.cr.
 
 **No hay un solo requisito de ingresos para todo.** Depende de la materia:
 
@@ -55,7 +57,7 @@ Es parte del Poder Judicial. Según su sitio, atiende estas materias: penal, pen
 | Penal (personas mayores de edad) | Gratis para quien no tenga medios económicos para contratar un profesional particular | [Defensa Pública, penal](https://defensapublica.poder-judicial.go.cr/index.php/asesoria-legal/penal) |
 | Penal juvenil | Gratis para toda persona menor de edad denunciada o acusada | [Defensa Pública, penal juvenil](https://defensapublica.poder-judicial.go.cr/index.php/asesoria-legal/penal-juvenil) |
 | Pensiones alimentarias | Gratis para la parte beneficiaria; en el caso de personas indígenas, también para la parte demandada | [Defensa Pública, pensiones](https://defensapublica.poder-judicial.go.cr/index.php/asesoria-legal/pensiones-alimentarias) |
-| Familia (divorcio, guarda, adopción, entre otros) | Si no contás con recursos económicos | [Poder Judicial](https://servicios.poder-judicial.go.cr/index.php/servicio?service=60) |
+| Familia | En las PISAV (programas dirigidos principalmente a víctimas); para personas indígenas, en pensiones alimentarias y familia, como parte beneficiaria o demandada. ⚠️ Falta confirmarlo para divorcio, separación, gananciales, guarda o unión de hecho de otras personas | [Defensa Pública, pensiones](https://defensapublica.poder-judicial.go.cr/index.php/asesoria-legal/pensiones-alimentarias) |
 | Laboral | Ingreso mensual último o actual de hasta ₡806 800, con excepciones ⚠️ | [Defensa Pública, laboral](https://defensapublica.poder-judicial.go.cr/index.php/asesoria-legal/laboral) |
 | Agrario | Personas sin recursos suficientes para pagar un abogado particular; menciona también pueblos indígenas, mujeres agricultoras y personas de la tercera edad | [Defensa Pública, agrario](https://defensapublica.poder-judicial.go.cr/index.php/asesoria-legal/agrario) |
 | Indígenas | Toda persona indígena que se autodetermine como tal, en todos los procesos judiciales | [Defensa Pública, indígenas](https://defensapublica.poder-judicial.go.cr/index.php/asesoria-legal/indigenas) |
@@ -157,7 +159,7 @@ Cada institución pide cosas distintas. En general, llevá tu **cédula** y **to
 |---|---|---|---|
 | Defensa Pública, penal | Gratis si no tenés medios económicos | [Defensa Pública](https://defensapublica.poder-judicial.go.cr/index.php/asesoria-legal/penal) | 2026-10-07 |
 | Defensa Pública, penal juvenil | Gratis | [Defensa Pública](https://defensapublica.poder-judicial.go.cr/index.php/asesoria-legal/penal-juvenil) | 2026-10-07 |
-| Defensa Pública, pensiones alimentarias (parte beneficiaria) | Gratis | [Defensa Pública](https://defensapublica.poder-judicial.go.cr/index.php/asesoria-legal/pensiones-alimentarias) | 2026-10-07 |
+| Defensa Pública, pensiones alimentarias (parte beneficiaria) | Gratis | [Defensa Pública](https://defensapublica.poder-judicial.go.cr/index.php/asesoria-legal/pensiones-alimentarias) | 2026-10-10 |
 | Defensa Pública, indígenas | Gratis | [Defensa Pública](https://defensapublica.poder-judicial.go.cr/index.php/asesoria-legal/indigenas) | 2026-10-07 |
 | Consultorios Jurídicos de la UCR | Sin costo | [UCR, 2019](https://www.ucr.ac.cr/noticias/2019/3/04/asistencia-legal-profesional-y-sin-costo-la-ucr-tiene-10-consultorios-juridicos-al-servicio-de-quienes-mas-lo-necesitan.html) | 2026-10-07 |
 | Denuncia ante la Defensoría de los Habitantes | Sin costo | [Defensoría](https://www.dhr.go.cr/denuncias/preguntas_frecuentes_denuncias.aspx) | 2026-10-07 |
@@ -188,7 +190,7 @@ Cada institución pide cosas distintas. En general, llevá tu **cédula** y **to
 
 ## Preguntas frecuentes
 **¿Hay un monto de ingreso único para tener abogado gratis?**
-No. Cada materia tiene su regla. Solo la laboral publica un monto (₡806 800 ⚠️). En penal, agrario y familia se habla de no tener recursos para pagar abogado, sin un monto publicado.
+No. Cada materia tiene su regla. Solo la laboral publica un monto (₡806 800 ⚠️). En penal y agrario se habla de no tener recursos para pagar abogado, sin un monto publicado. En pensiones alimentarias, la parte beneficiaria que no tenga dinero para un abogado, también sin monto.
 
 **¿La Defensoría de los Habitantes me da un abogado?**
 No. No actúa como representante legal ni asigna abogados ([Defensoría, preguntas frecuentes](https://www.dhr.go.cr/denuncias/preguntas_frecuentes_denuncias.aspx)).
@@ -203,17 +205,18 @@ Sus preguntas frecuentes no mencionan un servicio de asesoría gratuita al públ
 A la línea gratuita del Poder Judicial, **800-800-3000** ([Poder Judicial](https://servicios.poder-judicial.go.cr/index.php/servicio?service=60)).
 
 ## Fuentes
-- [Defensa Pública, inicio](https://defensapublica.poder-judicial.go.cr/), consultada 2026-10-07.
+- [Defensa Pública, inicio](https://defensapublica.poder-judicial.go.cr/), consultada 2026-10-10.
 - [Defensa Pública, penal](https://defensapublica.poder-judicial.go.cr/index.php/asesoria-legal/penal), consultada 2026-10-07.
 - [Defensa Pública, penal juvenil](https://defensapublica.poder-judicial.go.cr/index.php/asesoria-legal/penal-juvenil), consultada 2026-10-07.
 - [Defensa Pública, ejecución de la pena](https://defensapublica.poder-judicial.go.cr/index.php/asesoria-legal/ejecucion-de-la-pena), consultada 2026-10-07.
-- [Defensa Pública, pensiones alimentarias](https://defensapublica.poder-judicial.go.cr/index.php/asesoria-legal/pensiones-alimentarias), consultada 2026-10-07.
+- [Defensa Pública, pensiones alimentarias](https://defensapublica.poder-judicial.go.cr/index.php/asesoria-legal/pensiones-alimentarias), consultada 2026-10-10.
 - [Defensa Pública, laboral](https://defensapublica.poder-judicial.go.cr/index.php/asesoria-legal/laboral), consultada 2026-10-07.
 - [Defensa Pública, agrario](https://defensapublica.poder-judicial.go.cr/index.php/asesoria-legal/agrario), consultada 2026-10-07.
 - [Defensa Pública, indígenas](https://defensapublica.poder-judicial.go.cr/index.php/asesoria-legal/indigenas), consultada 2026-10-07.
 - [Defensa Pública, contencioso administrativo](https://defensapublica.poder-judicial.go.cr/index.php/asesoria-legal/contencioso-administrativo), consultada 2026-10-07.
 - [Defensa Pública, contravenciones y tránsito](https://defensapublica.poder-judicial.go.cr/index.php/asesoria-legal/contravenciones-y-transito), consultada 2026-10-07.
-- [Poder Judicial, reforma procesal de familia](https://servicios.poder-judicial.go.cr/index.php/servicio?service=60), consultada 2026-10-07.
+- [Poder Judicial, reforma procesal de familia](https://servicios.poder-judicial.go.cr/index.php/servicio?service=60), consultada 2026-10-10.
+- [La Gaceta n.° 213, Ley 10558 (reforma del Código Procesal de Familia)](https://www.imprentanacional.go.cr/pub/2024/11/13/COMP_13_11_2024.html) (13-11-2024), consultada 2026-10-10.
 - [Poder Judicial, Oficina de Atención y Protección a la Víctima del Delito](https://servicios.poder-judicial.go.cr/index.php/servicio?service=44), consultada 2026-10-07.
 - [Ministerio Público, atención y protección a la víctima](https://ministeriopublico.poder-judicial.go.cr/index.php/atencion-y-proteccion-a-la-victima), consultada 2026-10-07.
 - [UCR, Facultad de Derecho, contáctenos](https://derecho.ucr.ac.cr/contactenos), consultada 2026-10-07.
