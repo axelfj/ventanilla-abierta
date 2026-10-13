@@ -18,6 +18,8 @@ import yaml
 RAIZ = os.path.normpath(os.path.join(os.path.dirname(os.path.abspath(__file__)), ".."))
 TRAMITES = os.path.join("tramites", "costa-rica")
 CATEGORIAS = os.path.join("_data", "categorias.yml")
+PORTADA = os.path.join("_data", "portada.yml")
+SINONIMOS = os.path.join("_data", "sinonimos.yml")
 ESTADOS = {"borrador", "verificado"}
 OBLIGATORIOS = ["title", "pais", "ultima_verificacion", "estado"]
 EN_ACTIONS = os.environ.get("GITHUB_ACTIONS") == "true"
@@ -139,12 +141,43 @@ def validar_categorias(rutas_fichas):
             error(ruta, "la guía no está en ninguna categoría de _data/categorias.yml, así que nadie la encuentra en el sitio")
 
 
+def validar_portada():
+    try:
+        with open(os.path.join(RAIZ, PORTADA), encoding="utf-8") as f:
+            portada = yaml.safe_load(f) or {}
+    except (OSError, yaml.YAMLError) as e:
+        error(PORTADA, f"no se pudo leer: {e}")
+        return
+    for s in portada.get("situaciones") or []:
+        url = s.get("url") or ""
+        if not s.get("texto") or not url.endswith(".html"):
+            error(PORTADA, f"cada situación necesita 'texto' y una 'url' terminada en .html: {s}")
+            continue
+        ruta = os.path.join(TRAMITES, url[: -len(".html")] + ".md")
+        if not os.path.exists(os.path.join(RAIZ, ruta)):
+            error(PORTADA, f"'{s.get('texto')}' apunta a {ruta}, que no existe")
+
+
+def validar_sinonimos():
+    try:
+        with open(os.path.join(RAIZ, SINONIMOS), encoding="utf-8") as f:
+            sinonimos = yaml.safe_load(f) or []
+    except (OSError, yaml.YAMLError) as e:
+        error(SINONIMOS, f"no se pudo leer: {e}")
+        return
+    for s in sinonimos:
+        if not isinstance(s, dict) or not s.get("frase") or not isinstance(s.get("buscar"), list) or not s["buscar"]:
+            error(SINONIMOS, f"cada línea necesita 'frase' y una lista 'buscar' con al menos una palabra: {s}")
+
+
 def main():
     hoy = datetime.date.today()
     rutas = list(fichas())
     for ruta in rutas:
         validar_ficha(ruta, hoy)
     validar_categorias(rutas)
+    validar_portada()
+    validar_sinonimos()
     if errores:
         print(f"\n{errores} error(es) en {len(rutas)} guías.")
         sys.exit(1)

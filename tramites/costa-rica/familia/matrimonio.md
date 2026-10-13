@@ -54,8 +54,8 @@ Además de lo anterior, la persona extranjera presenta ([TSE](https://www.tse.go
 | Inscripción del matrimonio (civil o católico) | Gratis | [TSE](https://www.tse.go.cr/pdf/requisitosytramites/Inscripcion-de-matrimonio-civil-o-catolico.pdf) | 2026-10-07 |
 | Plataforma Matrimonio en Línea (la usa el notario) | El TSE no publica cobro. La versión anterior era gratuita | [TSE, Matrimonio digital](https://www.tse.go.cr/matrimonio_condiciones.html) | 2026-10-07 |
 | Inscripción de un matrimonio hecho en el extranjero | Gratis | [TSE](https://www.tse.go.cr/pdf/requisitosytramites/Inscripcion-matrimonio-celebrado-en-el-extranjero.pdf) | 2026-10-07 |
-| Certificación de matrimonio en oficina | Gratis, más ₡12,50 en especies fiscales y ₡5 de timbre del Archivo Nacional por folio | [TSE](https://www.tse.go.cr/pdf/requisitosytramites/Expedicion-de-certificaciones-de-hechos-civiles-costarricenses-extranjeros.pdf) | 2026-10-07 |
-| Certificación digital (plataforma CDI) | ⚠️ Falta confirmarlo: el TSE no publica el monto en sus páginas informativas | [TSE, servicios en línea](https://www.tse.go.cr/serviciosenlinea.html) | 2026-10-07 |
+| Certificación de matrimonio en oficina | Gratis, más un entero de ₡5 (timbre del Archivo Nacional) por certificación. Detalle en [Certificaciones del TSE](../documentos/certificaciones-tse.html) | [TSE](https://www.tse.go.cr/pdf/requisitosytramites/Expedicion-de-certificaciones-de-hechos-vitales-y-civiles.pdf) | 2026-10-12 |
+| Certificación digital (plataforma CDI) | ⚠️ El TSE anunció ₡1 562,50 desde el 26-2-2025 y no confirma si la de matrimonio se vende en línea. Mirá [Certificaciones del TSE](../documentos/certificaciones-tse.html) | [TSE, comunicado del 25-2-2025](https://ride.tse.go.cr/xmlui/bitstream/handle/123456789/17673/25-2-25%20Costo%20de%20las%20certificaciones%20digitales%20disminuir%c3%a1.pdf?sequence=1&isAllowed=y) | 2026-10-12 |
 
 Los honorarios del notario son privados y no aparecen aquí.
 

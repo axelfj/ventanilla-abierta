@@ -7,7 +7,24 @@
   <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'self' https://raw.githubusercontent.com; object-src 'none'; base-uri 'self'; form-action 'self'">
   <meta name="referrer" content="strict-origin-when-cross-origin">
   <title>{% if page.title and page.title != site.title %}{{ page.title }} · {% endif %}{{ site.title }}</title>
-  <meta name="description" content="{{ page.description | default: site.description }}">
+  {%- comment %} Descripción para Google y para la vista previa al compartir. Las guías no la traen en el front matter,
+       así que se toma el primer párrafo de la sección "Qué es". {% endcomment %}
+  {%- assign descripcion = page.description %}
+  {%- if descripcion == nil and page.pais and content contains ">Qué es</h2>" %}
+    {%- assign descripcion = content | split: ">Qué es</h2>" | last | split: "</p>" | first | strip_html | normalize_whitespace | truncate: 200 %}
+  {%- endif %}
+  {%- assign descripcion = descripcion | default: site.description | strip_html | normalize_whitespace %}
+  {%- assign titulo = page.title | default: site.title %}
+  <meta name="description" content="{{ descripcion | escape }}">
+  <link rel="canonical" href="{{ page.url | absolute_url }}">
+  <meta property="og:type" content="{% if page.pais %}article{% else %}website{% endif %}">
+  <meta property="og:site_name" content="{{ site.title }}">
+  <meta property="og:locale" content="es_CR">
+  <meta property="og:title" content="{{ titulo | escape }}">
+  <meta property="og:description" content="{{ descripcion | escape }}">
+  <meta property="og:url" content="{{ page.url | absolute_url }}">
+  <meta property="og:image" content="{{ '/assets/img/icono-512.png' | absolute_url }}">
+  <meta name="twitter:card" content="summary">
   <link rel="icon" href="{{ '/assets/img/icono.svg' | relative_url }}" type="image/svg+xml">
   <link rel="icon" href="{{ '/assets/img/icono-32.png' | relative_url }}" type="image/png" sizes="32x32">
   <link rel="apple-touch-icon" href="{{ '/assets/img/apple-touch-icon.png' | relative_url }}">
@@ -30,9 +47,17 @@
   </header>
   <main class="contenedor">
     {{ content }}
+    {%- if page.pais %}
+    {%- assign enlace = page.url | absolute_url %}
+    {%- assign mensaje = page.title | append: ": " | append: enlace %}
+    <p class="compartir no-imprimir">
+      <a href="https://wa.me/?text={{ mensaje | url_encode | replace: "+", "%20" }}" rel="noopener noreferrer">📲 Mandar esta guía por WhatsApp</a>
+    </p>
+    {%- endif %}
   </main>
   <footer class="contenedor pie">
-    <p>Información general, no asesoría legal. Contenido <a href="{{ '/LICENSE-CONTENIDO.html' | relative_url }}">CC BY-SA 4.0</a> · Código <a href="https://github.com/axelfj/ventanilla-abierta">MIT en GitHub</a>.</p>
+    <p class="aviso-estafas">🔒 Ventanilla Abierta nunca te pide plata, contraseñas ni datos personales, y no es un sitio del Gobierno.</p>
+    <p><a href="{{ '/acerca.html' | relative_url }}">Qué es Ventanilla Abierta</a> · Información general, no asesoría legal. Contenido <a href="{{ '/LICENSE-CONTENIDO.html' | relative_url }}">CC BY-SA 4.0</a> · Código <a href="https://github.com/axelfj/ventanilla-abierta">MIT en GitHub</a>.</p>
   </footer>
 </body>
 </html>
