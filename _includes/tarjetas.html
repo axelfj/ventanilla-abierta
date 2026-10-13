@@ -1,5 +1,15 @@
-<div class="tarjetas">
+{% comment %} Primero las categorías en el orden de _data/portada.yml; después cualquier otra, en el orden de _data/categorias.yml. {% endcomment %}
+{% assign orden = site.data.portada.orden_categorias %}
+{% assign ordenadas = "" | split: "" %}
+{% for slug in orden %}
+  {% assign c = site.data.categorias | where: "slug", slug | first %}
+  {% if c %}{% assign ordenadas = ordenadas | push: c %}{% endif %}
+{% endfor %}
 {% for c in site.data.categorias %}
+  {% unless orden contains c.slug %}{% assign ordenadas = ordenadas | push: c %}{% endunless %}
+{% endfor %}
+<div class="tarjetas">
+{% for c in ordenadas %}
   {% assign listos = c.temas | where_exp: "t", "t.url" %}
   <a class="tarjeta" href="{{ '/tramites/costa-rica/categorias/' | append: c.slug | append: '.html' | relative_url }}">
     <span class="icono" aria-hidden="true">{{ c.icono }}</span>

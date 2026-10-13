@@ -81,3 +81,25 @@ pre { padding:12px; }
   .topbar nav { display:flex; flex-wrap:wrap; gap:4px 14px; }
   .topbar nav a { margin-left:0; }
 }
+
+/* Portada: situaciones frecuentes */
+.situaciones { list-style:none; padding:0; display:grid; grid-template-columns:repeat(auto-fill, minmax(260px, 1fr)); gap:10px; margin:12px 0 8px; }
+.situaciones a { display:flex; gap:10px; align-items:center; min-height:52px; padding:12px 16px; border:1px solid var(--borde);
+  border-radius:10px; background:var(--tarjeta); color:var(--texto); font-weight:600; text-decoration:none; }
+.situaciones a:hover, .situaciones a:focus { border-color:var(--acento); }
+
+/* Compartir y avisos */
+.compartir { margin-top:32px; }
+.compartir a { display:inline-block; padding:12px 16px; border:1px solid var(--acento); border-radius:8px; font-weight:600; text-decoration:none; }
+.aviso-estafas { color:var(--texto); }
+
+/* Impresión: solo la guía, en blanco y negro, con la dirección de cada enlace */
+@media print {
+  .topbar, .buscador, .no-imprimir { display:none !important; }
+  body { font-size:12pt; color:#000; background:#fff; }
+  a { color:#000; }
+  main a[href^="http"]::after { content:" (" attr(href) ")"; font-size:.85em; overflow-wrap:anywhere; }
+  blockquote, th { background:none; }
+  h2 { break-after:avoid; }
+  table, blockquote, li { break-inside:avoid; }
+}
