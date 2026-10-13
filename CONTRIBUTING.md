@@ -27,7 +27,8 @@ Abrí un issue con la plantilla **Nuevo trámite**.
    `- { titulo: Registro de marca, url: propiedad-intelectual/registro-de-marca.html }`
    El estado ✅/⚠️ no se escribe ahí: el sitio lo toma del campo `estado` de la guía.
 5. Revisá tu guía con `python3 scripts/validar.py` (necesita `pip install pyyaml`). El mismo chequeo corre automáticamente en cada pull request.
-6. Abrí un pull request explicando qué fuentes consultaste.
+6. Si la gente busca el trámite con otras palabras ("me echaron", "la Caja"), agregalas a `_data/sinonimos.yml` y sumá una búsqueda de prueba en `scripts/busquedas-de-prueba.json`.
+7. Abrí un pull request explicando qué fuentes consultaste.
 
 ## Nombres de archivos
 

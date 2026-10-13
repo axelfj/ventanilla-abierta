@@ -1,0 +1,130 @@
+# Palabras y frases como las escribe la gente, y qué buscar cuando aparecen.
+# El buscador ignora tildes y mayúsculas. `frase` se busca dentro de lo que la persona escribió;
+# `buscar` son palabras o frases que aparecen en el título o el texto de la guía correcta.
+# Si agregás una línea, sumá también una búsqueda de prueba en scripts/busquedas-de-prueba.json.
+
+# Trabajo
+- { frase: me despidieron, buscar: [liquidación, despido] }
+- { frase: me despiden, buscar: [liquidación, despido] }
+- { frase: me echaron, buscar: [liquidación, despido] }
+- { frase: me botaron, buscar: [liquidación, despido] }
+- { frase: me quedé sin trabajo, buscar: [liquidación, despido] }
+- { frase: renuncié, buscar: [liquidación, renuncia] }
+- { frase: no me pagan, buscar: [inspección de trabajo, liquidación] }
+- { frase: no me pagaron, buscar: [inspección de trabajo, liquidación] }
+- { frase: no me han pagado, buscar: [inspección de trabajo, liquidación] }
+- { frase: prestaciones, buscar: [liquidación, cesantía] }
+- { frase: mi jefe, buscar: [trabajo, patrono] }
+- { frase: me acosa, buscar: [acoso, hostigamiento] }
+- { frase: hostigamiento, buscar: [acoso, hostigamiento] }
+- { frase: chamba, buscar: [trabajo] }
+
+# Documentos
+- { frase: hoja de delincuencia, buscar: [antecedentes penales] }
+- { frase: perdí la cédula, buscar: [cédula de identidad] }
+- { frase: me robaron la cédula, buscar: [cédula de identidad] }
+- { frase: brevete, buscar: [licencia de conducir] }
+
+# Salud y CCSS
+- { frase: seguro de la caja, buscar: [independiente o voluntario, ccss] }
+- { frase: asegurarme, buscar: [independiente o voluntario, ccss] }
+- { frase: la caja, buscar: [ccss] }
+- { frase: seguro social, buscar: [ccss] }
+- { frase: clínica, buscar: [ebais, ccss] }
+- { frase: jubilarme, buscar: [vejez, ivm] }
+- { frase: jubilación, buscar: [vejez, ivm] }
+- { frase: pensionarme, buscar: [vejez, ivm] }
+- { frase: incapacitado, buscar: [incapacidades] }
+
+# Familia
+- { frase: no paga pensión, buscar: [pensión alimentaria] }
+- { frase: no da pensión, buscar: [pensión alimentaria] }
+- { frase: pensión para mis hijos, buscar: [pensión alimentaria] }
+- { frase: pensión de mi hijo, buscar: [pensión alimentaria] }
+- { frase: manutención, buscar: [pensión alimentaria] }
+- { frase: papá, buscar: [padre, pensión alimentaria] }
+- { frase: mamá, buscar: [madre] }
+- { frase: casarme, buscar: [matrimonio] }
+- { frase: casarnos, buscar: [matrimonio] }
+- { frase: boda, buscar: [matrimonio] }
+- { frase: separarme, buscar: [divorcio, unión de hecho] }
+- { frase: unión libre, buscar: [unión de hecho] }
+- { frase: juntados, buscar: [unión de hecho] }
+- { frase: viajar con mi hijo, buscar: [salida de menores] }
+- { frase: viajar con mi hija, buscar: [salida de menores] }
+- { frase: sacar a mi hijo del país, buscar: [salida de menores] }
+- { frase: inscribir a mi bebé, buscar: [inscribir un nacimiento] }
+- { frase: reconocer a mi hijo, buscar: [inscribir un nacimiento, reconocer] }
+- { frase: herencia, buscar: [sucesión, testamento] }
+- { frase: murió, buscar: [sucesión, defunción, testamento] }
+- { frase: falleció, buscar: [sucesión, defunción, testamento] }
+
+# Violencia y denuncias
+- { frase: me pega, buscar: [violencia doméstica, medidas de protección] }
+- { frase: me pegan, buscar: [violencia doméstica, medidas de protección] }
+- { frase: me golpea, buscar: [violencia doméstica, medidas de protección] }
+- { frase: me maltrata, buscar: [violencia doméstica, medidas de protección] }
+- { frase: me amenaza, buscar: [violencia doméstica, medidas de protección, denuncia] }
+- { frase: agresión, buscar: [violencia doméstica, medidas de protección, denuncia] }
+- { frase: me robaron, buscar: [poner una denuncia] }
+- { frase: robo, buscar: [poner una denuncia] }
+- { frase: asalto, buscar: [poner una denuncia] }
+- { frase: me asaltaron, buscar: [poner una denuncia] }
+- { frase: me estafaron, buscar: [estafa, poner una denuncia] }
+- { frase: estafa, buscar: [estafa, poner una denuncia] }
+
+# Vivienda y consumo
+- { frase: me quieren sacar de la casa, buscar: [desalojo] }
+- { frase: me quieren sacar, buscar: [desalojo] }
+- { frase: me echan de la casa, buscar: [desalojo] }
+- { frase: desalojar, buscar: [desalojo] }
+- { frase: desahucio, buscar: [desalojo] }
+- { frase: inquilino, buscar: [alquiler, desalojo] }
+- { frase: casero, buscar: [alquiler, desalojo] }
+- { frase: garantía, buscar: [consumidor] }
+- { frase: me vendieron, buscar: [consumidor] }
+- { frase: casa propia, buscar: [bono de vivienda, compraventa] }
+
+# Dinero y deudas
+- { frase: me cobran, buscar: [cobro, deuda, embargo] }
+- { frase: me están cobrando, buscar: [cobro, deuda, embargo] }
+- { frase: me demandaron, buscar: [demanda, cobro, deuda] }
+- { frase: me embargaron, buscar: [embargo, cobro de deudas] }
+- { frase: tarjeta de crédito, buscar: [emisor de tarjeta, banco] }
+- { frase: sinpe, buscar: [banco, tarjeta] }
+- { frase: protectora, buscar: [historial crediticio] }
+
+# Abogados
+- { frase: abogado gratis, buscar: [asesoría legal gratuita] }
+- { frase: abogado gratuito, buscar: [asesoría legal gratuita] }
+- { frase: no tengo plata, buscar: [asesoría legal gratuita, gratuita] }
+- { frase: sin plata, buscar: [asesoría legal gratuita, gratuita] }
+
+# Vehículos
+- { frase: choque, buscar: [accidente, seguro obligatorio, aseguradora] }
+- { frase: me chocaron, buscar: [accidente, seguro obligatorio, aseguradora] }
+- { frase: un parte, buscar: [multas de tránsito] }
+- { frase: boleta, buscar: [multas de tránsito] }
+- { frase: riteve, buscar: [revisión técnica] }
+- { frase: rtv, buscar: [revisión técnica] }
+
+# Migración
+- { frase: papeles, buscar: [residencia, refugio] }
+- { frase: dimex, buscar: [residencia, refugio] }
+- { frase: estar legal, buscar: [residencia, refugio] }
+- { frase: nicaragua, buscar: [residencia, refugio] }
+- { frase: nicaragüense, buscar: [residencia, refugio] }
+- { frase: extranjero, buscar: [residencia, refugio, extranjeras] }
+
+# Negocios y Hacienda
+- { frase: poner un negocio, buscar: [montar un negocio] }
+- { frase: abrir un negocio, buscar: [montar un negocio] }
+- { frase: emprender, buscar: [montar un negocio] }
+- { frase: pulpería, buscar: [montar un negocio, patente] }
+- { frase: soda, buscar: [montar un negocio, patente] }
+- { frase: la renta, buscar: [hacienda, renta] }
+
+# Ayudas
+- { frase: ayuda del gobierno, buscar: [imas, bono de vivienda, no contributivo] }
+- { frase: subsidio, buscar: [imas, no contributivo] }
+- { frase: imas, buscar: [imas] }
