@@ -19,6 +19,7 @@ La licencia **no es un bien**: no se puede vender, alquilar ni traspasar (art. 3
 - **Sí.** Se tramita en la municipalidad del cantón donde está el negocio o el evento.
 
 ## Tipos de licencia (art. 4)
+
 | Clase | Para qué es |
 |---|---|
 | **A** | Licorera: venta en envase cerrado como actividad principal |
@@ -32,6 +33,7 @@ La licencia **no es un bien**: no se puede vender, alquilar ni traspasar (art. 3
 Para **fiestas cívicas, ferias y espectáculos públicos** la municipalidad puede dar una **licencia temporal**. No se permite en centros educativos, templos ni centros de nutrición, y en instalaciones deportivas solo cuando no hay un evento deportivo.
 
 ## Horarios (art. 11)
+
 | Clase | Horario de venta |
 |---|---|
 | A y B1 | 11:00 a 00:00 |

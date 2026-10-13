@@ -22,6 +22,7 @@ Explicá en dos o tres frases qué es el trámite y para qué sirve.
 - Documento o condición 2
 
 ## Costos oficiales
+
 | Concepto | Monto | Fuente | Verificado |
 |---|---|---|---|
 | Ejemplo | ₡0 / USD 0 | [Institución](URL) | AAAA-MM-DD |

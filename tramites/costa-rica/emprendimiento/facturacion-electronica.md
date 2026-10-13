@@ -49,6 +49,7 @@ Solo estos son comprobantes electrónicos autorizados ([Decreto 44739-H, art. 9]
 - El **código CAByS** de lo que vendés (va en cada línea de la factura) ([guía de emisión](https://www.hacienda.go.cr/docs/GuiaEmisiondecomprobanteselectronicos.pdf)).
 
 ## Costos oficiales
+
 | Concepto | Monto | Fuente | Verificado |
 |---|---|---|---|
 | Tico Factura (facturador de Hacienda) | Gratis | [Hacienda, aviso Tico Factura](https://www.hacienda.go.cr/docs/FacturadorGratuitoTICOFACTURADisponibleAPartirdel06deoctubre.pdf) | 2026-10-06 |

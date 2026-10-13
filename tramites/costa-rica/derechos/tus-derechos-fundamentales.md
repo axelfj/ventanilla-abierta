@@ -100,6 +100,7 @@ Cada número es un artículo de la [Constitución Política](https://www.tse.go.
 - La **Corte Interamericana de Derechos Humanos**, que aplica la Convención Americana sobre Derechos Humanos, tiene su sede en **San José**: Costa Rica y la Corte firmaron un convenio de sede en 1981 ([Corte IDH, historia](https://corteidh.or.cr/historia.cfm?lang=es)).
 
 ## Cómo defenderlos
+
 | Si te pasa esto | Andá a | Guía |
 |---|---|---|
 | Una institución pública (o a veces una empresa) viola un derecho tuyo | **Recurso de amparo** ante la Sala Constitucional | [Recurso ante la Sala Constitucional](recurso-ante-la-sala-constitucional.html) |
@@ -131,6 +132,7 @@ La Ley de Regulación del Derecho de Petición, **Ley 9097** ([texto publicado p
 - Si no te responden, podés presentar un **recurso de amparo** (ver [la guía](recurso-ante-la-sala-constitucional.html)).
 
 ## Costos
+
 | Concepto | Monto | Fuente | Verificado |
 |---|---|---|---|
 | Recurso de amparo o hábeas corpus | Gratis | [Poder Judicial](https://servicios.poder-judicial.go.cr/index.php/servicio?service=49) | 2026-10-10 |

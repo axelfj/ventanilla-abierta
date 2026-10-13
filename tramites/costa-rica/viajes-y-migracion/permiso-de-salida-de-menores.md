@@ -43,6 +43,7 @@ Según el [Decreto 36659-G, art. 55](https://formatos.inamu.go.cr/SIDOC/DOCS/ART
 ⚠️ Estos requisitos vienen del texto de 2011. Migración puede pedir otros (por ejemplo, un formulario). Confirmalos antes de ir.
 
 ## Costos oficiales
+
 | Concepto | Monto | Fuente | Verificado |
 |---|---|---|---|
 | Permiso de salida | ⚠️ El reglamento de 2011 no fija ningún cobro por el permiso. Falta confirmarlo con Migración | [Decreto 36659-G](https://formatos.inamu.go.cr/SIDOC/DOCS/ARTICULOS%20DE%20PERIODICOS%20OFICIALES/2011/julio/La%20Gaceta/Decreto%2036659_G.pdf) | 2026-10-07 |

@@ -46,6 +46,7 @@ La ley dice que el teletrabajo "modificará única y exclusivamente la organizac
 Además, la ley pide que en el acuerdo se fijen **desde antes** los criterios con que te van a medir, evaluar y controlar (Ley 9738, art. 6, inciso d). Lo demás sobre contratos escritos está en [cómo contratar a una persona trabajadora](contratar-empleados.html).
 
 ## Quién paga el equipo, la electricidad e internet
+
 | Gasto | Qué dice la norma | Fuente | Verificado |
 |---|---|---|---|
 | **Equipo y programas** | Los da y les da mantenimiento el **patrono** (art. 8, inciso a). Si usás tu propio equipo por voluntad propia y el patrono lo acepta, el patrono no responde por ese equipo, y igual tenés que guardar confidencialidad de su información. | [Ley 9738](https://www.mtss.go.cr/elministerio/marco-legal/documentos/9738.pdf) | 2026-10-12 |
@@ -102,6 +103,7 @@ Para teletrabajar, según la ley y el reglamento:
 - Cumplir las condiciones mínimas de herramientas y conectividad que fije el patrono (reglamento, art. 2).
 
 ## Costos oficiales
+
 | Concepto | Monto | Fuente | Verificado |
 |---|---|---|---|
 | Asesoría, cálculo y conciliación en el MTSS si hay un conflicto | Gratis | [MTSS, conciliación](https://www.mtss.go.cr/tramites-servicios/catalogo-tramites/conciliacion-prestaciones-laborlaes.html) | 2026-10-12 |

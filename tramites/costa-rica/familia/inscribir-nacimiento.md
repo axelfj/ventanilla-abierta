@@ -76,6 +76,7 @@ Según el [TSE](https://www.tse.go.cr/pdf/requisitosytramites/Reconocimiento.pdf
 - Un correo electrónico para notificaciones (o una dirección física exacta si no tenés correo).
 
 ## Costos oficiales
+
 | Concepto | Monto | Fuente | Verificado |
 |---|---|---|---|
 | Inscribir el nacimiento en el Registro Civil (en la casa, o en un hospital si no se declaró a tiempo) | Gratis | [TSE, hospital](https://www.tse.go.cr/pdf/requisitosytramites/Inscripcion-de-nacimiento-ocurrido-en-un-hospital.pdf), [TSE, hogar](https://www.tse.go.cr/pdf/requisitosytramites/Inscripcion-de-nacimiento-ocurrido-en-el-hogar-Menor-de-10-anos.pdf) | 2026-10-07 |

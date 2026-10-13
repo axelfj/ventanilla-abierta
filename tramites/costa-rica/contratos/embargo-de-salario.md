@@ -88,6 +88,7 @@ Si la deuda es por **pensión alimentaria**, el límite es otro: hasta la mitad 
 - **Excepción:** el MTSS cita un criterio de la Procuraduría según el cual los rebajos que aceptaste para cooperativas o créditos de vivienda pueden llegar incluso a la parte que normalmente no se embarga ([Procuraduría, dictamen C-104-2019, publicado por la Sala Segunda](https://salasegunda.poder-judicial.go.cr/revista/Revista_N17/contenido/PDFs/033-proc4.pdf), conclusión 2). ⚠️ Falta confirmar cómo se aplica hoy.
 
 ## Costos oficiales
+
 | Concepto | Monto | Fuente | Verificado |
 |---|---|---|---|
 | Calculadora de embargo de salario del MTSS | Gratis (en línea) | [MTSS, calculadoras](https://www.mtss.go.cr/tramites-servicios/calculadoras.html) | 2026-10-10 |

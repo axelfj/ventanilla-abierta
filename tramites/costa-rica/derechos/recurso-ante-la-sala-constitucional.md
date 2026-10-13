@@ -35,6 +35,7 @@ No hay formulario obligatorio. El escrito puede ser **a mano o en computadora** 
 No tenés que adjuntar todas las pruebas al principio, pero si tenés documentos (cartas, respuestas, recetas, citas), conviene incluir copias.
 
 ## Costos oficiales
+
 | Concepto | Monto | Fuente | Verificado |
 |---|---|---|---|
 | Presentar amparo o hábeas corpus | Gratis | [Poder Judicial](https://servicios.poder-judicial.go.cr/index.php/servicio?service=49) | 2026-10-06 |

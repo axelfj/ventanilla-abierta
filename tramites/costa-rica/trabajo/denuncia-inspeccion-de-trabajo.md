@@ -42,6 +42,7 @@ Para casos especiales (salud ocupacional, discriminación por género, despido d
 - Horas extra que te deban, si aplica.
 
 ## Costos oficiales
+
 | Concepto | Monto | Fuente | Verificado |
 |---|---|---|---|
 | Asesoría, cálculo de prestaciones y conciliación en el MTSS | Gratis | [MTSS, catálogo de trámites](https://www.mtss.go.cr/tramites-servicios/catalogo-tramites/conciliacion-prestaciones-laborlaes.html) | 2026-10-06 |

@@ -47,6 +47,7 @@ La regla del OIJ para lo desconocido y la Fiscalía para lo conocido viene del C
 - **No necesitás saber quién fue.** Si no lo sabés, el OIJ investiga ([Catálogo de Servicios](https://contraloria.poder-judicial.go.cr/images/CatalogodeServiciosInstitucionales.pdf)).
 
 ## Costos oficiales
+
 | Concepto | Monto | Fuente | Verificado |
 |---|---|---|---|
 | Poner la denuncia en el OIJ | Gratis ("No tiene costo. Es gratuito") | [OIJ](https://sitiooij.poder-judicial.go.cr/index.php/menu-ayuda/servicios-policiales/servicios-a-personas/interposicion-de-denuncia) | 2026-10-07 |
@@ -152,6 +153,7 @@ Según el Código Procesal Penal ([art. 71](https://sitiooij.poder-judicial.go.c
 - Ese reporte es solo para pérdida **sin delito** y **solo para pasaportes**: no sirve para la cédula, otros documentos ni tarjetas (misma fuente). Si te lo robaron, poné la denuncia.
 
 ## Teléfonos
+
 | Número | Para qué | Fuente |
 |---|---|---|
 | **911** | Emergencias. Gratis, 24 horas | [9-1-1](https://www.911.go.cr/preguntas-frecuentes/); [INAMU](https://www.inamu.go.cr/web/inamu/l%C3%ADnea-de-emergencia-9-1-1) |

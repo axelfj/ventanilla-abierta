@@ -75,6 +75,7 @@ Puede haber otros impuestos para productos específicos (el instructivo enumera,
 - Si el intermediario te cobra una comisión, también paga 13 % de IVA sobre esa comisión ([Hacienda](https://www.hacienda.go.cr/docs/ServiciosDigitalesTransfronterizos.pdf)).
 
 ## Costos oficiales
+
 | Concepto | Monto | Fuente | Verificado |
 |---|---|---|---|
 | IVA en importaciones | 13 % sobre el valor CIF más los otros impuestos | [Hacienda, DGA](https://www.hacienda.go.cr/docs/INSTRUCTIVO_CALCULO_OBLIGACION_TRIBUTARIA.pdf) | 2026-10-10 |

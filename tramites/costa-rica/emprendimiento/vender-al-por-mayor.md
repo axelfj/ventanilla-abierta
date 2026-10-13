@@ -62,6 +62,7 @@ Declarás el IVA cada mes. Ver [Reportes de un negocio](reportes-de-un-negocio.h
 - Si distribuís **alimentos importados**, el Ministerio de Salud pide un permiso de funcionamiento vigente **para bodegaje, almacenamiento o distribución al por mayor** como requisito para registrarlos ([Ministerio de Salud, registro de alimentos](https://www.ministeriodesalud.go.cr/index.php/tramites/empresas?view=article&id=156:registro-de-alimentos&catid=28)).
 
 ## 5. Permisos según el producto
+
 | Producto | Qué pide | Dónde | Costo oficial |
 |---|---|---|---|
 | **Alimentos** (nacionales o importados) | Registro sanitario de cada producto. Nacionales: etiqueta según el Decreto 37280 y PSF de fabricación. Importados: certificado de libre venta, etiqueta (traducida si no está en español), etiqueta complementaria y PSF de bodega o distribución | [Regístrelo](https://www.registrelo.go.cr) ([Ministerio de Salud](https://www.ministeriodesalud.go.cr/index.php/tramites/empresas?view=article&id=156:registro-de-alimentos&catid=28)) | ₡55 000 por producto, vigente 5 años. Suplementos: USD 100 |
@@ -105,6 +106,7 @@ Si das crédito:
 Las compras públicas se tramitan, como regla general, por el **Sistema Digital Unificado (SICOP)**, según la Ley General de Contratación Pública, Ley 9986 ([Hacienda, preguntas y respuestas sobre la Ley 9986](https://www.hacienda.go.cr/docs/P&RWebinarLGCP9986PII.pdf)). Para registrarte como proveedor y participar, ver [Vender servicios a empresas](vender-servicios-a-empresas.html).
 
 ## Costos oficiales
+
 | Concepto | Monto | Fuente | Verificado |
 |---|---|---|---|
 | Tico Factura | Gratis | [Hacienda](https://www.hacienda.go.cr/docs/FacturadorGratuitoTICOFACTURADisponibleAPartirdel06deoctubre.pdf) | 2026-10-10 |

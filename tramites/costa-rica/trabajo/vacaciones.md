@@ -25,6 +25,7 @@ estado: verificado
 Se paga con el **promedio de los salarios ordinarios y extraordinarios** (incluidas horas extra) de las **últimas 50 semanas**. En actividades agrícolas y ganaderas se usa el promedio de la última semana.
 
 Ejemplos de cálculo que da el Poder Judicial:
+
 | Si te pagan... | Fórmula |
 |---|---|
 | Por mes o quincena | (salario promedio mensual ÷ 30) × 14 días |

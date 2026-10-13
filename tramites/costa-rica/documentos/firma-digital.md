@@ -39,6 +39,7 @@ Sirve, por ejemplo, para firmar solicitudes, permisos, declaraciones de impuesto
 - Una cuenta IBAN para el pago ([BCCR, pasos en móvil](https://www.bccr.fi.cr/cr/es/firma-digital/certificados-de-personas-fisicas/pasos-para-solicitar-la-firma-digital-en-movil.html)).
 
 ## Costos oficiales
+
 | Concepto | Monto | Fuente | Verificado |
 |---|---|---|---|
 | Certificado de firma digital (tarjeta o móvil) | No hay una tarifa única: cada oficina de registro cobra según sus propias indicaciones. El costo incluye el servicio de soporte | [BCCR, emisores y costos](https://www.bccr.fi.cr/cr/es/firma-digital/certificados-de-personas-fisicas/emisores-y-costos.html), [BCCR, pasos en tarjeta](https://www.bccr.fi.cr/cr/es/firma-digital/certificados-de-personas-fisicas/pasos-para-solicitar-la-firma-digital-en-tarjeta.html) | 2026-10-06 |

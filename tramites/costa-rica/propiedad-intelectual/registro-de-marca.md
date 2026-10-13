@@ -43,6 +43,7 @@ Fuente: [OMPI, Clasificación de Niza, 12.ª edición, títulos de clase](https:
 Cada clase se paga por aparte.
 
 ## Costos oficiales
+
 | Concepto | Monto | Fuente | Verificado |
 |---|---|---|---|
 | Inscripción, por cada clase | USD 50, pagados en timbres del Registro Nacional (o su equivalente en colones) | [Registro Nacional, aranceles de Propiedad Intelectual](https://www.rnpdigital.com/tramites_servicios/tramitesregistros/propiedad%20intelectual/propiedad_industrial_aranceles.htm) (art. 94 de la Ley 7978) | 2026-10-07 |

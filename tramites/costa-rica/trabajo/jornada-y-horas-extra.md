@@ -20,6 +20,7 @@ El límite cuenta el **tiempo de trabajo efectivo**: según el art. 137 del Cód
 - El MTSS orienta en el **800 TRABAJO (800 8722-256)** y por [chat](https://sistemas.mtss.go.cr/sial/chat.salaschats.aspx) ([MTSS, Dirección de Asuntos Laborales](https://www.mtss.go.cr/elministerio/estructura/direccion-de-asuntos-laborales/direccion-asuntos-laborales.html)), y su asesoría, cálculo y conciliación son gratuitos ([MTSS, conciliación](https://www.mtss.go.cr/tramites-servicios/catalogo-tramites/conciliacion-prestaciones-laborlaes.html)). Cómo denunciar y cómo pedir una conciliación está en la guía de [denuncia ante la Inspección de Trabajo](denuncia-inspeccion-de-trabajo.html).
 
 ## Las jornadas ordinarias
+
 | Jornada | Horario | Máximo por día | Máximo por semana | Fuente | Verificado |
 |---|---|---|---|---|---|
 | **Diurna** | Entre las 5:00 a. m. y las 7:00 p. m. | 8 horas (hasta 10 en jornada acumulativa) | 48 horas | [MTSS, DAJ-AE-84-06](https://mtss.go.cr/elministerio/estructura/direccion-asuntos-juridicos/pronunciamientos/daj-ae-84-06%20-%20pago%20de%20horas%20extras.pdf) (arts. 135 y 136) | 2026-10-10 |
@@ -103,6 +104,7 @@ Para calcular o reclamar tus horas extra, tené a mano:
 - Mensajes o instrucciones donde te pidieron quedarte más tiempo.
 
 ## Costos oficiales
+
 | Concepto | Monto | Fuente | Verificado |
 |---|---|---|---|
 | Asesoría, cálculo y conciliación en el MTSS para cobrar lo que te deben | Gratis | [MTSS, conciliación](https://www.mtss.go.cr/tramites-servicios/catalogo-tramites/conciliacion-prestaciones-laborlaes.html) | 2026-10-10 |

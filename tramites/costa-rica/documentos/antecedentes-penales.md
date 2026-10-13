@@ -38,6 +38,7 @@ Si la vas a usar en otro país, la tenés que pedir con la indicación **"PARA U
 - Un número de celular o un correo para que te avisen cuando esté lista ([Poder Judicial, tutorial](https://servicios.poder-judicial.go.cr/media/com_k2_j5/upload/Tutorial_hoja_delincuencia_2025_10_30_22_16_04.pdf)).
 
 ## Costos oficiales
+
 | Concepto | Monto | Fuente | Verificado |
 |---|---|---|---|
 | Hoja de delincuencia | Gratis ("No tiene costo alguno") | [Poder Judicial](https://actualidadjudicial.poder-judicial.go.cr/vol284/prensa/pr11-284.html) | 2026-10-06 |

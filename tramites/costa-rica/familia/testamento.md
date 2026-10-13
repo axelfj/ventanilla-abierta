@@ -26,6 +26,7 @@ Un testamento es el documento donde decidís quién recibe tus bienes cuando fal
 - **Testigos**, si el tipo de testamento los pide. ⚠️ Cuántos hacen falta lo define el Código Civil; falta confirmarlo. Lo que sí dice el Código Notarial: los testigos tienen que ser **mayores de edad**, **saber leer y escribir** y no tener impedimento legal. No pueden ser testigos, por ejemplo, personas con interés en el acto ni ciertos parientes del notario o de las partes ([Código Notarial, arts. 41 y 42](https://www.dnn.go.cr/sites/default/files/ley%207764-codigo%20notarial.pdf)).
 
 ## Costos oficiales
+
 | Concepto | Monto | Fuente | Verificado |
 |---|---|---|---|
 | Honorarios del notario por un testamento abierto o cerrado | ⚠️ En el arancel de 2015 eran ₡110 000. Falta confirmar el monto en el arancel vigente (Decreto 41457-JP de 2019, reformado en 2022) | [Arancel de 2015, Decreto 39078-JP, art. 97](https://www.dnn.go.cr/sites/default/files/2019-02/Arancel%20de%20honorarios%20del%20servicio%20de%20profesionales%20abogacia%20y%20notariado.pdf) | 2026-10-07 |

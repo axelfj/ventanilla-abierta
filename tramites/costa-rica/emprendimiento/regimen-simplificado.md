@@ -108,6 +108,7 @@ Hacienda puede cambiar los factores con base en estudios de la Dirección Genera
 **Ejemplo ilustrativo** (cálculo nuestro, no de Hacienda): una floristería con ₡2 000 000 de base en el trimestre pagaría ₡2 000 000 × 0,01 = **₡20 000** de renta y ₡2 000 000 × 0,058 = **₡116 000** de IVA.
 
 ## Declaración trimestral y fechas
+
 | Qué | Formulario en TRIBU-CR | Plazo |
 |---|---|---|
 | Renta del régimen simplificado, persona física | 104 | Los primeros **15 días naturales** de enero, abril, julio y octubre |
@@ -138,6 +139,7 @@ Ver todas tus obligaciones en [Reportes de un negocio](reportes-de-un-negocio.ht
 - Tener la **constancia de inscripción** a la vista en tu local ([Decreto 43881-H, art. 16](https://www.imprentanacional.go.cr/pub/2023/02/02/COMP_02_02_2023.pdf)).
 
 ## Costos oficiales
+
 | Concepto | Monto | Fuente | Verificado |
 |---|---|---|---|
 | Inscribirte o cambiarte de régimen | ⚠️ Ningún documento que revisamos menciona un cobro, pero tampoco dice expresamente que es gratis | [Hacienda, preguntas y respuestas de TRIBU-CR](https://www.hacienda.go.cr/docs/dPreguntasYRespuestasDeTRIBU-CR.pdf) | 2026-10-10 |

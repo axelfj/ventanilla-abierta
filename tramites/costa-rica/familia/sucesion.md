@@ -88,6 +88,7 @@ Ante el Registro Nacional, el albacea es quien firma por la sucesión: el Regist
 - Podés buscar edictos en el [Boletín Judicial](https://boletinjudicial.poder-judicial.go.cr/).
 
 ## Plazos
+
 | Etapa | Plazo | Fuente |
 |---|---|---|
 | Presentarse al proceso judicial después del edicto | 15 días desde la publicación | [Manual básico](https://escuelajudicialpj.poder-judicial.go.cr/images/bibliotecavirtual/15_MateriaCivil/Manual_basico.pdf) |
@@ -106,6 +107,7 @@ Ante el Registro Nacional, el albacea es quien firma por la sucesión: el Regist
 **Ejemplo real.** En el Boletín Judicial n.° 195 del 23-10-2023 se publicó, una vez, un edicto de un juzgado civil que llamaba a "las personas herederas, legatarias, acreedoras y en general a quienes tengan un interés legítimo" para presentarse en **quince días** desde la publicación. En el mismo número, un notario publicó, una vez, el edicto de una sucesión ab intestato que daba **quince días hábiles** y advertía que, si no se presentaban, la herencia "pasará a quien corresponda" ([Boletín Judicial n.° 195](https://www.imprentanacional.go.cr/boletin/)).
 
 ## Costos oficiales
+
 | Concepto | Monto | Fuente | Verificado |
 |---|---|---|---|
 | Publicar el edicto en el Boletín Judicial (vía judicial o notarial) | Gratis | [Circular 211-2023](https://boletinjudicial.poder-judicial.go.cr/images/Documentos/Circular_Secretaria_Cort_No_211-2023.pdf); [guía del Boletín](https://boletinjudicial.poder-judicial.go.cr/images/Documentos/Guia_para_usuarios_externos.pdf) | 2026-10-10 |

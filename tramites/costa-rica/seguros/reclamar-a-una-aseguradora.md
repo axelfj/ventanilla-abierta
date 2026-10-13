@@ -42,6 +42,7 @@ Tus derechos están en la **Ley Reguladora del Contrato de Seguros, N.º 8956**,
 - Fecha y **firma**. Por correo necesitás firma digital: "Una firma escaneada, no resulta válida" ([SUGESE, denuncias](https://www.sugese.fi.cr/cr/es/preguntas-frecuentes/denuncias.html)).
 
 ## Costos oficiales
+
 | Concepto | Monto | Fuente | Verificado |
 |---|---|---|---|
 | Denuncia ante la SUGESE | ⚠️ No indicado | [SUGESE, gestiones del consumidor financiero](https://www.sugese.fi.cr/cr/es/sobre-sugese/tramites/gestiones-consumidor-financiero.html) | 2026-10-10 |

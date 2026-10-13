@@ -35,6 +35,7 @@ Esta guía tiene dos partes: qué hacer **si sos trabajador** y tuviste un accid
 - Si otra persona hace el trámite por vos, necesita un **poder** (generalísimo o especial) o una **autorización autenticada por notario** ([INS, preguntas frecuentes](https://www.grupoins.com/preguntas-frecuentes/preguntas-sobre-seguros/), verificado 2026-10-10).
 
 ## Costos oficiales
+
 | Concepto | Monto | Fuente | Verificado |
 |---|---|---|---|
 | Atención y prestaciones para la persona trabajadora | La persona trabajadora no paga la póliza: el costo y la obligación son del patrono | [MTSS, temas laborales](https://www.mtss.go.cr/temas-laborales/) | 2026-10-10 |

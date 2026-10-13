@@ -38,6 +38,7 @@ Hay tres trámites:
 - Si pedís varias en poco tiempo (más de una en un mes, o tres o más en un año), te pueden pedir la cédula dañada, la denuncia policial o una declaración jurada ([TSE, renovación](https://www.tse.go.cr/pdf/requisitosytramites/Solicitud-de-renovacion-de-cedula-de-identidad.pdf)).
 
 ## Costos oficiales
+
 | Concepto | Monto | Fuente | Verificado |
 |---|---|---|---|
 | Cédula por primera vez | Gratis | [TSE](https://www.tse.go.cr/pdf/varios/cc_cedula_identidad.pdf) | 2026-10-06 |

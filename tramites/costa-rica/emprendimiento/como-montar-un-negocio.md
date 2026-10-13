@@ -44,6 +44,7 @@ Esta es la ruta completa, en orden. Cada paso enlaza a su guía cuando ya existe
 - Presentá tus declaraciones a tiempo. Ver [Reportes mensuales, trimestrales y anuales de un negocio](reportes-de-un-negocio.md).
 
 ## Costos oficiales (resumen)
+
 | Concepto | Monto | Fuente | Verificado |
 |---|---|---|---|
 | Registro de marca, por clase | USD 50 en timbres del Registro Nacional | [Registro Nacional](https://www.rnpdigital.com/tramites_servicios/tramitesregistros/propiedad%20intelectual/propiedad_industrial_aranceles.htm) | 2026-10-07 |

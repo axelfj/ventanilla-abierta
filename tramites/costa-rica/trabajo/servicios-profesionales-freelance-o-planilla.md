@@ -81,6 +81,7 @@ En resumen, estas señales apuntan a una relación laboral: horario que no decid
 - Un contrato de servicios real es para un trabajo concreto, que la persona organiza a su manera, con sus herramientas, y que puede hacer también para otros clientes.
 
 ## Costos oficiales
+
 | Concepto | Monto | Fuente | Verificado |
 |---|---|---|---|
 | Asesoría, cálculo de derechos y conciliación en el MTSS | Gratis | [MTSS, catálogo de trámites](https://www.mtss.go.cr/tramites-servicios/catalogo-tramites/conciliacion-prestaciones-laborlaes.html) | 2026-10-06 |

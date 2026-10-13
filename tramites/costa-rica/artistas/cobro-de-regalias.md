@@ -14,6 +14,7 @@ estado: verificado
 Cuando tu música suena en radio, TV, bares, eventos, streaming o se usa en un video, se generan **regalías**. Hay varios tipos y cada uno se cobra por un camino distinto.
 
 ## Tipos de ingresos y quién los cobra
+
 | Ingreso | Qué es | Quién lo cobra normalmente |
 |---|---|---|
 | **Derechos de autor por comunicación pública** | Tu canción (composición) suena en radio, TV, bares o eventos | La sociedad de gestión colectiva de autores: en Costa Rica, la **ACAM** (Asociación de Compositores y Autores Musicales). Cobra licencias a bares, restaurantes, hoteles y otros comercios, y tiene convenios con sociedades de otros países. |

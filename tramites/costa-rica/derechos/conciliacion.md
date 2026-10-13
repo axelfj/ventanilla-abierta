@@ -112,6 +112,7 @@ Hay una guía planeada sobre problemas con vecinos (ruido, linderos y mediación
 - Una solicitud escrita de una o de ambas partes, con: el despacho donde está el caso, el número de expediente, el tipo de proceso, los nombres de las partes, el estado del proceso y un teléfono, fax o correo de quien la pide.
 
 ## Costos oficiales
+
 | Concepto | Monto | Fuente | Verificado |
 |---|---|---|---|
 | Mediación en una Casa de Justicia | Gratis | [MJP, Casas de Justicia](https://www.mjp.go.cr/viceministeriopaz/DepenDinarac?nom=casas-justicia) | 2026-10-12 |

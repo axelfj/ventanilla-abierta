@@ -25,6 +25,7 @@ Las citas con especialistas no se sacan así: te las asigna la CCSS cuando el m�
 - Para la app: un celular Android o iPhone, un correo electrónico y tu número de cédula para registrarte ([Teletica, octubre de 2024, con datos de la CCSS](https://www.teletica.com/buen-dia/aprenda-a-usar-el-edus-guia-completa-para-simplificar-sus-tramites-medicos_369629)).
 
 ## Costos oficiales
+
 | Concepto | Monto | Fuente | Verificado |
 |---|---|---|---|
 | Descargar EDUS y sacar la cita | Gratis | [CCSS, app EDUS](https://www.ccss.sa.cr/appedus/) ⚠️ | Por confirmar |

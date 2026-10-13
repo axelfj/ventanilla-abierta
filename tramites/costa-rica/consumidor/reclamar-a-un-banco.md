@@ -40,6 +40,7 @@ Si el problema es un **dato equivocado en tu historial crediticio**, mirá la gu
 3. **Guardá copia** de todo lo que mandaste y recibiste.
 
 ### Plazos
+
 | Qué | Plazo | Fuente |
 |---|---|---|
 | Para que reclamés un incumplimiento del contrato, la información o la publicidad de un crédito | Hasta **60 días hábiles** desde que te enterás del hecho o desde que recibís el estado de cuenta | Art. 30, [Decreto 43270-MEIC](https://www.imprentanacional.go.cr/pub/2021/12/16/ALCA256_16_12_2021.pdf) |
@@ -157,6 +158,7 @@ Desde abril de 2026 rige la **Ley 10889, de Protección a las personas consumido
 - La **publicidad** o la información de precios que te ofrecieron.
 
 ## Tiempos (resumen)
+
 | Situación | Para reclamar | Para que te respondan |
 |---|---|---|
 | Reclamo general de crédito | 60 días hábiles | 10 días hábiles |

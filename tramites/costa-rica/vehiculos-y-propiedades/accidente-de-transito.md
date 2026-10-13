@@ -34,6 +34,7 @@ Para presentarte al Juzgado de Tránsito ([Poder Judicial, accidente de tránsit
 Para abrir el caso del SOA, si hay heridos: identificación, comprobante del marchamo vigente y una prueba del accidente, como el parte oficial, la bitácora de la Cruz Roja o la referencia de la llamada al 911. La lista completa está en la guía del [SOA](../seguros/seguro-obligatorio-automotor.html).
 
 ## Costos oficiales
+
 | Concepto | Monto | Fuente | Verificado |
 |---|---|---|---|
 | Llamar al 9-1-1 | Gratis | [Sistema de Emergencias 9-1-1, preguntas frecuentes](https://www.911.go.cr/preguntas-frecuentes/) | 2026-10-12 |

@@ -6,8 +6,10 @@ description: Guías claras y gratuitas para hacer trámites en Costa Rica, con f
 # Trámites de Costa Rica, explicados claro
 
 Guías gratis, sin anuncios y con fuentes oficiales. Sin fila.
+{: .portada-intro}
 
 > 🚨 **¿Estás en peligro ahora?** Llamá al **9-1-1**.
+{: .emergencia}
 
 {% include buscador.html %}
 

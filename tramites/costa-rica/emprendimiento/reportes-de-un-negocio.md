@@ -15,6 +15,7 @@ estado: borrador
 Todas se presentan en la Oficina Virtual (OVi) de **TRIBU-CR**. Desde TRIBU-CR las declaraciones tienen códigos nuevos ([Hacienda, codificación de declaraciones en TRIBU-CR](https://www.hacienda.go.cr/docs/a_1NuevaCodificacionDeDeclaracionesEnTRIBU-CR-Consolidado_PP_PJ_PF.pdf)).
 
 ## Si estás en el régimen general
+
 | Qué | Formulario en TRIBU-CR | Cada cuánto | Plazo |
 |---|---|---|---|
 | **IVA** | 150 | Mensual | Los primeros **15 días naturales** del mes siguiente |
@@ -29,6 +30,7 @@ Si el último día de un plazo cae en fin de semana o feriado, Hacienda lo corre
 **Pagos parciales:** si iniciaste actividades en el año, tenés que estimar el impuesto y pagarlo. Si creés que te van a cobrar de más, podés pedir que se reduzcan o eliminen antes del vencimiento ([CP-42-2025](https://www.hacienda.go.cr/docs/CP422025.pdf); [aviso de Hacienda de 2024](https://www.hacienda.go.cr/docs/AvisoSEGUNDOPAGOPAGOPARCIALDELIMPUESTOSOBRELASUTILIDADES2024.pdf)). ⚠️ Cómo se calcula cada pago parcial falta confirmarlo con Hacienda.
 
 ## Si estás en el régimen simplificado
+
 | Qué | Formulario en TRIBU-CR | Cada cuánto | Plazo |
 |---|---|---|---|
 | **Renta del régimen simplificado** | 104 (persona física) o 105 (empresa) | Trimestral | Los primeros **15 días** de enero, abril, julio y octubre |
@@ -45,6 +47,7 @@ Es una declaración **eventual**: solo la presentás si tuviste ciertas operacio
 - **Desde 2026 es mensual.** Pero, por un plazo transitorio, lo de enero a diciembre de 2026 se puede presentar hasta los primeros **25 días naturales de enero de 2027**. Desde 2027, dentro de los 25 días naturales siguientes al mes que se reporta ([Hacienda, CP-14-2026](https://www.hacienda.go.cr/docs/CP14-2026.pdf), resolución MH-DGT-RES-0010-2026).
 
 ## Si tenés empleados (CCSS e INS)
+
 | Qué | Cada cuánto |
 |---|---|
 | Planilla de la CCSS (reportar salarios y pagar cargas sociales) | Mensual ⚠️ |

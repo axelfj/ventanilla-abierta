@@ -61,6 +61,7 @@ Durante **10 años** desde que recibiste el bono necesitás permiso para hipotec
 ## Costos oficiales
 
 ### Para inscribir la hipoteca
+
 | Concepto | Monto | Fuente | Verificado |
 |---|---|---|---|
 | Derechos de registro (hipotecas) | ₡1 por cada ₡1 000 o fracción | [Registro Nacional, aranceles inmobiliarios](https://www.rnpdigital.com/tramites_servicios/tramitesregistros/inmobiliario/bienes_inmuebles_aranceles.htm) (actualizado al 8-8-2025); Ley 4564, art. 2 c, según [Instrumentos protocolarios](https://www.rnpdigital.com/Instrumentos%20protocolarios%20Registro%20Inmobiliario.pdf) | 2026-10-10 |
@@ -78,6 +79,7 @@ Durante **10 años** desde que recibiste el bono necesitás permiso para hipotec
 - ⚠️ No encontramos en el Registro sobre qué monto exacto se calculan los derechos y timbres de una hipoteca (por ejemplo, si es el monto del préstamo garantizado). Pedile al notario el cálculo.
 
 ### Para cancelarla cuando terminás de pagar
+
 | Concepto | Monto | Fuente | Verificado |
 |---|---|---|---|
 | Derechos de registro | Exenta la cancelación total o parcial de gravámenes. ⚠️ | Ley 4564, art. 2 g, [copia publicada en costarica.eregulations.org](https://costarica.eregulations.org/media/Ley%204564%20de%20aranceles%20del%20registro%20publico.pdf) | 2026-10-10 ⚠️ |

@@ -33,6 +33,7 @@ Según la [Guía de Calificación del Registro de Personas Jurídicas](https://w
 - Pago de los **derechos de registro y timbres de ley**.
 
 ## Costos oficiales
+
 | Concepto | Monto | Fuente | Verificado |
 |---|---|---|---|
 | Derecho de registro, constitución de sociedad mercantil (S.A., S.R.L.) | ₡46 220 | [Registro Nacional, aranceles de Personas Jurídicas 2026](https://www.rnpdigital.com/tramites_servicios/tramitesregistros/personas%20juridicas/personas_juridicas_aranceles.htm) | 2026-10-07 |
