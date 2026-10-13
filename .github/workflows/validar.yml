@@ -34,3 +34,5 @@ jobs:
         with:
           source: ./
           destination: ./_site
+      # Frases como las escribe la gente ("me despidieron", "la Caja"): al menos 9 de cada 10 tienen que encontrar su guía.
+      - run: node scripts/probar-buscador.js _site/buscar.json
