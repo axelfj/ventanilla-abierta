@@ -2,7 +2,7 @@
 title: "Asegurar a tu familia como beneficiaria"
 pais: Costa Rica
 ultima_verificacion: 2026-10-18
-estado: verificado
+estado: borrador
 ---
 
 # Asegurar a tu familia como beneficiaria

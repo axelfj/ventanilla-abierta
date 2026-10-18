@@ -2,7 +2,7 @@
 title: "Fondos y becas del Ministerio de Cultura"
 pais: Costa Rica
 ultima_verificacion: 2026-10-18
-estado: verificado
+estado: borrador
 ---
 
 # Fondos y becas del Ministerio de Cultura

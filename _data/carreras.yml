@@ -1,0 +1,447 @@
+# Carreras de las universidades públicas y su nota de corte oficial (última nota que entró).
+# Solo fuentes oficiales de cada universidad. `nota: null` = la universidad no publica nota de corte para esa carrera.
+# Las notas se copian tal cual del documento oficial; solo se cambia la coma decimal por punto.
+universidades:
+  - id: ucr
+    nombre: Universidad de Costa Rica
+    siglas: UCR
+    admision: "Prueba de Aptitud Académica (PAA) promediada con la nota de colegio; los cupos de cada carrera se llenan de la nota más alta hacia abajo. El corte es la nota del último admitido, en puntos con dos decimales. Desde 2021 no hay nota mínima para concursar."
+    fuente_carreras: "https://ori.ucr.ac.cr/sites/default/files/2025-11/2025-cortes_ordinaria.pdf"
+    fuente_notas: "https://ori.ucr.ac.cr/sites/default/files/2025-11/2025-cortes_ordinaria.pdf"
+    anio_notas: "Ingreso 2025"
+    verificado: 2026-10-18
+    nota: "Cortes de admisión ordinaria, primer ingreso 2025 (ORI-UCR), el documento oficial más reciente que se pudo abrir. Los cortes de Ingreso 2026 se publicaron en la consulta https://consultasic.ucr.ac.cr/cortespi/, que hoy está cerrada; la UCR solo publicó en su sitio de noticias los 10 más altos. Solo aparecen las carreras con corte en admisión ordinaria; no incluye admisión diferida (carreras con requisito especial)."
+    carreras:
+      - { nombre: "BACHILLERATO Y LICENCIATURA EN ARTES TEATRALES", sede: "Ciudad Universitaria Rodrigo Facio", nota: 468.25, codigo: "110103" }
+      - { nombre: "BACH. Y LIC. EN HISTORIA DEL ARTE", sede: "Ciudad Universitaria Rodrigo Facio", nota: 580.03, codigo: "110202" }
+      - { nombre: "BACH. Y LIC. EN DISEÑO PLASTICO ENF. DISEÑO PICTOR", sede: "Ciudad Universitaria Rodrigo Facio", nota: 469.03, codigo: "110213" }
+      - { nombre: "BACH. Y LIC. EN DISEÑO GRAFICO", sede: "Ciudad Universitaria Rodrigo Facio", nota: 623.64, codigo: "110214" }
+      - { nombre: "BACH. Y LIC. EN MUSICA CON ENFASIS EN COMPOSICION", sede: "Ciudad Universitaria Rodrigo Facio", nota: 518.48, codigo: "110302" }
+      - { nombre: "BACH. Y LIC. EN MUSICA CON ENFASIS EN GUITARRA", sede: "Ciudad Universitaria Rodrigo Facio", nota: 548.79, codigo: "110309" }
+      - { nombre: "BACH. Y LIC. EN MUSICA ENF. INSTRUMENTOS DE CUERDA", sede: "Ciudad Universitaria Rodrigo Facio", nota: 443.58, codigo: "110311" }
+      - { nombre: "BACH. Y LIC. EN MUSICA ENF. INSTR. DE VIENTO O PER", sede: "Ciudad Universitaria Rodrigo Facio", nota: 387.09, codigo: "110312" }
+      - { nombre: "BACH. EN MUSICA CON ENFASIS EN DIRECCION", sede: "Ciudad Universitaria Rodrigo Facio", nota: 690.16, codigo: "110313" }
+      - { nombre: "BACH. Y LIC. EN FILOLOGIA ESPAÑOLA", sede: "Ciudad Universitaria Rodrigo Facio", nota: 497.56, codigo: "120101" }
+      - { nombre: "BACH. Y LIC. EN FILOLOGIA CLASICA", sede: "Ciudad Universitaria Rodrigo Facio", nota: 483.63, codigo: "120102" }
+      - { nombre: "BACH. Y LIC. EN FILOSOFIA", sede: "Ciudad Universitaria Rodrigo Facio", nota: 492.06, codigo: "120201" }
+      - { nombre: "BACH. EN INGLES", sede: "Ciudad Universitaria Rodrigo Facio", nota: 567.30, codigo: "120303" }
+      - { nombre: "BACH. EN FRANCES", sede: "Ciudad Universitaria Rodrigo Facio", nota: 489.17, codigo: "120304" }
+      - { nombre: "BACH. Y LIC. EN BIOLOGIA", sede: "Ciudad Universitaria Rodrigo Facio", nota: 642.00, codigo: "210101" }
+      - { nombre: "BACH. EN FISICA", sede: "Ciudad Universitaria Rodrigo Facio", nota: 467.15, codigo: "210201" }
+      - { nombre: "BACH. Y LIC. EN METEOROLOGIA", sede: "Ciudad Universitaria Rodrigo Facio", nota: 539.06, codigo: "210202" }
+      - { nombre: "BACH. Y LIC. EN GEOLOGIA", sede: "Ciudad Universitaria Rodrigo Facio", nota: 549.51, codigo: "210301" }
+      - { nombre: "BACH. Y LIC. EN MATEMATICAS", sede: "Ciudad Universitaria Rodrigo Facio", nota: 525.90, codigo: "210401" }
+      - { nombre: "BACH. Y LIC. EN CIENCIAS ACTUARIALES", sede: "Ciudad Universitaria Rodrigo Facio", nota: 706.01, codigo: "210402" }
+      - { nombre: "BACH. Y LIC. EN EDUCACION MATEMATICA", sede: "Ciudad Universitaria Rodrigo Facio", nota: 503.97, codigo: "210403" }
+      - { nombre: "BACH. Y LIC. EN QUIMICA", sede: "Ciudad Universitaria Rodrigo Facio", nota: 602.92, codigo: "210501" }
+      - { nombre: "BACH. Y LIC. EN DERECHO", sede: "Ciudad Universitaria Rodrigo Facio", nota: 649.87, codigo: "310101" }
+      - { nombre: "BACH. EN LA ENS. DEL INGLES", sede: "Ciudad Universitaria Rodrigo Facio", nota: 597.81, codigo: "320208" }
+      - { nombre: "BACH. EN LA ENS. DEL FRANCES", sede: "Ciudad Universitaria Rodrigo Facio", nota: 525.13, codigo: "320209" }
+      - { nombre: "BACH. EN LA ENS. DE LA FILOSOFIA", sede: "Ciudad Universitaria Rodrigo Facio", nota: 467.39, codigo: "320233" }
+      - { nombre: "BACH. Y LIC. EN EDUCACION PRIMARIA", sede: "Ciudad Universitaria Rodrigo Facio", nota: 534.19, codigo: "320242" }
+      - { nombre: "BACH. Y LIC. EN LA ENSEÑANZA DE LA MATEMATICA", sede: "Ciudad Universitaria Rodrigo Facio", nota: 536.60, codigo: "320243" }
+      - { nombre: "BACH. ENS. EST. SOC. Y LIC. ENS EST SOC. Y ED. CIV", sede: "Ciudad Universitaria Rodrigo Facio", nota: 551.16, codigo: "320244" }
+      - { nombre: "BACH. Y LIC. ENSEÑANZA DE LA MUSICA", sede: "Ciudad Universitaria Rodrigo Facio", nota: 414.22, codigo: "320246" }
+      - { nombre: "BACH. Y LIC. EN LA ENS. DEL CASTELLANO Y LITERATUR", sede: "Ciudad Universitaria Rodrigo Facio", nota: 509.22, codigo: "320251" }
+      - { nombre: "BACH. EDUC. PREESCOLAR Y LIC. EDUC. PREESCOLAR ENF", sede: "Ciudad Universitaria Rodrigo Facio", nota: 556.41, codigo: "320257" }
+      - { nombre: "BACH. Y LIC. EN LA ENSEÑANZA DE CIENCIAS NATURALES", sede: "Ciudad Universitaria Rodrigo Facio", nota: 562.63, codigo: "320259" }
+      - { nombre: "BACH. Y LIC. CS. DE LA EDUCACION ENF. ORIENTACION", sede: "Ciudad Universitaria Rodrigo Facio", nota: 533.03, codigo: "320311" }
+      - { nombre: "BACH. EN CS. DE LA EDUCACIÓN: EDUCACIÓN ESPECIAL", sede: "Ciudad Universitaria Rodrigo Facio", nota: 522.43, codigo: "320317" }
+      - { nombre: "BACH.EN BIBLIOTECOLOGIA ENF.CS. DE LA INFORMACION", sede: "Ciudad Universitaria Rodrigo Facio", nota: 499.58, codigo: "320401" }
+      - { nombre: "BACH.EN BIBLIOTECOLOGIA ENF.BIBLIOTECAS EDUCATIVAS", sede: "Ciudad Universitaria Rodrigo Facio", nota: 502.23, codigo: "320402" }
+      - { nombre: "BACH. Y LIC. EN CIENCIAS DEL MOVIMIENTO HUMANO", sede: "Ciudad Universitaria Rodrigo Facio", nota: 505.22, codigo: "320508" }
+      - { nombre: "BACH. Y LIC. EN DIRECCION DE EMPRESAS", sede: "Ciudad Universitaria Rodrigo Facio", nota: 584.65, codigo: "330102" }
+      - { nombre: "BACH. Y LIC. EN CONTADURIA PUBLICA", sede: "Ciudad Universitaria Rodrigo Facio", nota: 572.66, codigo: "330103" }
+      - { nombre: "DIPL. ADM. ADUANERA. BACH. ADM. ADUANERA COM. EXT", sede: "Ciudad Universitaria Rodrigo Facio", nota: 607.45, codigo: "330212" }
+      - { nombre: "DIPL. Y BACH. EN ADM. PUBLICA Y LIC. EN ADM. PUBLI", sede: "Ciudad Universitaria Rodrigo Facio", nota: 561.42, codigo: "330213" }
+      - { nombre: "BACH. EN ECONOMIA", sede: "Ciudad Universitaria Rodrigo Facio", nota: 616.55, codigo: "330302" }
+      - { nombre: "BACH. EN ESTADISTICA", sede: "Ciudad Universitaria Rodrigo Facio", nota: 564.75, codigo: "330402" }
+      - { nombre: "BACH. CS. COMUNIC. COLECT. LIC. EN CS. COMUNIC. EN", sede: "Ciudad Universitaria Rodrigo Facio", nota: 641.81, codigo: "340105" }
+      - { nombre: "BACH.Y LIC.EN PSICOLOGIA", sede: "Ciudad Universitaria Rodrigo Facio", nota: 633.19, codigo: "340201" }
+      - { nombre: "BACH.Y LIC.EN CIENCIAS POLITICAS", sede: "Ciudad Universitaria Rodrigo Facio", nota: 535.97, codigo: "340301" }
+      - { nombre: "BACH.Y LIC.EN TRABAJO SOCIAL", sede: "Ciudad Universitaria Rodrigo Facio", nota: 560.07, codigo: "340501" }
+      - { nombre: "BACH. Y LIC. EN HISTORIA", sede: "Ciudad Universitaria Rodrigo Facio", nota: 487.63, codigo: "340701" }
+      - { nombre: "BACHILLERATO Y LICENCIATURA EN ARCHIVISTICA", sede: "Ciudad Universitaria Rodrigo Facio", nota: 502.52, codigo: "340703" }
+      - { nombre: "BACH. Y LIC. EN GEOGRAFIA", sede: "Ciudad Universitaria Rodrigo Facio", nota: 487.34, codigo: "340801" }
+      - { nombre: "BACHILLERATO EN ANTROPOLOGIA", sede: "Ciudad Universitaria Rodrigo Facio", nota: 494.43, codigo: "340902" }
+      - { nombre: "BACH. Y LIC. EN SOCIOLOGIA", sede: "Ciudad Universitaria Rodrigo Facio", nota: 518.18, codigo: "341001" }
+      - { nombre: "LIC.EN INGENIERIA CIVIL", sede: "Ciudad Universitaria Rodrigo Facio", nota: 621.52, codigo: "420101" }
+      - { nombre: "BACH.Y LIC.EN INGENIERIA ELECTRICA", sede: "Ciudad Universitaria Rodrigo Facio", nota: 630.63, codigo: "420201" }
+      - { nombre: "LIC.EN INGENIERIA INDUSTRIAL", sede: "Ciudad Universitaria Rodrigo Facio", nota: 659.94, codigo: "420302" }
+      - { nombre: "BACH.Y LIC.EN INGENIERIA MECANICA", sede: "Ciudad Universitaria Rodrigo Facio", nota: 648.18, codigo: "420401" }
+      - { nombre: "LIC.EN INGENIERIA QUIMICA", sede: "Ciudad Universitaria Rodrigo Facio", nota: 658.11, codigo: "420501" }
+      - { nombre: "LIC.EN ARQUITECTURA", sede: "Ciudad Universitaria Rodrigo Facio", nota: 651.45, codigo: "420601" }
+      - { nombre: "BACH. EN COMPUTACION CON VARIOS ENFASIS", sede: "Ciudad Universitaria Rodrigo Facio", nota: 660.13, codigo: "420705" }
+      - { nombre: "LIC. EN INGENIERIA AGRICOLA Y DE BIOSISTEMAS", sede: "Ciudad Universitaria Rodrigo Facio", nota: 563.59, codigo: "420805" }
+      - { nombre: "BACH. Y LIC. EN INGENIERIA TOPOGRAFICA", sede: "Ciudad Universitaria Rodrigo Facio", nota: 571.97, codigo: "420904" }
+      - { nombre: "LICENCIATURA EN ENFERMERIA", sede: "Ciudad Universitaria Rodrigo Facio", nota: 638.87, codigo: "510109" }
+      - { nombre: "BACH. EN CS. MEDICAS Y LIC. EN MEDICINA Y CIRUGIA", sede: "Ciudad Universitaria Rodrigo Facio", nota: 716.18, codigo: "510201" }
+      - { nombre: "LICENCIATURA EN NUTRICION", sede: "Ciudad Universitaria Rodrigo Facio", nota: 627.98, codigo: "510301" }
+      - { nombre: "BACH. Y LIC. EN TERAPIA FISICA", sede: "Ciudad Universitaria Rodrigo Facio", nota: 640.27, codigo: "510407" }
+      - { nombre: "BACH. Y LIC. EN SALUD AMBIENTAL", sede: "Ciudad Universitaria Rodrigo Facio", nota: 556.94, codigo: "510408" }
+      - { nombre: "LIC. EN AUDIOLOGIA", sede: "Ciudad Universitaria Rodrigo Facio", nota: 623.02, codigo: "510418" }
+      - { nombre: "BACH. Y LIC. EN ORTOPROTESIS Y ORTOPEDIA", sede: "Ciudad Universitaria Rodrigo Facio", nota: 645.91, codigo: "510419" }
+      - { nombre: "BACH. Y LIC. EN IMAG. DIAGNÓSTICA Y TERAPÉUTICA", sede: "Ciudad Universitaria Rodrigo Facio", nota: 698.01, codigo: "510421" }
+      - { nombre: "BACH. Y LIC. EN PROMOCIÓN DE LA SALUD", sede: "Ciudad Universitaria Rodrigo Facio", nota: 570.58, codigo: "510502" }
+      - { nombre: "LIC. EN ODONTOLOGIA", sede: "Ciudad Universitaria Rodrigo Facio", nota: 667.02, codigo: "520101" }
+      - { nombre: "LIC. EN MICROBIOLOGIA Y QUIMICA CLINICA", sede: "Ciudad Universitaria Rodrigo Facio", nota: 721.48, codigo: "530101" }
+      - { nombre: "DIP. EN ASISTENTE DE LABORATORIO", sede: "Ciudad Universitaria Rodrigo Facio", nota: 645.77, codigo: "530102" }
+      - { nombre: "LIC. EN FARMACIA", sede: "Ciudad Universitaria Rodrigo Facio", nota: 597.57, codigo: "540101" }
+      - { nombre: "BACH. Y LIC. EN AGRONOMIA", sede: "Ciudad Universitaria Rodrigo Facio", nota: 564.46, codigo: "910102" }
+      - { nombre: "BACH. Y LIC. EN INGENIERIA AGRONOMICA EN ZOOTECNIA", sede: "Ciudad Universitaria Rodrigo Facio", nota: 602.10, codigo: "910203" }
+      - { nombre: "BACHILLERATO EN ECONOMIA AGRICOLA Y AGRONEGOCIOS", sede: "Ciudad Universitaria Rodrigo Facio", nota: 531.30, codigo: "910308" }
+      - { nombre: "LICENCIATURA EN INGENIERIA DE ALIMENTOS", sede: "Ciudad Universitaria Rodrigo Facio", nota: 641.48, codigo: "910402" }
+      - { nombre: "BACH. Y LIC. EN DISEÑO PLASTICO ENF. DISEÑO PICTOR", sede: "Recinto de San Ramón", nota: 422.18, codigo: "110213" }
+      - { nombre: "BACH. Y LIC. EN DISEÑO GRAFICO", sede: "Recinto de San Ramón", nota: 567.73, codigo: "110214" }
+      - { nombre: "BACH. Y LIC. EN DERECHO", sede: "Recinto de San Ramón", nota: 624.99, codigo: "310101" }
+      - { nombre: "BACH. Y LIC. EN LA ENSEÑANZA DE LA MATEMATICA", sede: "Recinto de San Ramón", nota: 480.93, codigo: "320243" }
+      - { nombre: "BACH. Y LIC. ENSEÑANZA DE LA MUSICA", sede: "Recinto de San Ramón", nota: 435.82, codigo: "320246" }
+      - { nombre: "BACH. Y LIC. EN DIRECCION DE EMPRESAS", sede: "Recinto de San Ramón", nota: 586.97, codigo: "330102" }
+      - { nombre: "BACH.Y LIC.EN PSICOLOGIA", sede: "Recinto de San Ramón", nota: 613.38, codigo: "340201" }
+      - { nombre: "LIC.EN INGENIERIA INDUSTRIAL", sede: "Recinto de San Ramón", nota: 627.50, codigo: "420302" }
+      - { nombre: "BACHILLERATO EN INFORMATICA EMPRESARIAL", sede: "Recinto de San Ramón", nota: 625.43, codigo: "600002" }
+      - { nombre: "BACH. EN LA ENS. DEL CASTELLANO Y LITERATURA", sede: "Recinto de San Ramón", nota: 447.10, codigo: "600110" }
+      - { nombre: "BACH. Y LIC. EN LA ENS. DEL INGLES", sede: "Recinto de San Ramón", nota: 558.24, codigo: "600113" }
+      - { nombre: "BACH. Y LIC. EN TRABAJO SOCIAL", sede: "Recinto de San Ramón", nota: 538.39, codigo: "600119" }
+      - { nombre: "BACH. EN GESTION DE LOS RECURSOS NATURALES", sede: "Recinto de San Ramón", nota: 508.94, codigo: "600123" }
+      - { nombre: "BACH.EN LA ENS. ESTUDIOS SOCIALES Y LA EDUC. CIVIC", sede: "Recinto de San Ramón", nota: 506.04, codigo: "600125" }
+      - { nombre: "BACHILLERATO EN EDUCACION PRIMARIA", sede: "Recinto de San Ramón", nota: 480.83, codigo: "600133" }
+      - { nombre: "BACHILLERATO EN EDUCACION PRIMARIA EN INGLES", sede: "Recinto de San Ramón", nota: 502.09, codigo: "600134" }
+      - { nombre: "BACHILLERATO EN EDUCACION INICIAL EN INGLES", sede: "Recinto de San Ramón", nota: 462.61, codigo: "600135" }
+      - { nombre: "BACHILLERATO Y LICENCIATURA EN EDUCACION INICIAL", sede: "Recinto de San Ramón", nota: 488.74, codigo: "600136" }
+      - { nombre: "BACH. Y LIC. EN LA ENSEÑANZA DE CIENCIAS NATURALES", sede: "Recinto de Grecia", nota: 481.61, codigo: "320259" }
+      - { nombre: "BACHILLERATO EN INFORMATICA EMPRESARIAL", sede: "Recinto de Grecia", nota: 586.72, codigo: "600002" }
+      - { nombre: "BACH. Y LIC. EN TRABAJO SOCIAL", sede: "Recinto de Grecia", nota: 484.88, codigo: "600119" }
+      - { nombre: "BACH. Y LIC. EN LABORATORISTA QUIMICO", sede: "Recinto de Grecia", nota: 603.88, codigo: "600126" }
+      - { nombre: "BACH. EN GESTIÓN INTEGRAL DEL RECURSO HÍDRICO", sede: "Recinto de Grecia", nota: 477.99, codigo: "600127" }
+      - { nombre: "BACHILLERATO EN MODELACIÓN MATEMÁTICA", sede: "Recinto de Grecia", nota: 527.83, codigo: "600130" }
+      - { nombre: "BACH. EN TURISMO ECOLOGICO Y LIC. GESTION ECOTURIS", sede: "Recinto de Grecia", nota: 507.92, codigo: "600307" }
+      - { nombre: "BACH. Y LIC. EN DISEÑO GRAFICO", sede: "Recinto de Turrialba", nota: 530.10, codigo: "110214" }
+      - { nombre: "BACH. Y LIC. ENSEÑANZA DE LA MUSICA", sede: "Recinto de Turrialba", nota: 355.28, codigo: "320246" }
+      - { nombre: "BACH. Y LIC. EN CIENCIAS DEL MOVIMIENTO HUMANO", sede: "Recinto de Turrialba", nota: 455.68, codigo: "320508" }
+      - { nombre: "BACH. Y LIC. EN CONTADURIA PUBLICA", sede: "Recinto de Turrialba", nota: 554.48, codigo: "330103" }
+      - { nombre: "BACHILLERATO EN INFORMATICA EMPRESARIAL", sede: "Recinto de Turrialba", nota: 571.26, codigo: "600002" }
+      - { nombre: "BACH. Y LIC. EN LA ENS. DEL INGLES", sede: "Recinto de Turrialba", nota: 541.61, codigo: "600113" }
+      - { nombre: "LIC. EN INGENIERIA EN DESARROLLO SOSTENIBLE", sede: "Recinto de Turrialba", nota: 520.88, codigo: "600209" }
+      - { nombre: "BACH. Y LIC. EN AGRONOMIA", sede: "Recinto de Turrialba", nota: 547.54, codigo: "910102" }
+      - { nombre: "BACH. Y LIC. EN LA ENSEÑANZA DE LA MATEMATICA", sede: "Recinto de Paraíso", nota: 476.40, codigo: "320243" }
+      - { nombre: "BACH. Y LIC. EN DIRECCION DE EMPRESAS", sede: "Recinto de Paraíso", nota: 572.07, codigo: "330102" }
+      - { nombre: "BACHILLERATO EN INFORMATICA EMPRESARIAL", sede: "Recinto de Paraíso", nota: 583.98, codigo: "600002" }
+      - { nombre: "BACH. Y LIC. EN LA ENS. DEL INGLES", sede: "Recinto de Paraíso", nota: 542.19, codigo: "600113" }
+      - { nombre: "BACH. EN TURISMO ECOLOGICO Y LIC. GESTION ECOTURIS", sede: "Recinto de Paraíso", nota: 522.77, codigo: "600307" }
+      - { nombre: "BACH. Y LIC. EN CONTADURIA PUBLICA", sede: "Recinto de Guápiles", nota: 534.82, codigo: "330103" }
+      - { nombre: "BACHILLERATO EN INFORMATICA EMPRESARIAL", sede: "Recinto de Guápiles", nota: 546.62, codigo: "600002" }
+      - { nombre: "BACHILLERATO EN EDUCACION PRIMARIA EN INGLES", sede: "Recinto de Guápiles", nota: 491.68, codigo: "600134" }
+      - { nombre: "BACHILLERATO EN ECONOMIA AGRICOLA Y AGRONEGOCIOS", sede: "Recinto de Guápiles", nota: 508.02, codigo: "910308" }
+      - { nombre: "BACH. EN INGLES", sede: "Recinto de Liberia", nota: 537.47, codigo: "120303" }
+      - { nombre: "BACH. Y LIC. EN DERECHO", sede: "Recinto de Liberia", nota: 581.90, codigo: "310101" }
+      - { nombre: "BACH. Y LIC. EN DIRECCION DE EMPRESAS", sede: "Recinto de Liberia", nota: 525.13, codigo: "330102" }
+      - { nombre: "DIPL. ADM. ADUANERA. BACH. ADM. ADUANERA COM. EXT", sede: "Recinto de Liberia", nota: 566.34, codigo: "330212" }
+      - { nombre: "BACH.Y LIC.EN PSICOLOGIA", sede: "Recinto de Liberia", nota: 569.18, codigo: "340201" }
+      - { nombre: "LIC.EN INGENIERIA CIVIL", sede: "Recinto de Liberia", nota: 606.92, codigo: "420101" }
+      - { nombre: "BACH.Y LIC.EN INGENIERIA ELECTRICA", sede: "Recinto de Liberia", nota: 600.12, codigo: "420201" }
+      - { nombre: "BACH. Y LIC. EN SALUD AMBIENTAL", sede: "Recinto de Liberia", nota: 509.75, codigo: "510408" }
+      - { nombre: "BACHILLERATO EN INFORMATICA EMPRESARIAL", sede: "Recinto de Liberia", nota: 545.86, codigo: "600002" }
+      - { nombre: "BACHILLERATO EN EDUCACION PRIMARIA", sede: "Recinto de Liberia", nota: 465.07, codigo: "600133" }
+      - { nombre: "BACHILLERATO EN EDUCACION PRIMARIA EN INGLES", sede: "Recinto de Liberia", nota: 480.55, codigo: "600134" }
+      - { nombre: "BACH. EN TURISMO ECOLOGICO Y LIC. GESTION ECOTURIS", sede: "Recinto de Liberia", nota: 516.79, codigo: "600307" }
+      - { nombre: "BACH Y LIC EN EDUC. DE PRIMERA INFAN. ÉNF. INGLES", sede: "Recinto de Liberia", nota: 509.08, codigo: "600308" }
+      - { nombre: "BACH. Y LIC. EN AGRONOMIA", sede: "Recinto de Liberia", nota: 544.74, codigo: "910102" }
+      - { nombre: "LICENCIATURA EN INGENIERIA DE ALIMENTOS", sede: "Recinto de Liberia", nota: 589.28, codigo: "910402" }
+      - { nombre: "BACH. EN INGLES", sede: "Recinto de Limón", nota: 540.02, codigo: "120303" }
+      - { nombre: "BACH. Y LIC. EN DIRECCION DE EMPRESAS", sede: "Recinto de Limón", nota: 497.27, codigo: "330102" }
+      - { nombre: "BACH. Y LIC. EN CONTADURIA PUBLICA", sede: "Recinto de Limón", nota: 514.53, codigo: "330103" }
+      - { nombre: "DIPL. ADM. ADUANERA. BACH. ADM. ADUANERA COM. EXT", sede: "Recinto de Limón", nota: 523.06, codigo: "330212" }
+      - { nombre: "LIC.EN INGENIERIA QUIMICA", sede: "Recinto de Limón", nota: 589.67, codigo: "420501" }
+      - { nombre: "BACHILLERATO EN INFORMATICA EMPRESARIAL", sede: "Recinto de Limón", nota: 502.62, codigo: "600002" }
+      - { nombre: "LIC.MARINACIVILÉNF.ING.NÁUTICAYTRANSP.MAR.EING.MAR", sede: "Recinto de Limón", nota: 415.43, codigo: "600004" }
+      - { nombre: "BACH. Y LIC. EN LA ENS. DEL INGLES", sede: "Recinto de Limón", nota: 491.24, codigo: "600113" }
+      - { nombre: "BACHILLERATO EN EDUCACION INICIAL EN INGLES", sede: "Recinto de Limón", nota: 490.91, codigo: "600135" }
+      - { nombre: "BACH. EN TURISMO ECOLOGICO Y LIC. GESTION ECOTURIS", sede: "Recinto de Limón", nota: 487.06, codigo: "600307" }
+      - { nombre: "BACHILLERATO EN INFORMATICA EMPRESARIAL", sede: "Recinto de Siquirres", nota: 495.68, codigo: "600002" }
+      - { nombre: "BACH. EN LA ENS. DEL INGLES", sede: "Recinto de Puntarenas", nota: 496.02, codigo: "320208" }
+      - { nombre: "BACH. Y LIC. EN DIRECCION DE EMPRESAS", sede: "Recinto de Puntarenas", nota: 496.88, codigo: "330102" }
+      - { nombre: "BACH.Y LIC.EN INGENIERIA ELECTRICA", sede: "Recinto de Puntarenas", nota: 564.84, codigo: "420201" }
+      - { nombre: "BACHILLERATO EN INFORMATICA EMPRESARIAL", sede: "Recinto de Puntarenas", nota: 515.88, codigo: "600002" }
+      - { nombre: "BACH. Y LIC. EN INFORMATICA Y TECNOLOGIA MULTIMEDI", sede: "Recinto de Puntarenas", nota: 526.62, codigo: "600502" }
+      - { nombre: "BACH. Y LIC. EN INGLES CON FORMACION EN GESTION EM", sede: "Recinto de Puntarenas", nota: 491.73, codigo: "600503" }
+      - { nombre: "LIC. EN INGENIERIA ELECTROMECANICA INDUSTRIAL", sede: "Recinto de Puntarenas", nota: 565.95, codigo: "600504" }
+      - { nombre: "BACH. EN GESTION CULTURAL", sede: "Recinto de Puntarenas", nota: 442.04, codigo: "600505" }
+      - { nombre: "BACH. Y LIC. EN EDUCACION MATEMATICA", sede: "Recinto de Golfito", nota: 338.27, codigo: "210403" }
+      - { nombre: "BACH. Y LIC. EN LA ENSEÑANZA DE CIENCIAS NATURALES", sede: "Recinto de Golfito", nota: 447.77, codigo: "320259" }
+      - { nombre: "BACHILLERATO EN INFORMATICA EMPRESARIAL", sede: "Recinto de Golfito", nota: 515.59, codigo: "600002" }
+      - { nombre: "BACHILLERATO EN EDUCACION PRIMARIA EN INGLES", sede: "Recinto de Golfito", nota: 437.75, codigo: "600134" }
+      - { nombre: "BACH. EN TURISMO ECOLOGICO Y LIC. GESTION ECOTURIS", sede: "Recinto de Golfito", nota: 462.18, codigo: "600307" }
+      - { nombre: "BACH. Y LIC. EN DISEÑO GRAFICO", sede: "Recinto de Alajuela", nota: 485.85, codigo: "110214" }
+      - { nombre: "LIC.EN INGENIERIA INDUSTRIAL", sede: "Recinto de Alajuela", nota: 610.05, codigo: "420302" }
+      - { nombre: "LIC. ING. MECANICA ENF. PROTECC. CONTRA INCENDIOS", sede: "Recinto de Alajuela", nota: 512.94, codigo: "420404" }
+  - id: tec
+    nombre: Instituto Tecnológico de Costa Rica
+    siglas: TEC
+    admision: "Puntaje de admisión: 60 % Prueba de Aptitud Académica y 40 % promedio de Educación Diversificada (examen convertido a un máximo de 800). Nota de corte institucional para Ingreso 2026: 520 puntos (470 o 500 en algunas carreras). La nota de cada carrera es la del último estudiante ADMITIDO, en puntos."
+    fuente_carreras: "https://www.tec.ac.cr/sites/default/files/media/doc/notas-de-corte-2025-2026-2.pdf"
+    fuente_notas: "https://www.tec.ac.cr/sites/default/files/media/doc/notas-de-corte-2025-2026-2.pdf"
+    anio_notas: "Ingreso 2026"
+    verificado: 2026-10-18
+    nota: "Proceso de admisión 2025-2026. El documento también da la nota del último estudiante 'en espera', que aquí no se incluye. Histórico de 3 años: https://www.tec.ac.cr/sites/default/files/media/doc/notas-de-corte-2025-2026-historico-3-anos.pdf"
+    carreras:
+      - { nombre: "Administración de Empresas, Jornada: Diurna", sede: "Campus Tecnológico Central Cartago", nota: 592.72 }
+      - { nombre: "Administración de Empresas, Jornada: Nocturna", sede: "Campus Tecnológico Central Cartago", nota: 571.46 }
+      - { nombre: "Ingeniería en Computación", sede: "Campus Tecnológico Central Cartago", nota: 682.07 }
+      - { nombre: "Ingeniería en Construcción", sede: "Campus Tecnológico Central Cartago", nota: 615.85 }
+      - { nombre: "Ingeniería en Electrónica", sede: "Campus Tecnológico Central Cartago", nota: 643.35 }
+      - { nombre: "Ingeniería Forestal", sede: "Campus Tecnológico Central Cartago", nota: 577.80 }
+      - { nombre: "Ingeniería Agrícola", sede: "Campus Tecnológico Central Cartago", nota: 598.28 }
+      - { nombre: "Ingeniería en Biotecnología", sede: "Campus Tecnológico Central Cartago", nota: 742.38 }
+      - { nombre: "Ingeniería en Mantenimiento Industrial", sede: "Campus Tecnológico Central Cartago", nota: 617.64 }
+      - { nombre: "Ingeniería en Producción Industrial", sede: "Campus Tecnológico Central Cartago", nota: 644.18 }
+      - { nombre: "Ingeniería en Seguridad Laboral e Higiene Ambiental", sede: "Campus Tecnológico Central Cartago", nota: 581.38 }
+      - { nombre: "Ingeniería en Materiales", sede: "Campus Tecnológico Central Cartago", nota: 671.14 }
+      - { nombre: "Ingeniería Ambiental", sede: "Campus Tecnológico Central Cartago", nota: 620.67 }
+      - { nombre: "Administración de Tecnología de Información", sede: "Campus Tecnológico Central Cartago", nota: 645.43 }
+      - { nombre: "Ingeniería en Diseño Industrial", sede: "Campus Tecnológico Central Cartago", nota: 686.31 }
+      - { nombre: "Ingeniería en Computadores", sede: "Campus Tecnológico Central Cartago", nota: 665.92 }
+      - { nombre: "Ingeniería Mecatrónica", sede: "Campus Tecnológico Central Cartago", nota: 721.40 }
+      - { nombre: "Ingeniería en Agronegocios", sede: "Campus Tecnológico Central Cartago", nota: 592.14 }
+      - { nombre: "Ingeniería Física", sede: "Campus Tecnológico Central Cartago", nota: 695.78 }
+      - { nombre: "Enseñanza de la Matemática con Entornos Tecnológicos", sede: "Campus Tecnológico Central Cartago", nota: 556.76 }
+      - { nombre: "Ingeniería en Agronomía", sede: "Campus Tecnológico Local San Carlos", nota: 572.88 }
+      - { nombre: "Administración de Empresas", sede: "Campus Tecnológico Local San Carlos", nota: 541.77 }
+      - { nombre: "Ingeniería en Computación", sede: "Campus Tecnológico Local San Carlos", nota: 616.07 }
+      - { nombre: "Ingeniería en Producción Industrial", sede: "Campus Tecnológico Local San Carlos", nota: 580.44 }
+      - { nombre: "Ingeniería en Electrónica", sede: "Campus Tecnológico Local San Carlos", nota: 569.66 }
+      - { nombre: "Gestión En Sostenibilidad Turística", sede: "Campus Tecnológico Local San Carlos", nota: 552.71 }
+      - { nombre: "Administración de Empresas, Jornada: Nocturna", sede: "Campus Tecnológico Local San José", nota: 533.98 }
+      - { nombre: "Arquitectura y Urbanismo", sede: "Campus Tecnológico Local San José", nota: 655.33 }
+      - { nombre: "Ingeniería en Computación", sede: "Campus Tecnológico Local San José", nota: 680.65 }
+      - { nombre: "Ingeniería en Computación", sede: "Centro Académico de Alajuela", nota: 656.81 }
+      - { nombre: "Ingeniería en Electrónica", sede: "Centro Académico de Alajuela", nota: 586.12 }
+      - { nombre: "Administración de Empresas, Jornada: Nocturna", sede: "Centro Académico de Limón", nota: 470.22 }
+      - { nombre: "Ingeniería en Producción Industrial", sede: "Centro Académico de Limón", nota: 523.44 }
+      - { nombre: "Ingeniería en Computación", sede: "Centro Académico de Limón", nota: 579.51 }
+  - id: una
+    nombre: Universidad Nacional
+    siglas: UNA
+    admision: "Promedio de admisión: 60 % Prueba de Aptitud Académica y 40 % notas de Educación Diversificada, con un modelo de estratificación según el colegio. Hay una nota mínima institucional que se publica cada año; los cupos se asignan de mayor a menor promedio. La UNA no publica cortes por carrera en un documento: los de años anteriores solo están en un tablero interactivo."
+    fuente_carreras: "https://www.registro.una.ac.cr/index.php/oferta-academica-y-acreditacion-2026-2027-faq/oferta-academica"
+    fuente_notas: "https://www.registro.una.ac.cr/index.php/notas-de-corte-de-anos-anteriores"
+    anio_notas: ""
+    verificado: 2026-10-18
+    nota: "Oferta académica de la admisión 2026-2027. Las notas de corte de años anteriores solo están en un tablero de Power BI enlazado desde Registro; no se pudieron leer de forma confiable, así que van como null. Registro anuncia que publicará más cortes a finales de noviembre de 2026."
+    carreras:
+      - { nombre: "Administración", sede: "Campus Omar Dengo (Heredia)", nota: null }
+      - { nombre: "Administración de Oficinas (Con salida lateral al Diplomado)", sede: "Campus Omar Dengo (Heredia)", nota: null }
+      - { nombre: "Arte Escénico", sede: "Campus Omar Dengo (Heredia)", nota: null }
+      - { nombre: "Arte y Comunicación Visual", sede: "Campus Omar Dengo (Heredia)", nota: null }
+      - { nombre: "Bibliotecología y Gestión de la Información", sede: "Campus Omar Dengo (Heredia)", nota: null }
+      - { nombre: "Biología", sede: "Campus Omar Dengo (Heredia)", nota: null }
+      - { nombre: "Cartografía y Diseño Digital (Diplomado)", sede: "Campus Omar Dengo (Heredia)", nota: null }
+      - { nombre: "Ciencias Geográficas", sede: "Campus Omar Dengo (Heredia)", nota: null }
+      - { nombre: "Comercio y Negocios Internacionales", sede: "Campus Omar Dengo (Heredia)", nota: null }
+      - { nombre: "Danza", sede: "Campus Omar Dengo (Heredia)", nota: null }
+      - { nombre: "Economía", sede: "Campus Omar Dengo (Heredia)", nota: null }
+      - { nombre: "Educación Comercial (Con salida lateral al Diplomado)", sede: "Campus Omar Dengo (Heredia)", nota: null }
+      - { nombre: "Educación Especial", sede: "Campus Omar Dengo (Heredia)", nota: null }
+      - { nombre: "Enseñanza del Arte y Comunicación Visual", sede: "Campus Omar Dengo (Heredia)", nota: null }
+      - { nombre: "Enseñanza del Español", sede: "Campus Omar Dengo (Heredia)", nota: null }
+      - { nombre: "Enseñanza del Francés", sede: "Campus Omar Dengo (Heredia)", nota: null }
+      - { nombre: "Enseñanza del Inglés", sede: "Campus Omar Dengo (Heredia)", nota: null }
+      - { nombre: "Enseñanza del Inglés para I y II Ciclos", sede: "Campus Omar Dengo (Heredia)", nota: null }
+      - { nombre: "Enseñanza de la Matemática", sede: "Campus Omar Dengo (Heredia)", nota: null }
+      - { nombre: "Enseñanza de la Religión (Virtual)", sede: "Campus Omar Dengo (Heredia)", nota: null }
+      - { nombre: "Enseñanza de las Ciencias", sede: "Campus Omar Dengo (Heredia)", nota: null }
+      - { nombre: "Enseñanza de los Estudios Sociales y la Educación Cívica", sede: "Campus Omar Dengo (Heredia)", nota: null }
+      - { nombre: "Filosofía", sede: "Campus Omar Dengo (Heredia)", nota: null }
+      - { nombre: "Física Aplicada", sede: "Campus Omar Dengo (Heredia)", nota: null }
+      - { nombre: "Historia", sede: "Campus Omar Dengo (Heredia)", nota: null }
+      - { nombre: "Ingeniería en Agronomía", sede: "Campus Omar Dengo (Heredia)", nota: null }
+      - { nombre: "Ingeniería en Bioprocesos Industriales", sede: "Campus Omar Dengo (Heredia)", nota: null }
+      - { nombre: "Ingeniería en Ciencias Forestales", sede: "Campus Omar Dengo (Heredia)", nota: null }
+      - { nombre: "Ingeniería en Gestión Ambiental", sede: "Campus Omar Dengo (Heredia)", nota: null }
+      - { nombre: "Ingeniería en Topografía y Catastro", sede: "Campus Omar Dengo (Heredia)", nota: null }
+      - { nombre: "Ingeniería Matemática en Ciencias de Datos", sede: "Campus Omar Dengo (Heredia)", nota: null }
+      - { nombre: "Inglés (Con salida lateral al Diplomado)", sede: "Campus Omar Dengo (Heredia)", nota: null }
+      - { nombre: "Lengua Francesa (Con salida lateral al Diplomado)", sede: "Campus Omar Dengo (Heredia)", nota: null }
+      - { nombre: "Literatura y Lingüística con Énfasis en Español", sede: "Campus Omar Dengo (Heredia)", nota: null }
+      - { nombre: "Música con Énfasis en Educación Musical", sede: "Campus Omar Dengo (Heredia)", nota: null }
+      - { nombre: "Música con Énfasis en la Interpretación y Enseñanza del Canto", sede: "Campus Omar Dengo (Heredia)", nota: null }
+      - { nombre: "Música con Énfasis en la Ejecución y Enseñanza del Instrumento: Clarinete", sede: "Campus Omar Dengo (Heredia)", nota: null }
+      - { nombre: "Música con Énfasis en la Ejecución y Enseñanza del Instrumento: Flauta Traversa", sede: "Campus Omar Dengo (Heredia)", nota: null }
+      - { nombre: "Música con Énfasis en la Ejecución y Enseñanza del Instrumento: Guitarra", sede: "Campus Omar Dengo (Heredia)", nota: null }
+      - { nombre: "Música con Énfasis en la Ejecución y Enseñanza del Instrumento: Percusión", sede: "Campus Omar Dengo (Heredia)", nota: null }
+      - { nombre: "Música con Énfasis en la Ejecución y Enseñanza del Piano", sede: "Campus Omar Dengo (Heredia)", nota: null }
+      - { nombre: "Música con Énfasis en la Ejecución y Enseñanza del Instrumento: Trompeta", sede: "Campus Omar Dengo (Heredia)", nota: null }
+      - { nombre: "Música con Énfasis en la Ejecución y Enseñanza del Instrumento: Saxofón", sede: "Campus Omar Dengo (Heredia)", nota: null }
+      - { nombre: "Música con Énfasis en Ejecución y Enseñanza del Instrumento: Violín", sede: "Campus Omar Dengo (Heredia)", nota: null }
+      - { nombre: "Música con Énfasis en Ejecución y Enseñanza del Instrumento: Violoncello", sede: "Campus Omar Dengo (Heredia)", nota: null }
+      - { nombre: "Música con Énfasis en la Interpretación y Enseñanza de la Dirección Coral", sede: "Campus Omar Dengo (Heredia)", nota: null }
+      - { nombre: "Orientación", sede: "Campus Omar Dengo (Heredia)", nota: null }
+      - { nombre: "Pedagogía con Énfasis en Educación Preescolar y Primera Infancia (Con salida lateral al Diplomado)", sede: "Campus Omar Dengo (Heredia)", nota: null }
+      - { nombre: "Pedagogía con Énfasis en I y II Ciclos de la Educación General Básica (Con salida lateral al Diplomado)", sede: "Campus Omar Dengo (Heredia)", nota: null }
+      - { nombre: "Planificación Económica y Social", sede: "Campus Omar Dengo (Heredia)", nota: null }
+      - { nombre: "Psicología", sede: "Campus Omar Dengo (Heredia)", nota: null }
+      - { nombre: "Química Industrial", sede: "Campus Omar Dengo (Heredia)", nota: null }
+      - { nombre: "Relaciones Internacionales", sede: "Campus Omar Dengo (Heredia)", nota: null }
+      - { nombre: "Sociología", sede: "Campus Omar Dengo (Heredia)", nota: null }
+      - { nombre: "Teología (Virtual) (Con salida lateral al Diplomado)", sede: "Campus Omar Dengo (Heredia)", nota: null }
+      - { nombre: "Ciencias del Movimiento Humano", sede: "Campus Benjamín Núñez", nota: null }
+      - { nombre: "Ingeniería en Sistemas de Información (Con salida lateral al Diplomado en Programación de Aplicaciones Informáticas)", sede: "Campus Benjamín Núñez", nota: null }
+      - { nombre: "Inteligencia y Estrategia Global", sede: "Campus Benjamín Núñez", nota: null }
+      - { nombre: "Medicina Veterinaria", sede: "Campus Benjamín Núñez", nota: null }
+      - { nombre: "Administración", sede: "Campus Liberia", nota: null }
+      - { nombre: "Gestión Empresarial del Turismo Sostenible", sede: "Campus Liberia", nota: null }
+      - { nombre: "Ingeniería en Bioprocesos Industriales", sede: "Campus Liberia", nota: null }
+      - { nombre: "Ingeniería en Energías Sostenibles", sede: "Campus Liberia", nota: null }
+      - { nombre: "Ingeniería en Sistemas de Información (Con salida lateral al Diplomado en Programación de Aplicaciones Informáticas)", sede: "Campus Liberia", nota: null }
+      - { nombre: "Ingeniería en Calidad y Tecnología de Producción", sede: "Campus Liberia", nota: null }
+      - { nombre: "Inglés (Bachillerato)", sede: "Campus Liberia", nota: null }
+      - { nombre: "Pedagogía con Énfasis en I y II Ciclos de la Educación General Básica (Con salida lateral al Diplomado)", sede: "Campus Liberia", nota: null }
+      - { nombre: "Administración", sede: "Campus Nicoya", nota: null }
+      - { nombre: "Enseñanza del Inglés", sede: "Campus Nicoya", nota: null }
+      - { nombre: "Ciencias del Movimiento Humano", sede: "Campus Nicoya", nota: null }
+      - { nombre: "Gestión Empresarial del Turismo Sostenible", sede: "Campus Nicoya", nota: null }
+      - { nombre: "Ingeniería y Calidad en Innovación Agroalimentaria", sede: "Campus Nicoya", nota: null }
+      - { nombre: "Ingeniería Hidrológica", sede: "Campus Nicoya", nota: null }
+      - { nombre: "Ingeniería en Sistemas de Información (Con salida lateral al Diplomado en Programación de Aplicaciones Informáticas)", sede: "Campus Nicoya", nota: null }
+      - { nombre: "Ingeniería en Tecnologías Computacionales para la Ciencia de Datos", sede: "Campus Nicoya", nota: null }
+      - { nombre: "Administración", sede: "Campus Pérez Zeledón", nota: null }
+      - { nombre: "Enseñanza del Inglés", sede: "Campus Pérez Zeledón", nota: null }
+      - { nombre: "Gestión Empresarial del Turismo Sostenible", sede: "Campus Pérez Zeledón", nota: null }
+      - { nombre: "Ingeniería en Calidad e Innovación Agroalimentaria", sede: "Campus Pérez Zeledón", nota: null }
+      - { nombre: "Ingeniería en Calidad y Tecnología de Producción", sede: "Campus Pérez Zeledón", nota: null }
+      - { nombre: "Ingeniería en Sistemas de Información (Con salida lateral al Diplomado en Programación de Aplicaciones Informáticas)", sede: "Campus Pérez Zeledón", nota: null }
+      - { nombre: "Ingeniería en Tecnologías Computacionales para la Ciencia de Datos", sede: "Campus Pérez Zeledón", nota: null }
+      - { nombre: "Inglés (Diplomado)", sede: "Campus Pérez Zeledón", nota: null }
+      - { nombre: "Inteligencia y Estrategia Global", sede: "Campus Pérez Zeledón", nota: null }
+      - { nombre: "Planificación Económica y Social", sede: "Campus Pérez Zeledón", nota: null }
+      - { nombre: "Administración", sede: "Campus Coto", nota: null }
+      - { nombre: "Enseñanza del Inglés", sede: "Campus Coto", nota: null }
+      - { nombre: "Ingeniería en Sistemas de Información (Con salida lateral al Diplomado en Programación de Aplicaciones Informáticas)", sede: "Campus Coto", nota: null }
+      - { nombre: "Ingeniería en Tecnologías Computacionales para la Ciencia de Datos", sede: "Campus Coto", nota: null }
+      - { nombre: "Administración", sede: "Campus Sarapiquí", nota: null }
+      - { nombre: "Comercio y Negocios Internacionales", sede: "Campus Sarapiquí", nota: null }
+      - { nombre: "Educación Comercial (Con salida lateral al Diplomado)", sede: "Campus Sarapiquí", nota: null }
+      - { nombre: "Ingeniería en Calidad y Tecnología de Producción", sede: "Campus Sarapiquí", nota: null }
+      - { nombre: "Ingeniería en Sistemas de Información (Con salida lateral al Diplomado en Programación de Aplicaciones Informáticas)", sede: "Campus Sarapiquí", nota: null }
+      - { nombre: "Ingeniería en Tecnologías Computacionales para la Ciencia de Datos", sede: "Campus Sarapiquí", nota: null }
+      - { nombre: "Inglés (Bachillerato)", sede: "Campus Sarapiquí", nota: null }
+      - { nombre: "Administración", sede: "Sede Interuniversitaria de Alajuela", nota: null }
+      - { nombre: "Ingeniería en Calidad y Tecnología de Producción", sede: "Sede Interuniversitaria de Alajuela", nota: null }
+      - { nombre: "Ingeniería en Sistemas de Información (Con salida lateral al Diplomado en Programación de Aplicaciones Informáticas)", sede: "Sede Interuniversitaria de Alajuela", nota: null }
+      - { nombre: "Inglés (Con salida lateral al Diplomado)", sede: "Sede Interuniversitaria de Alajuela", nota: null }
+      - { nombre: "Química Industrial", sede: "Sede Interuniversitaria de Alajuela", nota: null }
+  - id: uned
+    nombre: Universidad Estatal a Distancia
+    siglas: UNED
+    admision: "Ingreso abierto: no hay examen de admisión ni nota de corte."
+    fuente_carreras: "https://uned.ac.cr/oferta-educativa/carreras"
+    fuente_notas: ""
+    anio_notas: ""
+    verificado: 2026-10-18
+    nota: "La UNED enseña a distancia; la página de carreras no asigna una sede a cada carrera."
+    carreras:
+      - { nombre: "Administración de Empresas (Diplomado)", sede: null, nota: null, grados: "Diplomado" }
+      - { nombre: "Administración de Empresas Agropecuarias", sede: null, nota: null, grados: "Diplomado, Bachillerato, Licenciatura" }
+      - { nombre: "Administración de Empresas con Énfasis en Banca y Finanzas", sede: null, nota: null, grados: "Bachillerato, Licenciatura" }
+      - { nombre: "Administración de Empresas con Énfasis en Contaduría", sede: null, nota: null, grados: "Bachillerato, Licenciatura" }
+      - { nombre: "Administración de Empresas con énfasis en Dirección Empresarial", sede: null, nota: null, grados: "Bachillerato, Licenciatura" }
+      - { nombre: "Administración de Empresas con Énfasis en Mercadeo", sede: null, nota: null, grados: "Bachillerato, Licenciatura" }
+      - { nombre: "Administración de Empresas con énfasis en Negocios Internacionales", sede: null, nota: null, grados: "Bachillerato, Licenciatura" }
+      - { nombre: "Administración de Empresas con énfasis en Operaciones", sede: null, nota: null, grados: "Bachillerato, Licenciatura" }
+      - { nombre: "Administración de Empresas con Énfasis en Recursos Humanos", sede: null, nota: null, grados: "Bachillerato, Licenciatura" }
+      - { nombre: "Administración de Servicios de Salud", sede: null, nota: null, grados: "Diplomado, Bachillerato, Licenciatura" }
+      - { nombre: "Administración Educativa", sede: null, nota: null, grados: "Bachillerato, Licenciatura" }
+      - { nombre: "Administración Policial y Prevención del Delito (Licenciatura)", sede: null, nota: null, grados: "Licenciatura" }
+      - { nombre: "Bibliotecología y Nuevas Tecnologías de Información y Comunicación (Bachillerato)", sede: null, nota: null, grados: "Bachillerato" }
+      - { nombre: "Bibliotecología y Nuevas Tecnologías de Información y Comunicación (Diplomado)", sede: null, nota: null, grados: "Diplomado" }
+      - { nombre: "Bibliotecología y Nuevas Tecnologías de Información y Comunicación (Licenciatura)", sede: null, nota: null, grados: "Licenciatura" }
+      - { nombre: "Bibliotecología, Bibliotecas Educativas y Centros de Recursos para el Aprendizaje (Bachillerato)", sede: null, nota: null, grados: "Bachillerato" }
+      - { nombre: "Bibliotecología, Bibliotecas Educativas y Centros de Recursos para el Aprendizaje (Diplomado)", sede: null, nota: null, grados: "Diplomado" }
+      - { nombre: "Bibliotecología, Bibliotecas Educativas y Centros de Recursos para el Aprendizaje (Licenciatura)", sede: null, nota: null, grados: "Licenciatura" }
+      - { nombre: "Ciencias Criminológicas", sede: null, nota: null, grados: "Bachillerato, Licenciatura" }
+      - { nombre: "Ciencias Policiales (Bachillerato)", sede: null, nota: null, grados: "Bachillerato" }
+      - { nombre: "Educación Especial", sede: null, nota: null, grados: "Bachillerato, Licenciatura" }
+      - { nombre: "Educación General Básica I y II Ciclos", sede: null, nota: null, grados: "Diplomado, Bachillerato, Licenciatura" }
+      - { nombre: "Educación Preescolar", sede: null, nota: null, grados: "Diplomado, Bachillerato, Licenciatura" }
+      - { nombre: "Ejecución y Docencia Musical con Énfasis en Instrumento (Bachillerato)", sede: null, nota: null, grados: "Bachillerato" }
+      - { nombre: "Ejecución y Docencia Musical con Énfasis en Instrumento (Licenciatura)", sede: null, nota: null, grados: "Licenciatura" }
+      - { nombre: "Enseñanza de la Matemática", sede: null, nota: null, grados: "Bachillerato, Licenciatura" }
+      - { nombre: "Enseñanza de las Ciencias Naturales", sede: null, nota: null, grados: "Bachillerato, Licenciatura" }
+      - { nombre: "Enseñanza del Francés con énfasis en I y II Ciclos (Bachillerato)", sede: null, nota: null, grados: "Bachillerato" }
+      - { nombre: "Enseñanza del Francés (Bachillerato)", sede: null, nota: null, grados: "Bachillerato" }
+      - { nombre: "Enseñanza del Francés (Licenciatura)", sede: null, nota: null, grados: "Licenciatura" }
+      - { nombre: "Enseñanza del Francés (Profesorado)", sede: null, nota: null, grados: "Profesorado" }
+      - { nombre: "Enseñanza del Francés con énfasis en III y IV Ciclos (Bachillerato)", sede: null, nota: null, grados: "Bachillerato" }
+      - { nombre: "Enseñanza del Inglés para I y II ciclos (Bachillerato)", sede: null, nota: null, grados: "Bachillerato" }
+      - { nombre: "Enseñanza del Inglés para I y II ciclos (Diplomado)", sede: null, nota: null, grados: "Diplomado" }
+      - { nombre: "Enseñanza del Inglés para I y II ciclos (Licenciatura)", sede: null, nota: null, grados: "Licenciatura" }
+      - { nombre: "Estudios Sociales y Educación Cívica", sede: null, nota: null, grados: "Bachillerato, Licenciatura" }
+      - { nombre: "Estudios Universitarios", sede: null, nota: null, grados: "Bachillerato" }
+      - { nombre: "Gestión Secretarial de la Oficina", sede: null, nota: null, grados: "Diplomado" }
+      - { nombre: "Gestión Turística Sostenible (Bachillerato)", sede: null, nota: null, grados: "Bachillerato" }
+      - { nombre: "Gestión Turística Sostenible (Diplomado)", sede: null, nota: null, grados: "Diplomado" }
+      - { nombre: "Gestión y Gerencia del Turismo Sostenible (Licenciatura)", sede: null, nota: null, grados: "Licenciatura" }
+      - { nombre: "Informática (Diplomado)", sede: null, nota: null, grados: "Diplomado" }
+      - { nombre: "Informática Educativa", sede: null, nota: null, grados: "Bachillerato, Licenciatura" }
+      - { nombre: "Ingeniería Agroindustrial", sede: null, nota: null, grados: "Bachillerato, Licenciatura" }
+      - { nombre: "Ingeniería Agronómica", sede: null, nota: null, grados: "Bachillerato, Licenciatura" }
+      - { nombre: "Ingeniería en Telecomunicaciones", sede: null, nota: null, grados: "Bachillerato, Licenciatura" }
+      - { nombre: "Ingeniería Industrial", sede: null, nota: null, grados: "Bachillerato, Licenciatura" }
+      - { nombre: "Ingeniería Informática (Bachillerato)", sede: null, nota: null, grados: "Bachillerato" }
+      - { nombre: "Ingeniería Informática (Licenciatura)", sede: null, nota: null, grados: "Licenciatura" }
+      - { nombre: "Ingeniería Informática y Administración de Proyectos", sede: null, nota: null, grados: "Licenciatura" }
+      - { nombre: "Ingeniería Informática y Calidad de Software", sede: null, nota: null, grados: "Licenciatura" }
+      - { nombre: "Ingeniería Informática y Desarrollo de Aplicaciones Web", sede: null, nota: null, grados: "Licenciatura" }
+      - { nombre: "Investigación Criminal (Licenciatura)", sede: null, nota: null, grados: "Licenciatura" }
+      - { nombre: "Licenciatura en Docencia", sede: null, nota: null, grados: "Licenciatura" }
+      - { nombre: "Manejo de Recursos Naturales", sede: null, nota: null, grados: "Bachillerato, Licenciatura" }
+      - { nombre: "Programa de Formación en Investigación Social Aplicada", sede: null, nota: null }
+      - { nombre: "Programa de Formación y Actualización Profesional: Gobernanza de las TIC y Tecnologías Afines", sede: null, nota: null }
+      - { nombre: "Programa de Humanidades", sede: null, nota: null }
+      - { nombre: "Registros y Estadísticas de Salud", sede: null, nota: null, grados: "Diplomado, Bachillerato, Licenciatura" }
+      - { nombre: "Sistemas de Información en Salud", sede: null, nota: null, grados: "Diplomado, Bachillerato, Licenciatura" }
+  - id: utn
+    nombre: Universidad Técnica Nacional
+    siglas: UTN
+    admision: "Sin examen de admisión ni nota de corte publicada. La nota de admisión es el promedio de Educación Diversificada más los puntos de acciones afirmativas cuando corresponde; las citas de matrícula se dan de mayor a menor nota en cada carrera y el ingreso depende del cupo disponible."
+    fuente_carreras: "https://www.utn.ac.cr/carreras"
+    fuente_notas: ""
+    anio_notas: ""
+    verificado: 2026-10-18
+    nota: "Nombres tal como aparecen en las páginas por área de conocimiento (utn.ac.cr/area-conocimiento/...); muchos juntan el nombre de la ingeniería o licenciatura con el del diplomado. Esas páginas no dicen en qué sede se imparte cada carrera. Reglas de admisión: https://www.utn.ac.cr/sites/default/files/attachments/PROTOCOLO%20DE%20ADMISIO%CC%81N%202026%20V.1.pdf"
+    carreras:
+      - { nombre: "Fotografía - Tecnología de la Imagen", sede: null, nota: null, area: "Artes y Humanidades" }
+      - { nombre: "Diseño Gráfico", sede: null, nota: null, area: "Artes y Humanidades" }
+      - { nombre: "Inglés como Lengua Extranjera", sede: null, nota: null, area: "Artes y Humanidades" }
+      - { nombre: "Administración Agroindustrial", sede: null, nota: null, area: "Ciencias Administrativas" }
+      - { nombre: "Gestión de Centros de Servicios Compartidos", sede: null, nota: null, area: "Ciencias Administrativas" }
+      - { nombre: "Administración del Comercio Exterior", sede: null, nota: null, area: "Ciencias Administrativas" }
+      - { nombre: "Administración y Gestión de Recursos Humanos", sede: null, nota: null, area: "Ciencias Administrativas" }
+      - { nombre: "Administración Aduanera", sede: null, nota: null, area: "Ciencias Administrativas" }
+      - { nombre: "Compras y Control de Inventarios - Logística Internacional", sede: null, nota: null, area: "Ciencias Administrativas" }
+      - { nombre: "Gestión de Empresas de Hospedaje y Gastronómicas", sede: null, nota: null, area: "Ciencias Administrativas" }
+      - { nombre: "GESTIÓN EMPRESARIAL - GESTIÓN Y ADMINISTRACIÓN EMPRESARIAL", sede: null, nota: null, area: "Ciencias Administrativas" }
+      - { nombre: "Gestión de Grupos Turísticos - Gestión Ecoturística", sede: null, nota: null, area: "Ciencias Administrativas" }
+      - { nombre: "Contabilidad y Finanzas - Contaduría Pública", sede: null, nota: null, area: "Ciencias Administrativas" }
+      - { nombre: "Asistencia Administrativa", sede: null, nota: null, area: "Ciencias Administrativas" }
+      - { nombre: "Ingeniería en Acuicultura", sede: null, nota: null, area: "Ciencias Agropecuarias" }
+      - { nombre: "INGENIERÍA EN SISTEMA DE PRODUCCIÓN ANIMAL - SISTEMAS DE PRODUCCIÓN ANIMAL- PRODUCCIÓN ANIMAL", sede: null, nota: null, area: "Ciencias Agropecuarias" }
+      - { nombre: "INGENIERÍA AGRONÓMICA CON ÉNFASIS EN RIEGO Y DRENAJE - PRODUCCIÓN AGROPECUARIA BAJO RIEGO", sede: null, nota: null, area: "Ciencias Agropecuarias" }
+      - { nombre: "Ingeniería en Ciencias Forestales y Vida Silvestre", sede: null, nota: null, area: "Ciencias Agropecuarias" }
+      - { nombre: "Medicina Veterinaria - Asistencia Veterinaria", sede: null, nota: null, area: "Ciencias Agropecuarias" }
+      - { nombre: "Mediación Pedagógica", sede: null, nota: null, area: "Educación" }
+      - { nombre: "ENSEÑANZA DE LA (ESPECIALIDAD TÉCNICA)", sede: null, nota: null, area: "Educación" }
+      - { nombre: "Ingeniería en Mantenimiento Agroindustrial Sostenible- Mantenimiento Agroindustrial Sostenible", sede: null, nota: null, area: "Ingeniería" }
+      - { nombre: "Mecatrónica", sede: null, nota: null, area: "Ingeniería" }
+      - { nombre: "INGENIERÍA ENERGÉTICA-MANEJO DE RECURSOS ENERGÉTICOS", sede: null, nota: null, area: "Ingeniería" }
+      - { nombre: "Ingeniería en Producción Industrial - Producción Industrial", sede: null, nota: null, area: "Ingeniería" }
+      - { nombre: "Ingeniería Electrónica - Electrónica", sede: null, nota: null, area: "Ingeniería" }
+      - { nombre: "Ingeniería Electromecánica - Electromecánica", sede: null, nota: null, area: "Ingeniería" }
+      - { nombre: "Ingeniería Eléctrica - Electricidad", sede: null, nota: null, area: "Ingeniería" }
+      - { nombre: "Ingeniería en Procesos y Calidad - Control de Calidad", sede: null, nota: null, area: "Ingeniería" }
+      - { nombre: "Ingeniería en Gestión Ambiental", sede: null, nota: null, area: "Tecnología" }
+      - { nombre: "Ingeniería en Recurso Hídrico - Manejo del Recurso Hídrico", sede: null, nota: null, area: "Tecnología" }
+      - { nombre: "INGENIERÍA EN SALUD OCUPACIONAL Y AMBIENTE - SALUD OCUPACIONAL", sede: null, nota: null, area: "Tecnología" }
+      - { nombre: "INGENIERÍA EN TECNOLOGÍA DE ALIMENTOS - TECNOLOGÍA DE ALIMENTOS", sede: null, nota: null, area: "Tecnología" }
+      - { nombre: "INGENIERÍA EN TECNOLOGÍAS DE INFORMACIÓN - TECNOLOGÍAS DE INFORMACIÓN", sede: null, nota: null, area: "Tecnología" }
+      - { nombre: "INGENIERÍA DEL SOFTWARE - TECNOLOGÍAS INFORMÁTICAS", sede: null, nota: null, area: "Tecnología" }

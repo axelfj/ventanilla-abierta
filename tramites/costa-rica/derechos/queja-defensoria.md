@@ -2,7 +2,7 @@
 title: "Queja ante la Defensoría de los Habitantes"
 pais: Costa Rica
 ultima_verificacion: 2026-10-18
-estado: verificado
+estado: borrador
 ---
 
 # Queja ante la Defensoría de los Habitantes

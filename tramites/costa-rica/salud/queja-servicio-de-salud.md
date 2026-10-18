@@ -2,7 +2,7 @@
 title: "Quejarte por mala atención en un servicio de salud"
 pais: Costa Rica
 ultima_verificacion: 2026-10-18
-estado: verificado
+estado: borrador
 ---
 
 # Quejarte por mala atención en un servicio de salud

@@ -117,5 +117,10 @@
   ["puedo hacer un cover", "covers"],
   ["traer una banda de afuera", "artistas extranjeros"],
   ["becas del ministerio de cultura", "Ministerio de Cultura"],
-  ["vender entradas", "entradas"]
+  ["vender entradas", "entradas"],
+  ["examen de admision ucr", "entrar a una universidad"],
+  ["nota de corte medicina", "notas de corte"],
+  ["beca para la u", "Becas en las universidades"],
+  ["matricula escuela 2027", "Matricular en una escuela"],
+  ["universidad privada aprobada", "buscar una escuela"]
 ]

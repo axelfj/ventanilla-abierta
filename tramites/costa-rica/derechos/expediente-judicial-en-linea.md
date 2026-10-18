@@ -2,7 +2,7 @@
 title: "Consultar tu expediente judicial en línea"
 pais: Costa Rica
 ultima_verificacion: 2026-10-18
-estado: verificado
+estado: borrador
 ---
 
 # Consultar tu expediente judicial en línea

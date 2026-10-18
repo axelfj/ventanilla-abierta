@@ -6,3 +6,8 @@ updates:
     directory: /
     schedule:
       interval: monthly
+    # Un solo PR al mes con todas las acciones, para que no se acumulen si nadie los revisa.
+    groups:
+      acciones:
+        patterns: ["*"]
+    open-pull-requests-limit: 2

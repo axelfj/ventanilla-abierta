@@ -2,7 +2,7 @@
 title: "Ayudas sociales del IMAS"
 pais: Costa Rica
 ultima_verificacion: 2026-10-18
-estado: verificado
+estado: borrador
 ---
 
 # Ayudas sociales del IMAS

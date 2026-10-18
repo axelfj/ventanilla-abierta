@@ -2,7 +2,7 @@
 title: "Reclamar por servicios públicos: luz, agua y teléfono"
 pais: Costa Rica
 ultima_verificacion: 2026-10-18
-estado: verificado
+estado: borrador
 ---
 
 # Reclamar por servicios públicos: luz, agua y teléfono

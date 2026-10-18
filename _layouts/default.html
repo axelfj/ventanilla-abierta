@@ -16,15 +16,15 @@
   {%- elsif page.layout == "categoria" %}
     {%- assign titulo_busqueda = page.title | append: ": trámites en Costa Rica" %}
   {%- endif %}
-  <title>{% if page.url == "/" %}{{ site.title }}: trámites y derechos en Costa Rica, explicados claro{% else %}{% if page.title and page.title != site.title %}{{ titulo_busqueda }} · {% endif %}{{ site.title }}{% endif %}</title>
+  <title>{% if page.url == "/" %}{{ site.title }}: trámites y derechos en Costa Rica, explicados claro{% else %}{% if page.title and page.title != site.title %}{{ titulo_busqueda | escape }} · {% endif %}{{ site.title }}{% endif %}</title>
   {%- if page.sitemap == false and page.permalink == "/404.html" %}
   <meta name="robots" content="noindex">
   {%- endif %}
   {%- if site.google_site_verification %}
-  <meta name="google-site-verification" content="{{ site.google_site_verification }}">
+  <meta name="google-site-verification" content="{{ site.google_site_verification | escape }}">
   {%- endif %}
   {%- if site.bing_site_verification %}
-  <meta name="msvalidate.01" content="{{ site.bing_site_verification }}">
+  <meta name="msvalidate.01" content="{{ site.bing_site_verification | escape }}">
   {%- endif %}
   {%- comment %} Descripción para Google y para la vista previa al compartir. Las guías no la traen en el front matter,
        así que se toma el primer párrafo de la sección "Qué es". {% endcomment %}
@@ -55,6 +55,7 @@
   <meta name="theme-color" content="#0b6e4f">
   {%- comment %} Va antes del CSS y sin defer para aplicar el modo guardado antes de pintar, sin parpadeo. {% endcomment %}
   <script src="{{ '/assets/js/tema.js' | relative_url }}"></script>
+  <script src="{{ '/assets/js/tablas.js' | relative_url }}" defer></script>
   {% include datos-estructurados.html descripcion=descripcion %}
   <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
 </head>
@@ -77,6 +78,17 @@
   <main class="contenedor">
     {{ content }}
     {%- if page.pais %}
+    {%- comment %} Para que se vea que la guía es real: quién la revisó además de quien la escribió y su historial público. {% endcomment %}
+    <aside class="revision" aria-labelledby="titulo-revision">
+      <h2 id="titulo-revision">Quién revisó esta guía</h2>
+      <p>{% if page.estado == "verificado" %}✅ Verificada con fuentes oficiales{% else %}⚠️ Borrador: algunos datos están por verificar{% endif %}{% if page.ultima_verificacion %} · última verificación {{ page.ultima_verificacion | date: "%Y-%m-%d" }}{% endif %}.</p>
+      {%- if page.revisado_por and page.revisado_por.size > 0 %}
+      <p>Además de quien la escribió, la compararon con las fuentes oficiales: {% for r in page.revisado_por %}<a href="https://github.com/{{ r | url_encode }}">@{{ r | escape }}</a>{% if forloop.rindex == 2 %} y {% elsif forloop.last == false %}, {% endif %}{% endfor %}.</p>
+      {%- else %}
+      <p>Todavía nadie de la comunidad la revisó aparte de quien la escribió.</p>
+      {%- endif %}
+      <p class="no-imprimir"><a href="https://github.com/axelfj/ventanilla-abierta/commits/main/{{ page.path }}">Ver cada cambio, quién lo hizo y cuándo</a> · <a href="https://github.com/axelfj/ventanilla-abierta/issues/new?template=revision.md&amp;title={{ '[Revisión] ' | append: page.title | url_encode | replace: "+", "%20" }}">¿La comparaste con las fuentes? Contanos</a></p>
+    </aside>
     {%- assign enlace = page.url | absolute_url %}
     {%- assign mensaje = page.title | append: ": " | append: enlace %}
     <p class="compartir no-imprimir">

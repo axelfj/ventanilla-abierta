@@ -1,0 +1,4 @@
+# Quién tiene que aprobar cada cambio antes de que llegue a main (y al sitio publicado).
+# Si se suman más personas que mantengan el proyecto, se agregan aquí; por ejemplo:
+#   /tramites/costa-rica/trabajo/  @axelfj @otra-persona
+*  @axelfj

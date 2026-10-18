@@ -2,7 +2,7 @@
 title: "Denunciar ante el PANI"
 pais: Costa Rica
 ultima_verificacion: 2026-10-18
-estado: verificado
+estado: borrador
 ---
 
 # Denunciar ante el PANI

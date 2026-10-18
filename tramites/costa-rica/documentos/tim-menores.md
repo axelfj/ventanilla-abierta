@@ -2,7 +2,7 @@
 title: "Tarjeta de identidad de menores (TIM)"
 pais: Costa Rica
 ultima_verificacion: 2026-10-18
-estado: verificado
+estado: borrador
 ---
 
 # Tarjeta de identidad de menores (TIM)

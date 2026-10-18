@@ -4,7 +4,7 @@
 Uso: python3 scripts/validar.py   (desde la raíz del repo; necesita pyyaml)
 
 Revisa que cada guía tenga los datos mínimos (título, país, estado, fecha de
-verificación y fuentes) y que _data/categorias.yml apunte a guías que existen.
+verificación y fuentes), que `revisado_por` sea una lista de usuarios de GitHub y que _data/categorias.yml apunte a guías que existen.
 Sale con código 1 si encuentra errores. En GitHub Actions, los errores aparecen
 como anotaciones en el pull request.
 """
@@ -22,6 +22,8 @@ PORTADA = os.path.join("_data", "portada.yml")
 SINONIMOS = os.path.join("_data", "sinonimos.yml")
 ESTADOS = {"borrador", "verificado"}
 OBLIGATORIOS = ["title", "pais", "ultima_verificacion", "estado"]
+# Cómo GitHub permite escribir un usuario: letras, números y guiones, sin guion al inicio, hasta 39.
+USUARIO_GITHUB = re.compile(r"^[A-Za-z0-9](?:[A-Za-z0-9-]{0,38})$")
 EN_ACTIONS = os.environ.get("GITHUB_ACTIONS") == "true"
 
 errores = 0
@@ -84,6 +86,17 @@ def validar_ficha(ruta, hoy):
                 fecha = None
         if isinstance(fecha, datetime.date) and fecha > hoy:
             error(ruta, f"'ultima_verificacion' ({fecha}) está en el futuro")
+
+    revisores = datos.get("revisado_por")
+    if revisores is not None:
+        if not isinstance(revisores, list):
+            error(ruta, "'revisado_por' debe ser una lista, por ejemplo: revisado_por: [usuaria-uno, usuario-dos]")
+        else:
+            for r in revisores:
+                if not isinstance(r, str) or not USUARIO_GITHUB.match(r):
+                    error(ruta, f"'{r}' en 'revisado_por' no es un usuario de GitHub (va sin @, solo letras, números y guiones)")
+            if len({str(r).lower() for r in revisores}) != len(revisores):
+                error(ruta, "'revisado_por' tiene un usuario repetido: cada persona cuenta una sola vez")
 
     if "categoria" in datos:
         error(ruta, "quitá el campo 'categoria': las categorías de una guía se definen en _data/categorias.yml")

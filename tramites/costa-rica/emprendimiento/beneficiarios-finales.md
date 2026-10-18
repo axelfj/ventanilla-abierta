@@ -2,13 +2,13 @@
 title: "Registro de beneficiarios finales de una sociedad"
 pais: Costa Rica
 ultima_verificacion: 2026-10-18
-estado: verificado
+estado: borrador
 ---
 
 # Registro de beneficiarios finales de una sociedad
 
 > ⚠️ Esta guía es información general, no asesoría legal ni contable. Verificá siempre con el Banco Central (Central Directo) y el Ministerio de Hacienda.
-> **Estado:** verificado. **Última verificación:** 2026-10-18. Quién declara, cuándo, dónde y las sanciones vienen de las preguntas frecuentes oficiales de Hacienda y el Banco Central sobre el RTBF. Queda con ⚠️ que ese documento no trae fecha de publicación.
+> **Estado:** borrador hasta que dos personas revisen las fuentes. **Última verificación:** 2026-10-18. Quién declara, cuándo, dónde y las sanciones vienen de las preguntas frecuentes oficiales de Hacienda y el Banco Central sobre el RTBF. Queda con ⚠️ que ese documento no trae fecha de publicación.
 
 ## Qué es
 El **Registro de Transparencia y Beneficiarios Finales (RTBF)** es un sistema del **Banco Central de Costa Rica (BCCR)** donde las sociedades y otras estructuras jurídicas reportan **quiénes son sus socios** y **quiénes son las personas que de verdad las controlan o se benefician de ellas**. Sirve para combatir el fraude fiscal, el lavado de dinero y el financiamiento del terrorismo ([Hacienda y BCCR, preguntas frecuentes del RTBF](https://www.hacienda.go.cr/docs/PreguntasFrecuentesdelRTBF.pdf)).

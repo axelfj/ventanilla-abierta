@@ -2,7 +2,7 @@
 title: "Usar música de otras personas: covers, samples y licencias"
 pais: Costa Rica
 ultima_verificacion: 2026-10-18
-estado: verificado
+estado: borrador
 ---
 
 # Usar música de otras personas: covers, samples y licencias

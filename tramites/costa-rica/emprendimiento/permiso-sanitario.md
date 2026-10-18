@@ -2,13 +2,13 @@
 title: "Permiso sanitario de funcionamiento"
 pais: Costa Rica
 ultima_verificacion: 2026-10-18
-estado: verificado
+estado: borrador
 ---
 
 # Permiso sanitario de funcionamiento
 
 > ⚠️ Esta guía es información general, no asesoría legal. Verificá siempre con el Ministerio de Salud o con el Área Rectora de Salud de tu zona.
-> **Estado:** verificado. **Última verificación:** 2026-10-18. Los requisitos, los costos, los plazos y la vigencia vienen del Ministerio de Salud y de la Ventanilla Única de Inversión (VUI). Queda con ⚠️ la lista de condiciones previas de cada actividad, que depende de tu tipo de negocio.
+> **Estado:** borrador hasta que dos personas revisen las fuentes. **Última verificación:** 2026-10-18. Los requisitos, los costos, los plazos y la vigencia vienen del Ministerio de Salud y de la Ventanilla Única de Inversión (VUI). Queda con ⚠️ la lista de condiciones previas de cada actividad, que depende de tu tipo de negocio.
 
 ## Qué es
 El **Permiso Sanitario de Funcionamiento (PSF)** es la autorización del **Ministerio de Salud** para que un negocio opere en un lugar determinado. Según el Ministerio, los establecimientos industriales, comerciales y de servicios "deben contar la autorización o permiso sanitario de funcionamiento para operar en el territorio nacional" ([Ministerio de Salud, PSF](https://www.ministeriodesalud.go.cr/index.php/tramites/empresas?view=article&id=1163%3Apermiso-sanitario-de-funcionamiento-vui-psf&catid=30)). Aplica a personas físicas y a empresas ([VUI, PSF](https://vui.cr/tramite/permiso-sanitario-de-funcionamiento-ministerio-de-salud/)).

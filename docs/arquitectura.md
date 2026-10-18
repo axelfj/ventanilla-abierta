@@ -296,7 +296,7 @@ Costo: ₡0 (los minutos de Actions son gratis en repos públicos).
 
 ### Dominio
 
-`axelfj.github.io/ventanilla-abierta` es gratis y suficiente. Si un día se compra un dominio, Pages lo soporta con HTTPS sin costo adicional; el `baseurl` de `_config.yml` es lo único que cambia.
+`axelfj.github.io/ventanilla-abierta` es gratis y suficiente. Para una dirección más corta sin pagar (`ventanilla-abierta.github.io`), ver [direccion-propia.md](direccion-propia.md). Si un día se compra un dominio, Pages lo soporta con HTTPS sin costo adicional; el `baseurl` de `_config.yml` es lo único que cambia.
 
 ### Plan de salida
 

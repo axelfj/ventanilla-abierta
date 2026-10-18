@@ -2,7 +2,7 @@
 title: "Apostillar un documento para usarlo en otro país"
 pais: Costa Rica
 ultima_verificacion: 2026-10-18
-estado: verificado
+estado: borrador
 ---
 
 # Apostillar un documento para usarlo en otro país
