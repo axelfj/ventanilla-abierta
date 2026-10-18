@@ -1,0 +1,32 @@
+{%- comment %}
+  Datos estructurados (schema.org en JSON-LD) para que Google entienda qué es cada página:
+  el sitio en la portada, un artículo con su fecha de verificación en cada guía y las migas
+  (Inicio › Categoría › Guía). No es un script que corra: la CSP no lo afecta.
+{% endcomment %}
+{%- assign inicio = '/' | absolute_url %}
+{%- assign logo = '/assets/img/icono-512.png' | absolute_url %}
+{%- assign nombre_json = site.title | jsonify %}
+{%- assign inicio_json = inicio | jsonify %}
+{%- assign logo_json = logo | jsonify %}
+{%- capture editor %}{"@type":"Organization","name":{{ nombre_json }},"url":{{ inicio_json }},"logo":{{ logo_json }}}{% endcapture %}
+{%- if page.url == "/" %}
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebSite","name":{{ site.title | jsonify }},"alternateName":"Trámites de Costa Rica explicados claro","url":{{ inicio | jsonify }},"description":{{ include.descripcion | jsonify }},"inLanguage":"es-CR","publisher":{{ editor }}}
+</script>
+{%- elsif page.pais %}
+  {%- assign ruta = page.url | remove_first: "/tramites/costa-rica/" %}
+  {%- assign categoria = nil %}
+  {%- for c in site.data.categorias %}
+    {%- assign tema = c.temas | where: "url", ruta | first %}
+    {%- if tema %}{% assign categoria = c %}{% break %}{% endif %}
+  {%- endfor %}
+<script type="application/ld+json">
+[{"@context":"https://schema.org","@type":"Article","headline":{{ page.title | jsonify }},"description":{{ include.descripcion | jsonify }},"inLanguage":"es-CR","url":{{ page.url | absolute_url | jsonify }},"mainEntityOfPage":{{ page.url | absolute_url | jsonify }},"image":{{ '/assets/img/icono-512.png' | absolute_url | jsonify }},{% if page.ultima_verificacion %}"dateModified":{{ page.ultima_verificacion | date: "%Y-%m-%d" | jsonify }},"datePublished":{{ page.ultima_verificacion | date: "%Y-%m-%d" | jsonify }},{% endif %}"spatialCoverage":{"@type":"Country","name":"Costa Rica"},"isAccessibleForFree":true,"license":"https://creativecommons.org/licenses/by-sa/4.0/","author":{{ editor }},"publisher":{{ editor }}},
+{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":{{ site.title | jsonify }},"item":{{ inicio | jsonify }}},{% if categoria %}{"@type":"ListItem","position":2,"name":{{ categoria.nombre | jsonify }},"item":{{ '/tramites/costa-rica/categorias/' | append: categoria.slug | append: '.html' | absolute_url | jsonify }}},{"@type":"ListItem","position":3{% else %}{"@type":"ListItem","position":2{% endif %},"name":{{ page.title | jsonify }},"item":{{ page.url | absolute_url | jsonify }}}]}]
+</script>
+{%- elsif page.layout == "categoria" %}
+  {%- assign categoria = site.data.categorias | where: "slug", page.categoria | first %}
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":{{ site.title | jsonify }},"item":{{ inicio | jsonify }}},{"@type":"ListItem","position":2,"name":{{ categoria.nombre | jsonify }},"item":{{ page.url | absolute_url | jsonify }}}]}
+</script>
+{%- endif %}

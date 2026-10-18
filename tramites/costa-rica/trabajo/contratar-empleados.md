@@ -1,5 +1,6 @@
 ---
 title: "Cómo contratar a una persona trabajadora"
+description: "Qué hacer para contratar a una persona trabajadora en Costa Rica: contrato, salario mínimo, póliza de riesgos del trabajo e inscripción en la CCSS."
 pais: Costa Rica
 ultima_verificacion: 2026-10-07
 estado: borrador

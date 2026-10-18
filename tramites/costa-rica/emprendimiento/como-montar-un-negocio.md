@@ -1,5 +1,6 @@
 ---
 title: "Cómo montar un negocio, paso a paso"
+description: "Los pasos para montar un negocio en Costa Rica: Hacienda, permiso de Salud, CCSS, póliza del INS, Registro Nacional y patente municipal."
 pais: Costa Rica
 ultima_verificacion: 2026-10-07
 estado: verificado

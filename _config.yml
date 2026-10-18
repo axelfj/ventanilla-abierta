@@ -1,6 +1,6 @@
 title: Ventanilla Abierta
 description: Guías claras y gratuitas para hacer trámites en Costa Rica. Sin fila.
-lang: es
+lang: es-CR
 markdown: kramdown
 exclude:
   - plantillas/
@@ -18,3 +18,7 @@ defaults:
     values: { sitemap: false }
   - scope: { path: docs }
     values: { sitemap: false }
+# Códigos para que Google y Bing confirmen que el sitio es nuestro (ver docs/indexacion.md).
+# Se pega solo el código del atributo content="...", no la etiqueta entera.
+google_site_verification:
+bing_site_verification:
