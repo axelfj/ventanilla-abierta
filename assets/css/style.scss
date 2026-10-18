@@ -33,14 +33,14 @@ strong { font-weight:650; }
 .topbar { position:sticky; top:0; z-index:10; background:var(--fondo); border-bottom:1px solid var(--borde);
   background:color-mix(in srgb, var(--fondo) 88%, transparent); -webkit-backdrop-filter:blur(10px); backdrop-filter:blur(10px); }
 .topbar .contenedor { display:flex; align-items:center; justify-content:space-between; gap:16px; padding-top:12px; padding-bottom:12px; }
-.marca { font-weight:750; font-size:1.1em; letter-spacing:-.01em; color:var(--texto); text-decoration:none; display:inline-flex; align-items:center; gap:10px; }
+.marca { font-weight:750; font-size:1.1em; letter-spacing:-.01em; color:var(--texto); text-decoration:none; display:inline-flex; align-items:center; gap:10px; min-height:44px; }
 .marca:hover { color:var(--texto); }
 .marca img { flex:none; border-radius:7px; }
 .topbar nav { display:flex; gap:4px; }
-.topbar nav a { padding:6px 12px; border-radius:999px; text-decoration:none; font-weight:550; font-size:.95em; color:var(--texto); }
+.topbar nav a { display:inline-flex; align-items:center; min-height:44px; padding:0 12px; border-radius:999px; text-decoration:none; font-weight:550; font-size:.95em; color:var(--texto); }
 .topbar nav a:hover { background:var(--acento-suave); color:var(--acento-fuerte); }
 .derecha { display:flex; align-items:center; gap:8px; }
-.cambiar-tema { flex:none; display:grid; place-items:center; width:36px; height:36px; padding:0; border:1px solid var(--borde);
+.cambiar-tema { flex:none; display:grid; place-items:center; width:44px; height:44px; padding:0; border:1px solid var(--borde);
   border-radius:999px; background:var(--fondo); color:var(--texto); font-size:1.05em; line-height:1; cursor:pointer; }
 .cambiar-tema[hidden] { display:none; }
 .cambiar-tema:hover { background:var(--acento-suave); border-color:var(--acento); }
@@ -71,6 +71,8 @@ td + td, th + th { border-left:1px solid var(--borde); }
 tr:last-child td { border-bottom:0; }
 th { background:var(--acento-suave); color:var(--texto); font-weight:700; }
 tbody tr:nth-child(even) td { background:var(--tarjeta); }
+.aviso-tabla { margin:16px 0 -10px; color:var(--suave); font-size:.85em; }
+.aviso-tabla[hidden] { display:none; }
 
 pre, code { white-space:pre-wrap; word-break:break-word; background:var(--tarjeta); border-radius:6px; }
 code { padding:2px 5px; font-size:.9em; }
@@ -125,7 +127,7 @@ pre { padding:14px; border:1px solid var(--borde); }
 .filtros { display:flex; flex-wrap:wrap; gap:12px; margin:16px 0; }
 .filtros label { display:flex; flex-direction:column; font-size:.9em; font-weight:600; color:var(--suave); gap:4px; }
 .filtros select, .filtros input { font:inherit; font-weight:400; padding:9px 12px; border:1px solid var(--borde); border-radius:10px;
-  background:var(--fondo); color:var(--texto); min-width:180px; }
+  background:var(--fondo); color:var(--texto); min-width:180px; min-height:44px; }
 .alerta { border-left-width:5px !important; border-left-color:var(--acento) !important; }
 .alerta-alta, .alerta-extrema { border-left-color:var(--peligro) !important; }
 .alerta-moderada { border-left-color:var(--aviso) !important; }
@@ -152,17 +154,18 @@ pre { padding:14px; border:1px solid var(--borde); }
 
 /* Celular */
 @media (max-width: 640px) {
+  html { scroll-padding-top:110px; }
   body { font-size:16px; }
   .contenedor { padding:0 16px; }
   main.contenedor { padding-top:24px; padding-bottom:40px; }
-  .topbar .contenedor { flex-wrap:wrap; row-gap:8px; padding-top:10px; padding-bottom:8px; }
+  .topbar .contenedor { flex-wrap:wrap; row-gap:0; padding-top:8px; padding-bottom:2px; }
   .derecha { display:contents; }
-  .cambiar-tema { order:1; width:34px; height:34px; }
+  .cambiar-tema { order:1; }
   .topbar nav { order:2; }
   .marca { font-size:1em; }
-  .topbar nav { width:100%; gap:2px; overflow-x:auto; scrollbar-width:none; margin:0 -8px; padding:0 0 2px; width:calc(100% + 16px); }
-  .topbar nav::-webkit-scrollbar { display:none; }
-  .topbar nav a { padding:5px 10px; font-size:.92em; white-space:nowrap; }
+  /* Los cinco enlaces caben a lo ancho desde 340 px; en pantallas más angostas pasan a una segunda línea en vez de esconderse. */
+  .topbar nav { flex-wrap:wrap; justify-content:space-between; gap:0; margin:0 -6px; width:calc(100% + 12px); }
+  .topbar nav a { padding:0 6px; font-size:.92em; white-space:nowrap; }
   h1 { font-size:1.7em; }
   h2 { font-size:1.3em; margin-top:1.7em; }
   .tarjetas { grid-template-columns:1fr 1fr; gap:10px; }
@@ -179,7 +182,7 @@ pre { padding:14px; border:1px solid var(--borde); }
 
 /* Impresión: solo la guía, en blanco y negro, con la dirección de cada enlace */
 @media print {
-  .topbar, .buscador, .no-imprimir, .cambiar-tema { display:none !important; }
+  .topbar, .buscador, .no-imprimir, .cambiar-tema, .aviso-tabla { display:none !important; }
   body { font-size:12pt; color:#000; background:#fff; display:block; }
   .pie { background:none; }
   a { color:#000; }

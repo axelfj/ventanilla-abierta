@@ -55,6 +55,7 @@
   <meta name="theme-color" content="#0b6e4f">
   {%- comment %} Va antes del CSS y sin defer para aplicar el modo guardado antes de pintar, sin parpadeo. {% endcomment %}
   <script src="{{ '/assets/js/tema.js' | relative_url }}"></script>
+  <script src="{{ '/assets/js/tablas.js' | relative_url }}" defer></script>
   {% include datos-estructurados.html descripcion=descripcion %}
   <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
 </head>
