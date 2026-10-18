@@ -128,3 +128,28 @@
 - { frase: ayuda del gobierno, buscar: [imas, bono de vivienda, no contributivo] }
 - { frase: subsidio, buscar: [imas, no contributivo] }
 - { frase: imas, buscar: [imas] }
+
+# Estudios universitarios y MEP
+- { frase: examen de admision, buscar: [entrar a una universidad pública] }
+- { frase: prueba de aptitud, buscar: [entrar a una universidad pública] }
+- { frase: paa, buscar: [entrar a una universidad pública] }
+- { frase: entrar a la u, buscar: [entrar a una universidad pública] }
+- { frase: primer ingreso, buscar: [entrar a una universidad pública] }
+- { frase: nota de corte, buscar: [notas de corte] }
+- { frase: corte de carrera, buscar: [notas de corte] }
+- { frase: carreras, buscar: [notas de corte] }
+- { frase: que carrera, buscar: [notas de corte] }
+- { frase: beca ucr, buscar: [becas en las universidades] }
+- { frase: beca universitaria, buscar: [becas en las universidades] }
+- { frase: conape, buscar: [becas en las universidades] }
+- { frase: prestamo para estudiar, buscar: [becas en las universidades] }
+- { frase: matricula, buscar: [matricular en una escuela] }
+- { frase: matricular, buscar: [matricular en una escuela] }
+- { frase: kinder, buscar: [matricular en una escuela] }
+- { frase: prematricula, buscar: [matricular en una escuela] }
+- { frase: cambiar de colegio, buscar: [matricular en una escuela] }
+- { frase: buscar escuela, buscar: [buscar una escuela] }
+- { frase: universidad privada, buscar: [buscar una escuela] }
+- { frase: conesup, buscar: [buscar una escuela] }
+- { frase: sinaes, buscar: [buscar una escuela] }
+- { frase: carrera acreditada, buscar: [buscar una escuela] }

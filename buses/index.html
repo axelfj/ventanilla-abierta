@@ -31,4 +31,4 @@ description: Tarifas oficiales de bus en Costa Rica y dónde ver los horarios.
 
 <p class="migas">Fuente de las tarifas: <a href="https://aresep.go.cr/datos-abiertos/tarifas-autobus/" rel="noopener">datos abiertos de la ARESEP</a>. Se actualizan una vez al día. Cómo elegimos las fuentes: <a href="{{ '/docs/decisiones/0002-fuentes-de-buses.html' | relative_url }}">decisión 0002</a>. ¿Tu empresa de bus publica sus horarios y no está aquí? <a href="https://github.com/axelfj/ventanilla-abierta/issues/new?template=correccion.md">Avisanos</a>.</p>
 
-<script src="{{ '/assets/js/buses.js' | relative_url }}" data-tarifas="https://raw.githubusercontent.com/axelfj/ventanilla-abierta/datos/buses/tarifas.json" defer></script>
+<script src="{{ '/assets/js/buses.js' | relative_url }}" data-tarifas="https://raw.githubusercontent.com/{{ site.github.repository_nwo | default: 'axelfj/ventanilla-abierta' }}/datos/buses/tarifas.json" defer></script>
