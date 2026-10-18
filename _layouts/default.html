@@ -77,6 +77,17 @@
   <main class="contenedor">
     {{ content }}
     {%- if page.pais %}
+    {%- comment %} Para que se vea que la guía es real: quién la revisó además de quien la escribió y su historial público. {% endcomment %}
+    <aside class="revision" aria-labelledby="titulo-revision">
+      <h2 id="titulo-revision">Quién revisó esta guía</h2>
+      <p>{% if page.estado == "verificado" %}✅ Verificada con fuentes oficiales{% else %}⚠️ Borrador: algunos datos están por verificar{% endif %}{% if page.ultima_verificacion %} · última verificación {{ page.ultima_verificacion | date: "%Y-%m-%d" }}{% endif %}.</p>
+      {%- if page.revisado_por and page.revisado_por.size > 0 %}
+      <p>Además de quien la escribió, la compararon con las fuentes oficiales: {% for r in page.revisado_por %}<a href="https://github.com/{{ r | url_encode }}">@{{ r | escape }}</a>{% if forloop.rindex == 2 %} y {% elsif forloop.last == false %}, {% endif %}{% endfor %}.</p>
+      {%- else %}
+      <p>Todavía nadie de la comunidad la revisó aparte de quien la escribió.</p>
+      {%- endif %}
+      <p class="no-imprimir"><a href="https://github.com/axelfj/ventanilla-abierta/commits/main/{{ page.path }}">Ver cada cambio, quién lo hizo y cuándo</a> · <a href="https://github.com/axelfj/ventanilla-abierta/issues/new?template=revision.md&amp;title={{ '[Revisión] ' | append: page.title | url_encode | replace: "+", "%20" }}">¿La comparaste con las fuentes? Contanos</a></p>
+    </aside>
     {%- assign enlace = page.url | absolute_url %}
     {%- assign mensaje = page.title | append: ": " | append: enlace %}
     <p class="compartir no-imprimir">

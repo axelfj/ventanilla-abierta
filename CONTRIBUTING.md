@@ -28,7 +28,25 @@ Abrí un issue con la plantilla **Nuevo trámite**.
    El estado ✅/⚠️ no se escribe ahí: el sitio lo toma del campo `estado` de la guía.
 5. Revisá tu guía con `python3 scripts/validar.py` (necesita `pip install pyyaml`). El mismo chequeo corre automáticamente en cada pull request.
 6. Si la gente busca el trámite con otras palabras ("me echaron", "la Caja"), agregalas a `_data/sinonimos.yml` y sumá una búsqueda de prueba en `scripts/busquedas-de-prueba.json`.
-7. Abrí un pull request explicando qué fuentes consultaste.
+7. Abrí un pull request y llená la lista de la plantilla: qué fuentes consultaste y cuándo.
+
+## Cómo se revisa antes de publicar
+
+Todo cambio entra por pull request y lo aprueba quien mantiene el proyecto (ver `.github/CODEOWNERS`) antes de llegar a `main`, que es lo que se publica.
+
+Una guía puede pasar a ✅ **verificada** (`estado: verificado`) solo cuando **al menos dos personas, además de quien la escribió**, abrieron cada fuente oficial y confirmaron que la guía dice lo mismo. Mientras tanto queda ⚠️ borrador.
+
+- **Si sabés usar GitHub:** dejá una revisión en el pull request (*Files changed → Review changes*) diciendo qué fuentes abriste.
+- **Si no:** abrí un issue con la plantilla **Revisé una guía**. Cuenta igual.
+
+Quien mergea agrega los usuarios de GitHub de esas personas al campo `revisado_por` de la guía:
+
+```yaml
+estado: verificado
+revisado_por: [usuaria-uno, usuario-dos]
+```
+
+El sitio muestra al pie de cada guía quiénes la revisaron y un enlace a su historial de cambios en GitHub, para que cualquiera vea quién cambió qué y cuándo. Si después alguien cambia un dato, las personas de `revisado_por` revisaron la versión anterior: o lo revisan de nuevo o se quitan de la lista.
 
 ## Nombres de archivos
 

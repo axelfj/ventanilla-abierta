@@ -2,7 +2,8 @@
 title: "Nombre del trámite"
 pais: Costa Rica
 ultima_verificacion: AAAA-MM-DD
-estado: borrador   # borrador | verificado
+estado: borrador   # borrador | verificado (verificado solo con dos revisiones, ver CONTRIBUTING.md)
+revisado_por: []   # usuarios de GitHub de quienes revisaron la guía contra las fuentes, sin @
 ---
 
 # Nombre del trámite

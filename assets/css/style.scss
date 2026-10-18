@@ -139,6 +139,11 @@ pre { padding:14px; border:1px solid var(--borde); }
 .situaciones a:hover, .situaciones a:focus-visible { border-color:var(--acento); background:var(--acento-suave); color:var(--texto); }
 .situaciones a > span:first-child { flex:none; font-size:1.25em; }
 
+/* Quién revisó la guía */
+.revision { margin-top:40px; padding:16px 20px; border:1px solid var(--borde); border-radius:10px; }
+.revision h2 { margin:0 0 8px; font-size:1.05em; }
+.revision p { margin:.4em 0; }
+
 /* Compartir */
 .compartir { margin-top:32px; }
 .compartir a { display:inline-flex; align-items:center; gap:8px; padding:12px 18px; border:1px solid var(--acento); border-radius:10px;
