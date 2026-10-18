@@ -128,3 +128,25 @@
 - { frase: ayuda del gobierno, buscar: [imas, bono de vivienda, no contributivo] }
 - { frase: subsidio, buscar: [imas, no contributivo] }
 - { frase: imas, buscar: [imas] }
+
+# Temas que se sumaron en la última tanda (octubre de 2026)
+- { frase: testigo, buscar: [notifican una demanda, juzgado] }
+- { frase: me citaron, buscar: [notifican una demanda, juzgado] }
+- { frase: debo impuestos, buscar: [arreglo de pago con hacienda] }
+- { frase: debo a hacienda, buscar: [arreglo de pago con hacienda] }
+- { frase: pani, buscar: [denunciar ante el pani] }
+- { frase: maltrato infantil, buscar: [denunciar ante el pani] }
+- { frase: cédula para menores, buscar: [tarjeta de identidad de menores] }
+- { frase: cédula de menor, buscar: [tarjeta de identidad de menores] }
+- { frase: asilo, buscar: [refugio] }
+- { frase: convalidar, buscar: [título obtenido en el extranjero] }
+- { frase: homologar, buscar: [título obtenido en el extranjero] }
+- { frase: equiparar, buscar: [título obtenido en el extranjero] }
+- { frase: placas, buscar: [reponer placas] }
+- { frase: me robaron las placas, buscar: [reponer placas] }
+- { frase: custodia, buscar: [guarda, crianza] }
+- { frase: me incapacitaron, buscar: [incapacidades] }
+- { frase: incapacidad, buscar: [incapacidades] }
+- { frase: empleada doméstica, buscar: [trabajadora doméstica] }
+- { frase: curatela, buscar: [salvaguardia] }
+- { frase: insania, buscar: [salvaguardia] }

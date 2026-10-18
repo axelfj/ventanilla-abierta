@@ -112,7 +112,7 @@ El **embargo** es una orden del juzgado que inmoviliza bienes o parte del salari
 
 Fuente de los plazos: [Sala Primera, prescripción y caducidad](https://salaprimera.poder-judicial.go.cr/phocadownload/Temas_jurisprudenciales/Prescripcion_y_caducidad.pdf).
 
-**Plazo del deudor para pagar u oponerse.** ⚠️ Con la Ley de Cobro Judicial eran **quince días** desde la resolución que ordena el pago ([Ley 8624, art. 5.1](https://www.imprentanacional.go.cr/pub/2007/11/20/ALCA34_20_11_2007.html)). Falta confirmar el plazo en el artículo 111 vigente del Código Procesal Civil.
+**Plazo del deudor para pagar u oponerse.** Con la vieja Ley de Cobro Judicial eran quince días ([Ley 8624, art. 5.1](https://www.imprentanacional.go.cr/pub/2007/11/20/ALCA34_20_11_2007.html)). Con el Código Procesal Civil, una resolución intimatoria publicada en el Boletín Judicial le dio al deudor **cinco días** hábiles para pagar u oponerse ([Boletín Judicial n.° 239, 19-12-2022](https://www.imprentanacional.go.cr/pub-boletin/2022/12/bol_19_12_2022.html), con base en los arts. 110 y 111 del CPC). ⚠️ El plazo que manda es el que diga la resolución de cada caso.
 
 **Cuánto dura el juicio:** ⚠️ no encontramos un dato oficial.
 
@@ -128,7 +128,7 @@ Fuente de los plazos: [Sala Primera, prescripción y caducidad](https://salaprim
 
 **Intereses abusivos (usura).** El Banco Central calcula las **tasas máximas de interés** en la primera semana de enero y de julio, y rigen por seis meses. Cobrar por encima de esa tasa es el **delito de usura** y cualquier persona afectada lo puede denunciar en la vía penal ([MEIC, usura](https://www.meic.go.cr/tramites-y-servicios/usura/)).
 
-**Si te llega una demanda de cobro.** No la ignorés: hay un plazo para pagar u oponerse (⚠️ ver "Tiempos"). Con la Ley de Cobro Judicial, la oposición solo podía basarse en la falsedad del documento, la falta de exigibilidad, el pago o la prescripción ([Ley 8624, art. 5.4](https://www.imprentanacional.go.cr/pub/2007/11/20/ALCA34_20_11_2007.html)). ⚠️ Falta confirmar las causales en el artículo 111 vigente. Buscá asesoría cuanto antes ([asesoría legal gratuita](../general/asesoria-legal-gratuita.html)).
+**Si te llega una demanda de cobro.** No la ignorés: hay un plazo para pagar u oponerse (⚠️ ver "Tiempos"). Con la Ley de Cobro Judicial, la oposición solo podía basarse en la falsedad del documento, la falta de exigibilidad, el pago o la prescripción ([Ley 8624, art. 5.4](https://www.imprentanacional.go.cr/pub/2007/11/20/ALCA34_20_11_2007.html)). ⚠️ Falta confirmar las causales en el artículo 111 vigente. Mirá la guía [me están cobrando una deuda o me demandaron](me-cobran-una-deuda.html) y buscá asesoría cuanto antes ([asesoría legal gratuita](../general/asesoria-legal-gratuita.html)).
 
 **Proponé un arreglo de pago.** Las Casas de Justicia también atienden arreglos de pago, gratis ([MJP](https://mjp.go.cr/viceministeriopaz/DepenDinarac?nom=casas-justicia)).
 
@@ -167,6 +167,7 @@ No. La mediación es voluntaria. Si la otra persona no quiere participar o no ll
 - [Ministerio de Justicia y Paz, Casas de Justicia](https://mjp.go.cr/viceministeriopaz/DepenDinarac?nom=casas-justicia), consultada 2026-10-07.
 - [Ministerio de Justicia y Paz, Centros RAC](https://mjp.go.cr/viceministeriopaz/DepenDinarac?nom=centros), consultada 2026-10-07.
 - [Ley 7727 sobre Resolución Alterna de Conflictos, copia publicada por la ARESEP](https://aresep.go.cr/images/documentos/Ley_resolucion_alternativa_conflictos.pdf), consultada 2026-10-07.
+- [Boletín Judicial n.° 239 del 19-12-2022](https://www.imprentanacional.go.cr/pub-boletin/2022/12/bol_19_12_2022.html), resolución intimatoria con plazo de cinco días, consultado 2026-10-18.
 - [Ley de Cobro Judicial, Ley 8624 (La Gaceta, Alcance 34, 20-11-2007)](https://www.imprentanacional.go.cr/pub/2007/11/20/ALCA34_20_11_2007.html), texto original, hoy derogada, consultada 2026-10-07.
 - [MTSS, comunicado sobre embargos y salario mínimo inembargable (4-8-2022)](https://www.mtss.go.cr/prensa/comunicados/2022/agosto/cp_031_2022.html), consultado 2026-10-07.
 - [Decreto 43270-MEIC, Reglamento de las operaciones financieras, comerciales y microcréditos (La Gaceta, Alcance 256, 16-12-2021)](https://www.imprentanacional.go.cr/pub/2021/12/16/ALCA256_16_12_2021.pdf), consultado 2026-10-07.
