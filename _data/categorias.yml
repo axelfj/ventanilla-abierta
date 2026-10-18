@@ -248,12 +248,17 @@
 - slug: estudios
   icono: "🎓"
   nombre: Estudios
-  desc: Títulos, certificaciones y becas.
+  desc: Escuela, colegio, universidad, carreras y becas.
   temas:
     - { titulo: Certificaciones de títulos y notas del MEP }
     - { titulo: Bachillerato por madurez }
     - { titulo: Reconocer un título obtenido en el extranjero }
     - { titulo: Becas estudiantiles }
+    - { titulo: "Cómo entrar a una universidad pública (UCR, TEC, UNA, UNED, UTN)", url: estudios/admision-universidades-publicas.html }
+    - { titulo: Carreras de las universidades públicas y sus notas de corte, url: estudios/carreras-y-notas-de-corte.html }
+    - { titulo: Becas en las universidades públicas, url: estudios/becas-universitarias.html }
+    - { titulo: Matricular en una escuela o colegio público (MEP), url: estudios/matricula-escuela-y-colegio.html }
+    - { titulo: "Cómo buscar una escuela, colegio o universidad", url: estudios/buscar-un-centro-educativo.html }
 - slug: comunidad
   icono: "🌳"
   nombre: Comunidad y ayudas sociales
