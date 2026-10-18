@@ -99,6 +99,10 @@
     agrupar(d.tramos);
     fuente.textContent = "Datos del pliego tarifario de la ARESEP, descargados el " +
       new Date(d.fuente.recuperado).toLocaleDateString("es-CR", { timeZone: "America/Costa_Rica" }) + ".";
+    // Se bajan cada día. Si pasa más de un mes sin actualizarse, las tarifas pueden haber cambiado.
+    if (!(Date.now() - new Date(d.fuente.recuperado) < 31 * 24 * 3600 * 1000)) {
+      fuente.textContent += " ⚠️ Hace más de un mes que no se actualizan: confirmá la tarifa en el sitio de la ARESEP.";
+    }
     entrada.disabled = false;
     var q = new URLSearchParams(location.search).get("q");
     if (q) entrada.value = q;

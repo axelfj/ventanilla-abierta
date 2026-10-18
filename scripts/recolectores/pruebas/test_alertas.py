@@ -128,6 +128,24 @@ class Seguridad(unittest.TestCase):
         a = alertas.alerta("jasec", "1", "luz", "Corte", " https://www.jasec.go.cr/aviso ", AHORA)
         self.assertEqual(a["fuente"]["url"], "https://www.jasec.go.cr/aviso")
 
+    def test_enlace_a_otro_sitio_se_cambia_por_la_pagina_de_la_fuente(self):
+        for url in ["https://estafa.example/aviso", "https://jasec.go.cr.estafa.example/", "https://notjasec.go.cr/",
+                    "https://www.jasec.go.cr@estafa.example/"]:
+            a = alertas.alerta("jasec", "1", "luz", "Corte", url, AHORA)
+            self.assertEqual(a["fuente"]["url"], alertas.PAGINAS["jasec"], url)
+
+    def test_imn_solo_baja_avisos_de_sus_dominios(self):
+        rss = (b'<rss><channel><item><link>https://estafa.example/aviso.xml</link></item>'
+               b'<item><link>https://severeweather.wmo.int/v2/cap-alerts/cr-imn-es/a.xml</link></item></channel></rss>')
+        pedidos = []
+        original = alertas.bajar
+        alertas.bajar = lambda url, **k: (pedidos.append(url), rss if url == alertas.RSS_IMN else muestra("imn-cap.xml"))[1]
+        try:
+            alertas.recolectar_imn(AHORA)
+        finally:
+            alertas.bajar = original
+        self.assertEqual(pedidos[1:], ["https://severeweather.wmo.int/v2/cap-alerts/cr-imn-es/a.xml"])
+
     def test_titulo_sin_etiquetas_y_con_largo_maximo(self):
         a = alertas.alerta("rsn", "1", "sismo", "<img src=x onerror=alert(1)>Sismo " + "x" * 500, "https://x", AHORA)
         self.assertNotIn("<img", a["titulo"])
