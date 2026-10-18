@@ -9,6 +9,7 @@
   var filtroProvincia = document.getElementById("filtro-provincia");
   var base = script.getAttribute("data-base");
   var datos = [];
+  var pie = ""; // cuándo se actualizó la lista; se repite en el resumen al cambiar los filtros
 
   var NOMBRES = {
     imn: "IMN (avisos del clima)", rsn: "Red Sismológica Nacional (sismos sentidos)", usgs: "USGS (sismos fuertes)",
@@ -52,7 +53,8 @@
       return (!tipo || a.tipo === tipo) && (!provincia || !a.zona || !a.zona.provincia || a.zona.provincia === provincia);
     });
     lista.textContent = "";
-    resumen.textContent = visibles.length ? visibles.length + (visibles.length === 1 ? " alerta" : " alertas") : "No hay alertas activas con ese filtro en las fuentes que revisamos.";
+    resumen.textContent = visibles.length ? visibles.length + (visibles.length === 1 ? " alerta" : " alertas") : "No hay alertas activas con ese filtro en las fuentes que revisamos";
+    resumen.textContent += pie;
     visibles.forEach(function (a) {
       var li = el("li", "alerta alerta-" + (a.severidad || "na"));
       var url = enlaceSeguro(a.fuente.url);
@@ -90,10 +92,18 @@
   filtroTipo.addEventListener("change", mostrar);
   filtroProvincia.addEventListener("change", mostrar);
 
+  // Si los datos dejan de actualizarse (GitHub atrasa o apaga los workflows programados), no se muestran
+  // como vigentes las alertas que ya terminaron, y se avisa que la lista puede estar vieja.
+  var VIEJO_MS = 6 * 3600 * 1000;
+
   json(base + "activas.json").then(function (d) {
-    datos = d.alertas;
+    var ahora = Date.now();
+    datos = d.alertas.filter(function (a) { return !a.fin || new Date(a.fin) > ahora; });
+    pie = ". Actualizado " + hace(d.generado) + ".";
+    if (!(ahora - new Date(d.generado) < VIEJO_MS)) {
+      pie += " ⚠️ Esta lista no se actualiza desde hace rato y puede estar vieja: revisá los sitios oficiales de abajo.";
+    }
     mostrar();
-    resumen.textContent += ". Actualizado " + hace(d.generado) + ".";
   }).catch(function () {
     resumen.textContent = "No pudimos cargar las alertas en este momento. Revisá los sitios oficiales de abajo.";
   });

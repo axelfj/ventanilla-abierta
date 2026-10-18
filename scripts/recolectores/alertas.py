@@ -21,6 +21,7 @@ import json
 import os
 import re
 import sys
+import urllib.parse
 import urllib.request
 import xml.etree.ElementTree as ET
 
@@ -63,6 +64,14 @@ def es_web(url):
     return isinstance(url, str) and re.match(r"https?://[^\s/]+", url.strip(), re.I) is not None
 
 
+def es_de(fuente, url):
+    """True si url es una dirección web en uno de los dominios de la fuente (o un subdominio)."""
+    if not es_web(url):
+        return False
+    host = urllib.parse.urlsplit(url.strip()).hostname or ""
+    return any(host == d or host.endswith("." + d) for d in DOMINIOS[fuente])
+
+
 def iso(fecha):
     return fecha.astimezone(UTC).strftime("%Y-%m-%dT%H:%M:%SZ") if fecha else None
 
@@ -98,7 +107,7 @@ def alerta(fuente, ident, tipo, titulo, url, ahora, descripcion="", inicio=None,
         "fin": iso(fin),
         "severidad": severidad,
         "zona": zona or {"provincia": None, "canton": None, "distritos": [], "codigos": [], "geometria": None},
-        "fuente": {"institucion": fuente, "url": url.strip() if es_web(url) else PAGINAS[fuente], "recuperado": iso(ahora)},
+        "fuente": {"institucion": fuente, "url": url.strip() if es_de(fuente, url) else PAGINAS[fuente], "recuperado": iso(ahora)},
         "origen": "oficial",
         "actualizado": iso(ahora),
     }
@@ -177,6 +186,17 @@ def leer_rsn(datos, ahora, dias=7):
 # ---------------------------------------------- Clima: avisos CAP del IMN (WMO)
 
 # El IMN publica sus avisos en CAP 1.2; la OMM los aloja en este feed (el sitio del IMN no tiene RSS que sirva).
+# Dominios en los que cada fuente publica sus avisos. Si una fuente cambia o la comprometen y empieza
+# a enlazar a otro sitio (por ejemplo, uno de estafa), el aviso enlaza a la página oficial de la fuente.
+DOMINIOS = {
+    "imn": ["imn.ac.cr", "severeweather.wmo.int", "cap-sources.s3.amazonaws.com"],
+    "rsn": ["rsn.ucr.ac.cr"],
+    "usgs": ["usgs.gov"],
+    "gdacs": ["gdacs.org"],
+    "cnfl": ["cnfl.go.cr"],
+    "jasec": ["jasec.go.cr"],
+}
+
 RSS_IMN = "https://cap-sources.s3.amazonaws.com/cr-imn-es/rss.xml"
 CAP = "{urn:oasis:names:tc:emergency:cap:1.2}"
 SEVERIDAD = {"Extreme": "extrema", "Severe": "alta", "Moderate": "moderada", "Minor": "baja"}
@@ -216,7 +236,7 @@ def leer_cap(datos, url, ahora):
 
 def recolectar_imn(ahora):
     salida = []
-    for url in [u for u in enlaces_rss(bajar(RSS_IMN)) if es_web(u)][:MAX_AVISOS_CAP]:
+    for url in [u for u in enlaces_rss(bajar(RSS_IMN)) if es_de("imn", u)][:MAX_AVISOS_CAP]:
         salida += leer_cap(bajar(url), url, ahora)
     return salida
 

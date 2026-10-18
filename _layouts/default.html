@@ -16,15 +16,15 @@
   {%- elsif page.layout == "categoria" %}
     {%- assign titulo_busqueda = page.title | append: ": trámites en Costa Rica" %}
   {%- endif %}
-  <title>{% if page.url == "/" %}{{ site.title }}: trámites y derechos en Costa Rica, explicados claro{% else %}{% if page.title and page.title != site.title %}{{ titulo_busqueda }} · {% endif %}{{ site.title }}{% endif %}</title>
+  <title>{% if page.url == "/" %}{{ site.title }}: trámites y derechos en Costa Rica, explicados claro{% else %}{% if page.title and page.title != site.title %}{{ titulo_busqueda | escape }} · {% endif %}{{ site.title }}{% endif %}</title>
   {%- if page.sitemap == false and page.permalink == "/404.html" %}
   <meta name="robots" content="noindex">
   {%- endif %}
   {%- if site.google_site_verification %}
-  <meta name="google-site-verification" content="{{ site.google_site_verification }}">
+  <meta name="google-site-verification" content="{{ site.google_site_verification | escape }}">
   {%- endif %}
   {%- if site.bing_site_verification %}
-  <meta name="msvalidate.01" content="{{ site.bing_site_verification }}">
+  <meta name="msvalidate.01" content="{{ site.bing_site_verification | escape }}">
   {%- endif %}
   {%- comment %} Descripción para Google y para la vista previa al compartir. Las guías no la traen en el front matter,
        así que se toma el primer párrafo de la sección "Qué es". {% endcomment %}
