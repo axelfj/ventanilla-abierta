@@ -113,7 +113,7 @@ Algunas certificaciones **no son automáticas**: en vez de pagarlas en el carrit
 - Si el país donde la vas a usar es parte del Convenio de La Apostilla, la certificación costarricense se **apostilla** para que valga allá. Costa Rica es parte del Convenio de La Apostilla desde el **14 de diciembre de 2011**, y la autoridad que apostilla es el **Departamento de Autenticaciones del Ministerio de Relaciones Exteriores y Culto** ([Conferencia de La Haya, estado del Convenio](https://www.hcch.net/es/instruments/conventions/status-table/?cid=41); [Conferencia de La Haya, autoridad de Costa Rica](https://www.hcch.net/es/states/authorities/details3/?aid=903)).
 - Si el país de destino no es parte del Convenio, ⚠️ falta confirmar qué trámite aplica.
 - ⚠️ Falta confirmar si se puede apostillar una certificación **digital (CDI)** o si necesitás la de papel. Preguntalo en Cancillería antes de comprarla.
-- Los pasos para apostillar van en el tema **Apostillar un documento** (guía pendiente).
+- Los pasos para apostillar van en el tema [Apostillar un documento](apostilla.html).
 
 ## Errores comunes
 - **Pedir una constancia para un trámite legal.** La constancia gratuita solo sirve en el MEP, el PANI, el IMAS, la CCSS y el Poder Judicial.

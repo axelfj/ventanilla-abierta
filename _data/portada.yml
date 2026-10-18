@@ -5,11 +5,13 @@
 situaciones:
   - { icono: "💼", texto: Me despidieron o renuncié, url: trabajo/liquidacion-laboral.html }
   - { icono: "🪪", texto: Perdí la cédula o se me venció, url: documentos/cedula-de-identidad.html }
+  - { icono: "💸", texto: Me están cobrando una deuda, url: contratos/me-cobran-una-deuda.html }
   - { icono: "👶", texto: Necesito pensión para mis hijos, url: familia/pension-alimentaria.html }
   - { icono: "🛑", texto: Me agreden en mi casa, url: familia/medidas-de-proteccion.html }
   - { icono: "🩺", texto: Quiero sacar cita en el EBAIS, url: salud/cita-en-la-ccss.html }
   - { icono: "🧾", texto: Quiero asegurarme en la Caja, url: salud/seguro-independiente-o-voluntario.html }
   - { icono: "🏠", texto: Me quieren sacar de donde alquilo, url: vivienda/desalojo.html }
+  - { icono: "🤝", texto: Necesito ayuda del IMAS, url: comunidad/ayudas-del-imas.html }
   - { icono: "⚖️", texto: Necesito un abogado y no tengo plata, url: general/asesoria-legal-gratuita.html }
 
 # Orden de las categorías en la portada y en /tramites/costa-rica/, de más a menos casos en el país.

@@ -16,10 +16,10 @@
     - { titulo: Facturación electrónica, url: emprendimiento/facturacion-electronica.html }
     - { titulo: Qué necesitás para ofrecer tus servicios a empresas, url: emprendimiento/vender-servicios-a-empresas.html }
     - { titulo: "Servicios profesionales, freelance o tiempo completo: qué cambia", url: trabajo/servicios-profesionales-freelance-o-planilla.html }
-    - { titulo: "Contratos con disqueras, editoras y distribuidoras" }
-    - { titulo: "Usar música de otras personas: covers, samples y licencias" }
-    - { titulo: Traer artistas extranjeros a tocar a Costa Rica }
-    - { titulo: Fondos y becas del Ministerio de Cultura }
+    - { titulo: "Contratos con disqueras, editoras y distribuidoras", url: artistas/contratos-disqueras.html }
+    - { titulo: "Usar música de otras personas: covers, samples y licencias", url: artistas/usar-musica-de-otros.html }
+    - { titulo: Traer artistas extranjeros a tocar a Costa Rica, url: artistas/traer-artistas-extranjeros.html }
+    - { titulo: Fondos y becas del Ministerio de Cultura, url: artistas/fondos-cultura.html }
 - slug: documentos
   icono: "🪪"
   nombre: Documentos personales
@@ -31,9 +31,10 @@
     - { titulo: Certificado de antecedentes penales (hoja de delincuencia), url: documentos/antecedentes-penales.html }
     - { titulo: "Certificaciones de nacimiento, matrimonio y defunción", url: documentos/certificaciones-tse.html }
     - { titulo: Firma digital, url: documentos/firma-digital.html }
-    - { titulo: Tarjeta de identidad de menores (TIM) }
-    - { titulo: Apostillar un documento para usarlo en otro país }
-    - { titulo: Cambiarte el nombre }
+    - { titulo: Tarjeta de identidad de menores (TIM), url: documentos/tim-menores.html }
+    - { titulo: Apostillar un documento para usarlo en otro país, url: documentos/apostilla.html }
+    - { titulo: Cambiarte el nombre, url: documentos/cambio-de-nombre.html }
+    - { titulo: Reponer placas o documentos del vehículo, url: vehiculos-y-propiedades/reponer-placas.html }
 - slug: salud
   icono: "🩺"
   nombre: Salud, CCSS y pensiones
@@ -41,14 +42,14 @@
   temas:
     - { titulo: Cómo pedir una cita en la CCSS (EBAIS), url: salud/cita-en-la-ccss.html }
     - { titulo: Asegurarse como trabajador independiente o voluntario, url: salud/seguro-independiente-o-voluntario.html }
-    - { titulo: Asegurar a tu familia como beneficiaria }
-    - { titulo: Incapacidades por enfermedad }
-    - { titulo: Licencia por maternidad y paternidad }
-    - { titulo: "Pensión por vejez, invalidez y muerte (IVM)" }
-    - { titulo: Pensión del Régimen No Contributivo }
-    - { titulo: Arreglo de pago de deudas con la CCSS }
+    - { titulo: Asegurar a tu familia como beneficiaria, url: salud/asegurar-a-tu-familia.html }
+    - { titulo: Incapacidades por enfermedad, url: salud/incapacidades.html }
+    - { titulo: Licencia por maternidad y paternidad, url: salud/licencia-maternidad-paternidad.html }
+    - { titulo: "Pensión por vejez, invalidez y muerte (IVM)", url: salud/pension-ivm.html }
+    - { titulo: Pensión del Régimen No Contributivo, url: salud/pension-rnc.html }
+    - { titulo: Arreglo de pago de deudas con la CCSS, url: salud/arreglo-de-pago-ccss.html }
     - { titulo: Accidentes de trabajo y seguro de riesgos del trabajo, url: salud/riesgos-del-trabajo.html }
-    - { titulo: Quejarte por mala atención en un servicio de salud }
+    - { titulo: Quejarte por mala atención en un servicio de salud, url: salud/queja-servicio-de-salud.html }
 - slug: seguros
   icono: "🛡️"
   nombre: Seguros
@@ -67,13 +68,15 @@
   temas:
     - { titulo: Tus derechos fundamentales en Costa Rica, url: derechos/tus-derechos-fundamentales.html }
     - { titulo: Recurso ante la Sala Constitucional (Sala IV), url: derechos/recurso-ante-la-sala-constitucional.html }
-    - { titulo: Queja ante la Defensoría de los Habitantes }
-    - { titulo: Pedir información o hacer una petición a una institución pública }
-    - { titulo: Proteger tus datos personales }
-    - { titulo: Certificación de discapacidad }
+    - { titulo: Queja ante la Defensoría de los Habitantes, url: derechos/queja-defensoria.html }
+    - { titulo: Pedir información o hacer una petición a una institución pública, url: derechos/derecho-de-peticion-e-informacion.html }
+    - { titulo: Proteger tus datos personales, url: derechos/proteger-tus-datos-personales.html }
+    - { titulo: Certificación de discapacidad, url: derechos/certificacion-de-discapacidad.html }
     - { titulo: Asesoría legal gratuita, url: general/asesoria-legal-gratuita.html }
     - { titulo: Qué hacer si te detiene la policía, url: derechos/si-te-detiene-la-policia.html }
     - { titulo: Derechos de las personas adultas mayores, url: derechos/personas-adultas-mayores.html }
+    - { titulo: Denunciar ante el PANI, url: familia/denuncia-ante-el-pani.html }
+    - { titulo: Quejarte por mala atención en un servicio de salud, url: salud/queja-servicio-de-salud.html }
 - slug: justicia
   icono: "🏛️"
   nombre: Denuncias y juicios
@@ -86,9 +89,13 @@
     - { titulo: Difusión de fotos íntimas y ciberacoso, url: derechos/fotos-intimas-y-ciberacoso.html }
     - { titulo: Asesoría legal gratuita, url: general/asesoria-legal-gratuita.html }
     - { titulo: Conciliación y mediación gratuita, url: derechos/conciliacion.html }
-    - { titulo: Qué hacer si te notifican una demanda o te citan a un juzgado }
-    - { titulo: Consultar tu expediente judicial en línea }
+    - { titulo: Qué hacer si te notifican una demanda o te citan a un juzgado, url: derechos/notificacion-de-demanda.html }
+    - { titulo: Consultar tu expediente judicial en línea, url: derechos/expediente-judicial-en-linea.html }
     - { titulo: Recurso ante la Sala Constitucional (Sala IV), url: derechos/recurso-ante-la-sala-constitucional.html }
+    - { titulo: Me están cobrando una deuda o me demandaron por una deuda, url: contratos/me-cobran-una-deuda.html }
+    - { titulo: Demanda laboral en los tribunales, url: trabajo/demanda-laboral.html }
+    - { titulo: Denunciar ante el PANI, url: familia/denuncia-ante-el-pani.html }
+    - { titulo: "Guarda, crianza y régimen de visitas", url: familia/guarda-crianza-y-visitas.html }
 - slug: contratos-y-abogados
   icono: "📝"
   nombre: Contratos y abogados
@@ -98,8 +105,8 @@
     - { titulo: Cómo contratar a un abogado o notario, url: general/como-contratar-un-abogado.html }
     - { titulo: Contrato con las personas que contratás, url: trabajo/contratar-empleados.html }
     - { titulo: Asesoría legal gratuita, url: general/asesoria-legal-gratuita.html }
-    - { titulo: Dar o revocar un poder }
-    - { titulo: "Pagarés y letras de cambio" }
+    - { titulo: Dar o revocar un poder, url: contratos/dar-o-revocar-un-poder.html }
+    - { titulo: "Pagarés y letras de cambio", url: contratos/pagares-y-letras-de-cambio.html }
 - slug: emprendimiento
   icono: "💼"
   nombre: Emprendimiento y negocios
@@ -116,12 +123,12 @@
     - { titulo: Registro de obras, url: artistas/registro-de-obras.html }
     - { titulo: Patente municipal, url: emprendimiento/patente-municipal.html }
     - { titulo: Facturación electrónica, url: emprendimiento/facturacion-electronica.html }
-    - { titulo: Permiso sanitario de funcionamiento }
+    - { titulo: Permiso sanitario de funcionamiento, url: emprendimiento/permiso-sanitario.html }
     - { titulo: Registro de nombre comercial, url: propiedad-intelectual/nombre-comercial.html }
     - { titulo: Régimen simplificado de tributación, url: emprendimiento/regimen-simplificado.html }
-    - { titulo: Inscribirte como PYME ante el MEIC }
-    - { titulo: Registro de beneficiarios finales de una sociedad }
-    - { titulo: Cerrar un negocio o disolver una sociedad }
+    - { titulo: Inscribirte como PYME ante el MEIC, url: emprendimiento/pyme-meic.html }
+    - { titulo: Registro de beneficiarios finales de una sociedad, url: emprendimiento/beneficiarios-finales.html }
+    - { titulo: Cerrar un negocio o disolver una sociedad, url: emprendimiento/cerrar-un-negocio.html }
 - slug: impuestos
   icono: "🧮"
   nombre: Impuestos
@@ -135,7 +142,9 @@
     - { titulo: Régimen simplificado de tributación, url: emprendimiento/regimen-simplificado.html }
     - { titulo: Impuesto de bienes inmuebles, url: vehiculos-y-propiedades/impuesto-bienes-inmuebles.html }
     - { titulo: Compras por internet y aduana, url: impuestos/compras-por-internet-y-aduana.html }
-    - { titulo: Arreglo de pago con Hacienda }
+    - { titulo: Arreglo de pago con Hacienda, url: impuestos/arreglo-de-pago-con-hacienda.html }
+    - { titulo: Registro de beneficiarios finales de una sociedad, url: emprendimiento/beneficiarios-finales.html }
+    - { titulo: Cerrar un negocio o disolver una sociedad, url: emprendimiento/cerrar-un-negocio.html }
 - slug: trabajo
   icono: "🛠️"
   nombre: Trabajo
@@ -151,11 +160,13 @@
     - { titulo: "Servicios profesionales, freelance o tiempo completo: qué cambia", url: trabajo/servicios-profesionales-freelance-o-planilla.html }
     - { titulo: Jornada laboral y horas extra, url: trabajo/jornada-y-horas-extra.html }
     - { titulo: Acoso laboral y hostigamiento sexual, url: trabajo/acoso-laboral.html }
-    - { titulo: Incapacidades por enfermedad }
-    - { titulo: Licencia por maternidad y paternidad }
+    - { titulo: Incapacidades por enfermedad, url: salud/incapacidades.html }
+    - { titulo: Licencia por maternidad y paternidad, url: salud/licencia-maternidad-paternidad.html }
     - { titulo: Póliza de riesgos del trabajo para patronos, url: salud/riesgos-del-trabajo.html }
-    - { titulo: Contratar a una persona trabajadora doméstica }
+    - { titulo: Contratar a una persona trabajadora doméstica, url: trabajo/trabajadora-domestica.html }
     - { titulo: Teletrabajo, url: trabajo/teletrabajo.html }
+    - { titulo: Demanda laboral en los tribunales, url: trabajo/demanda-laboral.html }
+    - { titulo: Permiso de trabajo para personas extranjeras, url: viajes-y-migracion/permiso-de-trabajo.html }
 - slug: vivienda-y-consumo
   icono: "🏠"
   nombre: Vivienda y consumo
@@ -166,7 +177,7 @@
     - { titulo: "Desalojo: derechos de inquilinos y propietarios", url: vivienda/desalojo.html }
     - { titulo: Bono de vivienda, url: vivienda/bono-de-vivienda.html }
     - { titulo: "¿Qué podés cultivar en tu casa?", url: vivienda/cultivar-en-casa.html }
-    - { titulo: "Reclamar por servicios públicos: luz, agua y teléfono" }
+    - { titulo: "Reclamar por servicios públicos: luz, agua y teléfono", url: vivienda/reclamar-servicios-publicos.html }
     - { titulo: Reclamar a un banco o emisor de tarjeta, url: consumidor/reclamar-a-un-banco.html }
 - slug: familia
   icono: "👨‍👩‍👧"
@@ -180,12 +191,16 @@
     - { titulo: Divorcio, url: familia/divorcio.html }
     - { titulo: Unión de hecho, url: familia/union-de-hecho.html }
     - { titulo: Inscribir un nacimiento y reconocer a un hijo, url: familia/inscribir-nacimiento.html }
-    - { titulo: Guarda, crianza y régimen de visitas }
-    - { titulo: Adopción }
+    - { titulo: Guarda, crianza y régimen de visitas, url: familia/guarda-crianza-y-visitas.html }
+    - { titulo: Adopción, url: familia/adopcion.html }
     - { titulo: Sucesión (herencia sin testamento), url: familia/sucesion.html }
     - { titulo: Inscribir una defunción, url: familia/inscribir-defuncion.html }
-    - { titulo: Salvaguardia para personas con discapacidad }
+    - { titulo: Salvaguardia para personas con discapacidad, url: familia/salvaguardia.html }
     - { titulo: Medidas de protección por violencia doméstica, url: familia/medidas-de-proteccion.html }
+    - { titulo: Denunciar ante el PANI, url: familia/denuncia-ante-el-pani.html }
+    - { titulo: Asegurar a tu familia como beneficiaria, url: salud/asegurar-a-tu-familia.html }
+    - { titulo: Ayudas sociales del IMAS, url: comunidad/ayudas-del-imas.html }
+    - { titulo: Contratar a una persona trabajadora doméstica, url: trabajo/trabajadora-domestica.html }
 - slug: vehiculos-y-propiedades
   icono: "🚗"
   nombre: Vehículos y propiedades
@@ -198,12 +213,12 @@
     - { titulo: Revisión técnica vehicular (RTV), url: vehiculos-y-propiedades/revision-tecnica-vehicular.html }
     - { titulo: "Multas de tránsito: pagarlas o apelarlas", url: vehiculos-y-propiedades/multas-de-transito.html }
     - { titulo: Qué hacer después de un accidente de tránsito, url: vehiculos-y-propiedades/accidente-de-transito.html }
-    - { titulo: Inscribir un vehículo importado }
-    - { titulo: Reponer placas o documentos del vehículo }
+    - { titulo: Inscribir un vehículo importado, url: vehiculos-y-propiedades/inscribir-vehiculo-importado.html }
+    - { titulo: Reponer placas o documentos del vehículo, url: vehiculos-y-propiedades/reponer-placas.html }
     - { titulo: Hipoteca, url: vehiculos-y-propiedades/hipoteca.html }
     - { titulo: Consultar una propiedad en el Registro Nacional, url: vehiculos-y-propiedades/consultar-una-propiedad.html }
-    - { titulo: Planos catastrados y segregación de lotes }
-    - { titulo: Certificado de uso de suelo }
+    - { titulo: Planos catastrados y segregación de lotes, url: vehiculos-y-propiedades/planos-y-segregacion.html }
+    - { titulo: Certificado de uso de suelo, url: vehiculos-y-propiedades/uso-de-suelo.html }
     - { titulo: Permiso de construcción, url: vehiculos-y-propiedades/permiso-de-construccion.html }
     - { titulo: Impuesto de bienes inmuebles, url: vehiculos-y-propiedades/impuesto-bienes-inmuebles.html }
 - slug: viajes-y-migracion
@@ -215,12 +230,12 @@
     - { titulo: Permiso de salida de menores, url: viajes-y-migracion/permiso-de-salida-de-menores.html }
     - { titulo: Cómo salir del país a tocar, url: artistas/tocar-en-otro-pais.html }
     - { titulo: Visas para viajar desde Costa Rica, url: viajes-y-migracion/visas.html }
-    - { titulo: Apostillar un documento para usarlo en otro país }
-    - { titulo: Residencia para personas extranjeras }
-    - { titulo: Permiso de trabajo para personas extranjeras }
-    - { titulo: Solicitar refugio }
-    - { titulo: Naturalización (obtener la nacionalidad costarricense) }
-    - { titulo: Viajar con tu mascota }
+    - { titulo: Apostillar un documento para usarlo en otro país, url: documentos/apostilla.html }
+    - { titulo: Residencia para personas extranjeras, url: viajes-y-migracion/residencia.html }
+    - { titulo: Permiso de trabajo para personas extranjeras, url: viajes-y-migracion/permiso-de-trabajo.html }
+    - { titulo: Solicitar refugio, url: viajes-y-migracion/refugio.html }
+    - { titulo: Naturalización (obtener la nacionalidad costarricense), url: viajes-y-migracion/naturalizacion.html }
+    - { titulo: Viajar con tu mascota, url: viajes-y-migracion/viajar-con-mascota.html }
 - slug: eventos
   icono: "🎶"
   nombre: Eventos y vida nocturna
@@ -229,8 +244,8 @@
     - { titulo: Permisos para hacer una fiesta o evento, url: eventos/permisos-para-eventos.html }
     - { titulo: Patente o licencia de licores, url: eventos/licencia-de-licores.html }
     - { titulo: "Música en eventos y locales: licencia de ACAM", url: eventos/musica-en-eventos-y-locales.html }
-    - { titulo: Venta de entradas para eventos }
-    - { titulo: Traer artistas extranjeros a tocar a Costa Rica }
+    - { titulo: Venta de entradas para eventos, url: eventos/venta-de-entradas.html }
+    - { titulo: Traer artistas extranjeros a tocar a Costa Rica, url: artistas/traer-artistas-extranjeros.html }
 - slug: cobros-y-ventas
   icono: "💰"
   nombre: Dinero y deudas
@@ -239,21 +254,24 @@
     - { titulo: Cobro de deudas, url: contratos/cobro-de-deudas.html }
     - { titulo: Revisar tu historial crediticio, url: consumidor/historial-crediticio.html }
     - { titulo: Embargo de salario, url: contratos/embargo-de-salario.html }
-    - { titulo: "Pagarés y letras de cambio" }
+    - { titulo: "Pagarés y letras de cambio", url: contratos/pagares-y-letras-de-cambio.html }
     - { titulo: Reclamar a un banco o emisor de tarjeta, url: consumidor/reclamar-a-un-banco.html }
-    - { titulo: Arreglo de pago con Hacienda }
-    - { titulo: Arreglo de pago de deudas con la CCSS }
+    - { titulo: Arreglo de pago con Hacienda, url: impuestos/arreglo-de-pago-con-hacienda.html }
+    - { titulo: Arreglo de pago de deudas con la CCSS, url: salud/arreglo-de-pago-ccss.html }
     - { titulo: "Estafas: cómo denunciar y recuperar tu plata", url: derechos/estafas.html }
     - { titulo: Préstamos informales y tasa de usura, url: contratos/prestamos-informales.html }
+    - { titulo: Me están cobrando una deuda o me demandaron por una deuda, url: contratos/me-cobran-una-deuda.html }
+    - { titulo: Proteger tus datos personales, url: derechos/proteger-tus-datos-personales.html }
 - slug: estudios
   icono: "🎓"
   nombre: Estudios
   desc: Escuela, colegio, universidad, carreras y becas.
   temas:
-    - { titulo: Certificaciones de títulos y notas del MEP }
-    - { titulo: Bachillerato por madurez }
-    - { titulo: Reconocer un título obtenido en el extranjero }
-    - { titulo: Becas estudiantiles }
+    - { titulo: Certificaciones de títulos y notas del MEP, url: estudios/certificaciones-mep.html }
+    - { titulo: Bachillerato por madurez, url: estudios/bachillerato-por-madurez.html }
+    - { titulo: Reconocer un título obtenido en el extranjero, url: estudios/reconocer-titulo-extranjero.html }
+    - { titulo: Becas estudiantiles, url: estudios/becas-estudiantiles.html }
+    - { titulo: Apostillar un documento para usarlo en otro país, url: documentos/apostilla.html }
     - { titulo: "Cómo entrar a una universidad pública (UCR, TEC, UNA, UNED, UTN)", url: estudios/admision-universidades-publicas.html }
     - { titulo: Carreras de las universidades públicas y sus notas de corte, url: estudios/carreras-y-notas-de-corte.html }
     - { titulo: Becas en las universidades públicas, url: estudios/becas-universitarias.html }
@@ -264,12 +282,12 @@
   nombre: Comunidad y ayudas sociales
   desc: Ayudas del Estado, vecinos y ambiente.
   temas:
-    - { titulo: Ayudas sociales del IMAS }
-    - { titulo: Pensión del Régimen No Contributivo }
+    - { titulo: Ayudas sociales del IMAS, url: comunidad/ayudas-del-imas.html }
+    - { titulo: Pensión del Régimen No Contributivo, url: salud/pension-rnc.html }
     - { titulo: Bono de vivienda, url: vivienda/bono-de-vivienda.html }
-    - { titulo: "Problemas con vecinos: ruido, linderos y mediación" }
+    - { titulo: "Problemas con vecinos: ruido, linderos y mediación", url: comunidad/problemas-con-vecinos.html }
     - { titulo: Conciliación y mediación gratuita, url: derechos/conciliacion.html }
-    - { titulo: Denunciar un daño ambiental }
+    - { titulo: Denunciar un daño ambiental, url: comunidad/denunciar-dano-ambiental.html }
     - { titulo: "¿Qué podés cultivar en tu casa?", url: vivienda/cultivar-en-casa.html }
-    - { titulo: Cuidado de animales y denuncias por maltrato }
+    - { titulo: Cuidado de animales y denuncias por maltrato, url: comunidad/maltrato-animal.html }
     - { titulo: Derechos de las personas adultas mayores, url: derechos/personas-adultas-mayores.html }
