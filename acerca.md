@@ -22,9 +22,16 @@ Ventanilla Abierta es un proyecto de código abierto que explica, en español cl
 4. **No recomendamos** despachos, empresas ni servicios pagos.
 5. **Todo es gratis**: el sitio corre en GitHub Pages, sin dominio pago ni servidores.
 
+## Cómo revisamos
+
+- Cada guía muestra ✅ si está verificada con fuentes oficiales, o ⚠️ si es un borrador con datos por confirmar.
+- Una guía pasa a ✅ solo cuando **al menos dos personas, además de quien la escribió**, compararon cada dato con su fuente oficial. Sus nombres de usuario salen al pie de la guía.
+- Cada guía enlaza a su historial público en GitHub: ahí se ve cada cambio, quién lo hizo y cuándo.
+
 ## Cómo ayudar
 
 - ¿Encontraste un dato viejo o un error? [Reportalo acá](https://github.com/axelfj/ventanilla-abierta/issues/new?template=correccion.md).
+- ¿Comparaste una guía con sus fuentes? [Contanos acá](https://github.com/axelfj/ventanilla-abierta/issues/new?template=revision.md) y sumás una revisión.
 - ¿Querés que expliquemos un trámite? [Pedilo acá](https://github.com/axelfj/ventanilla-abierta/issues/new?template=nuevo-tramite.md).
 - ¿Querés escribir una guía? Leé la [guía para contribuir](https://github.com/axelfj/ventanilla-abierta/blob/main/CONTRIBUTING.md).
 
