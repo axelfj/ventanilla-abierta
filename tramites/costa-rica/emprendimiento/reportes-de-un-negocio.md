@@ -1,5 +1,6 @@
 ---
 title: "Reportes mensuales, trimestrales y anuales de un negocio"
+description: "Qué declaraciones y reportes presenta un negocio en Costa Rica cada mes, cada trimestre y cada año ante Hacienda, la CCSS y el INS."
 pais: Costa Rica
 ultima_verificacion: 2026-10-07
 estado: borrador

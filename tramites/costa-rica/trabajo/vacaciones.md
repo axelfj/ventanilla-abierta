@@ -1,5 +1,6 @@
 ---
 title: "Vacaciones y pago de vacaciones"
+description: "Cuántos días de vacaciones te tocan en Costa Rica, cómo se calculan y cuándo te las tienen que pagar, según el Código de Trabajo."
 pais: Costa Rica
 ultima_verificacion: 2026-10-05
 estado: verificado
