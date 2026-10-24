@@ -1,0 +1,566 @@
+{
+ "generado": "2026-10-24T18:12:35Z",
+ "alertas": [
+  {
+   "id": "cnfl-6205-168-2026",
+   "tipo": "luz",
+   "titulo": "Corte de luz programado: Tures (parcial), Santo Domingo, Heredia",
+   "descripcion": "Obras por contrato de redes eléctricas. Número de suspensión: 6205-168-2026.",
+   "inicio": "2026-11-11T14:00:00Z",
+   "fin": "2026-11-11T22:00:00Z",
+   "severidad": null,
+   "zona": {
+    "provincia": "Heredia",
+    "canton": "Santo Domingo",
+    "distritos": [
+     "Tures (parcial)"
+    ],
+    "codigos": [],
+    "geometria": null
+   },
+   "fuente": {
+    "institucion": "cnfl",
+    "url": "https://www.cnfl.go.cr/servicios/autogestion/suspensiones",
+    "recuperado": "2026-10-24T18:12:35Z"
+   },
+   "origen": "oficial",
+   "actualizado": "2026-10-24T18:12:35Z"
+  },
+  {
+   "id": "cnfl-6226-154-2026",
+   "tipo": "luz",
+   "titulo": "Corte de luz programado: Piedades (parcial), Santa Ana, San José",
+   "descripcion": "Mantenimiento de obras eléctricas. Número de suspensión: 6226-154-2026.",
+   "inicio": "2026-11-09T14:00:00Z",
+   "fin": "2026-11-09T21:00:00Z",
+   "severidad": null,
+   "zona": {
+    "provincia": "San José",
+    "canton": "Santa Ana",
+    "distritos": [
+     "Piedades (parcial)"
+    ],
+    "codigos": [],
+    "geometria": null
+   },
+   "fuente": {
+    "institucion": "cnfl",
+    "url": "https://www.cnfl.go.cr/servicios/autogestion/suspensiones",
+    "recuperado": "2026-10-24T18:12:35Z"
+   },
+   "origen": "oficial",
+   "actualizado": "2026-10-24T18:12:35Z"
+  },
+  {
+   "id": "cnfl-6205-169-2026",
+   "tipo": "luz",
+   "titulo": "Corte de luz programado: Sánchez (parcial), Curridabat, San Jose",
+   "descripcion": "Obras por contrato de redes eléctricas. Número de suspensión: 6205-169-2026.",
+   "inicio": "2026-11-02T14:00:00Z",
+   "fin": "2026-11-02T22:00:00Z",
+   "severidad": null,
+   "zona": {
+    "provincia": "San Jose",
+    "canton": "Curridabat",
+    "distritos": [
+     "Sánchez (parcial)"
+    ],
+    "codigos": [],
+    "geometria": null
+   },
+   "fuente": {
+    "institucion": "cnfl",
+    "url": "https://www.cnfl.go.cr/servicios/autogestion/suspensiones",
+    "recuperado": "2026-10-24T18:12:35Z"
+   },
+   "origen": "oficial",
+   "actualizado": "2026-10-24T18:12:35Z"
+  },
+  {
+   "id": "cnfl-6226-152-2026",
+   "tipo": "luz",
+   "titulo": "Corte de luz programado: Gravilias (parcial), Desamparados, San José",
+   "descripcion": "Mantenimiento de obras eléctricas. Número de suspensión: 6226-152-2026.",
+   "inicio": "2026-10-30T14:00:00Z",
+   "fin": "2026-10-30T21:00:00Z",
+   "severidad": null,
+   "zona": {
+    "provincia": "San José",
+    "canton": "Desamparados",
+    "distritos": [
+     "Gravilias (parcial)"
+    ],
+    "codigos": [],
+    "geometria": null
+   },
+   "fuente": {
+    "institucion": "cnfl",
+    "url": "https://www.cnfl.go.cr/servicios/autogestion/suspensiones",
+    "recuperado": "2026-10-24T18:12:35Z"
+   },
+   "origen": "oficial",
+   "actualizado": "2026-10-24T18:12:35Z"
+  },
+  {
+   "id": "cnfl-6205-167-2026",
+   "tipo": "luz",
+   "titulo": "Corte de luz programado: Pavas (parcial), Central, San José",
+   "descripcion": "Obras por contrato de redes eléctricas. Número de suspensión: 6205-167-2026.",
+   "inicio": "2026-10-30T13:30:00Z",
+   "fin": "2026-10-30T23:00:00Z",
+   "severidad": null,
+   "zona": {
+    "provincia": "San José",
+    "canton": "Central",
+    "distritos": [
+     "Pavas (parcial)"
+    ],
+    "codigos": [],
+    "geometria": null
+   },
+   "fuente": {
+    "institucion": "cnfl",
+    "url": "https://www.cnfl.go.cr/servicios/autogestion/suspensiones",
+    "recuperado": "2026-10-24T18:12:35Z"
+   },
+   "origen": "oficial",
+   "actualizado": "2026-10-24T18:12:35Z"
+  },
+  {
+   "id": "cnfl-6226-153-2026",
+   "tipo": "luz",
+   "titulo": "Corte de luz programado: Calle Blancos (parcial), Goicoechea, San José",
+   "descripcion": "Mantenimiento de obras eléctricas. Número de suspensión: 6226-153-2026.",
+   "inicio": "2026-10-29T14:00:00Z",
+   "fin": "2026-10-29T21:30:00Z",
+   "severidad": null,
+   "zona": {
+    "provincia": "San José",
+    "canton": "Goicoechea",
+    "distritos": [
+     "Calle Blancos (parcial)"
+    ],
+    "codigos": [],
+    "geometria": null
+   },
+   "fuente": {
+    "institucion": "cnfl",
+    "url": "https://www.cnfl.go.cr/servicios/autogestion/suspensiones",
+    "recuperado": "2026-10-24T18:12:35Z"
+   },
+   "origen": "oficial",
+   "actualizado": "2026-10-24T18:12:35Z"
+  },
+  {
+   "id": "cnfl-6211-111-2026",
+   "tipo": "luz",
+   "titulo": "Corte de luz programado: San Pedro (parcial), Santa Barbara, Heredia",
+   "descripcion": "Construcción de obras eléctricas. Número de suspensión: 6211-111-2026.",
+   "inicio": "2026-10-29T14:00:00Z",
+   "fin": "2026-10-29T21:00:00Z",
+   "severidad": null,
+   "zona": {
+    "provincia": "Heredia",
+    "canton": "Santa Barbara",
+    "distritos": [
+     "San Pedro (parcial)"
+    ],
+    "codigos": [],
+    "geometria": null
+   },
+   "fuente": {
+    "institucion": "cnfl",
+    "url": "https://www.cnfl.go.cr/servicios/autogestion/suspensiones",
+    "recuperado": "2026-10-24T18:12:35Z"
+   },
+   "origen": "oficial",
+   "actualizado": "2026-10-24T18:12:35Z"
+  },
+  {
+   "id": "cnfl-6205-166-2026",
+   "tipo": "luz",
+   "titulo": "Corte de luz programado: Pavas (parcial), Central, San José",
+   "descripcion": "Obras por contrato de redes eléctricas. Número de suspensión: 6205-166-2026.",
+   "inicio": "2026-10-29T13:30:00Z",
+   "fin": "2026-10-29T23:00:00Z",
+   "severidad": null,
+   "zona": {
+    "provincia": "San José",
+    "canton": "Central",
+    "distritos": [
+     "Pavas (parcial)"
+    ],
+    "codigos": [],
+    "geometria": null
+   },
+   "fuente": {
+    "institucion": "cnfl",
+    "url": "https://www.cnfl.go.cr/servicios/autogestion/suspensiones",
+    "recuperado": "2026-10-24T18:12:35Z"
+   },
+   "origen": "oficial",
+   "actualizado": "2026-10-24T18:12:35Z"
+  },
+  {
+   "id": "cnfl-6205-171-2026",
+   "tipo": "luz",
+   "titulo": "Corte de luz programado: Urbanización Loremar (parcial), Purral, Goicoechea, San José",
+   "descripcion": "Obras por contrato de redes eléctricas. Número de suspensión: 6205-171-2026.",
+   "inicio": "2026-10-29T13:30:00Z",
+   "fin": "2026-10-29T23:00:00Z",
+   "severidad": null,
+   "zona": {
+    "provincia": "San José",
+    "canton": "Goicoechea",
+    "distritos": [
+     "Purral"
+    ],
+    "codigos": [],
+    "geometria": null
+   },
+   "fuente": {
+    "institucion": "cnfl",
+    "url": "https://www.cnfl.go.cr/servicios/autogestion/suspensiones",
+    "recuperado": "2026-10-24T18:12:35Z"
+   },
+   "origen": "oficial",
+   "actualizado": "2026-10-24T18:12:35Z"
+  },
+  {
+   "id": "cnfl-6211-113-2026",
+   "tipo": "luz",
+   "titulo": "Corte de luz programado: Desamparados (parcial), Desamparados, San José",
+   "descripcion": "Construcción de obras eléctricas. Número de suspensión: 6211-113-2026.",
+   "inicio": "2026-10-28T14:00:00Z",
+   "fin": "2026-10-28T21:00:00Z",
+   "severidad": null,
+   "zona": {
+    "provincia": "San José",
+    "canton": "Desamparados",
+    "distritos": [
+     "Desamparados (parcial)"
+    ],
+    "codigos": [],
+    "geometria": null
+   },
+   "fuente": {
+    "institucion": "cnfl",
+    "url": "https://www.cnfl.go.cr/servicios/autogestion/suspensiones",
+    "recuperado": "2026-10-24T18:12:35Z"
+   },
+   "origen": "oficial",
+   "actualizado": "2026-10-24T18:12:35Z"
+  },
+  {
+   "id": "cnfl-6205-165-2026",
+   "tipo": "luz",
+   "titulo": "Corte de luz programado: Pavas (parcial), Central, San José",
+   "descripcion": "Mantenimiento de obras eléctricas. Número de suspensión: 6205-165-2026.",
+   "inicio": "2026-10-28T13:30:00Z",
+   "fin": "2026-10-28T23:00:00Z",
+   "severidad": null,
+   "zona": {
+    "provincia": "San José",
+    "canton": "Central",
+    "distritos": [
+     "Pavas (parcial)"
+    ],
+    "codigos": [],
+    "geometria": null
+   },
+   "fuente": {
+    "institucion": "cnfl",
+    "url": "https://www.cnfl.go.cr/servicios/autogestion/suspensiones",
+    "recuperado": "2026-10-24T18:12:35Z"
+   },
+   "origen": "oficial",
+   "actualizado": "2026-10-24T18:12:35Z"
+  },
+  {
+   "id": "cnfl-7020-018-2026",
+   "tipo": "luz",
+   "titulo": "Corte de luz programado: Carmen (parcial), Central, San José",
+   "descripcion": "Distribución eléctrica subterránea. Número de suspensión: 7020-018-2026.",
+   "inicio": "2026-10-27T14:00:00Z",
+   "fin": "2026-10-27T22:00:00Z",
+   "severidad": null,
+   "zona": {
+    "provincia": "San José",
+    "canton": "Central",
+    "distritos": [
+     "Carmen (parcial)"
+    ],
+    "codigos": [],
+    "geometria": null
+   },
+   "fuente": {
+    "institucion": "cnfl",
+    "url": "https://www.cnfl.go.cr/servicios/autogestion/suspensiones",
+    "recuperado": "2026-10-24T18:12:35Z"
+   },
+   "origen": "oficial",
+   "actualizado": "2026-10-24T18:12:35Z"
+  },
+  {
+   "id": "cnfl-6211-112-2026",
+   "tipo": "luz",
+   "titulo": "Corte de luz programado: San Rafael (parcial), Central, Alajuela",
+   "descripcion": "Construcción de obras eléctricas. Número de suspensión: 6211-112-2026.",
+   "inicio": "2026-10-27T14:00:00Z",
+   "fin": "2026-10-27T22:00:00Z",
+   "severidad": null,
+   "zona": {
+    "provincia": "Alajuela",
+    "canton": "Central",
+    "distritos": [
+     "San Rafael (parcial)"
+    ],
+    "codigos": [],
+    "geometria": null
+   },
+   "fuente": {
+    "institucion": "cnfl",
+    "url": "https://www.cnfl.go.cr/servicios/autogestion/suspensiones",
+    "recuperado": "2026-10-24T18:12:35Z"
+   },
+   "origen": "oficial",
+   "actualizado": "2026-10-24T18:12:35Z"
+  },
+  {
+   "id": "cnfl-6226-145-2026",
+   "tipo": "luz",
+   "titulo": "Corte de luz programado: San Rafael Arriba (parcial), Desamparados, San José",
+   "descripcion": "Mantenimiento de obras eléctricas. Número de suspensión: 6226-145-2026.",
+   "inicio": "2026-10-27T13:30:00Z",
+   "fin": "2026-10-27T22:30:00Z",
+   "severidad": null,
+   "zona": {
+    "provincia": "San José",
+    "canton": "Desamparados",
+    "distritos": [
+     "San Rafael Arriba (parcial)"
+    ],
+    "codigos": [],
+    "geometria": null
+   },
+   "fuente": {
+    "institucion": "cnfl",
+    "url": "https://www.cnfl.go.cr/servicios/autogestion/suspensiones",
+    "recuperado": "2026-10-24T18:12:35Z"
+   },
+   "origen": "oficial",
+   "actualizado": "2026-10-24T18:12:35Z"
+  },
+  {
+   "id": "cnfl-6205-164-2026",
+   "tipo": "luz",
+   "titulo": "Corte de luz programado: Pavas (parcial), Central, San José",
+   "descripcion": "Obras por contrato de redes eléctricas. Número de suspensión: 6205-164-2026.",
+   "inicio": "2026-10-27T13:30:00Z",
+   "fin": "2026-10-27T23:00:00Z",
+   "severidad": null,
+   "zona": {
+    "provincia": "San José",
+    "canton": "Central",
+    "distritos": [
+     "Pavas (parcial)"
+    ],
+    "codigos": [],
+    "geometria": null
+   },
+   "fuente": {
+    "institucion": "cnfl",
+    "url": "https://www.cnfl.go.cr/servicios/autogestion/suspensiones",
+    "recuperado": "2026-10-24T18:12:35Z"
+   },
+   "origen": "oficial",
+   "actualizado": "2026-10-24T18:12:35Z"
+  },
+  {
+   "id": "cnfl-6226-151-2026",
+   "tipo": "luz",
+   "titulo": "Corte de luz programado: San Cayetano (parcial), San José, San José",
+   "descripcion": "Mantenimiento de obras eléctricas. Número de suspensión: 6226-151-2026.",
+   "inicio": "2026-10-26T14:00:00Z",
+   "fin": "2026-10-26T22:00:00Z",
+   "severidad": null,
+   "zona": {
+    "provincia": "San José",
+    "canton": "San José",
+    "distritos": [
+     "San Cayetano (parcial)"
+    ],
+    "codigos": [],
+    "geometria": null
+   },
+   "fuente": {
+    "institucion": "cnfl",
+    "url": "https://www.cnfl.go.cr/servicios/autogestion/suspensiones",
+    "recuperado": "2026-10-24T18:12:35Z"
+   },
+   "origen": "oficial",
+   "actualizado": "2026-10-24T18:12:35Z"
+  },
+  {
+   "id": "rsn-sismo-22-de-octubre-del-2026-10-57-pm-mag-3-5-mw",
+   "tipo": "sismo",
+   "titulo": "Sismo sentido de magnitud 3,5 Mw, 22 de octubre del 2026, 10:57 pm",
+   "descripcion": "INFORME DE SISMO (Esta localización ya ha sido revisada por la RSN). Fecha: 22 de octubre del 2026. Hora Local: 10:57 pm. Localización: 11 km al Oeste de Pavon, Golfito Coordenadas: 8,466 y -83,135. Profundidad: 11 km. Magnitud: 3,5 Mw. Intensidades: Sentido en: Golfito. Origen: Subducción de la placa Coco (interplaca y otros procesos superficiales En esta localización se pudieron haber usado es…",
+   "inicio": "2026-10-23T23:46:03Z",
+   "fin": null,
+   "severidad": null,
+   "zona": {
+    "provincia": null,
+    "canton": null,
+    "distritos": [],
+    "codigos": [],
+    "geometria": null
+   },
+   "fuente": {
+    "institucion": "rsn",
+    "url": "https://rsn.ucr.ac.cr/index.php/actividad-sismica/ultimos-sismos/sismo-22-de-octubre-del-2026-10-57-pm-mag-3-5-mw",
+    "recuperado": "2026-10-24T18:12:35Z"
+   },
+   "origen": "oficial",
+   "actualizado": "2026-10-24T18:12:35Z"
+  },
+  {
+   "id": "rsn-sismo-22-de-octubre-del-2026-5-38-am-mag-4-7-mw",
+   "tipo": "sismo",
+   "titulo": "Sismo sentido de magnitud 4,7 Mw, 22 de octubre del 2026, 5:38 am",
+   "descripcion": "INFORME DE SISMO (Esta localización ya ha sido revisada por la RSN). Fecha: 22 de octubre del 2026. Hora Local: 5:38 am. Localización: 33 km al Sureste de Almirante, Bocas, Panama Coordenadas: 9,082 y -82,22. Profundidad: 10 km. Magnitud: 4,7 Mw. Intensidades: Sentido en: San Vito de Coto Brus y Limón. Origen: Fallamiento en la corteza de las placas Caribe y Panamá (local o superficial). En esta…",
+   "inicio": "2026-10-23T00:38:19Z",
+   "fin": null,
+   "severidad": null,
+   "zona": {
+    "provincia": null,
+    "canton": null,
+    "distritos": [],
+    "codigos": [],
+    "geometria": null
+   },
+   "fuente": {
+    "institucion": "rsn",
+    "url": "https://rsn.ucr.ac.cr/index.php/actividad-sismica/ultimos-sismos/sismo-22-de-octubre-del-2026-5-38-am-mag-4-7-mw",
+    "recuperado": "2026-10-24T18:12:35Z"
+   },
+   "origen": "oficial",
+   "actualizado": "2026-10-24T18:12:35Z"
+  },
+  {
+   "id": "rsn-sismo-22-de-octubre-del-2026-3-16-am-mag-4-5-mw",
+   "tipo": "sismo",
+   "titulo": "Sismo sentido de magnitud 4,5 Mw, 22 de octubre del 2026, 3:16 am",
+   "descripcion": "INFORME DE SISMO (Esta localización ya ha sido revisada por la RSN). Fecha: 22 de octubre del 2026. Hora Local: 3:16 am. Localización: 35 km al Sureste de Almirante, Bocas, Panama Coordenadas: 9,058 y -82,21. Profundidad: 15 km. Magnitud: 4,5 Mw. Intensidades: Sentido en: San Vito de Coto Brus. Origen: Fallamiento en la corteza de las placas Caribe y Panamá (local o superficial). En esta localiza…",
+   "inicio": "2026-10-23T00:37:53Z",
+   "fin": null,
+   "severidad": null,
+   "zona": {
+    "provincia": null,
+    "canton": null,
+    "distritos": [],
+    "codigos": [],
+    "geometria": null
+   },
+   "fuente": {
+    "institucion": "rsn",
+    "url": "https://rsn.ucr.ac.cr/index.php/actividad-sismica/ultimos-sismos/sismo-22-de-octubre-del-2026-3-16-am-mag-4-5-mw",
+    "recuperado": "2026-10-24T18:12:35Z"
+   },
+   "origen": "oficial",
+   "actualizado": "2026-10-24T18:12:35Z"
+  },
+  {
+   "id": "rsn-sismo-16-de-octubre-del-2026-11-55-pm-mag-3-6-mw",
+   "tipo": "sismo",
+   "titulo": "Sismo sentido de magnitud 3,6 Mw, 16 de octubre del 2026, 11:55 pm",
+   "descripcion": "INFORME DE SISMO (Esta localización ya ha sido revisada por la RSN). Fecha: 16 de octubre del 2026. Hora Local: 11:55 pm. Localización: 5 km al Norte de San Roque, Grecia Coordenadas: 10,133 y -84,326. Profundidad: 10 km. Magnitud: 3,6 Mw. Intensidades: Sentido en: Grecia. Origen: Fallamiento en la corteza de las placas Caribe y Panamá (local o superficial). En esta localización se pudieron haber…",
+   "inicio": "2026-10-18T14:22:32Z",
+   "fin": null,
+   "severidad": null,
+   "zona": {
+    "provincia": null,
+    "canton": null,
+    "distritos": [],
+    "codigos": [],
+    "geometria": null
+   },
+   "fuente": {
+    "institucion": "rsn",
+    "url": "https://rsn.ucr.ac.cr/index.php/actividad-sismica/ultimos-sismos/sismo-16-de-octubre-del-2026-11-55-pm-mag-3-6-mw",
+    "recuperado": "2026-10-24T18:12:35Z"
+   },
+   "origen": "oficial",
+   "actualizado": "2026-10-24T18:12:35Z"
+  },
+  {
+   "id": "rsn-sismo-16-de-octubre-del-2026-10-50-pm-mag-4-2-mw",
+   "tipo": "sismo",
+   "titulo": "Sismo sentido de magnitud 4,2 Mw, 16 de octubre del 2026, 10:50 pm",
+   "descripcion": "INFORME DE SISMO (Esta localización ya ha sido revisada por la RSN). Fecha: 16 de octubre del 2026. Hora Local: 10:50 pm. Localización: 10 km al Suroeste de Golfito, Puntarenas Coordenadas: 8,556 y -83,214. Profundidad: 18 km. Magnitud: 4,2 Mw. Intensidades: Sentido en: Golfito. Origen: Subducción de la placa Coco (interplaca y otros procesos superficiales En esta localización se pudieron haber…",
+   "inicio": "2026-10-18T14:22:11Z",
+   "fin": null,
+   "severidad": null,
+   "zona": {
+    "provincia": null,
+    "canton": null,
+    "distritos": [],
+    "codigos": [],
+    "geometria": null
+   },
+   "fuente": {
+    "institucion": "rsn",
+    "url": "https://rsn.ucr.ac.cr/index.php/actividad-sismica/ultimos-sismos/sismo-16-de-octubre-del-2026-10-50-pm-mag-4-2-mw",
+    "recuperado": "2026-10-24T18:12:35Z"
+   },
+   "origen": "oficial",
+   "actualizado": "2026-10-24T18:12:35Z"
+  },
+  {
+   "id": "rsn-sismo-16-de-octubre-del-2026-9-47-pm-mag-3-7-mw",
+   "tipo": "sismo",
+   "titulo": "Sismo sentido de magnitud 3,7 Mw, 16 de octubre del 2026, 9:47 pm",
+   "descripcion": "INFORME DE SISMO (Esta localización ya ha sido revisada por la RSN). Fecha: 16 de octubre del 2026. Hora Local: 9:47 pm. Localización: 8 km al Este de Varablanca, Heredia Coordenadas: 10,148 y -84,093. Profundidad: 9 km. Magnitud: 3,7 Mw. Intensidades: Sentido en: Varablanca. Origen: Fallamiento en la corteza de las placas Caribe y Panamá (local o superficial). En esta localización se pudieron ha…",
+   "inicio": "2026-10-18T14:21:50Z",
+   "fin": null,
+   "severidad": null,
+   "zona": {
+    "provincia": null,
+    "canton": null,
+    "distritos": [],
+    "codigos": [],
+    "geometria": null
+   },
+   "fuente": {
+    "institucion": "rsn",
+    "url": "https://rsn.ucr.ac.cr/index.php/actividad-sismica/ultimos-sismos/sismo-16-de-octubre-del-2026-9-47-pm-mag-3-7-mw",
+    "recuperado": "2026-10-24T18:12:35Z"
+   },
+   "origen": "oficial",
+   "actualizado": "2026-10-24T18:12:35Z"
+  },
+  {
+   "id": "gdacs-DR1027449",
+   "tipo": "clima",
+   "titulo": "Sequía que incluye a Costa Rica (alerta naranja de GDACS)",
+   "descripcion": "Resumen internacional de la ONU y la Unión Europea, en inglés: Drought is on going in The Bahamas, Belize, Costa Rica, Cuba, Dominican Republic, Guatemala, Honduras, Haiti, Mexico, Nicaragua, El Salvador, United States",
+   "inicio": "2026-04-21T00:00:00Z",
+   "fin": "2026-10-22T00:00:00Z",
+   "severidad": "moderada",
+   "zona": {
+    "provincia": null,
+    "canton": null,
+    "distritos": [],
+    "codigos": [],
+    "geometria": null
+   },
+   "fuente": {
+    "institucion": "gdacs",
+    "url": "http://www.gdacs.org/report.aspx?eventtype=DR&eventid=1027449",
+    "recuperado": "2026-10-24T18:12:35Z"
+   },
+   "origen": "oficial",
+   "actualizado": "2026-10-24T18:12:35Z"
+  }
+ ]
+}
