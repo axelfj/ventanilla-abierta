@@ -110,6 +110,35 @@ class Corrida(unittest.TestCase):
         self.assertIn("sin respuesta", estado["jasec"]["error"])
         self.assertTrue(estado["usgs"]["ok"])
 
+    def test_fallo_no_resucita_alertas_sin_fin(self):
+        def falla(ahora):
+            raise TimeoutError("sin respuesta")
+        for fuente, dias in [("jasec", 10), ("rsn", 7)]:
+            for con_inicio in (True, False):
+                vieja = AHORA - dt.timedelta(days=dias, seconds=1)
+                a = alertas.alerta(fuente, "1", "luz", "Aviso", "https://x", vieja,
+                                   inicio=vieja if con_inicio else None)
+                r, estado = alertas.correr([a], AHORA, {fuente: falla})
+                self.assertEqual(r, [])
+                self.assertFalse(estado[fuente]["ok"])
+
+    def test_respaldo_conserva_recientes_y_limite(self):
+        for fuente, dias in [("jasec", 10), ("rsn", 7)]:
+            fecha = AHORA - dt.timedelta(days=dias)
+            a = alertas.alerta(fuente, "1", "luz", "Aviso", "https://x", fecha, inicio=fecha)
+            self.assertTrue(alertas.vigente_en_fallo(a, fuente, AHORA))
+            self.assertFalse(alertas.vigente_en_fallo(a, fuente, AHORA + dt.timedelta(seconds=1)))
+
+    def test_respaldo_respeta_fin_y_descarta_fecha_invalida(self):
+        a = alertas.alerta("imn", "1", "lluvia", "Aviso", "https://x", AHORA,
+                           fin=AHORA - dt.timedelta(seconds=1))
+        self.assertFalse(alertas.vigente_en_fallo(a, "imn", AHORA))
+        a["fin"] = alertas.iso(AHORA + dt.timedelta(days=1))
+        self.assertTrue(alertas.vigente_en_fallo(a, "imn", AHORA))
+        a["fin"] = None
+        a["inicio"] = "invalid"
+        self.assertFalse(alertas.vigente_en_fallo(a, "imn", AHORA))
+
     def test_fuente_con_demasiadas_alertas_se_recorta(self):
         muchas = [alertas.alerta("rsn", str(n), "sismo", "Sismo", "https://x", AHORA) for n in range(500)]
         r, estado = alertas.correr([], AHORA, {"rsn": lambda ahora: muchas})

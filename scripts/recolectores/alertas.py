@@ -386,6 +386,17 @@ FUENTES = {
 }
 
 
+def vigente_en_fallo(a, nombre, ahora):
+    """El respaldo no extiende la vigencia ni renueva su fecha de recuperación."""
+    fin = fecha_iso(a.get("fin"))
+    if fin:
+        return fin.tzinfo is not None and fin >= ahora
+    dias = {"jasec": 10, "rsn": 7, "usgs": 7}.get(nombre, 7)
+    referencia = fecha_iso(a.get("inicio") or a.get("fuente", {}).get("recuperado"))
+    return bool(referencia and referencia.tzinfo is not None
+                and referencia >= ahora - dt.timedelta(days=dias))
+
+
 def correr(anteriores, ahora, fuentes=FUENTES):
     alertas, estado = [], {}
     for nombre, recolectar in fuentes.items():
@@ -397,7 +408,7 @@ def correr(anteriores, ahora, fuentes=FUENTES):
             estado[nombre] = {"ok": True, "alertas": len(nuevas), "revisado": iso(ahora)}
         except Exception as e:  # una fuente caída no tumba a las demás
             nuevas = [a for a in anteriores if a["fuente"]["institucion"] == nombre
-                      and not (a.get("fin") and a["fin"] < iso(ahora))]
+                      and vigente_en_fallo(a, nombre, ahora)]
             estado[nombre] = {"ok": False, "alertas": len(nuevas), "revisado": iso(ahora),
                               "error": f"{type(e).__name__}: {e}"[:200]}
             print(f"::warning::{nombre}: {e}", file=sys.stderr)
