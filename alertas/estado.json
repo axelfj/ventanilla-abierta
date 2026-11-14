@@ -1,0 +1,36 @@
+{
+ "generado": "2026-11-14T14:14:20Z",
+ "fuentes": {
+  "imn": {
+   "ok": true,
+   "alertas": 0,
+   "revisado": "2026-11-14T14:14:20Z"
+  },
+  "rsn": {
+   "ok": true,
+   "alertas": 1,
+   "revisado": "2026-11-14T14:14:20Z"
+  },
+  "usgs": {
+   "ok": true,
+   "alertas": 0,
+   "revisado": "2026-11-14T14:14:20Z"
+  },
+  "gdacs": {
+   "ok": true,
+   "alertas": 2,
+   "revisado": "2026-11-14T14:14:20Z"
+  },
+  "cnfl": {
+   "ok": true,
+   "alertas": 10,
+   "revisado": "2026-11-14T14:14:20Z"
+  },
+  "jasec": {
+   "ok": false,
+   "alertas": 0,
+   "revisado": "2026-11-14T14:14:20Z",
+   "error": "URLError: <urlopen error timed out>"
+  }
+ }
+}
