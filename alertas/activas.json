@@ -1,0 +1,568 @@
+{
+ "generado": "2026-11-21T11:15:20Z",
+ "alertas": [
+  {
+   "id": "cnfl-6226-168-2026",
+   "tipo": "luz",
+   "titulo": "Corte de luz programado: Escazú (parcial), Escazú, San José",
+   "descripcion": "Mantenimiento de obras eléctricas. Número de suspensión: 6226-168-2026.",
+   "inicio": "2026-12-08T14:00:00Z",
+   "fin": "2026-12-08T22:00:00Z",
+   "severidad": null,
+   "zona": {
+    "provincia": "San José",
+    "canton": "Escazú",
+    "distritos": [
+     "Escazú (parcial)"
+    ],
+    "codigos": [],
+    "geometria": null
+   },
+   "fuente": {
+    "institucion": "cnfl",
+    "url": "https://www.cnfl.go.cr/servicios/autogestion/suspensiones",
+    "recuperado": "2026-11-21T11:15:20Z"
+   },
+   "origen": "oficial",
+   "actualizado": "2026-11-21T11:15:20Z"
+  },
+  {
+   "id": "cnfl-6226-167-2026",
+   "tipo": "luz",
+   "titulo": "Corte de luz programado: Brasil (parcial), Mora, San José",
+   "descripcion": "Mantenimiento de obras eléctricas. Número de suspensión: 6226-167-2026.",
+   "inicio": "2026-12-02T14:00:00Z",
+   "fin": "2026-12-02T21:30:00Z",
+   "severidad": null,
+   "zona": {
+    "provincia": "San José",
+    "canton": "Mora",
+    "distritos": [
+     "Brasil (parcial)"
+    ],
+    "codigos": [],
+    "geometria": null
+   },
+   "fuente": {
+    "institucion": "cnfl",
+    "url": "https://www.cnfl.go.cr/servicios/autogestion/suspensiones",
+    "recuperado": "2026-11-21T11:15:20Z"
+   },
+   "origen": "oficial",
+   "actualizado": "2026-11-21T11:15:20Z"
+  },
+  {
+   "id": "cnfl-6226-165-2026",
+   "tipo": "luz",
+   "titulo": "Corte de luz programado: San Antonio (parcial), Desamparados, San José",
+   "descripcion": "Mantenimiento de obras eléctricas. Número de suspensión: 6226-165-2026.",
+   "inicio": "2026-11-30T13:30:00Z",
+   "fin": "2026-11-30T21:30:00Z",
+   "severidad": null,
+   "zona": {
+    "provincia": "San José",
+    "canton": "Desamparados",
+    "distritos": [
+     "San Antonio (parcial)"
+    ],
+    "codigos": [],
+    "geometria": null
+   },
+   "fuente": {
+    "institucion": "cnfl",
+    "url": "https://www.cnfl.go.cr/servicios/autogestion/suspensiones",
+    "recuperado": "2026-11-21T11:15:20Z"
+   },
+   "origen": "oficial",
+   "actualizado": "2026-11-21T11:15:20Z"
+  },
+  {
+   "id": "cnfl-6205-191-2026",
+   "tipo": "luz",
+   "titulo": "Corte de luz programado: Pavas (parcial), Central, San José",
+   "descripcion": "Obras por contrato de redes eléctricas. Número de suspensión: 6205-191-2026.",
+   "inicio": "2026-11-29T13:30:00Z",
+   "fin": "2026-11-29T23:30:00Z",
+   "severidad": null,
+   "zona": {
+    "provincia": "San José",
+    "canton": "Central",
+    "distritos": [
+     "Pavas (parcial)"
+    ],
+    "codigos": [],
+    "geometria": null
+   },
+   "fuente": {
+    "institucion": "cnfl",
+    "url": "https://www.cnfl.go.cr/servicios/autogestion/suspensiones",
+    "recuperado": "2026-11-21T11:15:20Z"
+   },
+   "origen": "oficial",
+   "actualizado": "2026-11-21T11:15:20Z"
+  },
+  {
+   "id": "cnfl-6226-163-2026",
+   "tipo": "luz",
+   "titulo": "Corte de luz programado: Calle Higuerones (parcial), Barrio El Carmen, San Antonio, Escazú, San José",
+   "descripcion": "Mantenimiento de obras eléctricas. Número de suspensión: 6226-163-2026.",
+   "inicio": "2026-11-27T14:00:00Z",
+   "fin": "2026-11-27T22:00:00Z",
+   "severidad": null,
+   "zona": {
+    "provincia": "San José",
+    "canton": "Escazú",
+    "distritos": [
+     "San Antonio"
+    ],
+    "codigos": [],
+    "geometria": null
+   },
+   "fuente": {
+    "institucion": "cnfl",
+    "url": "https://www.cnfl.go.cr/servicios/autogestion/suspensiones",
+    "recuperado": "2026-11-21T11:15:20Z"
+   },
+   "origen": "oficial",
+   "actualizado": "2026-11-21T11:15:20Z"
+  },
+  {
+   "id": "cnfl-6205-196-2026",
+   "tipo": "luz",
+   "titulo": "Corte de luz programado: Colón (parcial), Mora, San José",
+   "descripcion": "Obras por contrato de redes eléctricas. Número de suspensión: 6205-196-2026.",
+   "inicio": "2026-11-27T14:00:00Z",
+   "fin": "2026-11-27T20:00:00Z",
+   "severidad": null,
+   "zona": {
+    "provincia": "San José",
+    "canton": "Mora",
+    "distritos": [
+     "Colón (parcial)"
+    ],
+    "codigos": [],
+    "geometria": null
+   },
+   "fuente": {
+    "institucion": "cnfl",
+    "url": "https://www.cnfl.go.cr/servicios/autogestion/suspensiones",
+    "recuperado": "2026-11-21T11:15:20Z"
+   },
+   "origen": "oficial",
+   "actualizado": "2026-11-21T11:15:20Z"
+  },
+  {
+   "id": "cnfl-6205-195-2026",
+   "tipo": "luz",
+   "titulo": "Corte de luz programado: San Rafael (parcial), Escazú, San José",
+   "descripcion": "Obras por contrato de redes eléctricas. Número de suspensión: 6205-195-2026.",
+   "inicio": "2026-11-26T15:00:00Z",
+   "fin": "2026-11-26T17:00:00Z",
+   "severidad": null,
+   "zona": {
+    "provincia": "San José",
+    "canton": "Escazú",
+    "distritos": [
+     "San Rafael (parcial)"
+    ],
+    "codigos": [],
+    "geometria": null
+   },
+   "fuente": {
+    "institucion": "cnfl",
+    "url": "https://www.cnfl.go.cr/servicios/autogestion/suspensiones",
+    "recuperado": "2026-11-21T11:15:20Z"
+   },
+   "origen": "oficial",
+   "actualizado": "2026-11-21T11:15:20Z"
+  },
+  {
+   "id": "cnfl-6211-119-2026",
+   "tipo": "luz",
+   "titulo": "Corte de luz programado: Aserrí (parcial), Aserrí, San José",
+   "descripcion": "Construcción de obras eléctricas. Número de suspensión: 6211-119-2026.",
+   "inicio": "2026-11-26T14:00:00Z",
+   "fin": "2026-11-26T21:00:00Z",
+   "severidad": null,
+   "zona": {
+    "provincia": "San José",
+    "canton": "Aserrí",
+    "distritos": [
+     "Aserrí (parcial)"
+    ],
+    "codigos": [],
+    "geometria": null
+   },
+   "fuente": {
+    "institucion": "cnfl",
+    "url": "https://www.cnfl.go.cr/servicios/autogestion/suspensiones",
+    "recuperado": "2026-11-21T11:15:20Z"
+   },
+   "origen": "oficial",
+   "actualizado": "2026-11-21T11:15:20Z"
+  },
+  {
+   "id": "cnfl-6205-197-2026",
+   "tipo": "luz",
+   "titulo": "Corte de luz programado: Pavas (parcial), Central, San José",
+   "descripcion": "Obras por contrato de redes eléctricas. Número de suspensión: 6205-197-2026.",
+   "inicio": "2026-11-26T13:30:00Z",
+   "fin": "2026-11-26T23:00:00Z",
+   "severidad": null,
+   "zona": {
+    "provincia": "San José",
+    "canton": "Central",
+    "distritos": [
+     "Pavas (parcial)"
+    ],
+    "codigos": [],
+    "geometria": null
+   },
+   "fuente": {
+    "institucion": "cnfl",
+    "url": "https://www.cnfl.go.cr/servicios/autogestion/suspensiones",
+    "recuperado": "2026-11-21T11:15:20Z"
+   },
+   "origen": "oficial",
+   "actualizado": "2026-11-21T11:15:20Z"
+  },
+  {
+   "id": "cnfl-6226-157-2026",
+   "tipo": "luz",
+   "titulo": "Corte de luz programado: Calle Tablazo Viejo (parcial), Barrio San Gerardo, Higuito, San Miguel, Desamparados, San José",
+   "descripcion": "Mantenimiento de obras eléctricas. Número de suspensión: 6226-157-2026.",
+   "inicio": "2026-11-25T14:00:00Z",
+   "fin": "2026-11-25T22:00:00Z",
+   "severidad": null,
+   "zona": {
+    "provincia": "San José",
+    "canton": "Desamparados",
+    "distritos": [
+     "San Miguel"
+    ],
+    "codigos": [],
+    "geometria": null
+   },
+   "fuente": {
+    "institucion": "cnfl",
+    "url": "https://www.cnfl.go.cr/servicios/autogestion/suspensiones",
+    "recuperado": "2026-11-21T11:15:20Z"
+   },
+   "origen": "oficial",
+   "actualizado": "2026-11-21T11:15:20Z"
+  },
+  {
+   "id": "cnfl-6004-001-2026",
+   "tipo": "luz",
+   "titulo": "Corte de luz programado: San Antonio (parcial), Escazú, San José",
+   "descripcion": "Construcción de obras eléctricas. Número de suspensión: 6004-001-2026.",
+   "inicio": "2026-11-25T14:00:00Z",
+   "fin": "2026-11-25T19:00:00Z",
+   "severidad": null,
+   "zona": {
+    "provincia": "San José",
+    "canton": "Escazú",
+    "distritos": [
+     "San Antonio (parcial)"
+    ],
+    "codigos": [],
+    "geometria": null
+   },
+   "fuente": {
+    "institucion": "cnfl",
+    "url": "https://www.cnfl.go.cr/servicios/autogestion/suspensiones",
+    "recuperado": "2026-11-21T11:15:20Z"
+   },
+   "origen": "oficial",
+   "actualizado": "2026-11-21T11:15:20Z"
+  },
+  {
+   "id": "cnfl-6205-187-2026",
+   "tipo": "luz",
+   "titulo": "Corte de luz programado: Calle Mango (parcial), Guachipelin, Escazú, San José",
+   "descripcion": "Obras por contrato de redes eléctricas. Número de suspensión: 6205-187-2026.",
+   "inicio": "2026-11-25T14:00:00Z",
+   "fin": "2026-11-25T22:00:00Z",
+   "severidad": null,
+   "zona": {
+    "provincia": "San José",
+    "canton": "Escazú",
+    "distritos": [
+     "Guachipelin"
+    ],
+    "codigos": [],
+    "geometria": null
+   },
+   "fuente": {
+    "institucion": "cnfl",
+    "url": "https://www.cnfl.go.cr/servicios/autogestion/suspensiones",
+    "recuperado": "2026-11-21T11:15:20Z"
+   },
+   "origen": "oficial",
+   "actualizado": "2026-11-21T11:15:20Z"
+  },
+  {
+   "id": "cnfl-6226-166-2026",
+   "tipo": "luz",
+   "titulo": "Corte de luz programado: Escazú (parcial), Escazú, San José",
+   "descripcion": "Mantenimiento de obras eléctricas. Número de suspensión: 6226-166-2026.",
+   "inicio": "2026-11-24T14:00:00Z",
+   "fin": "2026-11-24T22:00:00Z",
+   "severidad": null,
+   "zona": {
+    "provincia": "San José",
+    "canton": "Escazú",
+    "distritos": [
+     "Escazú (parcial)"
+    ],
+    "codigos": [],
+    "geometria": null
+   },
+   "fuente": {
+    "institucion": "cnfl",
+    "url": "https://www.cnfl.go.cr/servicios/autogestion/suspensiones",
+    "recuperado": "2026-11-21T11:15:20Z"
+   },
+   "origen": "oficial",
+   "actualizado": "2026-11-21T11:15:20Z"
+  },
+  {
+   "id": "cnfl-6205-188-2026",
+   "tipo": "luz",
+   "titulo": "Corte de luz programado: Santo Domingo (parcial), Santo Domingo, Heredia",
+   "descripcion": "Obras por contrato de redes eléctricas. Número de suspensión: 6205-188-2026.",
+   "inicio": "2026-11-24T14:00:00Z",
+   "fin": "2026-11-24T22:00:00Z",
+   "severidad": null,
+   "zona": {
+    "provincia": "Heredia",
+    "canton": "Santo Domingo",
+    "distritos": [
+     "Santo Domingo (parcial)"
+    ],
+    "codigos": [],
+    "geometria": null
+   },
+   "fuente": {
+    "institucion": "cnfl",
+    "url": "https://www.cnfl.go.cr/servicios/autogestion/suspensiones",
+    "recuperado": "2026-11-21T11:15:20Z"
+   },
+   "origen": "oficial",
+   "actualizado": "2026-11-21T11:15:20Z"
+  },
+  {
+   "id": "cnfl-7020-021-2026",
+   "tipo": "luz",
+   "titulo": "Corte de luz programado: Carmen (parcial), Central, San José",
+   "descripcion": "Distribución eléctrica subterránea. Número de suspensión: 7020-021-2026.",
+   "inicio": "2026-11-24T14:00:00Z",
+   "fin": "2026-11-24T22:00:00Z",
+   "severidad": null,
+   "zona": {
+    "provincia": "San José",
+    "canton": "Central",
+    "distritos": [
+     "Carmen (parcial)"
+    ],
+    "codigos": [],
+    "geometria": null
+   },
+   "fuente": {
+    "institucion": "cnfl",
+    "url": "https://www.cnfl.go.cr/servicios/autogestion/suspensiones",
+    "recuperado": "2026-11-21T11:15:20Z"
+   },
+   "origen": "oficial",
+   "actualizado": "2026-11-21T11:15:20Z"
+  },
+  {
+   "id": "cnfl-7020-020-2026",
+   "tipo": "luz",
+   "titulo": "Corte de luz programado: Carmen (parcial) y Merced (parcial), Central, San José",
+   "descripcion": "Distribución eléctrica subterránea. Número de suspensión: 7020-020-2026.",
+   "inicio": "2026-11-23T14:00:00Z",
+   "fin": "2026-11-23T22:00:00Z",
+   "severidad": null,
+   "zona": {
+    "provincia": "San José",
+    "canton": "Central",
+    "distritos": [
+     "Carmen (parcial) y Merced (parcial)"
+    ],
+    "codigos": [],
+    "geometria": null
+   },
+   "fuente": {
+    "institucion": "cnfl",
+    "url": "https://www.cnfl.go.cr/servicios/autogestion/suspensiones",
+    "recuperado": "2026-11-21T11:15:20Z"
+   },
+   "origen": "oficial",
+   "actualizado": "2026-11-21T11:15:20Z"
+  },
+  {
+   "id": "cnfl-6211-115-2026",
+   "tipo": "luz",
+   "titulo": "Corte de luz programado: Calle Blancos (parcial), Goicoechea, San José",
+   "descripcion": "Construcción de obras eléctricas. Número de suspensión: 6211-115-2026.",
+   "inicio": "2026-11-22T14:00:00Z",
+   "fin": "2026-11-22T22:00:00Z",
+   "severidad": null,
+   "zona": {
+    "provincia": "San José",
+    "canton": "Goicoechea",
+    "distritos": [
+     "Calle Blancos (parcial)"
+    ],
+    "codigos": [],
+    "geometria": null
+   },
+   "fuente": {
+    "institucion": "cnfl",
+    "url": "https://www.cnfl.go.cr/servicios/autogestion/suspensiones",
+    "recuperado": "2026-11-21T11:15:20Z"
+   },
+   "origen": "oficial",
+   "actualizado": "2026-11-21T11:15:20Z"
+  },
+  {
+   "id": "rsn-sismo-17-de-noviembre-del-2026-11-50-pm-mag-3-5-mw",
+   "tipo": "sismo",
+   "titulo": "Sismo sentido de magnitud 3,5 Mw, 17 de noviembre del 2026, 11:50 pm",
+   "descripcion": "INFORME DE SISMO (Esta localización ya ha sido revisada por la RSN). Fecha: 17 de noviembre del 2026. Hora Local: 11:50 pm. Localización: 4 km al Este de Aguas Claras, Upala Coordenadas: 10,84 y -85,137. Profundidad: 4 km. Magnitud: 3,5 Mw. Intensidades: Sentido en: Upala. Origen: Fallamiento en la corteza de las placas Caribe y Panamá (local o superficial). En esta localización se pudieron haber…",
+   "inicio": "2026-11-18T16:40:10Z",
+   "fin": null,
+   "severidad": null,
+   "zona": {
+    "provincia": null,
+    "canton": null,
+    "distritos": [],
+    "codigos": [],
+    "geometria": null
+   },
+   "fuente": {
+    "institucion": "rsn",
+    "url": "https://rsn.ucr.ac.cr/index.php/actividad-sismica/ultimos-sismos/sismo-17-de-noviembre-del-2026-11-50-pm-mag-3-5-mw",
+    "recuperado": "2026-11-21T11:15:20Z"
+   },
+   "origen": "oficial",
+   "actualizado": "2026-11-21T11:15:20Z"
+  },
+  {
+   "id": "rsn-sismo-17-de-noviembre-del-2026-1-46-pm-mag-3-7-mw",
+   "tipo": "sismo",
+   "titulo": "Sismo sentido de magnitud 3,7 Mw, 17 de noviembre del 2026, 1:46 pm",
+   "descripcion": "INFORME DE SISMO (Esta localización ya ha sido revisada por la RSN). Fecha: 17 de noviembre del 2026. Hora Local: 1:46 pm. Localización: 4 km al Este de Aguas Claras, Upala Coordenadas: 10,834 y -85,139. Profundidad: 3 km. Magnitud: 3,7 Mw. Intensidades: Sentido en: Upala. Origen: Fallamiento en la corteza de las placas Caribe y Panamá (local o superficial). En esta localización se pudieron haber…",
+   "inicio": "2026-11-17T20:42:38Z",
+   "fin": null,
+   "severidad": null,
+   "zona": {
+    "provincia": null,
+    "canton": null,
+    "distritos": [],
+    "codigos": [],
+    "geometria": null
+   },
+   "fuente": {
+    "institucion": "rsn",
+    "url": "https://rsn.ucr.ac.cr/index.php/actividad-sismica/ultimos-sismos/sismo-17-de-noviembre-del-2026-1-46-pm-mag-3-7-mw",
+    "recuperado": "2026-11-21T11:15:20Z"
+   },
+   "origen": "oficial",
+   "actualizado": "2026-11-21T11:15:20Z"
+  },
+  {
+   "id": "rsn-sismo-16-de-noviembre-del-2026-2-07-am-mag-3-5-mw",
+   "tipo": "sismo",
+   "titulo": "Sismo sentido de magnitud 3,5 Mw, 16 de noviembre del 2026, 2:07 am",
+   "descripcion": "INFORME DE SISMO (Esta localización ya ha sido revisada por la RSN). Fecha: 16 de noviembre del 2026. Hora Local: 2:07 am. Localización: 4 km al Sur de Cachi, Paraiso, Cartago Coordenadas: 9,796 y -83,796. Profundidad: 8 km. Magnitud: 3,5 Mw. Intensidades: Sentido en: Orosi, Cartago y Turrialba. Origen: Fallamiento en la corteza de las placas Caribe y Panamá (local o superficial). En esta localiz…",
+   "inicio": "2026-11-16T16:26:00Z",
+   "fin": null,
+   "severidad": null,
+   "zona": {
+    "provincia": null,
+    "canton": null,
+    "distritos": [],
+    "codigos": [],
+    "geometria": null
+   },
+   "fuente": {
+    "institucion": "rsn",
+    "url": "https://rsn.ucr.ac.cr/index.php/actividad-sismica/ultimos-sismos/sismo-16-de-noviembre-del-2026-2-07-am-mag-3-5-mw",
+    "recuperado": "2026-11-21T11:15:20Z"
+   },
+   "origen": "oficial",
+   "actualizado": "2026-11-21T11:15:20Z"
+  },
+  {
+   "id": "rsn-sismo-14-de-noviembre-del-2026-9-01-pm-mag-4-7-mw",
+   "tipo": "sismo",
+   "titulo": "Sismo sentido de magnitud 4,7 Mw, 14 de noviembre del 2026, 9:01 pm",
+   "descripcion": "INFORME DE SISMO (Esta localización ya ha sido revisada por la RSN). Fecha: 14 de noviembre del 2026. Hora Local: 9:01 pm. Localización: 6 km al Suroeste de Pavon, Golfito Coordenadas: 8,407 y -83,08. Profundidad: 10 km. Magnitud: 4,7 Mw. Intensidades: Sentido en: Golfito y Ciudad Neily. Origen: Fallamiento en la corteza de las placas Caribe y Panamá (local o superficial). En esta localización se…",
+   "inicio": "2026-11-16T16:15:39Z",
+   "fin": null,
+   "severidad": null,
+   "zona": {
+    "provincia": null,
+    "canton": null,
+    "distritos": [],
+    "codigos": [],
+    "geometria": null
+   },
+   "fuente": {
+    "institucion": "rsn",
+    "url": "https://rsn.ucr.ac.cr/index.php/actividad-sismica/ultimos-sismos/sismo-14-de-noviembre-del-2026-9-01-pm-mag-4-7-mw",
+    "recuperado": "2026-11-21T11:15:20Z"
+   },
+   "origen": "oficial",
+   "actualizado": "2026-11-21T11:15:20Z"
+  },
+  {
+   "id": "gdacs-DR1027449",
+   "tipo": "clima",
+   "titulo": "Sequía que incluye a Costa Rica (alerta naranja de GDACS)",
+   "descripcion": "Resumen internacional de la ONU y la Unión Europea, en inglés: Drought is on going in Belize, Costa Rica, Cuba, Dominican Republic, Guatemala, Honduras, Mexico, Nicaragua, El Salvador, United States",
+   "inicio": "2026-04-21T00:00:00Z",
+   "fin": "2026-11-19T00:00:00Z",
+   "severidad": "moderada",
+   "zona": {
+    "provincia": null,
+    "canton": null,
+    "distritos": [],
+    "codigos": [],
+    "geometria": null
+   },
+   "fuente": {
+    "institucion": "gdacs",
+    "url": "http://www.gdacs.org/report.aspx?eventtype=DR&eventid=1027449",
+    "recuperado": "2026-11-21T11:15:20Z"
+   },
+   "origen": "oficial",
+   "actualizado": "2026-11-21T11:15:20Z"
+  },
+  {
+   "id": "gdacs-DR1023877",
+   "tipo": "clima",
+   "titulo": "Sequía que incluye a Costa Rica (alerta naranja de GDACS)",
+   "descripcion": "Resumen internacional de la ONU y la Unión Europea, en inglés: Drought is on going in Aruba, , Brazil, Colombia, Costa Rica, , French Guiana, Guyana, Panama, Suriname, Venezuela",
+   "inicio": "2022-09-21T00:00:00Z",
+   "fin": "2026-11-19T00:00:00Z",
+   "severidad": "moderada",
+   "zona": {
+    "provincia": null,
+    "canton": null,
+    "distritos": [],
+    "codigos": [],
+    "geometria": null
+   },
+   "fuente": {
+    "institucion": "gdacs",
+    "url": "http://www.gdacs.org/report.aspx?eventtype=DR&eventid=1023877",
+    "recuperado": "2026-11-21T11:15:20Z"
+   },
+   "origen": "oficial",
+   "actualizado": "2026-11-21T11:15:20Z"
+  }
+ ]
+}
